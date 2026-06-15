@@ -7,14 +7,14 @@
     },
     "anthropic-news": {
       "last_modified": "Thu 11 Jun 2026 12:17:47 GMT",
-      "fetched_at": "2026-06-15T22:43:42.602956Z"
+      "fetched_at": "2026-06-15T23:42:33.127876Z"
     },
     "anthropic-research": {
       "last_modified": "Mon 15 Jun 2026 11:19:21 GMT",
-      "fetched_at": "2026-06-15T22:43:44.073913Z"
+      "fetched_at": "2026-06-15T23:42:33.176294Z"
     },
     "antirez": {
-      "fetched_at": "2026-06-15T22:43:53.340665Z"
+      "fetched_at": "2026-06-15T23:42:38.023975Z"
     },
     "babysteps": {
       "etag": "W/\"6a28001f-6a7fdf\"",
@@ -60,7 +60,7 @@
     "gregg": {
       "etag": "\"2349d-64a310a7bc380-gzip\"",
       "last_modified": "Sat, 07 Feb 2026 00:32:30 GMT",
-      "fetched_at": "2026-06-15T22:43:50.005602Z"
+      "fetched_at": "2026-06-15T23:42:35.863138Z"
     },
     "gustedt": {
       "last_modified": "Wed, 03 Jun 2026 18:53:48 GMT",
@@ -82,8 +82,8 @@
       "fetched_at": "2026-06-15T22:43:41.69053Z"
     },
     "lwn": {
-      "etag": "\"5051c1fc528202779ee583e582db230113ca5aaeac26960bd6356fbb5e9027b7\"",
-      "fetched_at": "2026-06-15T22:43:50.929742Z"
+      "etag": "\"dae57f64df6934ca673791320177b195cd3c3ddc0a2a931211bde66adc14aba6\"",
+      "fetched_at": "2026-06-15T23:42:36.47587Z"
     },
     "marabos": {
       "etag": "\"66361365-29be\"",
@@ -152,17 +152,17 @@
       "fetched_at": "2026-06-15T22:43:49.037093Z"
     },
     "yandex": {
-      "fetched_at": "2026-06-15T22:43:51.67346Z"
+      "fetched_at": "2026-06-15T23:42:36.783558Z"
     },
     "yosefk": {
-      "etag": "\"691a2-65451f3428a38\"",
-      "last_modified": "Mon, 15 Jun 2026 22:00:10 GMT",
-      "fetched_at": "2026-06-15T22:43:55.599913Z"
+      "etag": "\"691a2-65452c9d71a85\"",
+      "last_modified": "Mon, 15 Jun 2026 23:00:10 GMT",
+      "fetched_at": "2026-06-15T23:42:39.596466Z"
     },
     "zeloof": {
       "etag": "\"cd749babf4d7b9b21a2103d2cb706a33-gzip\"",
       "last_modified": "Fri, 06 Sep 2024 04:46:54 GMT",
-      "fetched_at": "2026-06-15T22:43:52.77724Z"
+      "fetched_at": "2026-06-15T23:42:37.4792Z"
     },
     "zig-devlog": {
       "etag": "W/\"6a3076d6-14a06\"",
