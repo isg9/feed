@@ -1,0 +1,77 @@
+---
+title: on hoot, on boot — wingolog
+url: https://wingolog.org/archives/2024/05/16/on-hoot-on-boot
+published: "2024-05-16T00:00:00Z"
+feed: wingo
+guid: https://wingolog.org/archives/2024/05/16/on-hoot-on-boot
+---
+
+# on hoot, on boot — wingolog
+
+## [on hoot, on boot](/archives/2024/05/16/on-hoot-on-boot)
+
+16 May 2024 8:01 PM
+
+- [hoot](/tags/hoot)
+- [scheme](/tags/scheme)
+- [webassembly](/tags/webassembly)
+- [gc](/tags/gc)
+- [compilers](/tags/compilers)
+- [bootstrapping](/tags/bootstrapping)
+- [growing a language](/tags/growing%20a%20language)
+- [guile](/tags/guile)
+- [igalia](/tags/igalia)
+
+I realized recently that I haven’t been writing much about the [Hoot
+Scheme-to-WebAssembly compiler](https://spritely.institute/hoot/). Upon reflection, I have been too conscious of its limitations to give it verbal tribute, preferring to spend each marginal hour fixing bugs and filling in features rather than publicising progress.
+
+In the last month or so, though, Hoot has gotten to a point that pleases me. Not to the point where I would say “accept no substitutes” by any means, but good already for some things, and worth writing about.
+
+So let’s start today by talking about bootie. Boot, I mean! The boot, the boot, the boot of Hoot.
+
+### hoot boot: temporal tunnel
+
+The first axis of boot is time. In the beginning, there was nary a toot, and now, through boot, there is Hoot.
+
+The first boot of Hoot was on paper. [Christine
+Lemmer-Webber](https://dustycloud.org/) had asked me, ages ago, what I thought Guile should do about the web. After thinking a bit, I concluded that it would be best to avoid compromises when building an in-browser Guile: if you have to pollute Guile to match what JavaScript offers, you might as well program in JavaScript. JS is cute of course, but Guile is a bit different in some interesting ways, the most important of which is control: delimited continuations, multiple values, tail calls, dynamic binding, threads, and all that. If Guile’s web bootie doesn’t pack all the funk in its trunk, probably it’s just junk.
+
+So I wrote up a plan something to which I attributed the name [tailification](https://lists.gnu.org/archive/html/guile-devel/2021-06/msg00005.html). In retrospect, this is simply a specific flavor of a continuation-passing-style (CPS) transmutation, late in the compiler pipeline. I’ll elocute more in a future dispatch. I did end up writing the tailification pass back then; I could have continued to target JS, but it was sufficiently annoying and I didn’t prosecute. It sat around unused for a few years, until Christine’s irresistable charisma managed to conjure some resources for Hoot.
+
+In the meantime, the [GC extension for WebAssembly
+shipped](https://wingolog.org/archives/2023/03/20/a-world-to-win-webassembly-for-the-rest-of-us) (woot woot!), and to boot Hoot, I filled in the missing piece: a backend for Guile’s compiler that tailified and then translated primitive operations to snippets of WebAssembly.
+
+It was, well, hirsute, but cute and it did compute, so we continued to boot. From this root we grew a small run-time library, written in raw WebAssembly, used for slow-paths for the various primitive operations that are part of Guile’s compiler back-end. We filled out Guile primcalls, in minute commits, growing the WebAssembly runtime library and toolchain as we went.
+
+Eventually we started constituting facilities defined in terms of those primitives, via a Scheme prelude that was prepended to all programs, within a nested lexical environment. It was never our intention though to drown the user’s programs in a sea of predefined bindings, as if the ultimate program were but a vestigial inhabitant of the lexical lake—don’t dilute the newt!, we would often say *\[ed: we did not\]*— so eventually when the prelude became unmanageable, we finally figured out how to do [whole-program compilation of a set of
+modules](https://wingolog.org/archives/2024/01/05/scheme-modules-vs-whole-program-compilation-fight).
+
+Then followed a long month in which I would uproot the loot from the boot: take each binding from the prelude and reattribute it into an appropriate module. User code could import all the modules that suit, as long as they were known to Hoot, but no others; it was only until we added the ability for users to programmatically consitute an environment from their modules that Hoot became a language implementation of any repute.
+
+Which brings us to the work of the last month, about which I cannot be mute. When you have existing Guile code that you want to distribute via the web, Hoot required you transmute its module definitions into the more precise R6RS syntax. Precise, meaning that R6RS modules are static, in a way that Guile modules, at least in absolute terms, are not: Guile programs can use first-class accessors on the module systems to pull out bindings. This is yet another example of what I impute as the original sin of 1990s language development, that modules are just mutable hash maps. You see it in Python, for example: because you don’t know for sure to what values global names are bound, it is easy for any discussion of what a particular piece of code means to end in dispute.
+
+The question is, though, are the semantics of name binding in a language fixed and absolute? Once your language is booted, are its aspects definitively attributed? I think some perfection, in the sense of becoming more perfect or more like the thing you should be, is something to salute. Anyway, in Guile it would be coherent with Scheme’s lexical binding heritage to restitute some certainty as to the meanings of names, at least in a default compilation node. Lexical binding is, after all, the foundation of the [Macro Writer’s Statute of
+Rights](https://www.youtube.com/watch?v=LIEX3tUliHw). Of course if you are making a build for development purposes, not to distribute, then you might prefer a build that marks all bindings as dynamic. Otherwise I think it’s reasonable to require the user to explicitly indicate which definitions are denotations, and which constitute locations.
+
+Hoot therefore now includes an implementation of the static semantics of Guile’s `define-module`: it can load Guile modules directly, and as a tribute, it also has an implementation of the ambient `(guile)` module that constitutes the lexical soup of modules that aren’t `#:pure`. (I agree, it would be better if all modules were explicit about the language they are written in—their imported bindings and so on—but there is an existing corpus to accomodate; the point is moot.)
+
+The astute reader (whom I salute!) will note that we have a full boot: Hoot is a Guile. Not an implementation to substitute the original, but more of an alternate route to the same destination. So, probably we should scoot the two implementations together, to knock their boots, so to speak, merging the offshoot Hoot into Guile itself.
+
+But do I circumlocute: I can only plead a case of acute Hoot. Tomorrow, we elocute on a second axis of boot. Until then, happy compute!
+
+## related articles
+
+- [tree-shaking, the horticulturally misguided algorithm](/archives/2023/11/24/tree-shaking-the-horticulturally-misguided-algorithm)
+- [wastrelly wabbits](/archives/2026/03/31/wastrelly-wabbits)
+- [cps in hoot](/archives/2024/05/27/cps-in-hoot)
+- [hoot's wasm toolkit](/archives/2024/05/24/hoots-wasm-toolkit)
+- [growing a bootie](/archives/2024/05/22/growing-a-bootie)
+- [wastrel, a profligate implementation of webassembly](/archives/2025/10/30/wastrel-a-profligate-implementation-of-webassembly)
+
+### One response
+
+1. [Arne Babenhauserheide](https://www.draketo.de/) says:[17 May 2024 7:38 PM](#09899cbfd5f50fcc8f8211a251e8bbfa1810657b)
+
+   Thank you for that article! It must have been fun to write ☺
+
+Comments are closed.

@@ -1,0 +1,51 @@
+---
+title: season of omagongo — wingolog
+url: https://wingolog.org/archives/2004/03/10/advogato-33
+published: "2004-03-10T00:00:00Z"
+feed: wingo
+guid: https://wingolog.org/archives/2004/03/10/advogato-33
+---
+
+# season of omagongo — wingolog
+
+## [season of omagongo](/archives/2004/03/10/advogato-33)
+
+10 March 2004 9:57 AM
+
+- [namibia](/tags/namibia)
+- [computers](/tags/computers)
+
+**data structures and old hackers**
+
+I forgot about emacs a long time ago. I mean, I use it every day, but I don't think about pens too much either. However, a recent discussion on guile-user got my mind running.
+
+It seems that one of the larger issues in the emacs schism was regarding the representation of events, e.g. those coming from the keyboard or mouse. Events are naturally compound objects, and events from different sources are made up of different parts. For example, a mouse up-click should record which button was pressed, at which coordinate (itself a compound object), etc.
+
+The question was, should events be implemented as new, disjoint compound types or via vanilla compound data types, like vectors and pairs? C would use structs, and most interpreted languages would use classed objects. However, all compound data types in the entirety of SICP are implemented with pairs.
+
+With the disjoint approach, your type predicate isn't a hack, but you have to define a type -- not impossible, but not free. Also, the fact that the data's members have names lead to clearer code. The advantages of the vanilla approach are that your accessors are easier to write, you have a nice debugging printout for free, and you don't have to do any memory management. While your type predicate might just be for any vector of length seven, for example, you generally know where the data is coming from, and thus what type it is. Perhaps I'm favoring the latter option too much? If anyone has a point in favor of the disjoint approach I'd be interested in hearing it.
+
+I was faced with this same decision a couple of months ago, although I didn't realize that it had been made before. Gtk implements events as a union, a compound data type that's reasonably flexible for C. This needs to be mapped to a native data type for use in Scheme. Faced with the possible choices, I chose structures, essentially a Scheme version of a struct. It's a pain, though, because they have to by typed. It was somewhat stupid in retrospect -- why not just use a vector? In any case, a procedural interface to events ensures that if the representation changes, any responsible code will be unaffected -- the exact same solution that makes the FSFmacs and Xemacs event representations compatible on the high level.
+
+Most free software programmers are young. My 24 years on Earth also put me into this group. But the older ones we have among us are invaluable, for reminding us of the conflicts and choices of the past. In this case it was a post by Tom Lord, who remembered some of the arguments around the emacs split, ten or so years ago. I don't know, but he must be old-school. And to think the man's writing a new scheme implementation in 2004. There's nothing new under the sun, indeed.
+
+**african diaries**
+
+It's been raining recently. The flood pan in front of my house is full (about 1 square km). Tonight I went with the tate of my house to visit some of his friends, going to drink palm wine out of palm-wood cups. They say that the traditional leaders have advised over the radio that people not carry knives in this the season of omagongo, a citrus drink with a kick. The season of inebriety.
+
+I really enjoy sitting back in a group of old Owambo friends (I'm a newcomer) and listening to the debate. To consider the loudness and arguments as ongoing acts of friendship casts a lot of culture, normally lost to the language barrier, in a different light. And in an older light. After all, people have been getting together in the rainy season to drink omagongo and omalunga for hundreds of years.
+
+Lest people think that I've "gone tribal", earlier in the day I was helping a nearby school choose a printer for their Linux system. It wasn't in stock, but the store's computer said that there was one in the capital that should be here within the week.
+
+To be honest, though, this time in working practically with computers has taught me that if you want to get things done (especially with the old second-hand computers we get as donations) you must use windows and office. Linux is better for the computer lab, but windows is still easier for the secretary. I still have faith that the secretary will use linux in five years, though.
+
+## related articles
+
+- [computerisation](/archives/2005/05/26/computerization)
+- [vaquero](/archives/2005/04/20/vaquero)
+- [it shouldn't be this way](/archives/2004/06/21/it-shouldnt-be-this-way)
+- [channeling satan](/archives/2004/05/08/8-may-2004)
+- [pulling knuthes](/archives/2004/04/29/29-apr-2004)
+- [africasource postmortem](/archives/2004/03/27/advogato-35)
+
+Comments are closed.

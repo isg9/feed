@@ -1,0 +1,15 @@
+---
+title: A footnote on novel H1N1
+url: https://www.bunniestudios.com/blog/2011/a-footnote-on-novel-h1n1/
+published: "2011-08-19T21:02:45Z"
+feed: bunnie
+guid: http://www.bunniestudios.com/blog/?p=1834
+---
+
+# A footnote on novel H1N1
+
+A couple years ago, I wrote a post about the [H1N1 “swine flu”](http://www.bunniestudios.com/blog/?p=353) outbreak, talking a bit about the mechanics of the virus and how it could be hacked. Today I read an [interesting tidbit in Nature](http://www.nature.com/news/2011/110728/full/news.2011.447.html) referencing [this article in Science](http://www.sciencemag.org/content/333/6044/850) that is a silver lining on the H1N1 cloud.
+
+You know how every flu season there’s a new flu vaccine, yet somehow for other diseases you only need to be vaccinated once? It’s because there’s no vaccine that can target all types of flu. Apparently, a patient who contracted “swine flu” during the pandemic created a novel antibody with the remarkable ability to confer immunity to all 16 subtypes of influenza A. A group of researchers sifted through the white blood cells of the patient and managed to isolate four [B cells](http://en.wikipedia.org/wiki/B_cell) that contain the code to produce this antibody. These cells have been cloned and are producing antibodies facilitating further research into a potential broad-spectrum vaccine that could confer broad protection against the flu.
+
+For some reason I find this really interesting. I think it’s because at a gut level it gives me hope that if a killer virus did arise that wipes out most of humanity, there’s some evidence that maybe a small group of people will survive it. Also, never getting the flu again? Yes, please! On the other hand, this vaccine will be a fun one to observe as it evolves, particularly around the IP and production rights that results from this. Who owns it, and who deserves credit for it? Does the patient that evolved the antibody deserve any credit? What will be the interplay between the researchers, the funding institutions, the health industry and the consumer market? Should/can the final result or process be patented so that ultimately, a corporation is granted a monopoly on the vaccine (maybe there’s already a ruling on this)? Should we administer the resulting vaccine to everyone, risking the forced evolution of a new “superstrain” of flu that could be even deadlier, or should we restrict it only to the old, weak, and young? While these questions have been asked and sometimes answered in other contexts, everyone can relate to suffering through the flu, so perhaps the public debate around such issues will be livelier.

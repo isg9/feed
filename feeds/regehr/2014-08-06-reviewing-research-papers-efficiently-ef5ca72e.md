@@ -1,0 +1,33 @@
+---
+title: Reviewing Research Papers Efficiently
+url: https://blog.regehr.org/archives/1174
+published: "2014-08-06T06:19:57Z"
+feed: regehr
+guid: http://blog.regehr.org/?p=1174
+---
+
+# Reviewing Research Papers Efficiently
+
+The conference system that we use in computer science guarantees that several times a year, each of us will need to review a lot of papers, sometimes more than 20, in a fairly short amount of time. In order to focus reviewing energy where it matters most, it helps to review efficiently. Here are some ideas on how to do that.
+
+Significant efficiency can come from recognizing papers that are not deserving of a full review. A paper might fall into this category if it is:
+
+- way too long
+
+- obviously outside the scope of the conference
+
+- significantly incomplete, such as an experimental paper that lacks results
+
+- a duplicate of a paper submitted or published by the same or different authors
+
+- an aged resubmission of a many-times-rejected paper that, for example, has not been updated to reference any work done in the last 15 years
+
+These papers can be marked as “reject” and the review then contains a brief, friendly explanation of the problem. If there is controversy about the paper it will be discussed, but the most common outcome is for each reviewer to independently reach the same conclusion, causing the paper to be dropped from consideration early. Certain program committee members actively bid on these papers in order to minimize their amount of reviewing work.
+
+Every paper that passes the quick smoke test has to be read in its entirety. Or perhaps not… I usually skip the abstract of a paper while reviewing it (you would read the abstract when deciding whether or not to read the paper — but here that decision has already been made). Rather, I start out by reading the conclusion. This is helpful for a couple of reasons. First, the conclusion generally lacks the motivational part of the paper which can be superfluous when one is closely familiar with the research area. Second — and there’s no nice way to say this — I’ve found that authors are more truthful when writing conclusions than they are when writing introductions. Perhaps the problem is that the introduction is often written early on, in the hopeful phase of a research project. The conclusion, on the other hand, is generally written during the grim final days — or hours — of paper preparation when the machines have wound down to an idle and the graphs are all plotted. Also, I appreciate the tone of a conclusion, which usually includes some text like: “it has been shown that 41% of hoovulators can be subsumed by frambulators.” This gives us something specific to look for while reading the rest of the paper: evidence supporting that claim. In contrast, the introduction probably spends about a page waxing eloquent on the number of lives that are put at risk every day by the ad hoc and perhaps unsound nature of the hoovulator.
+
+Alas, other than the abstract trick, there aren’t really any good shortcuts during the “reading the paper” phase of reviewing a paper. The next place to save time is on writing the review. The first way to do this is to keep good notes while reading, either in ink on the paper or in a text file. Generally, each such comment will turn into a sentence or two in the final review. Therefore, once you finish reading the paper, your main jobs are (1) to make up your mind about the recommendation and (2) to massage the notes into a legible and useful form. The second way to save time is to decide what kind of review you are writing. If the paper is strong then your review is a persuasive essay with the goal of getting the rest of the committee to accept it. In this case it is also useful to give detailed comments on the presentation: which graphs need to be tweaked, which sentences are awkward, etc. If the paper needs to be rejected, then the purpose of the review is to convince the committee of this and also to help the authors understand where they took a wrong turn. In this case, detailed feedback about the presentation is probably not that useful. Alternatively, many papers at top conferences seem to be a bit borderline, and in this case the job of the reviewer is to provide as much actionable advice as possible to the authors about how to improve the work — this will be useful regardless of whether the paper is accepted or rejected.
+
+I hope it is clear that I am not trying to help reviewers spend less total time reviewing. Rather, by adopting efficient reviewing practices, we can spend our time where it matters most. My observation is that the amount of time that computer scientists spend writing paper reviews varies tremendously. Some people spend almost no time at all whereas others produce reviews that resemble novellas. The amazing people who produce these reviews should embarrass all of us into doing a better job.
+
+Update: Also see [Shriram’s excellent notes](http://cs.brown.edu/~sk/Memos/Paper-Reviews/) about reviewing papers.

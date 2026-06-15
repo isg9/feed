@@ -1,0 +1,15 @@
+---
+title: Winner, Name that Ware August 2012
+url: https://www.bunniestudios.com/blog/2012/winner-name-that-ware-august-2012/
+published: "2012-09-24T10:56:10Z"
+feed: bunnie
+guid: http://www.bunniestudios.com/blog/?p=2551
+---
+
+# Winner, Name that Ware August 2012
+
+Picking a winner for August 2012 is a tough one. Usually, there are multiple correct answers, with varying levels of detail. In this case, after doing a bit of research, I can’t really declare anyone a definitive winner, a problem in large part caused by the fact that I don’t know which ware this is from. For sure, the boards look similar in size and form factor to those found in the [IBM 5100 series](http://oldcomputers.net/ibm5120.html), but none of them are an exact match. However, I imagine IBM re-used the technology and form factor across multiple products at the time, so form factor alone cannot be used as a determinant for positive identification.
+
+As a result, I’m going to award the winner’s prize to Brian, for sharing a large amount of interesting research with me on how the boards were manufactured (the excerpts from the IBM journal were a particularly good read). Congrats, email me for your prize!
+
+As for the question about why the regular grid of holes — I found Tracy Hall’s comment about the use of an automated point-to-point wiring system to be compelling. However, after reviewing the IBM report, I was pretty convinced that these PCBs are made using multiple layers of etched copper. Thus, my guess is that the regular array of holes is due to one or a combination of the following: (1) CAD technology was not advanced enough back then to allow for the placement of arbitrarily located holes, particularly on large designs; on a low memory system (tens to hundreds of KiB) with no floating point support, it would be much easier to track hole and wire locations snapped to 0.1″ centers only, as opposed to storing a large number of coordinates to a high numeric precision. (2) It may have been more expensive to build a CNC drill versus just slaving together dozens of drills on a single rigid mechanical frame that was very precisely calibrated to make only 0.1″ steps. In other words, the cost of automation may have been great enough that it didn’t justify the savings in drilling time even if it meant potentially drilling thousands of extra, unused holes. The IBM article didn’t explicitly state why the boards were drilled in such a regular pattern, but it did make reference to slaving together dozens of drill heads to reduce drilling time. (3) As a matter of design discipline, it could have reduced errors and saved design time to force all holes to a 0.1″ design rule, versus taping out a PCB and finding that it can’t be manufactured because some ICs were accidentally placed a tiny bit too close in the artwork — or that holes on one layer didn’t line up with holes on another layer due to human error. The IBM boards had an unusually high density and layer count compared to other PCBs of the time.

@@ -1,0 +1,25 @@
+---
+title: Where Have All the Innovators Gone?
+url: https://www.bunniestudios.com/blog/2007/where-have-all-the-innovators-gone/
+published: "2007-02-13T11:20:18Z"
+feed: bunnie
+guid: http://www.bunniestudios.com/wordpress/?p=157
+---
+
+# Where Have All the Innovators Gone?
+
+People have often asked me, now that I have some perspective on China, what I think will happen to the US. Can we compete? Will we continue to lead? I’m quite bullish about the US in general, but I had an interesting reality check tonight. I’m at [ISSCC 2007](http://www.isscc.org/isscc/) right now (where I and my former colleagues at [Luxtera](http://www.luxtera.com) had the honor of receiving an “outstanding paper” award for work [presented at last years’ conference](http://www.bunniestudios.com/wordpress/?p=83)), and I was chatting with UCSD high speed integrated circuits professor [Jim Buckwalter](http://circuit.ucsd.edu/~buckwalter/) about the nature of the graduate student applications he has received.
+
+The statistics were astonishing. Of the *thousands* of applicants, only *80* were from the US. To put this in perspective, he had more applicants with the surname “Lee” alone than he had domestic applicants. And UCSD engineering is no slouch; according to [the rankings](http://www.jacobsschool.ucsd.edu/grad/facts.shtml#ranking) they are #11 in engineering overall. Even more interesting is that apparently Korean students studying in the US get Korean-government sponsored fellowships–clearly that gives them an edge when considering who to take into your graduate program.
+
+The enormous disparity in domestic applicants to higher education in crucial fields such as high speed circuit design is a bit disturbing. With numbers like these, it is inevitable that the US will lose its edge in technology. I guess it wouldn’t be as bad if these foreign students actually stayed in the US and started companies, but my experience in China has shown that just about every company I talked to had US-educated management from schools like Berkeley and Stanford.
+
+Now, a protectionist mode of thought would suggest that we should put quotas on the number of foreign people we admit to our universities. That doesn’t work because US citizens don’t want to go to graduate school in electrical engineering, as evidenced by the paltry showing of domestic applicants, and forcing them in doesn’t make us more competitive in the global sense.
+
+As the son of Chinese immigrants born and raised in the cornfields of Michigan, clearly I’m disposed to argue that we should try harder to woo these brilliant foreign minds to graduate and set up shop here in the US. Back when my parents came, staying in the US was an easy decision, because China was not a land of opportunity. But in this new global economy, the US no longer has the monopoly on opportunity. That’s the big paradigm shift here that I think we aren’t internalizing. We are no longer “ *the* land of opportunity”– we’re now just one of the better places to find an opportunity.
+
+When you don’t have a monopoly, it means there is competition. We need to compete to retain foreign talent, but instead, we hassle them away. I just wrote a green card recommendation for a brilliant photonic circuit designer. It seems weird that he has received such scrutiny and is going through such detailed background checks when anyone who lives in a border town like San Diego knows there is another easier way for immigrants to sneak into the country and make a living–and I have a feeling the guys sneaking in don’t have PhDs in electrical engineering. And it really bugs me that a brilliant Iranian circuit designer friend of mine just got interrogated by the FBI out of the blue, but presumably motivated because of current events in the world. He’s not a terrorist, and he doesn’t make nukes, despite his Farsi-sounding name. He is a core technical contributor in a US electronics company whose work has been critically peer-recognized as innovative and valuable. We should be rolling out the red carpet for these innovators, and not making them feel like aliens.
+
+While I understand the motivations of many of our immigration policies, it is becoming clear to me that in practice, something is broken here, and the loser will be the US. The beauty of a melting pot is that we have the opportunity to incorporate the best and brightest minds into our culture; instead we skim the cream and throw it away, simply because they are the easiest and most cooperative targets. The system is hassling the people who are educated, and rewards those who are not. This is because the educated ones know the rules and are held to a high standard, and those who don’t know the rules often are not well educated so they have well-meaning public advocates who try to represent and defend their interests.
+
+Of course, these privileged foreigners don’t need public advocates, and they don’t make a fuss, so their problems rarely garner the attention of the public eye. They are resourceful, self-sufficient, and they have other options–if the US gives them the run around, they can always take their good ideas and start a company back at home.

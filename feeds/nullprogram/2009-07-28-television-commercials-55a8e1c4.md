@@ -1,0 +1,42 @@
+---
+title: Television Commercials
+url: https://nullprogram.com/blog/2009/07/28/
+published: "2009-07-28T00:00:00Z"
+feed: nullprogram
+guid: https://nullprogram.com/blog/2009/07/28/
+---
+
+# Television Commercials
+
+## [Television Commercials](/blog/2009/07/28/)
+
+July 28, 2009
+
+nullprogram.com/blog/2009/07/28/
+
+First, let me note that I don't watch television. At least not in the sense of sitting on the couch, turning it on, and flipping through the stations. I can't stand the compressed audio, the constant, loud commercial interruptions, and general lack of control over my viewing. VCRs, and more recently PVRs, have mitigated these last two points, but not enough to grab my interest.
+
+The way I see it, there are four ways to access television. Here is the matrix,
+
+![](/img/diagram/tv-table.png)
+
+For an "acceptable" situation we have cost-free television, but with advertising, in broadcast and streaming television. And in the opposite "acceptable" situation we have ad-free television, but with a monthly fee, in premium television. I think these two are acceptable compromises. Someone else can foot the bill, or you can foot the bill.
+
+In a few cases, such as viewer-supported television like PBS, it's both cost-free and ad-free. This is pretty nice. You can have your cake and eat it too.
+
+However, most television is *only* legitimately available in the worst case situation! Not only do you have to pay to access it, but one-third of it is annoying, unwanted advertising. This is awful, and it is one reason why I choose not to participate.
+
+Luckily, there is another "best case" option which provides quick access to most television shows of the world: peer-to-peer file-sharing. Unfortunately, it doesn't include live television, and it's usually not quite legal. We have the technology to distribute large amounts of data to huge numbers of people at practically no cost, but a bunch of old, out-of-date laws stand in the way. It's a shame. I think [this
+quote](http://tech.slashdot.org/comments.pl?sid=1179957&cid=27382545) by "muuh-gnu" sums it up well,
+
+> We have 2009. Everybody and their dog has a computer, which is designed to copy stuff. Also we have broadband which is, again, designed to ... move stuff around the world. So is what you're actually pointlessly advocating is that we collectively should ... actually what? Abstain from using a common technology in order to make absurdly archaic 50's business models of "manufacturing and selling single copies" viable in day and age when everybody *can* manufacture and distribute those copies themselves?
+
+It's a good thing some bad laws don't get in the way of progress *too* much.
+
+- [rant](/tags/rant/)
+
+Have a comment on this article? Start a discussion in my [public inbox](https://lists.sr.ht/~skeeto/public-inbox) by sending an email to [~skeeto/public-inbox@lists.sr.ht](mailto:~skeeto/public-inbox@lists.sr.ht?Subject=Re%3A%20Television%20Commercials) \[ [mailing list etiquette](https://man.sr.ht/lists.sr.ht/etiquette.md)\] , or see [existing discussions](https://lists.sr.ht/~skeeto/public-inbox?search=Television+Commercials).
+
+« [Lisp Fantasy Name Generator](/blog/2009/07/03/)
+
+» [Ad-blocking and the Regrettable URL Format](/blog/2009/08/02/)

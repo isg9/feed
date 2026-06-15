@@ -1,0 +1,36 @@
+---
+title: Novelty and Heresy
+url: http://www.paulgraham.com/nov.html
+published: "2019-11-01T00:00:00Z"
+feed: paulgraham
+guid: http://www.paulgraham.com/nov.html
+---
+
+# Novelty and Heresy
+
+![](https://s.turbifycdn.com/aah/paulgraham/bel-7.gif)![](https://sep.turbifycdn.com/ca/Img/trans_1x1.gif)[![](https://s.turbifycdn.com/aah/paulgraham/bel-8.gif)](index.html)
+
+![Novelty and Heresy](https://s.turbifycdn.com/aah/paulgraham/novelty-and-heresy-5.gif)
+
+November 2019
+
+If you discover something new, there's a significant chance you'll be accused of some form of heresy.
+
+To discover new things, you have to work on ideas that are good but non-obvious; if an idea is obviously good, other people are probably already working on it. One common way for a good idea to be non-obvious is for it to be hidden in the shadow of some mistaken assumption that people are very attached to. But anything you discover from working on such an idea will tend to contradict the mistaken assumption that was concealing it. And you will thus get a lot of heat from people attached to the mistaken assumption. Galileo and Darwin are famous examples of this phenomenon, but it's probably always an ingredient in the resistance to new ideas.
+
+So it's particularly dangerous for an organization or society to have a culture of pouncing on heresy. When you suppress heresies, you don't just prevent people from contradicting the mistaken assumption you're trying to protect. You also suppress any idea that implies indirectly that it's false.
+
+Every cherished mistaken assumption has a dead zone of unexplored ideas around it. And the more preposterous the assumption, the bigger the dead zone it creates.
+
+There is a positive side to this phenomenon though. If you're looking for new ideas, one way to find them is by [looking for
+heresies](say.html). When you look at the question this way, the depressingly large dead zones around mistaken assumptions become excitingly large mines of new ideas.
+
+![](https://sep.turbifycdn.com/ca/Img/trans_1x1.gif)![](https://s.turbifycdn.com/aah/paulgraham/the-reddits-2.gif)[Japanese Translation](https://note.com/tokyojack/n/n2cd5fc7b8eeb)![](https://sep.turbifycdn.com/ca/Img/trans_1x1.gif)
+
+![](https://sep.turbifycdn.com/ca/Img/trans_1x1.gif)![](https://s.turbifycdn.com/aah/paulgraham/the-reddits-2.gif)[Russian Translation](https://ideanomics.ru/articles/19728)![](https://sep.turbifycdn.com/ca/Img/trans_1x1.gif)
+
+![](https://sep.turbifycdn.com/ca/Img/trans_1x1.gif)![](https://sep.turbifycdn.com/ca/Img/trans_1x1.gif)![](https://s.turbifycdn.com/aah/paulgraham/the-reddits-2.gif)[Simplified Chinese Translation](https://www.douban.com/note/758984996/)![](https://sep.turbifycdn.com/ca/Img/trans_1x1.gif)
+
+![](https://sep.turbifycdn.com/ca/Img/trans_1x1.gif)
+
+---

@@ -1,0 +1,15 @@
+---
+title: Thoughts on Embedded Development Boards
+url: https://blog.regehr.org/archives/791
+published: "2012-09-10T19:53:21Z"
+feed: regehr
+guid: http://blog.regehr.org/?p=791
+---
+
+# Thoughts on Embedded Development Boards
+
+[![](https://blog.regehr.org/wp-content/uploads/2012/09/LPC-H212X-1-450x339.jpg)](https://blog.regehr.org/archives/791/lpc-h212x-1) An embedded development board is an off-the-shelf part that includes a microcontroller and some peripherals, mounted on a PCB. It tries to not get in the way of whatever you want to do, but instead makes it easy to start writing software and attaching hardware. Some boards even include a bit of prototyping space. The idea is that developers are then free to create a custom PCB in parallel with the main hardware and software development—if at all. Historically, many embedded development boards were not that cheap and worse, to use them you needed a proprietary compiler. GCC has changed this landscape dramatically.
+
+In the embedded software class that I’ve taught for the last 10 years, we’ve used four different development boards as the basis for labs. Two of these boards had very small user communities. One of these was the Olimex [LPC-H2129](https://www.olimex.com/dev/lpc-h2129.html) board, which I chose because it gives easy access to every pin on the MCU and also because at the time (2004, I think) it was one of the cheapest ARM boards I could find that had all of the features I wanted. However, support is nonexistent and the grand total amount of documentation for this board is a 3-page PDF. I have not-fond memories of wasting a bunch of time getting the compiler, bootstrap loader, debugger, etc. working on both Windows and Linux. [Another board](http://www.freescale.com/webapp/sps/site/prod_summary.jsp?code=M52233DEMO) that we used in class had much better documentation but again a tiny user community. I was also not a big fan of the CodeWarrior IDE for this board, particularly once it became based on Eclipse and started requiring increasingly arcane sequences of GUI actions to accomplish even simple tasks.
+
+The biggest recent change in embedded development boards is due to the large user communities that have coalesced around platforms like Arduino (>>100,000 posts in the forum), Raspberry Pi (~100,000 posts) and mbed (~20,000 posts). These are incredibly valuable resources for novices since it means there are searchable answers to almost any common question and probably people who are willing to discuss more esoteric problems if asked nicely. I used to feel a bit sad that there didn’t seem to be a good modern equivalent of the great hobbyist platforms of my childhood (Timex Sinclair, Apple II, Trash-80, etc.). However, this situation has totally changed and things are awesome now. While there are plenty of things I want in a RPi-like board (ADCs, WiFi, a Cortex A9) at some level this seems like a nearly-mature platform: it already offers excellent prototyping capabilities while also serving as a usable UNIX machine.

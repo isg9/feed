@@ -1,0 +1,73 @@
+---
+title: Identifying Files
+url: https://nullprogram.com/blog/2010/05/20/
+published: "2010-05-20T00:00:00Z"
+feed: nullprogram
+guid: https://nullprogram.com/blog/2010/05/20/
+---
+
+# Identifying Files
+
+## [Identifying Files](/blog/2010/05/20/)
+
+May 20, 2010
+
+nullprogram.com/blog/2010/05/20/
+
+At work I currently spend about a third of my time doing [data
+reduction](http://en.wikipedia.org/wiki/Data_reduction), and it's become one of my favorite tasks. (I've [done it on my
+own](https://github.com/skeeto/binitools) too). Data come in from various organizations and sponsors in all sorts of strange formats. We have a bunch of fancy analysis tools to work on the data, but they aren't any good if they can't read the format. So I'm tasked with writing tools to convert incoming data into a more useful format.
+
+If the source file is a text-based file it's usually just a matter of writing a parser — possibly including a grammar — after carefully studying the textual structure. Binary files are trickier. Fortunately, there are a few tools that come in handy for identifying the format of a strange binary file.
+
+The first is the standard utility found on any unix-like system: [`file`](http://packages.debian.org/sid/file). I have no idea if it has an official website because it's a term that's impossible to search for. It tries to identify a file based on the magic numbers and other tests, none based on the actual file name. I've never been to lucky to have `file` recognize a strange format at work. But silence speaks volumes: it means the data are not packed into something common, like a simple zip archive.
+
+Next, I take a look at the file with [ent](http://www.fourmilab.ch/random/), a pseudo-random number sequence test program. This will reveal how compressed (or even encrypted) data are. If ent says the data are very dense, say 7 bits per byte or more, the format is employing a good compression algorithm. The next step would be tackling that so I can start over on the uncompressed contents. If it's something like 4 bits per byte there's no compression. If it's in between then it might be employing a weak, custom compression algorithm. I've always seen the latter two.
+
+Next I dive in with a hex editor. I use a combination of Emacs' `hexl-mode` and the standard BSD tool [hexdump](http://code.google.com/p/hexdump/) (for something more static). One of the first things I like to identify is byte order, and in a hex dump it's often obvious.
+
+In general, better designed formats use big endian, also known as network order. That's the standard ordering used in communication, regardless of the native byte ordering of the network clients. The amateur, home-brew formats are generally less thoughtful and dump out whatever the native format is, usually little endian because that's what x86 is. Worse, they'll also generate data on architectures that are big endian, so you can get it both ways without any warning. In that case your conversion tool has to be sensitive to byte order and find some way to identify which ordering a file is using. A time-stamp field is very useful here, because a 64-bit time-stamp read with the wrong byte order will give a very unreasonable date.
+
+For example, here's something I see often.
+
+```
+eb 03 00 00 35 00 00 00 66 1e 00 00
+
+```
+
+That's most likely 3 4-byte values, in little endian byte order. The zeros make the integers stand out.
+
+```
+eb 03 00 00 35 00 00 00 66 1e 00 00
+
+```
+
+We can tell it's little endian because the non-zero digits are on the left. This information will be useful in identifying more bytes in the file.
+
+Next I'd look for headers, common strings of bytes, so that I can identify larger structures in the data. I've never had to reverse engineer a format ... yet. I'm not sure if I could. Once I got this far I've always been able to research the format further and find either source code or documentation, revealing everything to me.
+
+If the file contains strings I'll dump them out with [`strings`](http://en.wikipedia.org/wiki/Strings_(Unix)). I haven't found this too useful at work, but [it's been useful at home](/blog/2009/04/18/).
+
+And there's something still useful beyond these. Something I made myself at home for a completely different purpose, but I've exploited its side effects: my [PNG
+Archiver](https://github.com/skeeto/pngarch). The original purpose of the tool is to store a file in an image, as images are easier to share with others. The side effect is that by viewing the image I get to see the structure of the file. For example, here's my laptop's `/bin/ls`, very roughly labeled.
+
+![The different segments of the ELF binary are easily visible.](/img/pngarch/bin-ls.png)
+
+It's easy to spot the different segments of the ELF format. Higher entropy sections are more brightly colored. Strings, being composed of ASCII-like text, have their MSB's unset, which is why they're darker. Any non-compressed format will have an interesting profile like this. Here's a Word doc, an infamously horrible format,
+
+![](/img/pngarch/word-doc.png)
+
+And here's some Emacs bytecode. You can tell the code vectors apart from the constants section below it.
+
+![](/img/pngarch/elc.png)
+
+If you find yourself having to inspect strange files, keep these tools around to make the job easier.
+
+- [trick](/tags/trick/)
+- [tutorial](/tags/tutorial/)
+
+Have a comment on this article? Start a discussion in my [public inbox](https://lists.sr.ht/~skeeto/public-inbox) by sending an email to [~skeeto/public-inbox@lists.sr.ht](mailto:~skeeto/public-inbox@lists.sr.ht?Subject=Re%3A%20Identifying%20Files) \[ [mailing list etiquette](https://man.sr.ht/lists.sr.ht/etiquette.md)\] , or see [existing discussions](https://lists.sr.ht/~skeeto/public-inbox?search=Identifying+Files).
+
+« [Neat Random Inn Generator](/blog/2010/05/13/)
+
+» [Elisp Printed Hash Tables](/blog/2010/06/07/)

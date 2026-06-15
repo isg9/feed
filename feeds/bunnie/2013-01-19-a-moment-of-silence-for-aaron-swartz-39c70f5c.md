@@ -1,0 +1,23 @@
+---
+title: A Moment of Silence for Aaron Swartz
+url: https://www.bunniestudios.com/blog/2013/a-moment-of-silence-for-aaron-swartz/
+published: "2013-01-19T11:27:44Z"
+feed: bunnie
+guid: http://www.bunniestudios.com/blog/?p=2860
+---
+
+# A Moment of Silence for Aaron Swartz
+
+I am joining three academic research web sites, [SIFT](http://siftdna.org/swartz_tribute/opinion.html) and Polyphen (websites for predicting disease mutations) and [CRAVAT](http://karchinlab.org/) (a website for predicting cancer mutations), in a moment of silence to mark Aaron Swartz’ passing. On January 25, we will bring down our sites for the day to honor his contributions and mark the tragedy of his passing.
+
+Aaron’s treatment by MIT is not unfamiliar to me. Back when I was a graduate student there, I extracted security keys from the original Microsoft Xbox video game console. I still remember the crushing disappointment of receiving a letter from MIT legal repudiating any association with my work, effectively leaving me on my own to face Microsoft. However, in my case, the faculty of my then-lab, the AI lab, were outraged by this treatment. They openly defied MIT legal by [publishing my work as an official AI Lab Memo](http://dspace.mit.edu/bitstream/handle/1721.1/6694/AIM-2002-008.pdf?sequence=2), thereby granting me greater negotiating leverage with Microsoft. Microsoft, mindful of the potential backlash from the court of public opinion over suing an openly legitimized academic researcher, came to a civil understanding with me over the issue.
+
+It saddens me that America’s so-called government for the people, by the people, and of the people has less compassion and enlightenment toward their fellow man than a corporation. Having been a party myself to subsequent legal bullying by other entities, I am all too familiar with how ugly and gut-wrenching a high-stakes lawsuit can be. Fortunately, the stakes in my cases were not as high, nor my adversaries as formidable as Aaron’s, otherwise I too might have succumbed to hopelessness and fear. A few years ago, I started rebuilding my life overseas, and I find a quantum of solace in the thought that my residence abroad makes it a little more difficult to be served.
+
+While the US legal system strives for justice, the rules of the system create an asymmetric war that favors those with resources. By and far one of the most effective methods to force a conclusion, right or wrong, against a small player is to simply bleed them of resources and the will to fight through pre-trial antics. Your entire life feels like it is under an electron microscope, every tiny blemish magnified into a pitched battle of motions, counter-motions, discovery, subpoenas and affidavits, with each action heaping tens of thousands of dollars onto your legal bill. Your friends, co-workers, employers, and family are drawn into this circus of humiliation as witnesses. Worse yet, you are counseled not to speak your candid thoughts to anyone, lest they be summoned as a witness against you. Isolated and afraid, it eventually makes more sense to roll over and settle than to take the risk of losing on a technicality versus a better-funded adversary, regardless of the justice.
+
+The US government is by and far the most well-funded and fearsome enemy to spar with, and copyright law has some unusually large, if not cruel, penalties associated with it. I don’t know Aaron personally, but I feel the magnitude of the bullying he was subjected to is reflected by his decision to end his life. I echo [Larry Lessig’s](http://lessig.tumblr.com/post/40347463044/prosecutor-as-bully) notion that the legal system in the US needs a sense of shame. At least to an outsider like me, it seems like some prosecutors in the US government are obsessed with making a big name for themselves. Winning cases gets them the recognition and credibility needed for promotions and assignments to ever higher profile cases. It’s not about justice, it’s about victory.
+
+This system of incentives, I feel, contributes to the shameless bullying of individuals and small entities with enough guts to stand up and to do something a little daring. Individuals are robbed of the will and strength to fight for what they feel is right, as the mere act of prosecution can be as much a punishment as the verdict. As a result, I fear the era of civil disobedience may be coming to a close.
+
+What has America become?

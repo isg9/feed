@@ -1,0 +1,13 @@
+---
+title: Winner, Name That Ware February 2011
+url: https://www.bunniestudios.com/blog/2011/winner-name-that-ware-february-2011/
+published: "2011-04-03T09:57:58Z"
+feed: bunnie
+guid: http://www.bunniestudios.com/blog/?p=1611
+---
+
+# Winner, Name That Ware February 2011
+
+The Ware for February 2011 is an [Aaronia AG HF-60105](http://www.aaroniausa.com/test_report/Spectran6000-E.pdf) handheld spectrum analyzer. I didn’t think that so many people would recognize the analyzer solely from its blue housing; I should have been a little more selective about cropping the photo. I also noticed the chip with the scraped off top-markings near the RF shielded area, which is curious indeed. To the left of that chip is, I believe, the 0.5ppm TCXO timebase option, based upon the flux residue that would evidence removal of a standard crystal oscillator and the installation of the TCXO device next to it.
+
+Picking a winner was very tough this month, as lots of people almost guessed the model number and type but nobody got it exactly right. I think I will go with Jonathan as the winner, since in addition to being very quick, he had shared a bit of analysis and insight as to his thought process. Congrats, email me to claim your prize!

@@ -1,0 +1,21 @@
+---
+title: A note about the chumby EULA
+url: https://www.bunniestudios.com/blog/2006/a-note-about-the-chumby-eula/
+published: "2006-08-28T10:04:32Z"
+feed: bunnie
+guid: http://www.bunniestudios.com/wordpress/?p=118
+---
+
+# A note about the chumby EULA
+
+A lot of people have mentioned that the current EULA for chumby is a little bit interesting for an open source project. This post expresses my own opinions about it (not necessarily Chumby’s opinions).
+
+To be honest, it is a work in progress, and we are looking for suggestions to improve it. There is one piece of code on the chumby that is not open source, and that is the Flash player, and Adobe requires us to publish a EULA with our product to protect their proprietary interests. While we evaluated many open source Flash solutions, we found that the Adobe Flash player was the most broadly compatible and had the largest base of developers, something very important for growing a network of content that requires the support and enthusiasm of the Flash artist community.
+
+A problem we found in launching an open source hardware platform is that the traditional mechanisms for open source–GPL, creative commons, etc.–did not have legal language that matched the unique needs of hardware. For example, a creative commons license says nothing about how patents are handled. This is because creative commons cannot be used on functional works. Thus, the creative commons license printed on a chumby core board refers to the mask work only, as that is the only piece of “artwork” that can have a creative commons license validly applied to it. However, I think the final hardware license is fairly tasteful. I fought with our lawyers a bit over it, but I think that in the end it is something I can live with: it explicitly gives you the rights to modify and copy our hardware design kit, and to modify/build your own chumby, and to even resell your modified chumby, as well as kits for modifying it. In particular, academic applications for chumby should have no fear or charge for using any piece of the chumby HDK and SDK in course materials or research apparatus.
+
+There is, however, one clause that says you cannot use the chumby development kit to build or modify chumbys that compete with our widget service. The thing the CEO wants to prevent is someone copying our schematics and plans, and launching a “Crumby” service that leverages our hard work and steals our bacon. I can definitely see his point of view, as the core revenue model–the thing that in part will help pay my salary so I can continue to build hardware that I can share with you in this open-source style–is potentially based on service subscriptions. Note that our plan is to offer a wide variety of widgets for free on our network, so if you get a chumby and don’t buy our service, it is still a pretty useful device, just not as useful as it can be. Plus, if you’re a hardcore open-source guy, you’d hack the hell out of the chumby anyways so you’d have no need to go to our service for widgets (we do not consider you running your own widgets on your own machines as competing with our service–it is your hardware after all–and you aren’t required to buy a subscription). We also plan on being fairly liberal with the ratio of subscriptions to devices, e.g., you are free to copy your subscription within certain boundaries, so you aren’t buying a subscription for every chumby in your house.
+
+Significantly, I want you to be able to use the chumby device with other non-competing networks, such as Skype, IM, or any other thing that may tickle your fancy. The trouble is defining what a competing network is–it’s sort of like [Justice Potter Stewart’s](http://en.wikipedia.org/wiki/Potter_Stewart) famous quote on pornography, “I know it when I see it”. This is something we will hammer out over the next couple of months before our general product deployment phase. While I realize that some of the open-source purists will be put out by the terms like this, the unfortunate reality is that hardware development does cost real money, and so does a colo with servers, and thus a compromise needs to be struck between total openness and a sustainable, protectable business model.
+
+chumby is Free as in “free speech”, but not free as in “free beer”–however, you are free to download the plans for a chumby and brew your own.

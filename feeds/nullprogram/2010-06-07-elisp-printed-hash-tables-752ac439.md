@@ -1,0 +1,46 @@
+---
+title: Elisp Printed Hash Tables
+url: https://nullprogram.com/blog/2010/06/07/
+published: "2010-06-07T00:00:00Z"
+feed: nullprogram
+guid: https://nullprogram.com/blog/2010/06/07/
+---
+
+# Elisp Printed Hash Tables
+
+## [Elisp Printed Hash Tables](/blog/2010/06/07/)
+
+June 07, 2010
+
+nullprogram.com/blog/2010/06/07/
+
+A printed hash table representation is pretty new to Elisp, and a bit late. As far as I know Elisp didn't come with a way to print, and read back in, a hash table without rolling your own (like [Jared Dilettante was doing with a Data::Dumper style output](http://curiousprogrammer.wordpress.com/2010/06/07/data-dumper-in-emacs-lisp/)), until 23.1 in July 2009. This is when [`json.el` was first included with Emacs](http://www.gnu.org/software/emacs/NEWS.23.1), for dumping to and reading from [JSON](http://en.wikipedia.org/wiki/JSON).
+
+```cl
+(require 'json)
+
+(setq hash (make-hash-table))
+(puthash "key1" "data1" hash)
+(puthash "key2" "data2" hash)
+
+(insert "\n;; " (json-encode hash))
+;; {"key2":"data2", "key1":"data1"}
+```
+
+Just a month ago Emacs 23.2 came out, very silently including [a new
+printed representation for hash tables](http://www.gnu.org/software/emacs/NEWS.23.2) with a `#s` hash notation.
+
+```cl
+#s(hash-table data ("key1" "data1" "key2" "data2"))
+```
+
+With this hash tables can be printed and read as part of normal s-expressions with the standard lisp reader and printer functions. It seems heavy, having to write out " `hash-table`" in there, but I think it's because the `#s` notation will be used to create printed forms of other lisp objects that currently do not have one.
+
+- [emacs](/tags/emacs/)
+- [javascript](/tags/javascript/)
+
+Have a comment on this article? Start a discussion in my [public inbox](https://lists.sr.ht/~skeeto/public-inbox) by sending an email to [~skeeto/public-inbox@lists.sr.ht](mailto:~skeeto/public-inbox@lists.sr.ht?Subject=Re%3A%20Elisp%20Printed%20Hash%20Tables) \[ [mailing list etiquette](https://man.sr.ht/lists.sr.ht/etiquette.md)\] , or see [existing discussions](https://lists.sr.ht/~skeeto/public-inbox?search=Elisp+Printed+Hash+Tables).
+
+« [Identifying Files](/blog/2010/05/20/)
+
+» [Emacs ParEdit and IELM](/blog/2010/06/10/)

@@ -1,0 +1,25 @@
+---
+title: An Epidemic of Rat Farming
+url: https://blog.regehr.org/archives/193
+published: "2010-06-28T05:16:16Z"
+feed: regehr
+guid: http://blog.regehr.org/?p=193
+---
+
+# An Epidemic of Rat Farming
+
+In Hanoi, as the story goes, the French placed a bounty on rat pelts. The locals responded by farming rats. A child who gets candy for cleaning up a big mess is likely to create another mess the next day. These are perverse incentives: incentives that have unintended and often undesirable side effects. As a particularly stupid example, I recently decided to start putting only one sugar cube in my morning coffee and then caught myself pouring small cups of coffee and having two or three.
+
+Once we see the pattern it should be easy to predict when happens when you reward professors, postdocs, and grad students for producing many publications. The rewards are significant: a long CV can get a candidate in the door for a job interview or permit an assistant professor to keep her job during a tenure evaluation. Obviously numbers aren’t everything, but they matter a lot.
+
+It’s true: there is a large number of low-quality publications being produced. I end up reviewing maybe 100 papers per year, and quite a few of them are just bad (I won’t try to define “bad” here but [I took a stab at this earlier](https://blog.regehr.org/archives/6)). I make an effort to be selective about the things that I review, turning down many requests to review journal papers and a few invitations to be on program committees each year.
+
+The recent Chronicle article [We Must Stop the Avalanche of Low-Quality Research](http://chronicle.com/article/We-Must-Stop-the-Avalanche-of/65890/) says that the main costs of the avalanche are increasing the reviewing load, raising the bar for younger researchers, encouraging shallow inquiry, creating a difficult-to-surf ocean of results, and hurting the environment. There’s some truth to all of these, but I’m not sure they represent the main costs. For one thing, the peer review system is fairly effective at weeding out the bad stuff, and it is continuously improving as we adapt to the increasing paper load. For example, many conferences now have multiple rounds of reviewing to avoid wasting reviewer time on the worst submissions. As for the ocean of results, it is effectively tamed by Google. Suresh makes some similar points in [his recent blog post](http://geomblog.blogspot.com/2010/06/bad-research-as-spam.html) where he equates the paper flood with spam email. It’s not a terrible analogy but it makes it easy to overlook some the true costs of the perverse inventive to maximize publications.
+
+It isn’t the flood of bad research that’s the problem, it’s the secondary effects of this flood. First, promising young academics learn and propagate a misleading view of the research process, reducing the likelihood that the high-value, high-impact, once-a-decade results will be produced. To become and remain competitive, talented researchers waste time on short-term results and on spreading results across multiple papers in order to avoid exceeding the LPU by much. Bad research isn’t free: it is produced using grant money, which comes from taxes paid by hardworking citizens. Not only is it unethical to waste this resource, but waste has a high opportunity cost because it prevents useful work from being funded.
+
+Fixing the problem is not so easy because the incentives are hard to change. The fixes offered by the Chronicle article are quite unconvincing when applied to my field. My read of the situation in CS is that little fixing is needed at the top-tier schools: a prolific publisher of worthless results is unlikely to be hired or tenured there. (This is one of the many reasons why the top schools tend to stay there.) On the other hand, the incidence of highly quantitative evaluation of faculty in the next few tiers — schools ranked 5-75, maybe — is significant and troubling.
+
+One of the lessons from Michael Lewis’s fantastic book [Moneyball](http://www.amazon.com/Moneyball-Art-Winning-Unfair-Game/dp/0393324818/) is that if almost everyone is using broken metrics, there’s a tremendous opportunity to scoop up players who are undervalued by these metrics. This is exactly what forward-thinking, non-top-tier research departments should be doing at hiring time. The problem is that identifying these candidates and pushing them through internal hiring barriers is hard work. My guess is that departments who do this will win big in the long run; it is simply inconceivable that a focused practice of hiring paper machines will be a long-term advantage. You can fool the university, the tenure committee, and the awards committee at your favorite conference, but you cannot fool the larger ecosystem where significant research results are those that change how people think about the world, or spawn billion-dollar industries.
+
+Extra credit question: What happens if the amount of grant money a professor earns becomes as important as her publishing record for purposes of tenure, raises, and internal prestige?
