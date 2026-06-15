@@ -1,0 +1,173 @@
+{
+  "entries": {
+    "andrewkelley": {
+      "etag": "W/\"d95403b13a9eba9af9bf84f972b777fa\"",
+      "last_modified": "Wed, 29 Oct 2025 20:01:05 GMT",
+      "fetched_at": "2026-06-15T22:43:54.92547Z"
+    },
+    "anthropic-news": {
+      "last_modified": "Thu 11 Jun 2026 12:17:47 GMT",
+      "fetched_at": "2026-06-15T22:43:42.602956Z"
+    },
+    "anthropic-research": {
+      "last_modified": "Mon 15 Jun 2026 11:19:21 GMT",
+      "fetched_at": "2026-06-15T22:43:44.073913Z"
+    },
+    "antirez": {
+      "fetched_at": "2026-06-15T22:43:53.340665Z"
+    },
+    "babysteps": {
+      "etag": "W/\"6a28001f-6a7fdf\"",
+      "last_modified": "Tue, 09 Jun 2026 11:59:27 GMT",
+      "fetched_at": "2026-06-15T22:43:41.157514Z"
+    },
+    "boats": {
+      "etag": "W/\"6796cde6-1d057\"",
+      "last_modified": "Mon, 27 Jan 2025 00:05:58 GMT",
+      "fetched_at": "2026-06-15T22:43:40.323251Z"
+    },
+    "brooker": {
+      "etag": "\"6a0e1aae-175d92\"",
+      "last_modified": "Wed, 20 May 2026 20:33:50 GMT",
+      "fetched_at": "2026-06-15T22:43:39.141119Z"
+    },
+    "bun": {
+      "etag": "W/\"429530aa5af611bef5b98c2770ce68b6\"",
+      "last_modified": "Fri, 29 May 2026 02:17:55 GMT",
+      "fetched_at": "2026-06-15T22:43:55.440857Z"
+    },
+    "bunnie": {
+      "etag": "\"7685fc0f937777f7ab6dec31802ac663\"",
+      "fetched_at": "2026-06-15T22:43:46.67299Z"
+    },
+    "burntsushi": {
+      "etag": "\"tg8omagv3\"",
+      "last_modified": "Sun, 07 Jun 2026 02:08:34 GMT",
+      "fetched_at": "2026-06-15T22:43:54.322988Z"
+    },
+    "danluu": {
+      "etag": "W/\"6a29c21c-5fc9c8\"",
+      "last_modified": "Wed, 10 Jun 2026 19:59:24 GMT",
+      "fetched_at": "2026-06-15T22:43:44.901403Z"
+    },
+    "dropbox-tech": {
+      "fetched_at": "2026-06-07T18:28:15.345402Z"
+    },
+    "graydon": {
+      "last_modified": "Sat, 14 Mar 2026 22:57:31 GMT",
+      "fetched_at": "2026-06-15T22:43:40.00613Z"
+    },
+    "gregg": {
+      "etag": "\"2349d-64a310a7bc380-gzip\"",
+      "last_modified": "Sat, 07 Feb 2026 00:32:30 GMT",
+      "fetched_at": "2026-06-15T22:43:50.005602Z"
+    },
+    "gustedt": {
+      "last_modified": "Wed, 03 Jun 2026 18:53:48 GMT",
+      "fetched_at": "2026-06-15T22:43:52.242318Z"
+    },
+    "joel": {
+      "etag": "W/\"93822cf81dc6b455a0d98af5ea95f6db\"",
+      "last_modified": "Tue, 12 Mar 2024 16:23:46 GMT",
+      "fetched_at": "2026-06-15T22:43:48.448844Z"
+    },
+    "lemire": {
+      "etag": "W/\"541a9e8ecfa37932ef969d6722a17c5a\"",
+      "last_modified": "Sun, 14 Jun 2026 14:59:44 GMT",
+      "fetched_at": "2026-06-15T22:43:48.351738Z"
+    },
+    "llvm": {
+      "etag": "W/\"696e4aaa-3aeb0c\"",
+      "last_modified": "Mon, 19 Jan 2026 15:15:54 GMT",
+      "fetched_at": "2026-06-15T22:43:41.69053Z"
+    },
+    "lwn": {
+      "etag": "\"5051c1fc528202779ee583e582db230113ca5aaeac26960bd6356fbb5e9027b7\"",
+      "fetched_at": "2026-06-15T22:43:50.929742Z"
+    },
+    "marabos": {
+      "etag": "\"66361365-29be\"",
+      "last_modified": "Sat, 04 May 2024 10:52:21 GMT",
+      "fetched_at": "2026-06-15T22:43:45.86658Z"
+    },
+    "matklad": {
+      "etag": "W/\"6a2f5446-1f437\"",
+      "last_modified": "Mon, 15 Jun 2026 01:24:22 GMT",
+      "fetched_at": "2026-06-15T22:43:37.884965Z"
+    },
+    "memfault": {
+      "etag": "W/\"0da256efe26d953fea8ede63ee615704\"",
+      "fetched_at": "2026-06-15T22:43:50.625943Z"
+    },
+    "modular": {
+      "last_modified": "Sat, 13 Jun 2026 19:10:18 GMT",
+      "fetched_at": "2026-06-15T22:43:42.510395Z"
+    },
+    "nullprogram": {
+      "etag": "W/\"6a21fdeb-2bd4b\"",
+      "last_modified": "Thu, 04 Jun 2026 22:36:27 GMT",
+      "fetched_at": "2026-06-15T22:43:40.219583Z"
+    },
+    "regehr": {
+      "etag": "\"741f51297110259690c3f378d42f7214\"",
+      "last_modified": "Wed, 04 Sep 2024 18:29:03 GMT",
+      "fetched_at": "2026-06-15T22:43:42.399431Z"
+    },
+    "robpike": {
+      "etag": "W/\"595273e3007684ec44e9a07bf168e367d0652ea4bea4febeff2c9c6a5143c383\"",
+      "last_modified": "Tue, 27 Jan 2026 03:02:51 GMT",
+      "fetched_at": "2026-06-15T22:43:48.771511Z"
+    },
+    "russcox": {
+      "etag": "\"251bbf957080fd7cbd39f7a4fc28d725\"",
+      "last_modified": "Sat, 02 May 2026 21:06:03 GMT",
+      "fetched_at": "2026-06-15T22:43:45.746406Z"
+    },
+    "snyk": {
+      "fetched_at": "2026-06-07T18:28:16.077797Z"
+    },
+    "tavianator": {
+      "etag": "\"69f225bc-6009\"",
+      "last_modified": "Wed, 29 Apr 2026 15:37:32 GMT",
+      "fetched_at": "2026-06-15T22:43:50.458218Z"
+    },
+    "thephd": {
+      "etag": "W/\"6a2efb6e-81029\"",
+      "last_modified": "Sun, 14 Jun 2026 19:05:18 GMT",
+      "fetched_at": "2026-06-15T22:43:51.820351Z"
+    },
+    "tigerbeetle": {
+      "etag": "W/\"1c8a8522795e2afab2b606eb26a8c3d4\"",
+      "last_modified": "Mon, 15 Jun 2026 06:51:10 GMT",
+      "fetched_at": "2026-06-15T22:43:55.280676Z"
+    },
+    "travisdowns": {
+      "etag": "W/\"69cc741b-afae3\"",
+      "last_modified": "Wed, 01 Apr 2026 01:25:47 GMT",
+      "fetched_at": "2026-06-15T22:43:40.148921Z"
+    },
+    "wingo": {
+      "etag": "\"edc07c3fac892170dc726d4913449281679eee9c\"",
+      "last_modified": "Sat, 16 May 2026 19:29:02 GMT",
+      "fetched_at": "2026-06-15T22:43:49.037093Z"
+    },
+    "yandex": {
+      "fetched_at": "2026-06-15T22:43:51.67346Z"
+    },
+    "yosefk": {
+      "etag": "\"691a2-65451f3428a38\"",
+      "last_modified": "Mon, 15 Jun 2026 22:00:10 GMT",
+      "fetched_at": "2026-06-15T22:43:55.599913Z"
+    },
+    "zeloof": {
+      "etag": "\"cd749babf4d7b9b21a2103d2cb706a33-gzip\"",
+      "last_modified": "Fri, 06 Sep 2024 04:46:54 GMT",
+      "fetched_at": "2026-06-15T22:43:52.77724Z"
+    },
+    "zig-devlog": {
+      "etag": "W/\"6a3076d6-14a06\"",
+      "last_modified": "Mon, 15 Jun 2026 22:04:06 GMT",
+      "fetched_at": "2026-06-15T22:43:44.323465Z"
+    }
+  }
+}
