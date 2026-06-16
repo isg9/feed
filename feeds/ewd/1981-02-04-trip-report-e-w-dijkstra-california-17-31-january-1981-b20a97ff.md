@@ -1,0 +1,48 @@
+---
+title: "Trip report E.W.Dijkstra, California, 17–31 January 1981 (EWD774)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD07xx/EWD774.html
+published: "1981-02-04T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd07xx/EWD774.PDF
+---
+
+# Trip report E.W.Dijkstra, California, 17–31 January 1981
+
+EWD 774
+
+Trip report E.W.Dijkstra, California, 17-31 January 1981.
+
+This two-week visit to California was almost entirely devoted to Burroughs: the first week I gave in Dana Point —a little North of San Clemente— a programming course to about 25 Burroughs employees, the second week I was at the Burroughs plant in Sorrento Valley near San Diego.
+
+It so happened that first week we were with 5 members of the Tuesday Afternoon Club at the West coast! Martin Rem and Alain J.Martin attended a VLSI conference at CalTech, while Wim H.J.Feijen and Joseph M.Morris gave in Beaverton a programming course to 40 employees of Tektronix.
+
+Alain J.Martin and I crossed the Atlantic Ocean together on Saturday 17 January 1981. Flight KL 601 was comfortable: in the Business Class only 40% of the seats were occupied and we both managed to get some sleep. But it is a long, long flight, and I was tired when I arrived. I was very grateful I was delivered at the Marina Inn in Dana Point, where I went to bed immediately. The Sunday I used for partial recovery from the trip; for the evening dinner I was joined by two participants from San Diego and the father of one of them. The father was a psychiatrist from Los Angeles, who had expressed a desire to meet me; it was a pleasant and civilized dinner.
+
+The next four-and-a-half days followed very much the same pattern: I woke up at 5:00, had breakfast at 7:00, lectured from 8:30 till 12:00 and from 14:00 till 17:00, and, after a few drinks, had dinner rather early in the evening.
+
+The best place to give such a course is a hotel so isolated that all participants live there all through the course: the isolation then ensures that the common dinner fulfils its social function and that, thereafter, the people can join forces when trying to do the homework. Pecuniae causa almost the worst possible place had been selected: Dana Point had been chosen so that the maximum number of people (about 10) could sleep at home, and our marina Inn had no dining facilities, so that, in the evening, the remaining participants got scattered around. The Marina Inn was downright miserable —incoming messages did not come through, they forgot to bring in coffee in the morning, etc.—; the best I can say is that the overhead projector was so poor that I was allowed to use the (inadequate) blackboard. In view of all the handicaps, it was a miracle that the course was the success it turned out to be.
+
+The audience was very mixed: it ranged from Bachelor to Ph.D.'s, from MBA's (= Masters of Business Administration) to mathematicians. (In particular the MBA's had a very hard time.) It was a nice group to work with; they worked very hard and with great loyalty. (Neither the inauguration of Reagan, nor the freeing of the hostages caused any disruption.) They found it very difficult: many of them were unfamiliar with formal techniques in general and none was used to apply them to programming, so they had to travel long and far. The strain was not only intellectual, but also emotional: I posed them simple problems that could be solved by programs of three or four lines, but over and over again they found themselves in the situation that the majority could not find the solution. (In Feijen's audience, a young man with a fresh degree got so cross with his former teachers that he felt like suing his university!) Friday noon we broke up with the usual little sadness.
+
+I left for San Diego where, for the rest of the trip, I had the privilege of being the guest of Dr.Lawrence D.Rogers and his wife. The weekend was used for recovery; it had been an exhausting week. On Saturday we went to the San Diego Wild Animal Park, on Sunday we did mostly nothing. (I wrote a letter, but that was physically painful after a week's work with chalk on a blackboard.)
+
+The next week we left at 7:45 for the plant (where we arrived at 8:00) from where we returned around 18:00. On Monday afternoon I went to UCSD, where I gave a lecture from 16:00 to 17:00; I may have misinterpreted my observations, but I found the faculty wavering between science and pragmatism. On Wednesday we rose at 6:00 because I had to catch an early flight to Los Angeles, from where I returned in the evening. That day I visited Systems Development Corporation in Santa Monica. Until 14:30 I spoke in succession with three different groups, from 15:00 till 17:00 I addressed a sizeable audience. During the first hour I showed an unusual argument that I had developed the day before; the second hour I answered (the usual) questions from the floor. Several times I was reminded of Tom Lehrer's "If you cannot communicate, the least you can do is to shut up." (I quoted Wittgenstein instead.) Carrying out a multi-person project was repeatedly presented as primarily a communication problem, but when you start thinking about it, this is largely nonsense. When working all by myself I write everything down, thus forcing myself to be as explicit as required. Working together can only be an added incentive to be even more explicit (if possible). I have a lurking suspicion that the root of the difficulties of the multi-person projects lies somewhere else, viz. that many of the people involved think only vaguely and that the misunderstandings are caused by the fact that people don't really understand why they (supposedly) think themselves. Calling this "a communication problem" suggests the existence of clear but unformulated thoughts, and that does not seem to be a very fruitful hypothesis. I fear that "the communication problem" is a misleading euphemism, the acceptance of which explains parts of the almost morbid preoccupation with "specification languages" and the like. As if new rules for musical notation would enable me to compose a symphony..........
+
+At LAX I met Alain J.Martin a few minutes after I had checked in for flight KL 602. He came from San Jos� and had carried his luggage himself; I came from San Diego and had booked my luggage through to Amsterdam. Both arrangements worked. We left Los Angeles early Saturday evening, early Sunday evening we were home. The flight being more crowded, I had not been able to sleep.
+
+Plataanstraat 5
+
+5671 AL NUENEN
+
+The Netherlands
+
+4 February 1981
+
+prof.dr.Edsger W.Dijkstra
+
+Burroughs Research Fellow
+
+transcribed by Corrado Cantelmi
+
+revised
+15-Oct-2011

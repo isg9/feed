@@ -1,0 +1,28 @@
+---
+title: "Een educatief dilemma (EWD244)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD02xx/EWD244.html
+published: "1968-05-02T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd02xx/EWD244.PDF
+---
+
+# Een educatief dilemma
+
+Gemakshalve neem ik aan dat ook in de toekomst een grote machine het hart van het Rekencentrum zal uitmaken; kortheidshalve noem ik deze machine "de productiemachine". Deze zal vele, soms terecht veeleisende mensen dienen, waaronder naar wij hopen het merendeel van onze promovendi, afstudeerders en stageaires, voorzover ze de productiemachine gebruiken kunnen. Wij zijn het er, dacht ik, met zijn allen over eens, dat zij, gezien wat ze kunnen uitdragen, een belangrijke groep vertegenwoordigen.
+De keuze van de productiemachine is voor hem, die zich het professioneel bedrijven van een rekencentrum tot taak gesteld heeft, van grote interesse; voor hen, die voor hun werk op de productiemachine aangewezen zullen zijn, is de keuze slechts van afgeleid
+Veronachtzamen we de gangbare elementen als chantage, bedreigen en omkoping, dan zou het me niet verbazen wanneer de keuze van de productiemachine verder —en dat dan niet eens zo erg ten onrechte!— op hem valt vanwege zijn productiecapaciteit. Is dit veiligstellen van de productie de eerste zorg, dan kan ik me niet anders voorstellen dan dat de productiemachine een veilige keus wordt, niet te ver van het gebaande pad, kortom een machine van vandaag, waarvan je weet, wat je er aan hebt. (Sic.) In de zin dat "de beproefde methode" niet meer interessant is, moeten we stellen dat de veilige keus, de alledaagst machine, vandaag vervelend is, morgen achter en overmorgen achterlijk zal zijn.
+
+Het dilemma is evenwel, hoe "Kurzfristig" wij ons als instelling van hogeronderwijs mogen opstellen. Van vele zijden wordt er nl. pressie op ons uitgeoefend om dit in vrij sterke mate te doen. Deze pressie komt ten eerste van de bedrijfsvoering van onze interne productieeenheid (zie boven), komt ten tweede van onze studenten —vooral van de minderbegaafden— die zich veiliger voelen, wanneer ze met een actuele bruikbaarheid worden afgeleverd, komt ten derde van het bedrijfsleven, dat met de plicht zich vandaag het hoofd boven water te houden vaak niet ongenegen is een wilde wissel op de dag van morgen te trekken, de pressie komt tenslotte ook uit eigen boezem: hoe verder te toekomst, hoe gladder het ijs en wie langer probeert te kijken dan de neus van zijn collega's gemiddeld lang is loopt een gerede kans het verwijt te krijgen, dat hij met zijn neus in de lucht loopt. De vloek is, dat hetzelfde economische belang, dat alom kortzichtigheid lijkt te dicteren, het belang van de juiste langzichtigheid alleen maar onderstreept.
+In het licht van de overweging dat het specifiek de taak van het hogeronderwijs is om in te springen, waar de rest van de maatschappij te kort schiet, om met de meeste deskundigheid en geloof in eigen inzichten het kostbaar tegenwicht te fourneren —hoe ondankbaar deze taak en hoe pretentieus deze taakstelling op elk moment ook moge schijnen!— moet zelfs een vraagteken gezet worden bij het streven het hart van het rekencentrum een productieeenheid als ieder ander te maken. Is het —en zulks lijkt me het geval— onmogelijk om daar ver bovenuit te stijgen, dan dienen we te overwegen, inhoeverre we in de rest van onze educatieve activiteiten deze roeping trouw kunnen blijven.
+Ter voorkoming van misverstand: ik het hier niet over de enkele computerspecialist, die mits "weltfremd" zijn ongebreidelde lust tot perfectie kan botvieren, ik heb het hier over de gemiddelde gebruiker, die wij denken af te leveren. Dit klemt nl. in tweeerlei opzicht: ten eerste is de normale computer gebruiker aartsconservatief (van Grace M.Hopper gaat het verhaal, dat zij ter symbolisering hiervan op haar kamer een klok heeft laten installeren, die achteruitloopt!), ten tweede beroept de computerfabrikant, die ook liever zijn vingers niet brandt, zich maar al te graag (en niet geheel ten onrechte) op de achterlijkheid van zijn klanten, die iets beters toch niet zouden weten te apprecieren.
+Is het oppervlakkig gezien onze educatieve taak ten aanzien van de programmering om in de eerste plaats onze studenten wegwijs te maken op onze eigen productiefaciliteit, bij nader inzien kon dat wel eens juist omgekeerd zijn. Het kon wel eens juist onze plicht zijn om ervoor te waken dat wat wij doceren niet beinvloed wordt door wat de THE uit productieoverwegingen vandaag heeft aangeschaft. Het kon wel eens juist onze plicht zijn ons onderwijs zo in te richten om onze studenten, wanneer ze aan het echte gebruik van onze productiefaciliteit toekomen, hen dit te laten ervaren als "een zich behelpen met de mogelijkheden van heden". En het kon wel eens juist onze plicht zijn zulk onderwijs materieel mogelijk te maken.
+
+Wij knappen onze studenten wellicht op met vooroordelen, waaronder zij zo zij willen, hun leven lang kunnen lijden. Maar, zin op niet, onze academici zijn erfdragers van onze cultuur en zouden wij niet schromelijk te kortschieten, als wij hen de kans, deze last op zich te nemen, onthielden?
+
+30 september 1968
+
+Edsger W.Dijkstra
+
+transcribed by Joost Gabriels
+
+revised Fri, 4 Mar 2005

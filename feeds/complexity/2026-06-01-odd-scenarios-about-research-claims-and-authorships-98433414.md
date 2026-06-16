@@ -1,0 +1,79 @@
+---
+title: Odd Scenarios about Research Claims and Authorships
+url: https://blog.computationalcomplexity.org/2026/06/odd-scenarios-about-research-claims-and.html
+published: "2026-06-01T13:02:03Z"
+feed: complexity
+guid: tag:blogger.com,1999:blog-3722233.post-4823927278409986154
+---
+
+# Odd Scenarios about Research Claims and Authorships
+
+Odd Scenarios about Research Claims
+
+I blogged about OpenAI's achievement of having AI solve a math problem [here](https://blog.computationalcomplexity.org/2026/05/two-erdos-problems-on-points-in-plane.html).
+
+My post had a few comments about authorship of such results.
+
+Lance had a post about co-authorship and AI [here](https://blog.computationalcomplexity.org/2026/05/authorship-in-ai-age.html)
+
+There are times when an author on a paper prefers to not be listed as a co-author.
+
+There are times when an author wants to give credit in odd places.
+
+We give some scenarios.
+
+1) Professors Alice and Bob  prove a theorem. They have their grad student Carol write up the result. Alice and Bob intentionally leave their name off of the paper since they want Carol to get a career boost.
+
+2) Alice has a conjecture and does some work on it. Famous Mathematicians Bob and Carol solve it and  having it known that Bob and Carol cared about her work is more important (and Alice thinks, rightly or wrongly, that it's more impressive if she is not a co-author)
+
+3) Alice has a good idea and tells it to Bob and Carol. They incorporate the idea into a paper and make her a co-author. Later she tells them her idea is wrong and to take her name OFF of the journal version. They say, no, they will keep her name on the journal version. She does not inquire why they will do this for fear they will rethink it. She offers to proofread the paper very carefully to earn her keep. She does that and does a really good job.
+
+4) Alice has a conjecture and does some work on it. Other people solve it and offer Alice a co-authorship. Alice declines since she doesn't really understand the final paper.
+
+5) Alice and Bob are working for the NSA. They come up with a breakthrough (either making or breaking codes). They can't publish it because of national security.
+
+6) A pair of scenarios.
+
+6a) Alice, Bob, and Carol prove a theorem in number theory that leads to a new classical factoring algorithm. They code up the algorithm and find that it's 1000 times faster than the best algorithms known. They make it into a package and want to sell it. However, they claim it's a quantum computer since they think it will sell better that way. They do not claim that it's Shor's algorithm.
+
+They just claim that it's 1000 times faster than current algorithms, which is true.
+
+If someone buys it because they want to factor large numbers, do they care
+
+that it's not quantum?
+
+If someone buys it because they want to explore the quantum aspect, they do care.
+
+b) Alice, Bob, and Carol are quantum engineers. They build a quantum computer and use it to factor large numbers. They find that it factors 1000 times faster than current classical algorithms. However, by this point there has been so much quantum hype that has been debunked, that, in order to sell it, they claim it's a classical algorithm achieved by a breakthrough in number theory. They do not claim it's Shor's algorithm, just that it's 1000 times faster which is true.
+
+If someone buys it because they want to factor large numbers, do they care
+
+that it's not quantum?
+
+If someone buys it because they want to explore the number-theory aspects, they do care.
+
+7) A pair of scenarios.
+
+7a) Alice, Bob, and Carol work for a math research lab. They use AI to crack an open problem in math. AI did all the heavy lifting and produced a very readable proof.  They claim AI didn't do much since they think this will increase how much grant money they can get.
+
+If someone just wants to read the proof, then do they care that it's AI-generated?
+
+If someone wants to give Alice-Bob-Carol grant money, then they  may dislike the lying, but Alice-Bob-Carol could probably use AI to get more results. Hence Alice-Bob-Carol were fools to hide the use of AI.
+
+7b) An AI company hires Alice, Bob, and Carol to solve a math problem. They succeed and produce a readable proof. The company then claims that AI did it to increase attention and funding.
+
+If someone just wants to read the proof, then do they care that it's human-generated?
+
+If someone wants to give the company venture capital money, then they do care.
+
+8) Alice reads a novel and likes it. She later finds out that it was written by AI. Now she decides she doesn't like it. Is that rational? What if the cover of the novel said quite clearly \`\`This novel was written by AI'' but she missed it (perhaps she has a used copy where the cover is torn off). Then she can't use the
+
+\`\`I mind that they lied'' excuse for why she doesn't like it.
+
+9) In Scenario 7 you could replace \`\`novel'' with \`\`song'' or \`\`movie'' or \`\`episode of a TV show'' or whatever you want.
+
+10) If I found out that a novelty song about Ramsey Theory was actually AI-generated, then would I mind? I would probably search my files and find that I was the one who asked AI to do it a few years ago and forgot about it. Do you know anyone else who would use ChatGPT to write songs about Ramsey Theory?
+
+11) Having written point 9 I am morally obligated to give you a pointer to a Ramsey Song I wrote with the help of ChatGPT. It's about the proof of van der Waerden's theorem and is titled
+
+I like big blocks (and I cannot lie) [here.](https://www.cs.umd.edu/~gasarch/BLOGPAPERS/bigblocks.pdf)

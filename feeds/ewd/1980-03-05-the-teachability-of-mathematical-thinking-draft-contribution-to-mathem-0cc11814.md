@@ -1,0 +1,56 @@
+---
+title: "The teachability of mathematical thinking (Draft contribution to “Mathematics Tomorrow”) (EWD732)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD07xx/EWD732.html
+published: "1980-03-05T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd07xx/EWD732.PDF
+---
+
+# The teachability of mathematical thinking (Draft contribution to “Mathematics Tomorrow”)
+
+(Draft contribution to "Mathematics Tomorrow".)
+
+The Teachability of Mathematical Thinking.
+
+"It is always difficult to think and reason
+in a new language, and this difficulty
+discouraged all but men of energetic minds."  Charles Babbage
+
+Whenever a next area of human endeavour is observed to be amenable to mathematical treatment, mathematics changes as a result of that discovery. Having observed from close quarters how programming could be developed from a craft (if not a black art!) into a mathematical discipline, I couldn’t help wondering what impact this development might have on the rest of mathematics. And the more I thought about it, the more I became convinced that the influence of computing science on mathematics at large may become very profound indeed.
+
+On the whole spectrum that ranges from the crafts to the sciences, mathematics —though justly called "The Queen of Sciences"— occupies, amazingly enough, a middle position.
+
+At the one end of the spectrum we have the crafts, implicitly transmitted from one generation to the next in the relation between master and apprentice: it is almost a transmission by osmosis. Guild members typically keep their common craft as a well-guarded secret among themselves.
+
+At the other end of the spectrum we have the sciences, explicitly transmitted from one generation to the next in the relation between teacher and student. It is the tradition of the University to try to formulate knowledge as explicitly as possible, thereby bringing its treasures into the public domain.
+
+Along this scale, however, mathematics today occupies a curious, in-between position. Mathematical results —i.e. theorems, proofs, and theories— are taught and published quite openly; how to do mathematics, however, is something that the members of the guild keep among themselves. And it is exactly here that computing science might have its greatest impact on mathematics as a whole: mathematics might move at last from its middle position to where it belongs, i.e. to the scientific end of the spectrum. Predictions are hazardous —in particular, when they concern the future— and, therefore, I shall abstain from them. But I shall give you some of my observations on account of which I regard such a change of mathematics as a very real possibility.
+
+I first established that, to a large extent, professors of mathematics regard themselves as craftsmen. I did so by subjecting them to the following thought experiment. I asked them: "Suppose that we knew how to give a solid two-semester course in Thinking, would you be in favour of including it in the first year of the mathematics curriculum?" One would expect that such a simple question could be answered quickly by a simple "Yes" or "No". Instead, they all started to argue —some of them even vehemently— that such a course in Thinking was "of course" impossible! ("Thinking is unteachable, for, if it were, we would already have discovered how to do it.", and "Mathematicians are not made, but born.", and similar crap.) Whenever a craft is in the process of being superseded by a scientific discipline, the guild members always feel themselves threatened (and rightly so). The height of the emotional barrier that I had to overcome before my colleagues were willing to consider my question was a full confirmation that I was dealing with craftsmen.
+
+The above experiment was prompted by another observation, which explains how computing science enters the picture. In the process of improvement of our programming ability the predicate calculus had become an indispensable tool for our daily reasoning; almost unnoticed, we became as familiar with it as the circumstances required. It was somewhat of a surprise to discover that, though known to all mathematicians, the predicate calculus is hardly used in most other areas of mathematics. (When trying to explain what we were doing to others, we often found their unfamiliarity with the predicate calculus a stumbling block.) From the fact that, in contrast to the computing scientists, the other mathematicians can get away without using that effective tool for formal reasoning I can draw only one conclusion: in some way or another, the intellectual challenge that the computing scientist faces is without precedent in our mathematical culture. The computing scientist has to learn how to cope with vast, subtly intertwined, discrete universes, which, indeed, provide a totally new environment for mathematical thought. The environment seems so new and in a peculiar way so demanding that it evokes novel thinking habits and novel modes of exposition, both of which are more effective than the traditional ones. It should be noted that they are more effective in a very objective sense, that is, in a sense as objective as in which we can state that decimal arithmetic is much simpler than computing in Roman numerals.
+
+There is another circumstance why for mathematics the time to evolve from craft to science may have come, and why the doing of mathematics —i.e. thinking effectively— may become teachable, and that is our new appreciation of notational techniques. Mathematicians have always been aware of the vital importance of adequate notation; some of them —notably Leibniz and Babbage (not to mention Oughtred)— have even paid great attention to the issue. But the vast majority of them does not make a conscious effort to distinguish between "convenient" (in an objective sense, i.e. independent of our personal habits as formed in our educational pasts) and "conventional", and continues to prefer "what they are used to", even if their formulae are ambiguous! They have never given very conscious thought to the topic and, when challenged, shrug their shoulders, saying: "Well, you understand what I mean, don’t you?". (As long as personal habits and resulting tastes still play such a predominant rôle in the appreciation of notational alternatives, it is not amazing that international efforts at the standardization of mathematical notations remain strikingly unsuccessful.)
+
+As long as mathematicians continue to work with a fuzzy aggregate of notational conventions, never explicitly stated and often mutually conflicting, no wonder that they regard the doing of mathematics as unteachable. They may shrug their shoulders and say: "Well, you understand what I mean, don’t you?", but then two comments are in order. Firstly, such a lack of system is bound to be a noticeable barrier for the novice. Secondly, a sizeable part of the competence of the professional mathematician may well consist in the ability not to get confused by his own funny habits.
+
+The scene has changed dramatically, however, with the introduction of recursive formal grammars and their wholesale adoption in computing science since 1960. This was the year of the ALGOL Report which used BNF ("Backus-Naur Form") for the rigorous definition of the syntax of formal texts. (Among computing scientists, this technique is now so much common knowledge that they find themselves shocked —and almost unable to continue reading— when, for instance, they read a text written by a contemporary logician that still tries to do without it.) The extremely rapid propagation and wide-spread acceptance and usage of what was generally regarded —if not frowned upon!— in 1960 as a daring novelty is a most remarkable phenomenon; I think it would be stupid to underestimate its significance.
+
+The notationally unaware often express the expectation that adherence to stricter notational conventions would not influence their thinking abilities. They speak from lack of experience, and they are wrong.
+
+The habit of only writing formulae that satisfy the rules of a rigorously defined syntax gives the mathematician a new appreciation of one of his main tools, and enables him to exploit this tool more consciously and, hence, more effectively. It gives you a means for identifying your more clumsy thinking habits; obviously such an identification is a prerequisite for the effort to supplant them by —now: objectively!— more effective ones.
+
+How profound the influence of our notations is on our thinking I learned the other day —the 4th of March 1980, to be precise— when I took an experiment with my students. Departing from the official topic of the course I presented to them the solution of a combinatorial problem. They all mastered the little mathematics needed, and that was essential because neither the problem, nor the solution, but my presentation of the latter was the real subject of the experiment. I showed them my cleanest presentation of the solution, carefully divested of all asymmetries that are only —be it traditional— notational artefacts. (The problem was a very good carrier for the experiment, because those asymmetries, already suggested by the way in which the problem had been stated, are the main cause of the problem’s "difficulty".) It was almost painful to see my students —whose training is otherwise traditional— struggle with my proof. When I wrote down assertions of the form A∨B, the poor boys could only understand them by translating them into either ¬A⇒B or ¬B⇒A —and, of course, never knowing how to make the irrelevant choice—. After I had carefully removed all misleading irrelevancies from my presentation, they could only cope with it by reintroducing them again! The experiment was somewhat shattering for me, because I felt that I was addressing 25 victims of mathematical miseducation. (I did not blame them: what can one expect from youngsters that have been taught to express so fundamental a concept as equality by the contorted "if and only if" as soon as the domain consists of truth-values? Needless to say, you won’t catch me using the symbol "⇔"!)
+
+I called the experiment shattering; I did not call it depressing. On the contrary, it was inspiring! It convinced me that we are much nearer than I thought to being able to teach how to think: really educating young mathematicians to apply the techniques of scientific thought seems, as a possibility, excitingly close!
+
+As far as the guinea-pigs are concerned, I am happy to report that, though puzzled, bewildered, or disturbed, they all made the impression of being thrilled (though perhaps not fully understanding why). None of them took the cheap exit of feeling offended.
+
+Plataanstraat 5
+5671 AL NUENEN
+The Netherlands  5 March 1980
+prof.dr.Edsger W. Dijkstra
+Burroughs Research Fellow
+
+transcribed by Alejandro Ruiz
+revised Mon, 25 May 2009

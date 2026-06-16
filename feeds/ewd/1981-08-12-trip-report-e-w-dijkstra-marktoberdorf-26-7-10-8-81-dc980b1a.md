@@ -1,0 +1,44 @@
+---
+title: "Trip report E.W.Dijkstra, Marktoberdorf, 26/7–10/8/81 (EWD799)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD07xx/EWD799.html
+published: "1981-08-12T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd07xx/EWD799.PDF
+---
+
+# Trip report E.W.Dijkstra, Marktoberdorf, 26/7–10/8/81
+
+Trip report E.W.Dijkstra, Marktoberdorf, 26/7 - 10/8/81.
+
+The occasion was the International Summer School in Marktoberdorf (near Munich), this time on the theme "Theoretical Foundations of Programming Methodology." For a variety of reasons this one was for me different from the preceding ones. Firstly I was now one of its three directors, secondly my wife Ria joined me on the trip (which was her holiday), and thirdly we had the car with us. Marktoberdorf is a little, mostly new, town, which never struck me as very exciting; thanks to the car and her freedom, Ria discovered for us that the surroundings are absolutely beautiful.
+
+We drove down at our leisure, leaving Nuenen at Sunday noon and arriving at Marktoberdorf 48 hours later. While I was in Newcastle the week before, Ria had collected at the Dutch tourist organization two excellent maps with all the information --and nothing more: that was what made them so excellent-- for the traveller that would like to avoid the German Autobahn as much as possible. (Remarkably enough, these maps were free!) It is a way of travel I can recommend --and that is saying a good deal!--: despite the height of the season we were never caught in a traffic jam and finding an inn was never a problem. On our way down we had beautiful weather and we interrupted our journey by walks through a number of very medieval towns. On the way back we took a different route, but then it was raining cats and dogs and the journey home took us only 32 hours.
+
+The Summer School started in real earnest on Wednesday 29 July at 08.45 and lasted until Saturday 8 August at 17:00, with Sunday 2 August a day off, and the afternoon of Wednesday 5 August devoted to the excursion. The pattern of the full day was two lectures, break, two lectures, lunch, two lectures, break and then a discussion from 16:00 until 17:00. Dinner --this time not at Hotel Sepp, but in the boarding house-- started at 18:00. It was a heavy schedule and I admired the participants, the majority of whom attended all the lectures (at least physically, as I learned when I asked how a lecture at which I had been absent had been).
+
+The program was overloaded as usual: Tony Hoare and (mostly) Joe Stoy replacing Dana Scott, who did not show up, we had 11 lecturers presenting the material of 12 authors. Unavoidably, the quality of the lectures is far from homogeneous and this makes the audience wonder why they had to be exposed to so many lectures of this speaker while they would have preferred to hear more from that one. Despite my directorship I wondered too, and next time I hope to figure out how to do something about it. I know that all professors have been created equal, but some are most definitely more equal than others. The British speakers were collectively by far the best, the French were by far the worst, condemned as they were --and I am afraid, rightly so-- of the crime of "contempt of audience".
+
+Joe Stoy gave an excellent overview of Scottery and I can think of no better incentive to study Scott's material in real earnest. (In doing so, the student should bear in mind that the definition of the semantics of baroque programming languages is probably its worst possible application area.) Tony Hoare gave an equally clear overview of his theory of Communicating Sequential Processes, his careful phrasing made him a pleasure to listen to. Both used "visuals" they had used many times before. Joe Morris showed us his technique for dealing formally with "aliasing". In contrast to the previous two, he wrote his transparencies while lecturing. He suffered noticeably from the absence of a decent blackboard on which he could display the argument in its entirety; his ability to develop it in spite of the primitive tools available made his lectures the more impressive. Rod Burstall spoke from freshly prepared visuals and had himself as a speaker under very good control; he spoke at half his usual speed. His theme was "Specification Languages and Categorical Programming". He presented his extensively prepared lectures with great enthusiasm but totally failed to convince me that his approach made sense. Compared to what he did with it the weight of his mathematical machinery seemed to me to be out of all proportion. My guess is that one can ignore the topic with impunity for at least the next five years. These were the lecturers of whom I attended all lectures.
+
+I heard Zohar Manna on Program Synthesis and Temporal Logic. He presented his material with great gusto, but I was all the time reminded of "Much ado about nothing". In the Program Synthesis --work he has done together with Richard Waldinger-- he made at great length a meaningless distinction between "assertions" and "goals", in the Temporal Logic he was the worst misuser of anthropomorphic terminology. ("When I want to express that I am at L.": here "L" is a statement label and the second "I" from the above quotation stands for something like "control", whereas the first "I" stands for Zohar Manna. The ambiguity illustrated in the above quotation made many of his sentences totally unintelligible.) I attended four of Sharon Sickel's six lectures. The first five were devoted to the use of Horn Clauses as a programming method, her last lecture --the last lecture of the summer school-- was a well-intended sermon. She had paid great attention to the presentation of her technical material, which she illustrated with an example she had learned at the very first lecture of the summer school! She presented "logic programming" as half-way between problem statement and a fully algorithmic solution. Her point was well-made, but five lectures was perhaps more than was needed for that purpose. She, too, was very operational (what, in view of her topic, was rather surprising). Her sermon contained all the buzz-words, motherhood statements and general purpose pictures; it did not evoke the discussion she had hoped it would evoke, but perhaps everybody was tired.
+
+Maurice Nivat and Bruno Courcelle were very French. Of both I attended the first third of their lectures; the exposure confirmed my impression that for computing science, Bourbaki is not the ideal starting point. Both seemed to minimize their attendance; Courcelle at least had prepared his visuals with care. Our Manfreds --Wirsing and Broy-- were very German: the first one encyclopedic, the second one belligerent. Being well-prepared and carefully presented, their lectures were not unpleasant to listen to. I heard half of their talks.
+
+I grossly deviated from the working material I had handed out. After my first lecture I decided to present "smooth sort", i.e. the algorithm I had developed the month before. All my lectures had been scheduled at the beginning of the day, an arrangement which would have been OK if I had talked on six separate topics. Now it was a handicap and for the presentation of smoothsort I needed four lectures instead of the intended three. But I did not lose the attention of the audience and I think my effort was appreciated. On the last morning I showed the generalized philosophers as I had done three years ago. At that occasion a remark by Susan Owicki prompted the removal of my original reductio at absurdum; this time Luigi Lorippo (from the University of Ottawa) came up with a more general proof showing that on an infinite network starvation was impossible. (The day after my return I received a long letter from Don Knuth, who wrote me that smoothsort was new to him. With Don's comments and my experience in Marktoberdorf I think I can now write the final version of that paper. I don't need to change much, but for a number of decisions I should indicate the reasons.)
+
+It was a good thing the Summer School did not last longer: at the end we were all exhausted. In Johanniskreuz (near Kaiserlautern) I started a series of 12-hour nights.
+
+Plataanstraat 5
+
+5671 AL NUENEN
+
+The Netherlands
+12 August 1981
+
+prof.dr.Edsger W.Dijkstra
+
+Burroughs Research Fellow
+
+transcribed by Tristram Brelstaff
+
+revised Mon, 12 Jul 2004

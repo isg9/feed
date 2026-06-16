@@ -1,0 +1,26 @@
+---
+title: "Elfde toespraak, najaar 1975 (EWD534)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD05xx/EWD534.html
+published: "1975-10-22T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd05xx/EWD534.PDF
+---
+
+# Elfde toespraak, najaar 1975
+
+24 november 1975
+EWD 534
+
+Elfde toespraak, najaar 1975.
+De zuidelijke begrenzing van onze campus, eens een uitnodiging voor remproeven en bekend onder de bijnaam van "de Professoren-renbaan" is sindsdien vierbaans geworden en nu, ter ere van onze eerste Rector Magnificus, bekend als de Dorgelolaan. Een mooie laan. Haaks hierop staat het Posthumuspad. Een mooi pad. Het is alleen verontrustend, dat het bordje aan zijn begin door zovelen niet gezien wordt, het bordje dat zegt "Doodlopende Weg". Onze derde rector was een zo gewiekst politicus, dat, naar verluidt, mettertijd een doolhof naar hem genoemd zal worden.
+
+Maar terug naar Posthumus. Aan hem danken we, dat de enge technologische basis van onze TH met culturele aanwinsten als onderwijs research werd verbreed, dat we bedrijfskunde kregen en tenslotte met bouwkunde werden opgezadeld. En ik kan U de verzekering geven dat, als het aan hem gelegen had, de achtste medische faculteit niet in Maastricht gekomen was. Hij kon in zijn pleidooien lyrisch worden over wat hij "de menswetenschappen" noemde, en liet niet na hen te contrasteren met de koele techniek, aan dat vermeende contrast de noodzaak voor compensatie ontlenend. Als zovelen van zijn generatie had hij het gif van Frederik van Eeden gedronken en was hij het slachtoffer van het bijgeloof, dat "hart" en "hoofd" onverenigbaar zouden zijn, dat "emotie" en "ratio" elkaar slecht zouden verdragen. In die goedkope visie worden de exacte wetenschappen als iets onmenselijks voorgesteld met, uit de aard der zaak, de wiskunde als toppunt van inhumaniteit, en is Professor Sickbock niet een persiflage, maar de realiteit.
+
+Velen voor mij hebben dit bijgeloof bestreden. Dorothy L.Sayers —ongetwijfeld zelf een slachtoffer van dit onbegrip om haar heen— ageert meermalen tegen de opvatting dat wie erg knap is, emotioneel onderontwikkeld zou moeten zijn. En Eric Temple Bell schrijft in 1937: "...a mathematician can be as human as anybody else — sometimes distressingly more so.". Ik kan Bell's observatie alleen maar bevestigen: in mijn leven heb ik het voorrecht gehad een aantal uitzonderlijk knappe collegae ontmoet te hebben, en zonder uitzondering waren dit zeer gevoelige mensen, wier leven van een genuanceerde volheid was, waarvan zelfs de literator C.P.Snow, die beweert "the scientists" te kennen, blijkens zijn geschriften niet het flauwste benul heeft.
+
+Ik voel mij zelfs gemachtigd aanmerkelijk verder te gaan. De wiskunde is niet een geatrofieerde uitloper van een ontmenselijkte samenleving. Integendeel: het is het terrein bij uitstek waar onze grootste intellectuele en artistieke gaven tot synthese komen, en een bloeiend wiskundig leven is een van de duidelijkste symptomen van een levende cultuur. Toen Archimedes door een Romeins soldaat werd doodgestoken, was dit het eerste voorteken van het Romeinse verval, dat enkele eeuwen later door de kortzichtige Cicero bezongen zal worden, als hij er prat op gaat, dat zijn heerlijk Rome niet meer wiskunde duldt,dan nodig voor meten en tellen. Het hoeft geen verwondering te wekken, dat de Romeinse steriliteit tenslotte destructief werd en de bibliotheek van Alexandrie in vlammen deed opgaan. De donkere middeleeuwen zetten in, wanneer de laatste Griekse wiskundige Hypatia door de Christenen wordt gelyncht, en de Arabische wereld vervalt in achterlijkheid als in de zevende eeuw de bibliotheek van Alexandrie ten tweeden male, maar nu definitief, verwoest wordt, nu door de Moslims, met het motief dat de teksten, als ze onverenigbaar met de Koran zijn, fout zijn, en anders overbodig.
+
+Het is gebruikelijk te denken, dat met Galileo Galilei het Westen zich aan de houdgreep der mystiek ontworsteld heeft, maar zijn we, met al die zogenaamde "menswetenschappen" daar wel zo zeker van?
+
+transcribed by Jukka Ketelaars
+revised Sun, 17 Jun 2007

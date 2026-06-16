@@ -1,0 +1,88 @@
+---
+title: "On anthropomorphism in science (EWD936)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD09xx/EWD936.html
+published: "1985-09-23T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd09xx/EWD936.PDF
+---
+
+# On anthropomorphism in science
+
+(Delivered at The Philosophers’ Lunch, 25 September 1985)
+
+I must apologize for not speaking to you, but reading to you. I chose to do so because, not yet feeling quite at home, I am a bit nervous. Of course I can argue to myself that I don’t need to, but that does not always work.
+
+I can argue to myself that I grew up in a country whose population is only slightly larger than that of Texas, so why should I feel not at home? I spent most of my life at two universities, one four centuries old, the other a quarter, and if I take the geometric mean of those two ages I arrive precisely at that of UT, so why shouldn’t I feel at home here?
+
+Well, actually it is not too bad. I think I am much happier here than I would have been, say, at XXX–XXX where it is possible to lose sight of what it means to be an intellectual. The reason that I am a bit nervous is that I am not quite sure what philosophers do and, hence, somewhat uncertain about my role here.
+
+OK, so much for an irrelevant introduction; it was given to give you the opportunity to adapt your ear to my English.
+
+*
+
+*
+
+*
+
+I chose “anthropomorphism” because —besides being a nice broad topic— it is so pervasive that many of my colleagues don’t realize how pernicious it is.
+
+Let me first relate my experience that drove home how pervasive anthropomorphism is. It took place at one of the monthly meetings of the science section of the Royal Netherlands Academy of Arts and Sciences, where we were shown a motion picture made through a microscope. Thanks to phase contrast microscopy —the invention for which Zernike got the Nobel Prize— it is now possible to see through the microscope undyed cultures of living cells, and that was what they had done while making this motion picture. It showed us —somewhat accelerated— the life of a culture of amoebae. For quite a while we looked at something we had never seen: I can only describe it as identifiable bubbles with irregular changing contours, slowly moving without any pattern through a two-dimensional aquarium. To all intents and purposes it could have been some sort of dynamic wallpaper. It was, in fact, rather boring, looking at those aimlessly moving grey blots, until one of the amoeba in the centre of the screen began to divide. We saw it constrict, we saw in succession all the images familiar from our high-school biology, we saw the centres of the two halves move in opposite directions until they were only connected by a thin thread as they began to pull more frantically at either end of the leash that still connected them. Finally the connection broke and the two swam away from each other at the maximum speed young amoebae can muster.
+
+The fascinating and somewhat frightening observation, however, was that at the moment of the rupture one hundred otherwise respectable scientists gave all a sigh of relief: “at last they had succeeded in freeing themselves from each other.” None of us had been able to resist, as the division process went on, the temptation to discern two individuals with which we could identify and of which we felt —more in our bones than in our brains, but that is beside the point— how much they “wanted” to get loose. A whole pattern of human desires had been projected on those blots! Crazy, of course, but such is the pervasive and insidious habit of anthropomorphic thought.
+
+Is anthropomorphic thinking bad? Well, it is certainly no good in the sense that it does not help. Why did the stone fall in Greek antiquity? Quite simply because it wanted to go to the centre of the earth. And, several centuries later, we had the burning question: why do stones want to go to the centre of the earth? Well, that is simple too: because that’s where they belong. Why are heavier stones heavier than lighter stones? Because they are more eager to be at the centre of the earth. But then Galileo made the troubling discovery that the heavier stone does not fall any faster than the lighter one. How come? Simple, dear Watson: the heavier stone has indeed a greater desire to be at the centre of the earth, but it is also more lazy. So much for a —be it somewhat simplified— history of the development of physics. I trust you got the message.
+
+So anthropomorphic thinking is no good in the sense that it does not help. But is it also bad? Yes, it is, because even if we can point to some analogy between Man and Thing, the analogy is always negligible in comparison to the differences, and as soon as we allow ourselves to be seduced by the analogy to describe the Thing in anthropomorphic terminology, we immediately lose our control over which human connotations we drag into the picture. And as most of those are totally inadequate, the anthropomorphism becomes more misleading than helpful.
+
+I started as a theoretical physicist, became involved in computing and may end up as a mathematician. It is specifically my connection with computing that has made me allergic, since computing science is cursed by a rampant anthropomorphism.
+
+This has been so right from its inception, and found its way in the public perception of the topic, as is illustrated by the title of the book that Edmund C. Berkeley published in the fifties: “Giant Brains or Machines that Think”. The simplest way of showing how preposterous that title is is by pointing at its two companion volumes —still to be written— “Giant Hearts or Machines that Fall in Love” and “Giant Souls or Machines that Believe in God”, the most fascinating feature of the latter, of course, being that they can believe in God much faster than you. Regrettably we cannot sweep this nonsense under the rug by saying “Why bother? This is only popular press”. It finds its echo in publications that are intended to be serious, such as Grace M. Hopper’s article with the title “The education of a computer.”. It also finds its reflection in the multi-billion yen mistake of the Japanese “fifth generation computer project”, of which you may have heard. It would have taken care of the Japanese competition; regrettably —for the Western world— they seem to come to their senses, as the larger Japanese companies are pulling out of the efforts aimed at blurring the distinction between Man and Machine.
+
+But the blur continues to linger on, and has a much wider impact than you might suspect. You see, it is not only that the question “Can machines think?” is regularly raised; we can —and should— deal with that by pointing out that it is just as relevant as the equally burning question “Can submarines swim?” A more serious byproduct of the tendency to talk about machines in anthropomorphic terms is the companion phenomenon of talking about people in mechanistic terminology. The critical reading of articles about computer-assisted learning —excuse me: CAL for the intimi— leaves you no option: in the eyes of their authors, the educational process is simply reduced to a caricature, something like the building up of conditional reflexes. For those educationists, Pavlov’s dog adequately captures the essence of Mankind —while I can assure you, from intimate observations, that it only captures a minute fraction of what is involved in being a dog—.
+
+The anthropomorphic metaphor is perhaps even more devastating within computing science itself. Its use is almost all-pervading. To give you just an example: entering a lecture hall at a conference I caught just one sentence and quickly went out again. The sentence started with “When this guy wants to talk to that guy...”. The speaker referred to two components of a computer network.
+
+The trouble with the metaphor is, firstly, that it invites you to identify yourself with the computational processes going on in system components and, secondly, that we see ourselves as existing in time. Consequently the use of the metaphor forces one to what we call “operational reasoning”, that is reasoning in terms of the computational processes that could take place. From a methodological point of view this is a well-identified and well-documented mistake: it induces a combinatorial explosion of the number of cases to consider and designs thus conceived are as a result full of bugs.
+
+It is possible to base one’s reasoning on non-operational semantics and to design for instance one’s programs by manipulating one’s program text as a formal object in its own right, in one’s arguments completely ignoring that these texts also admit the interpretation of executable code. By ignoring the computational processes one saves oneself from the combinatorial explosion. This nonoperational approach is the only known reliable way of digital system design, and enables you to publish for instance in full confidence intricate algorithms you designed but never tested on a machine. The implied abstraction, in which time has disappeared from the picture, is however beyond the computing scientist imbued with the operational approach that the anthropomorphic metaphor induces. In a very real and tragic sense he has a mental block: his anthropomorphic thinking erects an insurmountable barrier between him and the only effective way in which his work can be done well. By the prevailing anthropomorphism the US, computer industry could easily be done in.
+
+It is not only the industry that suffers, so does the science. Recently, a whole group of computing scientists from all over the world has wasted several years of effort. They had decided to apply to the relationship between a component and its environment a dichotomy: the “obligations” of the environment versus the “responsibilities” of the component. The terminology alone should have been sufficient to make them very suspicious; it did not and they learned the hard way that the whole distinction did not make sense.
+
+Another notion that creeps in as a result of our anthropomorphism is the dichotomy of cause and effect. These terms come from our perception of our intended acts: we wish to pour ourselves a glass of wine, so we pick up the bottle and turn it, thereby causing the wine to flow from the bottle into our glass. Our act of pouring had the desired effect. But in the inanimate world there is little place for such a causal hierarchy. One of Newton’s Laws says that force equals mass times acceleration, and there is no point in insisting that the one causes the other or the other way round: they are equal. In the case of a piezo-electric crystal deformation and voltage difference are accompanying phenomena: if one applies a voltage difference, the crystal changes its shape, if the crystal is deformed, a voltage difference appears (as we all know from the butane cigarette lighter).
+
+In particular the study of distributed computer systems has severely suffered from the vain effort to impose a causal hierarchy on the events that constitute a computational process, thus completely hiding the symmetry between the sending and the receiving of messages, and between input and output.
+
+But even in the so much more abstract world of mathematics this has created havoc. It has caused a preponderance of mathematical structures of the form: “If A then B” or equivalently “A implies B”. Take good old Pythagoras
+
+“If, in triangle ABC, angle C is right, then a2+b2=c2”.
+
+but we have equally well
+
+“If, in triangle ABC, a2+b2=c2, then angle C is right”.
+
+and the proper way of stating Pythagoras’s Theorem is by saying that in triangle ABC “a2+b2=c2” and “angle C is right” are equivalent propositions, either both true or both false. Analyzing the structure of traditional mathematical arguments one will discover that the equivalence is the most underexploited logical connective, in contrast to the implication that is used all over the place. The underexploitation of the equivalence, i.e. the failure to exploit inherent symmetries, often lengthens an argument by a factor of 2, 4 or more.
+
+Why then have mathematicians stuck to the implication? Well, because they feel comfortable with it because they associate it —again!— with cause and effect. They will rephrase “If A then B” also as “B because A” or “B follows from A”. (The use of the words “because” and “follows” is very revealing!). Somehow, in the implication “if A then B”, the antecedent A is associated with the cause and the consequent B with the effect.
+
+One can defend the thesis that traditional mathematics is anthropomorphic in the sense that its proofs reflect the causal hierarchy we discern in our acts, in the same way that traditional logic —for centuries viewed as the handmaiden of philosophy— is anthropomorphic in the sense that it tries to formalize and follow our habits of reasoning.
+
+The advantage of this thesis is that it invites the speculation how mathematics and logic will evolve when they divest themselves from our ingrained human reasoning habits, when the role of formalisms will no longer be to mimic our familiar reasoning patterns but to liberate ourselves from the latter’s shackles.
+
+And that is a fascinating question to ponder about!
+
+Austin, 23 September 1985
+
+prof. dr. Edsger W. Dijkstra
+
+Department of Computer Sciences
+
+The University of Texas at Austin
+
+AUSTIN, Texas 78712–1188
+
+USA
+
+Transcribed by Michael Lugo
+
+Last revised
+10 April, 2016.

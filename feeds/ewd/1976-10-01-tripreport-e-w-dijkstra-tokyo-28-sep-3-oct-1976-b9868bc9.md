@@ -1,0 +1,91 @@
+---
+title: "Tripreport E.W.Dijkstra, Tokyo, 28 Sep.—3 Oct. 1976 (EWD585)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD05xx/EWD585.html
+published: "1976-10-01T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd05xx/EWD585.PDF
+---
+
+# Tripreport E.W.Dijkstra, Tokyo, 28 Sep.—3 Oct. 1976
+
+Copyright Notice
+
+The following manuscript
+
+EWD 585: Tripreport E.W.Dijkstra, Tokyo, 28 Sep.-3 Oct. 1976
+
+is held in copyright by Springer-Verlag New York.
+
+The manuscript was published as pages 245–250 of
+
+Edsger W. Dijkstra, Selected Writings on Computing: A Personal Perspective, Springer-Verlag, 1982. ISBN 0–387–90652–5.
+
+Reproduced with permission from Springer-Verlag New York.
+Any further reproduction is strictly prohibited.
+
+EWD 585
+
+Tripreport E.W.Dijkstra, Tokyo, 28 Sep. - 3 Oct. 1976.
+
+(Tokyo, Thursday morning six o'clock local time, and hopelessly awake.)
+
+I left Nuenen last Tuesday a few hours after my lectures in the morning and plan to be back in time for my next week's performance. On Monday I spoke the Dean of the Faculty, who remarked that for the kind of life I was living I needed an iron constitution. I must disappoint him: I haven't. It is still warm in Tokyo. In my hotel room I found a kimono on my bed, ready to be used by the "dear guest"; the airconditioning is cooling so frantically that, indeed, I have put it on. The thermostat in my room is set to 30 degrees: I conclude that the cooling is totally independent of its setting.)
+
+I flew from Amsterdam to Tokyo via Anchorage, Alaska, for refuelling (8.5 + 7 hours). In Anchorage the crew was refreshed, but I felt that the passengers were in an equal need of being refreshed: it was a very long flight. On the first stretch the hostesses acted as waitresses, on the second one more as nurses.
+
+Landing in Anchorage was a surprising excitement. I had never expected that an intermediate stop would cause such a thrill, but I can only summarize my impression of Alaska by saying that you won't believe it until you have seen it —and even then it is hardly believable— . A fantastic river delta, with uncountable streams winding their way between black rocks via mud into sea and white, cruel mountains along the horizon: an unbelievable sight! The airport itself was disappointing: after my most distressing experiences with Soviet toilets —more precisely: the absence thereof, at least of usable ones— I set my feet on American soil with great trust and confidence. In Anchorage, however, the confidence is unwarranted: it is distinctly less clean than California —or my home country for that matter—.
+
+(Amsterdam, Monday morning 0.20, Hotel Frommer.)
+
+The whole trip was somewhat exhausting. The conference was on Thursday and Friday, I arrived in Tokyo on Wednesday evening and was due to depart from Tokyo Saturday noon, and would be back on Sunday morning. When I arrived in Tokyo at the Okura Hotel at 8 pm., tired and dirty, I was faced by five hungry gentlemen who had waited with their dinner for me. I did not quite know how to refuse in a sufficiently polite manner, had a ten-minute shower and then we were taken to a Japanese restaurant, where a few hierarchically high-placed gentlemen were waiting for us. After a tea ceremony, they left, we six had to go on with our dinner. Then two days conference —about which later— and then back home, but the return trip was a disaster.
+
+Saturday morning —I was already awake at four o'clock— shortly after I had checked out at 9.15 and was waiting for Mr. Haruyasy Nakayama to see me off at the airport, I got a telephone call that the plane, instead of leaving at noon, would leave at 9 pm. Nakayama helped me to kill the morning by taking me and Weber —a speaker from the USA— on a trip in his car through the imperial gardens. Weber had kindly given me the key of his hotel room where I slept from 1 pm to 5 pm. Those four hours were very welcome, as my night had been bad. At seven a car took me to the airport; Nakayama could not accompany me, as he had another appointment, so there I had to fight my battle unassisted. First I could not find the KLM desk, but eventually I discovered a little notice that JAL took care of that. There were two special first-class counters, I was helped very quickly and received a card with an invitation from KLM to rest and have a drink in the first-class lounge. I was looking forward to it, for my experience in the first-class lounge at Schiphol had been excellent. There was a terrible queue at customs and emigration but the prospect of the first-class lounge sustained me all through the proceedings. When, at last, the final formality had been completed, I found myself in a dirty, crowded international departure hall in which clear indications as to which flights left when via which gates were lacking —the quality of the sound system was poor— and discovered that the first-class lounge which I now needed more than ever... was at the other side of the customs/emigration boundary! Neither peace, nor a drink were my share and I was greatly relieved when, 15 minutes later than announced previously— I recognized the call for my flight and the embarkation procedures started. They used crowded coaches, it took a long time, it was warm and people were smelly (garlic?). Eventually I sank in the cushions of my seat in the first-class compartment of a KLM Boeing 747 and felt much better. At that moment I did not even mind to hear that we would take the southern route and that I was 28 hours away from Amsterdam, at that moment it only meant for me that I could enjoy the KLM care for twelve hours more than on the first flight. We would have three successive crews and intermediate stops in Manila, Bangkok, New Delhi, Dubai and Athens. Until New Delhi everything went fine but for the fact that three expensive, but also talkative and smelly Japanese passengers did not leave the plane in spite of all the opportunities they had had to do so.
+
+In New Delhi the real misery started. During take off —we had not been allowed to leave the plane— shortly before the point of no return, a huge bird disappeared in one of the engines, The pilot managed to slow down again and to stop before the end of the runway. We were taken to New Delhi International Departure Hall —which was described as airconditioned: it had fans circulating the hot air— and it was only after five hours of uncertainty that we heard that, probably, we could leave with the same motor. (Otherwise the delay would have been at least another twenty-four hours: "Air India might have a spare motor in Bombay that KLM could borrow".) The idea of twenty-four hours in New Delhi did not attract me at all: knowing that my bowels are the weak part of the equipment, having neither tropical nor South-American experience, and having seen the cockroaches crawling over the carpets of the International Departure Hall, I was in low spirits. (Besides that I was now sticky all over, as the chairs on the hall were covered with plastic.) The second time we took off from New Delhi we did not catch a bird and it was only then that I heard, how narrow my escape from a long delay had been: if the delay had been longer than the six hours it was, the crew would not have been allowed to continue the flight before having rested. It is past one o'clock: and so to bed!
+
+*         *         *
+
+Quite apart from the pains —see above— of physical displacement, do I regret this trip strongly. One thing is certain: I have been lured into acceptance of the invitation on false pretences. I was invited for the "5th International Symposium on Information" but I cannot call a symposium where three non-Japanese speakers participate "international". It was organized by JIPDEC, standing for "Japanese Information Processing Development Center". JIPDEC had not invited me directly, I was approached on JIPDEC's behalf by the Scientific Attache of the Royal Netherlands Embassy in Tokyo. It was the N-th Japanese invitation, I had been able to withstand the first N-1; I have now learned that the intervention of one of our Embassies is no guarantee. The scientific attache has misjudged JIPDEC, me or both.
+
+The symposium consisted of three half-day sessions, one on Thursday afternoon, and two on Friday. Each session consisted of a one-hour speech by the foreign speaker, an interval, followed by comments from a Japanese panel; finally the first speaker could comment on the comments. The Americans were scheduled for the first sessions, I had to perform on the last one.
+
+By the time I had to perform I was very depressed: until that moment the yen had been the unit of thought! And this was not the consequence of the fact that the two American speakers —one spoke on computer audits and the other on decentralization of banking administration— were from the financial world. The symposium was opened by Japan's most famous economic commentator. I found the whole happening very curious. I was reminded of the keynote address by Vincent Learson at an ACM Conference in 1972. Learson (of IBM) argued then for a full hour that it was the task of computing science to assist in maintaining the American economic supremacy in the face of the Japan threat, a threat so serious, that it was our scientific duty to assist IBM in its calling to save the country. (Even for an all-American audience that talk by Learson would have been shocking: it was so bad that afterwards many Americans came to me in order to apologize for it.) Here in Tokyo the same story, only still worse: microcomputers had been invented in order to save the fragile Japanese economy (and no one apologized this time). Quite typically, it never became clear whether the production or the use of microcomputers should save Japan!
+
+The whole symposium struck me not as a real symposium, more like a Kafkaesk simulation of a symposium. The Japanese panel members —four per panel and each member spoke for about a half hour— were absolutely terrible. They did never produce anything more than a concatenation of vague motherhood statements, and repeated themselves all the time. In Japanese they may have said the same thing three times with different words; there is the possibility that limitations of the English vocabulary of the interpreters caused these repetitions to sound more like each other than in the original, but I don't think so, for the interpreters made a very competent impression. I think that they really repeated themselves. (One of the Japanese panel members confessed before speaking in private that he did not really know what to say: nevertheless he used his full half hour!) I really should know more about the Japanese language, I think that there is something very wrong with it. Andrej Ershov had warned me that the times to express something in English and Russian respectively are as 7 to 10; Nakayama told me that for English and Japanese the ratio was 1 to 2. Listening to the interpreters I could believe it.
+
+Seemed the speakers to be fake, so seemed the audience. On the first afternoon I have scanned the audience, and about 20 percent was fast asleep, with another 20 percent vigorously yawning. (Also this has been explained to me: many live far away and have to travel long in the morning and the evening. As a result they are very tired.) Four-hundred people going through the motions —and the non-motions, for that matter!— and not a single solid thing said. I felt like in a madhouse. Addressing such an audience is no fun either: neither of the two Americans had been able to get any reaction from the audience. I can be very proud of my record: the audience had laughed once or twice and I even got two questions from the floor. I have been told that that was very exceptional, and I well believe it, for it felt like addressing a hall full of mummies.
+
+It was all so strange that, perhaps, I misinterpret totally what I have witnessed. It was my definite impression that the panel members had not been selected for their professional competence, but on account of their high position in the hierarchy: they had all the most important functions, but did not say a thing. Has the audience been selected on the same rules? I don't know. They seemed to be manager types of low quality. I have observed that crowd during the interval, when coffee was served. It certainly did not look as usual at the interval of a scientific meeting, but perhaps that is the way in which a crowd of 400 Japanese behave, even if they are scientists....
+
+I was also amazed by the ease with which they seemed to have adopted the new religion of computer networks. That the design of properly operating computer networks presents some difficulties clearly did not count. And that, even if you have it operating properly, it is not always clear how to use the facility at considerable advantage, was also ignored. Networks of microcomputers were going to save the country. This was the new dogma. One must hope that from experience that Japanese know that all these words are just words, for if they really believe what has been said over and over again, it is frightening. (I think that they are not used to require from language that it is really meaningful. A great number of English computer jargon terms have been incorporated in the Japanese language without translation, just copied. It was illuminating that all the meaningless buzz words and vague, dubious terms were included such as "program maintenance", "the user", "intelligent terminal", "System Analyst (or SA)", "Systems Engineer (or SE)", "data structuring", "structured programming (or SP)", "multi-level hierarchy", "concept"(!) etc. All these words, pronounced with an accent, that is true, are nowadays perfect Japanese!
+
+*         *         *
+
+On Thursday evening the Dutch Community in Tokyo —about 350 people— came together (this time devoted to the annual commemoration of the end of the Siege of Leyden, which meant "hutspot" and "rauwe haring", the latter dish freshly flown over by KLM). I went there to satisfy my curiosity; I joined that crowd for about two hours, it was quite interesting. Then I was picked up by the Scientific Attach� and his wife and had a quiet chat in his apartment, which gave me a glimpse of an unfamiliar world. They lived quite near the Russian Embassy and it was shortly after the MIG 25 had landed in Japan. It was a very nice evening, but, no matter how nice and interesting, an insufficient justification for the whole trip.
+
+*         *         *
+
+The last item but one on my schedule mentioned for Friday evening:
+
+"Mr. Zapf, President of Burroughs Japan, wishes to have the pleasure of inviting Dr. Dijkstra for informal dinner."
+
+Waiting in my hotel room for Mr.Zapf to call, he did indeed call at 7 pm., terribly embarrassed. He had a business meeting and had heard of this arrangement just a few minutes ago. Linguistic problems had clearly caused some communication difficulties, I told him not to bother and had an excellent dinner together with Weber, did some writing and went to bed.
+
+*         *         *
+
+One of the questions from the floor was a question that had been posed to me several times in Russia: "But what about the education of the average programmer?". On my way to Novosibirsk I decided to give from now onwards the same standard answer. The question was put to me in Novosibirsk and there it worked. It was also asked in Tokyo, and there worked beyond expectation (because the audience laughed). The answer was the counter-question "What about the education of the average mathematician?"
+
+Plataanstraat 5
+
+NUENEN   NL-4565
+
+The Netherlands
+
+prof.dr.Edsger W.Dijkstra
+
+Burroughs Research Fellow
+
+transcribed by Corrado Cantelmi
+
+revised
+29-Sep-2011

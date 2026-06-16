@@ -1,0 +1,72 @@
+---
+title: "Seemingly on a problem transmitted by Bengt Jonsson (EWD1039)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD10xx/EWD1039.html
+published: "1989-01-14T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd10xx/EWD1039.PDF
+---
+
+# Seemingly on a problem transmitted by Bengt Jonsson
+
+EWD 1039
+
+Seemingly on a problem transmitted by Bengt Jonsson
+
+The other Tuesday, at the end of his lecture, Bengt Jonsson (Swedish Institute for Computer Science/University of Uppsala) left the audience with the following problem. Consider the 8 by 8 square; can it be covered by 21 bars of 3 by 1 and 1 little square of 1 by 1?
+
+[In the following, I shall try to ignore that this problem is a variation of a problem I know very well. If the reader knows so too, I ask him to follow my example.]
+
+My first proposal is not to try at this stage to cover the big square by the 22 pieces, and this for the following reason: if the answer is "Yes”, we could be fortunate and establish this by hitting upon a solution of our jig-saw puzzle; if, however, the answer is “No”, establishing it by such an exhaustive search is prohibitively expensive.
+
+My second proposal is therefore to look whether we can reduce the search space effectively by means of a (preferably simple) argument. Note that we can do so without committing ourselves to whether we are heading for “Yes” or “No”: our argument could be so effective in ruling out all sorts of covering efforts that it becomes feasible to try the remaining —possible zero— efforts.
+
+Reducing the search space means being able to characterize barren placements, i.e. a placement of part of the pieces that cannot be extended to a solution of the jig-saw puzzle by placing the remaining pieces in the as yet uncovered part of the 8 by 8 square.
+
+Remark   If 3 × 21 + 1 were different from 8 × 8, the placement of no pieces at all would be barren and the answer would be “No”, but you have probably already verified that, regrettably, these two expressions have the same value (End of Remark.)
+
+Here a general remark about the effectiveness of barren placements is in order. Consider a barren placement that leaves so little of the big square uncovered that it cannot be extended with a single piece; such a barren placement is minimally effective in the sense that rules out itself only. Since extensions of barren placements are barren as well, a barren placement is the more effective, the more extensions it permits. For reasons of effectiveness, we therefore favor barren placements of as few pieces as possible. The placement of no pieces at all —see above Remark— would be the most effective barren placement for all, but we don't have an argument that it is barren (and perhaps it isn't).
+
+My third proposal is therefore to look for barren placements of a single piece. Which piece? The single little square, of course. Had we chosen a bar, then we would need an argument whether the remaining area could be covered by 20 bars and the little square, a question so similar to the original one that it is hardly a conceptual simplification. If we choose as candidate for a barren placement a placement of the single little square, however, we are faced with the question whether the remaining area can be covered with 21 bars; the homogeneity of “bars only” might create the opportunity for an elegant argument.
+
+Our attention having thus been directed to the remaining area to be covered by the 21 bars, I could raise the question “What can we say about areas covered by 21 bars?”, but in explorations like these, 21 is a very large integer, which would be reached most nicely by an inductive argument of some sort. As we are still hoping for a simple argument, my fourth proposal is to look for what we can say about areas covered by bars only.
+
+The obvious remark is that, each bar being 3 by 1, the total number of squares covered by a bunch of bars is a multiple of 3, but —see above Remark— we have already established that this conclusion is too weak to be helpful. It takes into account the area of a bar. but not its shape, i.e. not the fact that it covers three adjacent squares in a line.
+
+So, more precisely, what can we say about areas covered by bars only, taking into account that each bar covers three adjacent squares in a line? Using programmer’s jargon (to capture an inductive argument): while placing the bars one by one, can we find a stronger invariant than just that the squares covered can be partitioned into three partitions of the same size? Yes, we can, if we can characterize such partitions independently of the placement of the bars, more precisely, if we succeed in partitioning the 64 little squares of the 8 by 8 square, say by painting each of them red, white, or blue, in such a way that, by virtue of its shape, each bar covers one little square of each colour. Areas covered by bars only then comprise equal numbers of squares of each colour. (The decision to try to partition the 64 little squares represents The Great Leap Forward.)
+
+It is possible to colour the 64 squares so that each bar covers each colour once? A little reflection shows that for the 3 squares closest to the bottom-left corner, there are, but for the renaming of colours, essentially only two possibilities
+
+A little more reflection shows that each of these two patterns admits a unique extension with monochrome lines parallel to a diagonal: starting from pattern A this runs from top-left to bottom-right, from pattern B from top-right to bottom left. I have chosen the colours in such a way that in each case #r=21, #w=22, #b=21. These numbers tell us that the single little square in a position that is red or blue in at least one of the two colourings is a barren placement. To put it positively: we need investigate those placements only in which the position of the single square is white in both colourings. Apart from symmetry, that position is unique:
+
+We still have not found our answer yet. Since “No” would, again, need an argument, whereas “Yes” can be established by a witness, I opt for the latter option, just hoping that the prescribed position of the single little square gives me enough guidance.
+
+By surrounding the prescribed position by a 5 by 5 square I partitioned the remaining area in a way as symmetric as possible;
+
+moreover, 8-5=3, so that covering II presents no problem. The effort of covering I invites us to maintain its cyclic symmetry:
+
+So the answer to Jonsson's question is “Yes”.
+
+Remark   As the reader may have noticed, there was no reason to distinguish between red and blue. I could have rushed ahead, asking “Can we colour 22 squares white and 42 black so that each bar covers exactly one white square?” I preferred not to do so. (End of Remark.)
+
+*         *         *
+
+The problem I alluded to in the beginning is the (well-known) demonstration that the truncated chessboard
+
+cannot be covered by 31 dominos, the two fields removed having the same colour. For anyone knowing that solution it is hard not to use it as a source of inspiration when faced with Jonsson’s problem. Those familiar with chessboard/domino problems might even consider Jonsson’s problem too trivial to devote a technical note to. If so, they have missed my point: this note is not about Jonsson’s problem, but about problem solving. I have tried to remove from the development as many rabbits as possible. With the exception of The Great Leap Forward, I think I have been successful in doing so. I may have another go at that last rabbit by the time I can be more explicit about the structure and role of counting arguments. They are general enough to deserve our attention.
+
+Austin, 22 Januari 1989
+
+prof.dr. Edsger W.Dijkstra
+
+Department of Computer Sciences
+
+The University of Texas at Austin
+
+Austin, TX 78712-1188
+
+USA
+
+transcribed by Corrado Cantelmi
+
+revised
+27-Nov-2011

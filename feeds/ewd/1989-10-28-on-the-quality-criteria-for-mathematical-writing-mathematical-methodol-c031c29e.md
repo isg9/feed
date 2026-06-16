@@ -1,0 +1,61 @@
+---
+title: "On the quality criteria for mathematical writing (Mathematical Methodology) (EWD1068)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD10xx/EWD1068.html
+published: "1989-10-28T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd10xx/EWD1068.PDF
+---
+
+# On the quality criteria for mathematical writing (Mathematical Methodology)
+
+On the quality criteria for mathematical writing
+
+My first months with my second employer were very frustrating: whatever I started to write disappeared before completion into the wastepaper basket, as it always seemed too terse or too tepid. This lasted until I had identified the underlying mechanism. Until that moment I had always at least subconsciously written with a very specific audience in mind, and all those months I had alternated between writing for my old buddies and writing for my new colleagues. With the former I had shared a common culture that was foreign to the latter; explaining that common culture and justifying its tacit assumptions was ridiculous when addressing the ones and indispensable when addressing others. Hence my bind.
+
+My temporary solution was to select a few inspiring people from my new environment and to write mentally for them. Freeing myself from the habit of addressing a specific audience took me much longer. In the first stage I replaced the audience consisting of people I personally knew by a hypothetical audience with carefully postulated characteristics. As time went by, that audience faded away, only its just demands on my writings remained. One’s target audience has to fade away, one has to learn to write detachedly “to whom it may concern”, if writing is to become an integral part of one’s doing in mathematics, independently of whether one has publication in mind or not.
+
+The remainder of this chapter is devoted to a description of the hypothetical audience I found the most rewarding to write for. The main rôle of this hypothetical audience is to serve as a frame of reference in terms of which we can phrase, explain, and justify its “just demands”. It is a main binding element for the many choices I have made, which pervade the rest of this book. By the end of this chapter I hope to have convinced my readers that theses choices are more than just personal whims.
+
+*                            *
+
+*
+
+Assume our audience to be
+
+• Large,
+
+• Ignorant of the jargon and tacit assumptions that are specific to your topic,
+
+• Sympathetic, curious, intelligent and demanding.
+
+The assumption of a large readership is, of course, almost always wrong, but that is irrelevant. (By writing something intended for a large audience, one probably increases the expectation value of the number of people that will read it, but that is irrelevant too.) The assumption should be made for its wholesome influence on the writer. It discourages sloppy writing and it should discourage verbiage: with 100 readers, the overall efficiency of communication is served if an author’s hour spent on the careful phrasing of a passage saves his average reader one minute. The assumption of a large readership nicely invalidates the author’s excuse that such careful writing would take too much time, as this would now imply that the author’s time is much more valuable than the time of its readers which is an unacceptable proposition. Moreover, if wide adoption of the assumption of large readership would reduce scientific “productivity”, this would be a further gain.
+
+Also the assumption of reader ignorance can be justified in the name of overall efficiency of communication. It is a plea to make your texts as self-contained as possible. If you have to use a technical term that can be defined in a single sentence, please include that definition: the reader that is already familiar with the term will have no difficulty in skipping that definition. Also, if you use infix operators, state their relative binding power so as to enable the unfamiliar reader to parse your formulae. Also, avoid undefined metaphors. Etc. The assumption of reader ignorance can be defined as a matter of mere politeness as well. Its importance, however, lies in its influence on the author.
+
+If the explanation of all the jargon we feel tempted to use becomes too cumbersome, this is a warning not to be ignored: all too often, most of the jargon should not have been introduced in the first place, and the discipline of defining your terms helps in developing the habit of not introducing superfluities into your argument. Also, the discipline of stating explicitly how your formulae should be parsed is the best possible safeguard against the introduction of ambiguity in your formulae. Also, the temptation to escape from precise definitions into catchy metaphors should be resisted: invariably, he who introduces a “self-explanatory” term is its first victim.
+
+Finally our target audience is postulated to be curious, sympathetic, intelligent and demanding.
+
+Without curiosity, the audience is not inspiring. Without sympathy, it is depressing. It has to welcome well-considered notational innovations, new proofs for old theorems, papers in which the proof method is more important than the theorems, you name it. (I find little more depressing that the attitude that a mathematical paper is only worth writing if the “result” is new and thus “extends our mathematical knowledge”; it ignores that mathematics is more about simplifying than about problem solving or accumulation of facts. I am all in favour of Reusable Theorems, i.e., theorems that can be proved more than once.)
+
+That the audience should be intelligent is obvious. To quote Strunk and White —mostly White in this case—: “No one can write decently who is distrustful of the reader’s intelligence, or whose attitude is patronizing.” The fact that I mention the intelligence explicitly is probably the result of my involvement in computing science, where many texts —and even the motivations underlying the research reported— are disgracefully condescending. Computer science suffers from a strong taboo on anything beyond the powers of comprehension of “the average programmer” and “the user”. These literary figures though morons, have been allowed to set the standard to the extent that much worthwhile research has not been attempted. We make our audience intelligent so as to avoid a similar paralysis in mathematics. Again the choice is made for the sake of the author: it liberates him from the pressure —from educationists or publishers— to resort to “the intuitive appeal of easy-to-understand pictures”.
+
+Finally, our audience is as demanding as we can possibly conceive it. It wants the whole truth and nothing but the truth. It rejects noise, verbiage and needless complication. It favours brevity but rejects it when obtained by committing the sin of omission. (For practical purposes a useful criterion —which I owe to A.J.M. van Gasteren— is that our texts should be completely readable without pen and paper.) It does not like the author pulling ad libitum rabbits out of his hat. (“Rabbit” is the technical term for the unmotivated and surprising turn in an argument that eventually and miracously “does the job” but leaves the reader with the gnawing question of how, the hell, the trick was invented.) All these demands raise technical issues with which we shall deal in due time. Again, our audience makes these demands for the benefit of the author: for instance, the successful avoidance of rabbits amounts to the orderly design of otherwise surprising arguments.
+
+As a last remark about the audience, it should be stressed that the audience is hypothetical. If you wish to view the writing of mathematics as a challenge in communication, it is you communicating with a piece of initially blank paper.
+
+prof. dr. Edsger W. Dijkstra
+
+Department of Computer Sciences
+
+The University of Texas at Austin
+
+Austin, TX 78712-1188
+
+USA
+
+Mathematical Methodology
+
+transcribed by Mario Béland
+
+revised Mon, 28 Jan 2008

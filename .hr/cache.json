@@ -1,5 +1,15 @@
 {
   "entries": {
+    "aaronson": {
+      "etag": "W/\"5e51bc1c8af7133195737a76576f6930\"",
+      "last_modified": "Tue, 02 Jun 2026 23:54:49 GMT",
+      "fetched_at": "2026-06-16T02:19:15.503605Z"
+    },
+    "andrejbauer": {
+      "etag": "\"ca7b-65012892ad25f-gzip\"",
+      "last_modified": "Wed, 22 Apr 2026 20:40:01 GMT",
+      "fetched_at": "2026-06-16T02:19:15.599996Z"
+    },
     "andrewkelley": {
       "etag": "W/\"d95403b13a9eba9af9bf84f972b777fa\"",
       "last_modified": "Wed, 29 Oct 2025 20:01:05 GMT",
@@ -7,14 +17,14 @@
     },
     "anthropic-news": {
       "last_modified": "Thu 11 Jun 2026 12:17:47 GMT",
-      "fetched_at": "2026-06-16T01:42:14.974182Z"
+      "fetched_at": "2026-06-16T02:19:05.918789Z"
     },
     "anthropic-research": {
       "last_modified": "Mon 15 Jun 2026 11:19:21 GMT",
-      "fetched_at": "2026-06-16T01:42:15.030836Z"
+      "fetched_at": "2026-06-16T02:19:05.966957Z"
     },
     "antirez": {
-      "fetched_at": "2026-06-16T01:42:22.834237Z"
+      "fetched_at": "2026-06-16T02:19:12.760822Z"
     },
     "babysteps": {
       "etag": "W/\"6a28001f-6a7fdf\"",
@@ -45,6 +55,11 @@
       "last_modified": "Sun, 07 Jun 2026 02:08:34 GMT",
       "fetched_at": "2026-06-15T23:49:32.279214Z"
     },
+    "complexity": {
+      "etag": "W/\"98f1324804ae8b2c2acc9714598effbd9ae523cbd0793689b3f1d7877713f5ee\"",
+      "last_modified": "Mon, 15 Jun 2026 19:44:32 GMT",
+      "fetched_at": "2026-06-16T02:19:15.816172Z"
+    },
     "danielstenberg": {
       "etag": "\"b527c2b982e2896e118b1d649cd297a1-gzip\"",
       "last_modified": "Mon, 15 Jun 2026 07:28:29 GMT",
@@ -59,9 +74,13 @@
       "fetched_at": "2026-06-07T18:28:15.345402Z"
     },
     "faultlore": {
-      "etag": "W/\"69194a5e-2000\"",
-      "last_modified": "Sun, 16 Nov 2025 03:51:58 GMT",
-      "fetched_at": "2026-06-16T01:42:24.769267Z"
+      "etag": "W/\"69194a5f-2000\"",
+      "last_modified": "Sun, 16 Nov 2025 03:51:59 GMT",
+      "fetched_at": "2026-06-16T02:19:15.081901Z"
+    },
+    "gilkalai": {
+      "last_modified": "Sat, 13 Jun 2026 14:45:07 GMT",
+      "fetched_at": "2026-06-16T02:19:16.633604Z"
     },
     "graydon": {
       "last_modified": "Sat, 14 Mar 2026 22:57:31 GMT",
@@ -70,7 +89,7 @@
     "gregg": {
       "etag": "\"2349d-64a310a7bc380-gzip\"",
       "last_modified": "Sat, 07 Feb 2026 00:32:30 GMT",
-      "fetched_at": "2026-06-16T01:42:19.008675Z"
+      "fetched_at": "2026-06-16T02:19:10.008787Z"
     },
     "gustedt": {
       "last_modified": "Wed, 03 Jun 2026 18:53:48 GMT",
@@ -86,14 +105,19 @@
       "last_modified": "Sun, 14 Jun 2026 14:59:44 GMT",
       "fetched_at": "2026-06-15T23:49:27.129956Z"
     },
+    "lipton": {
+      "etag": "W/\"3b5ec610062927339007e423ce55833a\"",
+      "last_modified": "Sun, 03 May 2026 17:13:06 GMT",
+      "fetched_at": "2026-06-16T02:19:15.895631Z"
+    },
     "llvm": {
       "etag": "W/\"696e4aaa-3aeb0c\"",
       "last_modified": "Mon, 19 Jan 2026 15:15:54 GMT",
       "fetched_at": "2026-06-15T23:49:23.209852Z"
     },
     "lwn": {
-      "etag": "\"3d6c94c17aa98544568d6d08e00d7b94051b270bb9386d2d242af3aad14d854c\"",
-      "fetched_at": "2026-06-16T01:42:19.724034Z"
+      "etag": "\"a041cd47491db9dd5dbab83d925309325f5166c0b3e076a70e3fd3706ed2e230\"",
+      "fetched_at": "2026-06-16T02:19:10.716046Z"
     },
     "marabos": {
       "etag": "\"66361365-29be\"",
@@ -145,6 +169,10 @@
       "last_modified": "Wed, 29 Apr 2026 15:37:32 GMT",
       "fetched_at": "2026-06-15T23:49:29.158829Z"
     },
+    "terrytao": {
+      "last_modified": "Tue, 16 Jun 2026 01:46:26 GMT",
+      "fetched_at": "2026-06-16T02:19:16.84917Z"
+    },
     "thephd": {
       "etag": "W/\"6a2efb6e-81029\"",
       "last_modified": "Sun, 14 Jun 2026 19:05:18 GMT",
@@ -170,7 +198,7 @@
       "fetched_at": "2026-06-15T23:49:27.890337Z"
     },
     "yandex": {
-      "fetched_at": "2026-06-16T01:42:20.41474Z"
+      "fetched_at": "2026-06-16T02:19:11.403884Z"
     },
     "yosefk": {
       "etag": "\"691a2-6545477032d72\"",
@@ -180,7 +208,7 @@
     "zeloof": {
       "etag": "\"cd749babf4d7b9b21a2103d2cb706a33-gzip\"",
       "last_modified": "Fri, 06 Sep 2024 04:46:54 GMT",
-      "fetched_at": "2026-06-16T01:42:21.816076Z"
+      "fetched_at": "2026-06-16T02:19:12.175787Z"
     },
     "zig-devlog": {
       "etag": "W/\"6a309323-14a06\"",

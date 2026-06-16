@@ -1,0 +1,45 @@
+---
+title: "Hungry? Have a byte .... (EWD1066)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD10xx/EWD1066.html
+published: "1989-10-19T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd10xx/EWD1066.PDF
+---
+
+# Hungry? Have a byte ....
+
+On Tuesday morning a mr. Peled from IBM gave the keynote address at the Department's annual Research Review. Ten years from now, with fibre optics, 64Mbyte chips, computing power galore, and flat high-resolution colour screens, we would have the most fantastic machines all over the place and in high-bandwidth communication with us and each other. In this Walhalla, flow of information would provide the fuel for the economy. So that this Great Dream may become reality, he urged computer science research to concentrate on applications. All this was packaged in colour slides —computer-generated or not— of IBM laboratories, machine rooms and teapots; he even managed to smuggle in the two Nobel laureates from the Zürich laboratory.
+
+The lecture was not up to par; I did not go to it with high expectations for I had never heard of mr. Peled —and I know why—, yet I was disappointed. But as phenomenon it was not without interest.
+
+• Quoting one of my colleagues, the presentation was of the level of Newsweek; the characterization "fast food for thought" crossed my mind. To address an academic audience at that level is offensive. Yet our mr. Peled thought it appropriate. Could this be indicative for the industry's esteem for the academic enterprise?
+
+• To call flow of information the "fuel" for the economy is ludicrous —it is lubrication at best—. His example was correspondingly unconvincing: a sales organization that bought what it could sell with profit. He displayed the attitude that sees nothing wrong in referring to banking and the stock exchange as "the financial industry".
+
+• He was an undiluted advocate of "Big is beautiful, and more tastes better". At least four times he characterized the hardware explosion he predicted as "progress", blissfully unaware of the fact that the declining productivity of the American white-collar worker has convincingly been linked to over-automation of the office. If the suspicion that the ubiquitous personal computer actually represents a drain on the economy ever entered his head, he did not show it.
+
+• His vision of the rôle of the academic enterprise was somewhat narrow. His view was purely technology-driven: the equipment was coming and it was therefore the duty of the universities to develop the applications that would enable the industry to push the equipment down our throats. He seemed totally unaware of the fact that the health of a flourishing science primarily depends on its internal structure (or of the fact that the parallelization of "old FORTRAN programs" is an activity void of scientific significance). There has been a time that we had to fight a battle on campus to prevent computing science from deteriorating into the art of living with the IBM/360, but the battle has been won more than a dozen years ago. Has this escaped mr. Peled's attention?
+
+• The quality of today's mechanization leaves much to be desired. (Error correction increases the probability of wrong results, systems do crash, etc.; I do not need to elaborate.) All sorts of conceivable safeguards have never been explored because the amount of hardware needed was prohibitive. Can we use some of the surplus of hardware for improving drastically on the quality with which computations are mechanized? I expect this question to require the conceptualization of architectures very different from the von Neumann machine we have been rebuilding all the time and to raise some deep logical problems (for instance in the area of "type theory"). Pointing out that the pending gate glut might enable us to do things better and suggesting to explore how this opportunity could be exploited would have been a worthy advice to the scientific community. Instead mr. Peled suggested closer cooperation with industrial users..... He seems to live in a world unaware of Sir Hermann Bondi's verdict that of the problems encountered "out there", 80% is trivial and 20% is patently unsolvable.
+
+• If I were his boss I would not have allowed him to give the impression that IBM Research was such an uninspiring —if not downright suffocating— place
+
+*        *        *
+
+Such silly talks should not be allowed. My main consolation is that only silly people follow silly advice.
+
+Austin, 19 October 1989
+
+prof.dr. Edsger W. Dijkstra
+
+Department of Computer Sciences
+
+The University of Austin at Texas
+
+Austin, TX 78712-1188
+
+USA
+
+Transcription by Javier Smaldone.
+
+Revised Mon, 28 Jan 2008.

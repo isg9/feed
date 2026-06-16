@@ -1,0 +1,27 @@
+---
+title: "An address to my students (16.9.1986) (EWD977)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD09xx/EWD977.html
+published: "1986-09-14T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd09xx/EWD977.PDF
+---
+
+# An address to my students (16.9.1986)
+
+Last week, one of you asked me how I felt about a certain editing/type-setting system and I essentially evaded the answer, saying “Well, that is another story.”. Here is that story. It is not about that specific system, of which I am ignorant, but about utility in general.
+
+One cannot identify with a cause without to a reasonable extent believing in it. From a medical student, for instance, one expects for instance the opinion and attitude that curing the sick —if you can do it— is a good thing that is worth doing. And for the medical freshman, such an opinion suffices. But by the time he approaches his graduation, one expects from him a much more subtle opinion that recognizes the circumstances in which a graceful death is the only effective cure. Most physicians reach that state of professional sadness and wisdom, if not before their graduation, then shortly thereafter. Also, as a rule, they don’t talk about it in public, not because they are ashamed of it but because society as a whole still thinks euthanasia too painful a topic to be discussed in public. So much for the medical profession.
+
+What about the student of computing science —or “computer science” as it is called in this country—? One expects from him the opinion and attitude that the mechanical manipulation of bits of information is potentially a great thing, freeing us from the drudgery of all sorts of routine jobs and enabling us to do all sorts of wonderful things that would be absolutely impossible without automatic computing. And in the case of a freshman one does not even object when he includes among wonderful things “putting, at your expense, a clown on the moon”.
+
+By the time, however, that the student of computing science approaches his graduation, or otherwise very shortly thereafter, one expects a more subtle opinion that recognizes the circumstances in which computerization is nothing but transistorized snake oil. They are many, and at later occasions I may discuss a number of specific instances. Let me conclude this address by one disturbing thought, viz. that society tolerates the computing profession because of its incompetence. It is our incompetence that makes us, though expensive, relatively harmless: were we as competent as we would like to be, we could offer the perfect implementation of the complete police state. We would be the darlings of any dictatorship.
+
+Austin, 14 September 1986
+
+prof. dr. Edsger W. Dijkstra
+Department of Computer Sciences
+The University of Texas at Austin
+Austin, TX 78712-1188, USA
+
+transcribed by Mario Béland
+revised Thu, 27 May 2010

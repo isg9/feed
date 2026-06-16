@@ -1,0 +1,42 @@
+---
+title: "Trip report E.W.Dijkstra, Zürich, 15–20 Oct. 1988 (EWD1033)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD10xx/EWD1033.html
+published: "1988-10-22T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd10xx/EWD1033.PDF
+---
+
+# Trip report E.W.Dijkstra, Zürich, 15–20 Oct. 1988
+
+EWD 1033
+
+Trip report E.W.Dijkstra, Zürich, 15–20 Oct. 1988
+
+ETH Zürich had invited Ria and me to assist them in a three-fold celebration: the fortieth anniversary of their Institute for Applied Mathematics, the twentieth anniversary of their institutionalization of Computing Science, and the completion —well, ..... almost!— of the new Informatics Building.
+
+Because the Swiss were paying our tickets, we decided to do both Atlantic crossings by Swissair, which fully lived up to its name and fame. (Like KLM, Swissair cannot be blamed for the inconvenience that is only to be expected, viz. that all seats are occupied.) In both directions, the schedule gave the best connections via Chicago, O'Hare, an airport I had managed to avoid for at least nine years, but, apparently, Americans don't fly on Saturdays. Early Saturday afternoon we had with AA an uneventful flight from Austin to Chicago, where we leisurely changed planes at an amazingly quiet airport; a glorious thunderstorm delayed our departure by about 45 minutes (and the next morning we arrived in Zürich a little bit late). The next Thursday, our departure from Zürich was delayed by a similar amount, this time by a strike of —whom else!— French air traffic controllers, but the wind was so favourable that we arrived 15 minutes ahead of schedule, which was nice, because, this time, we had the tightest possible connection. Americans do fly on Thursdays! This time, O'Hare was crowded (and the indications when to leave the elevator for Terminal 1 were not too clear.) But the crowd was under control: we were impressed when, only 35 minutes after touchdown, we had passed immigration and Customs and placed our suitcase on the transfer belt. (It made the connection.) The last leg was with UA: less than 14 hours after take off in Zürich, we landed in Austin. In short, our air travel had been very smooth.
+
+In Switzerland, we stayed with Niklaus and Diana Wirth, at their home in Forch, just outside Zürich. Niklaus was at the airport to collect us. At home, Diana served us a light lunch, after which the four of us went for a strenuous walk through the beautiful countryside. (I was grateful for all the training I had had, climbing up to "Jester Estates", just above Robbie Creek Cove!) Ria and I managed to stay awake until ten o'clock in the evening.
+
+On Monday evening, we were invited out for dinner by Prof. Bühlmann, the President of ETH, and on Tuesday evening, Diana had organized a dinner party at her home. At both occasions, we enjoyed excellent food in most pleasant company. On Wednesday evening, we had the official banquet in the restaurant on top of the Uetliberg, but by that time, I was too tired to enjoy the food. It was also too noisy. We were given the "table of honour", i.e the one with minimum distance from the music; moreover we shared it with the politicians who "talked of their affairs in loud and strident voices" —and in their home dialects(presumably they did not know that we Americans would have been able to understand them without problems, had they spoken Hochdeutsch)—. Niklaus had to collect his car in Zürich; Diana and we got a —very smooth!— ride home from Prof. Frei.
+
+I spent all three days in the Institute, where I had been in the visitor's office. On Monday, at 16:15, I gave a well-attended seminar on Sylvester's conjecture (See EWD1016). It turned out to be the inauguration of their new auditorium, which has been equipped with beautiful blackboards. (I praised them for the quality of their boards and for the absence of any mechanical "aids" by which to slide them up and down: Germans would almost certainly installed all sorts of confusing buttons to be pushed.) I had prepared the rear board and worked on the other two. I gave a beautiful lecture in spite of the fact that it was (again) a very hard audience to work with. I like a somewhat Socratic lecturing style in which I solicit from the audience suggestions as to what to do next, but —as at previous occasions— the Swiss student thinks it safer to sit and listen. Moreover, ETH seems very much the type of engineering school at which mathematics —if admitted at all— is at most a "Hilfswissenschaft" to be applied in the most straightforward, unthinking manner. It is certainly not something to be played with! Only now I am writing this, I realize how strongly earlier impressions have been confirmed. Just as at an earlier visit, Niklaus had announced that I was available for people who would like to speak to me and I kept my door open; but, as before, only very few people came by. (I had plenty of time to write a four-page letter.)
+
+On Tuesday afternoon —same time, same place— Gaston Gonnet from Waterloo, Canada, gave a nice lecture on how he used his interactive formula manipulator to do what he called "experimental mathematics". He used the overhead projector. A few of his results were impressive and his enthusiasm was convincing: he had certainly had his well-deserved fun! Doing mathematics, however, seems to have contracted his vision to solving problems from the American Mathematical Monthly, and i found that depressing.
+
+On Wednesday, we had the official celebration with in the morning three talks —in order, by F.L. Bauer, by me, and by Niklaus—, and in the afternoon lectures, presentations, and demonstrations by members of the Institute. Bauer tried to argue the relevance of algebra for informatics, which turned out to be an unsuitable topic to get across the limelight in an oral presentation and i must reserve the right to remain unconvinced until I have read his text. After the coffee break, I presented —with a few extempore additions— EWD1024, which was well-received, though —as in Bauer's case— there was no discussion afterwards. Finally, Niklaus talked, mainly on ETH history, and he did a difficult job extremely well. The simple way out would have been to pretend that there had been nothing rotten in the state of Danmark. Instead, he clearly described the obstruction from ETH's establishment from informatics becoming more than an organization giving low-level programming courses that were supposed to satisfy the needs of other departments. He did not hide the department's current weaknesses and made clear that just buying more equipment would not cure automatically ETH's ills. A difficult message, but he brought it very nicely. After his talk there was a discussion, but, since it was more political then technical, I could not follow it.
+
+In the afternoon I did not attend the demonstrations. I did not feel too well —it was very warm in the new building— and stayed mostly in my room. At six o'clock, Niklaus came to take me to the restaurant. Contrary to his intentions, he had had to be busy most of the afternoon, and his temper had suffered from these unexpected obligations.
+
+The next morning, Niklaus had a meeting at the ETH, and we said goodbye. At the end of the morning Diana took us to the airport, where we took leave from our host. That last morning it rained. Niklaus Wirth and Jürg Gutknecht had been the only two colleagues of the ETH with whom I had talked about technical matters, and I drew my conclusions.
+
+Austin, 22 October 1988
+
+prof.dr. Edsger W.Dijkstra
+Department of Computer Sciences
+The University of Texas at Austin
+Austin, TX 78712–1188
+United States of America
+
+transcribed by Tristram Brelstaff
+revised Tue, 12 May 2009

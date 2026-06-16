@@ -1,0 +1,79 @@
+---
+title: "Achtste toespraak tot mijn studenten (EWD495)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD04xx/EWD495.html
+published: "1975-04-24T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd04xx/EWD495.PDF
+---
+
+# Achtste toespraak tot mijn studenten
+
+12 mei 1975
+EWD 495
+
+Achtste toespraak tot mijn studenten.
+
+Het motto van wat toevalligerwijze mijn laatste toespraak van dit semester
+zal worden, is simpel: "Hoedt U voor naamsveranderingen!".
+
+Eeuwen geleden heeft Shakespeare zijn waarschuwend "What's in a name?" laten horen, maar het citaat, hoewel bekend, blijkt niet bekend genoeg. Omstreeks de voorlaatste eeuwwisseling hebben de drijvers van de Frans revolutie alle geloofwaardigheid verloren door nieuwe namen voor de maanden van het jaar in te voeren, maar ook dat heeft niet mogen baten: de charlatannerie gaat onverdroten voort.
+
+Ik herinner me heel goed hoe tijdens de Duitse bezetting de nieuwe druk
+van "Schwere Wörter" van Brouwer, Gerzon en Ras slechts door Brouwer en Ras
+geschreven heette te zijn: Gerzon was immers Joods! Ik herinner me eveneens
+nog hoe tijdens de destalinisatie in Rusland in Amsterdam de Stalinlaan —o,
+bittere ironie!— in Vrijheidslaan werd omgedoopt. Dit onwaardig gebeuren deed
+mij me afvragen hoe lang ik moest wachten totdat ook de er op samenkomende
+Rooseveltlaan en Churchillaan herdoopt zouden worden... Ons Ministerie van
+Kolonien werd het Ministerie van Overzeese Gebiedsdelen of zo iets, ons Ministerie
+van Oorlog dat van Defensie, zoals de Verenigde Staten van Amerika nu hun
+Department of Defense hebben. Welk land kan zich immers de wrange eerlijkheid
+van een "Department of Aggression" veroorloven?
+
+Als op last van de machthebber met auteursnamen gegoocheld wordt: let
+op Uw saeck! Als de heersende gezagsdragers straatnaambordjes gaan verhangen:
+let op Uw saeck! Als ministeries herdoopt worden: let op Uw saeck!
+
+Als een kabinet in plaats van in formele kleding zich ostentatief in
+kotspak aan Hare Majesteit onze Koningin presenteert en —hoe terecht ook!—
+voor ministers de aanspreektitel "Excellentie" afschaft, let op Uw saeck!
+
+Ik haal deze oude koeien uit de sloot naar aanleiding van een recent
+bericht in de krant dat op grond van "inkomenspolitieke overwegingen" —wie het laatste adjectief heeft uitgevonden, verdient een onvoldoende voor Nederlands, maar dit terzijde— besloten is in het bestuurlijke verkeer de academische titels af te schaffen.
+
+Je kunt dit afdoen als het afreageren van een persoonlijke frustratie van
+onze premier, die het beu is om door de aanspreektitel "doctorandus" —nu immers
+"excellentie" niet meer mag!— er alsmaar aan herinnerd te worden dat hij zijn
+academische studie niet voltooid heeft en dat het langzamerhand hoog tijd wordt
+dat hij eindelijk eens promoveert. U kunt zich voorstellen hoe gaarne ik, al
+was het alleen maar om zijn taalmisbruik, in de promotiecommissie zitting zou
+nemen. Het zal mij niet gegeven zijn: mij rest slechts te wachten totdat deze
+vlegel zich een doctoraat honoris causa laat aanleunen!
+
+Vergeet deze premier: hij is niet belangrijk genoeg om onthouden te worden.
+Onthoudt evenwel, dat in het jaar onzes Heren 1975 ex cathedra verklaard werd,
+dat in het bestuurlijke verkeer een academische opleiding —de opleiding die
+geacht wordt je te leren je hersens te gebruiken— liever niet meer vermeld
+moet worden. Het doet er immers niets toe of je een academische studie met goed
+of eventueel zelfs eclatant gevolg hebt afgelegd! Het zou immers ondemocratisch
+zijn als we het landsbelang niet even goed zouden kunnen toevertrouwen aan de
+eerste de beste louche bakkersknecht.
+
+Van een regering die ter rechtvaardiging van de regerende bakkersknecht
+meent om in het bestuurlijk verkeer de academische titels af te moeten schaffen,
+kan slechts één soort maatregels verwacht worden, nl. maatregels, die pogen
+het academisch bedrijf tot een zodanige farce uit te hollen, dat de willekeurige
+bakkersknecht even goed of even slecht is als de even willekeurige academicus.
+
+Dies zijn alle academische qualiteitsnormen uit den boze, wordt elke
+vorm van universitair toelatingsexamen als ondemocratisch van de hand gewezen
+en krijgt de academie de onwaardige taak ieder die zich aanmeldt met de titel
+op te tuigen, een titel, die vervolgens als van nul en generlei waarde wordt
+gebrandmerkt. Een sluitend systeem, maar ... let op Uw saeck!
+
+Het doel is kennelijk om de thans nog aanwezige intellectuele elite de aankweek van geestelijk nakomelingsschap te verhinderen: genocide van een culturele minderheid. De socialistische regeringen in West Europa staat kennelijk een soort "Endlösung der Akademischen Frage" voor ogen.
+
+Wij gaan, zolang het nog kan, over tot de orde van de dag.
+
+transcribed by Jukka Ketelaars
+revised Wed, 13 Jun 2007

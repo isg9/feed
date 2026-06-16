@@ -1,0 +1,53 @@
+---
+title: "Verslag van bezoek aan de Arbeitstagung fuer Automatentheorie te Hanover. (EWD131)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD01xx/EWD131.html
+published: "1965-06-21T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd01xx/EWD131.PDF
+---
+
+# Verslag van bezoek aan de Arbeitstagung fuer Automatentheorie te Hanover.
+
+EWD 131
+
+Verslag van bezoek aan de Arbeitstagung fuer Automatentheorie te Hanover.
+
+Het primaire doel van de reis was, om er achter te komen in hoeverre de Duitse automatentheorie (het vak wordt bij mijn weten in Nederland niet bedreven) voor ons relevant lijkt; het nevendoel was om door middel van een zorgvuldig voorbereide voordracht wat reclame voor Nederland te maken. Beide opzetten schijnen geslaagd te zijn. En passant deden we wat "achtergrondinformatie" op over de aard van mensen en werkzaamheden aan de verschillende Duitse centra, achtergrondinformatie, die mij niet onwelkom was.
+
+Het programma was overladen op een manier, die ik niet voor mogelijk gehouden zou hebben; voordrachten van 's morgens kwart voor negen tot 's avonds half zeven met een anderhalf uur tussen de middag, en beide zittingen slechts onderbroken door een pauze van een kwartier. Er waren naar schatting tachtig deelnemers in een collegezaal met een capaciteit van zeventig; het was opvallend hoe weinig er gespijbeld werd.
+
+In de voordrachten waren drie hoofdonderwerpen te onderscheiden,
+
+1) ontwerp van logische schakelingen
+
+2) gecastreerde Turing machines
+
+3) linguistisch allerlei.
+
+De lezingen uit de eerste categorie hadden het voordeel, dat de sprekers zich in elk geval op een duidelijke klasse problemen geworpen hadden, nl. de optimalisering van logische schakelingen, een probleem waarvoor in het algemeen geen hanteerbare algorithme bestaat. In de praktijk lost men deze problemen dus op door "geleide intuitie"; de sprekers beijverden zich om diverse aspecten van de "leidraad" bloot te leggen. Mede, doordat men in verschillende opzichten kan willen optimaliseren (zoals benodigd materiaal en schakeltijd) ontstond er tussen de geinteresseerden af en toe een levendige discussie, die in de oren van een buitenstaander als mij zinvol leek. Dit stuk van de automatentheorie beschouw ik na deze kennismaking als voor mij niet relevant; het is ons probleem niet, ik vond het te onaantrekkelijk om me geroepen te voelen er mijn probleem van te maken en ik kreeg niet de indruk, dat de gepresenteerde technieken in ontwikkeling, zich buiten de oorspronkelijke probleemstelling als het ideale gereedschap zullen ontpoppen.
+
+De lezingen uit de tweede categorie hadden het nadeel, dat ik noch van te voren, noch na afloop, enig idee had, waar deze onderzoekingen goed voor waren (waar nog bij komt, dat voor sommige verhalen "onderzoekingen" een wat groot woord is). Ik heb niet aan de indruk kunnen ontkomen, dat het werk van Turing te groots is geweest: in de dertiger jaren heeft hij een vak geschapen, dat daarmee af was. Door de Turingmachine allerlei beperkingen wel of niet op te leggen, schept men een horde van wat mij treft als wanstaltige gedrochten, waarop een classificatiecultus tot weelderige bloei is gekomen.
+
+Het linguistisch allerlei —dat wij niet meer hebben bijgewoond— bestreek —merkwaardig genoeg!— onderzoekingen over het Duits; verder verhalen in het kielzog van Chomsky. Nadat Floyd bewezen heeft, dat de vraag, of een syntaxis dubbelzinnige constructies toestaat, in het algemeen undecidable is, is voor mij deze kous af; buiten deze belangrijke stelling heb ik er verder niets in gevonden, waarvoor ik warm kon lopen. Er is een aantal open deuren ingetrapt, de verdere preoccupatie met bij voorkeur pathologische syntaxes heeft op mij althans voornamelijk de indruk gemaakt van een kwaadaardig gezwel.
+
+Buiten dit kader vielen vier van de voordrachten op de tweede dag.
+
+Ik had het voorrecht, die dag als eerste spreker op te mogen treden; de zaal was nog niet benauwd en ik mocht me verheugen op een geboeid gehoor. Ik heb gesproken over "Cooperating Sequential Processes, a form of Non-Deterministic Machines". Het laatste gedeelte van de titel was speciaal met het oog op dit publiek toegevoegd.
+
+De laatste morgenlezing was van een zekere Frank, hoogleraar aan een Pedagogische Hogeschool te Berlijn. Vervuld van de meest sombere voorgevoelens ben ik daar weggebleven; Habermann heeft hem wel aangehoord en was bijzonder aangenaam getroffen door de realiteitszin van de spreker.
+
+De middag werd geopend door een zekere Goehring over leerprocessen. Dit was het prototype van de lege voordracht; ik heb op het punt gestaan me in de discussie te mengen, maar te elfder ure drong tot mij door, dat deze Goehring de prijsleerling van collega Haendler, de organisator van het geheel, was. Om de prettige atmosfeer niet te bederven heb ik mijn mond maar gehouden, wat ik nog steeds beschouw als een niet te onderschatten staaltje van zelfbeheersing.
+
+De laatste voordracht, die wij gehoord hebben, was van Petri. Helaas had hij zich bij de voorbereiding onvoldoende gerealiseerd, hoe weinig je in een uur vertellen kan als je aanpak maar ongewoon genoeg is, zodat hij niet veel verder is gekomen, dan zijn inleiding. De quintessence van zijn betoog was, dat hij automaten en eindige, discrete physische systemen niet als verschillend wilde beschouwen; hierop entte hij een axiomasysteem (waarin in elk geval verdisconteerd waren de constantheid van de lichtsnelheid, de lokale reversibiliteit van physische processen en de onmogelijkheid een willekeurig fijne onderverdeling van een tijdsinterval te verwezenlijken), kennelijk met de bedoeling om de mogelijkheden van physisch realiseerbare automaten af te bakenen. De zorgvuldigheid van zijn presentatie, de omvangrijke kennis, die hier aan ten grondslag lag, en de orginaliteit, maakten dat ik slechts volmondig met hem kon instemmen, toen hij met "Das tut mir leid", reageerde op de opmerking, dat zijn tijd verstreken was.
+
+Al of niet hernieuwde kennismaking met Petri (Bonn), Felsch (Kiel) en Becvar (Liberec , CSR) verzoenden ons met veel. En, zoals wel al zal zijn doorgeschemerd, viel er wel het een en ander te verzoenen. In het verleden hebben wij kunnen waarnemen, hoe de Tale Kanaans zich ontwikkelde tot een techniek om uren lang te spreken, zonder daarbij iets te zeggen. Jargon en formularium van de verzamelingsleer en de groepentheorie gaan hard dezelfde kant op.........
+
+Het was deprimerend om mee te maken, hoe gedwee dit publiek deze maskerade accepteerde. Wij konden tenminste nog troost putten uit de overweging, dat onkunde de meeste Nederlandse wiskundigen beschermt tegen de verleiding om hun formules met Gothische hoofdletters een nog indrukwekkender aanzien te geven.
+
+E.W.Dijkstra
+
+25 oktober 1965
+
+transcribed by Maria C. Dijkstra-Debets
+
+revised Thu, 10 Mar 2005

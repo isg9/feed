@@ -1,0 +1,34 @@
+---
+title: "Aan de leden van de Commissie Wetenschapsbeleid (EWD229)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD02xx/EWD229.html
+published: "1968-02-26T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd02xx/EWD229.PDF
+---
+
+# Aan de leden van de Commissie Wetenschapsbeleid
+
+E.W.Dijkstra
+Plataanstraat 5
+NUENEN (NB)   dinstag 19 maart 1968
+
+Aan de leden van de Commissie Wetenschapsbeleid.
+
+Het volgende bevat opmerkingen, die ik gisteren had moeten maken, maar daar is toen niet van gekomen. (Ik ben altijd al een beetje langzaam, nu helemaal.)
+
+1) Het volgende citest van Peter Naur zou ik onder Uw aandacht willen brengen: "In the development of ideas of computer science and of corresponding curricula it is possible to distinguish several stages. At the first stage the subject is not properly separated from its applications. At this stage the distinctions between areas like scientific computing, administrative data processing, and systems programming are put at the basis of the subject. At a later stage it is recognized that it is possible to talk of common ideas basic to programming, aspects like effectiveness, which can be conceived of independently of any specific application. At this stage it is still possible to let the development beyond the most elementary level be heavily application oriented, as is clearly exemplified in the curriculum proposed by the ACM Curriculum Committee on Computer Science.
+
+The purpose of the present paper is to pursue the idea that the development of computer science from certain basic concepts need not stop at the most elementary level, but can usefully be continued considerably further. A case will be made that it is possible and convenient to distinguish a specific discipline, datalogy, the science of date and date processes, which will provide a conceptual frame for many of the ideas which are now associated with such subjects as Algorithmic Processes, Computer Programming, Information Structures, Algorithmic Languages, Programming Systems, and Formal Languages."
+
+De moraal is, dat wij Computing Science van de toepassingsgebieden moeten losmaken; het is atavisme om dat niet te doen. (Computing Science enten op numerike wiskunde is in wezen hetzelfde atavisme, alleen in mildere vorm.)
+
+2) Het koppeln van Computing Science aan de electronica is een dergelijk soort atavisme. Historisch verklaarbaar maar intrinsiek onjuist. De volle waanzin zie je in Utrecht bij het "Electronisch Reken Centrum": van beleng is alleen het functionele aspect van hun apparatuur en dat dat nu grotendeeis electronisch (en niet bv. chemisch) gaat is in dit instittu volslagen irrelevant. Het zou hetzelfde soort misvatting zijn om meetkunde te beschouwen als een tak van de werktuigbouwkunde, omdat je instrumentmakers nodig hebt voor de vervaardiging van passer en lineaal.
+
+3) Waneer Bouwkamp betoogt, dat computing science niet een kwestie van louter wiskundigen is, kan ik dit slechts met hem eens zijn, als hij een vrij enge opvatting over de wiskundige huldigt (+/- de analyticus en de numericus). Ik ben geneigd de zaak om te draaien en iedereen, die het vak computing science voor mijn gevoel op een deugdelijke manier bedrijft, op grond daarvan als wiskundige te beschouwen.
+
+4) Wanneer Veltkamp "ons onvoldoende breed" windt, ben ik dat roerend met hem eens en versterking zal ik toejuichen. Als hij bedoelt, dat van de activiteiten van vloer 10 te weinig tot de student doordringt, dat er college gegeven moet worden over compiler constructie en over de constructie van operating systems, dan ga ik een groot vraagteken zetten. Je moet die jongens leren, hoe ze een groot programma maken — en als het zo uitkomt kan je een stukje vertaler of systeem als illustratiemateriaal gebruiken, meer meer niet.
+
+E.W.Dijkstra
+
+transcribed by Carl Ludwigson
+revised Thu, 4 Nov 2010

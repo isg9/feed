@@ -1,0 +1,74 @@
+---
+title: "Vierde toespraak tot mijn studenten, voorjaar 1976 (EWD551)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD05xx/EWD551.html
+published: "1976-02-18T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd05xx/EWD551.PDF
+---
+
+# Vierde toespraak tot mijn studenten, voorjaar 1976
+
+Vierde toespraak tot mijn studenten, voorjaar
+1976.
+
+Onlangs heeft staatssecretaris Klein een missive rondgestuurd, waarin de
+universiteiten en hogescholen werden aangespoord zorgvuldig op de hoogte te
+blijven van de nevenfuncties van hun hoogleraren. Het is goed gebruik, dat men
+als employee geen nevenfuncties vervult zonder medeweten van zijn werkgever, en,
+afhankelijk van de aard van de nevenfunctie zelfs niet zonder toestemming van de
+werkgever. En niemand zal er bezwaar tegen maken, dat ook het unversitaire
+bedrijf van tijd tot tijd aan dit goede gebruik herinnerd wordt; sterker: dit
+spreekt zo vanzelf, dat men zich afvraagt, waarom deze missive van
+staatssecretaris Klein de voorpagina van de krant haalde.
+
+Wel, dat werd duidelijk, als je het artikeltje wat zorgvuldiger las. Laat
+mij, omdat de staatssecretaris het over "commerciele bijbanen" had, ter
+vermijding van mogelijk misverstand voorapstellen, dat ik, die vanuit het
+bedrijfsleven het hoogleraarsschap als "academische bijbaan" vervul, in dezen
+geen partij ben. In zijn toelichting insinueerde de staatssecretaris nl. dat
+allerlei hoogleraren tengevolge van hun "commerciele bijbanen" hun
+wetenschappelijke plicht verzaken, en bovendien suggereerde hij, dat zij deze
+nevenfuncties in het geniep zouden waarnemen. Hoe gerechtvaardigd is die
+insinuatie?
+
+Kijk, ik ben waarschijnlijk verschrikkelijk naief, maar ben niet bereid om
+voetstoots aan te nemen, dat alle hoogleraren, die ik persoonlijk niet zo goed
+ken, een orde van grootte minder fatsoenlijk zouden zijn dan de collegae, die ik
+beter ken. Ten eerste vervullen zij hun nevenfuncties niet in het geniep, ten
+tweede doen zij het niet om den brode, maar in een niet aflatende poging de
+kloof tussen theorie en praktijk niet nodeloos te laten verbreden. Ik weet uit
+ervaring, hoe moeilijk en ook vaak hoe ondankbaar dit streven is, want de kloof
+tussen theorie en praktijk, de spanning tussen de academische en de industriele
+wereld is zo groot, dat je een gerede kans loopt tussen wal en schip te raken.
+De doorsnede van wat theoretisch gezond en practisch zinvol is, is zo klein, dat
+hij in de ogen van velen als leeg wordt beschouwd. Wat practisch zinvol blijkt
+wordt in de academische wereld dan als "dus triviaal" gekenschetst, wat
+theoretisch gezond lijkt, wordt daarom in het bedrijfsleven als "dus
+onbruikbaar" afgeschreven. Om deze dodelijke simplificatie te doorbreken hebben
+wij mensen nodig, die loyaal een voet in beide kampen hebben.
+
+Laat ons, "for the sake of the argument" de staatssecretaris even volgen in
+zijn zorg om het peil van het wetenschappelijk werk der hoogleraren. Waardoor
+zou dat het meeste in het gedrang komen? Komt het in het gedrang? Nou, reken
+maar! Ik moet U bekennen, dat het inmiddels zo erg is, dat ik geleerd heh bij
+een collega, die ik een tijdje niet gezien heb, niet meer te informeren, hoe het
+met zijn werk gaat. Onder hoogleraren zou dit de normaalste blijk van
+belangstelling horen te zijn, maar je leert het wel af, want bijna altijd blijkt
+de vraag pijnlijk, omdat de ander niet meer aan zijn werk toekomt. Door het
+gelazer van de WUB, dat alle bestuur en beleid doet ontaarden in een eindeloos
+steekspel met slogans, door de afbraak van het personeelsbestand hunner
+faculteiten en door de opdracht via herprogrammering hun instituut te laten
+afzakken tot de mediocriteit van de "graduate factory" komen zij aan hun werk
+niet meer toe. Al hun tijd en energie wordt opgeslokt door het wanhopig hozen in
+een van overheidswege lekgestoten schip. Als ze een adviseursschap vervullen,
+vallen de uren daaraan besteed waarschijnlijk samen met de enige uren, die ze
+nog aan de wetenschap kunnen besteden. De missive kwam op de voorpagina van de
+krant, omdat onze staatssecretaris zich in de toelichting een vlegel
+betoonde.
+
+Overigens ben ik van oordeel, dat er op Hilversum 4 minder moet worden
+gezeverd.
+
+transcribed by Carl Ludwigson
+
+revised Tue, 16 Oct 2007

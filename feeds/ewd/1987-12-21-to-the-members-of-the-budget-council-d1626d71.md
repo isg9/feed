@@ -1,0 +1,70 @@
+---
+title: "To the members of the Budget Council (EWD1018)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD10xx/EWD1018.html
+published: "1987-12-21T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd10xx/EWD1018.PDF
+---
+
+# To the members of the Budget Council
+
+EWD 1018
+
+To the members of the Budget Council
+
+It is my firm intention not to get personally involved in campus politics, but this should not prevent me from pointing out some of the basic rules for building up a first-rate institute. I know that their applicability can be questioned. It can, for instance, be argued that in the second half of the 20th Century, university education has become such a massive undertaking that the training of second-rate scientists has become the major task. Perhaps the major one, but not the primary one, I hope. In any case I would hate the thought of attracting second-rate professors for the purpose. But whatever the applicability of the basic rules, we should be aware of them: when, for whatever other reasons, we feel compelled to violate them, we should at least know that we do so.
+
+Rule 0  Select your scientists for their ability and not for their specialty.
+
+Rule 1 Don't "manage" your scientists: they know better what to tackle and how.
+
+Rule 2 Remember that the institute should serve its scientists, and not the other way round.
+
+Rule 3 Develop your own judgement so as to become independent of peer review.
+
+*                *
+*
+
+In reference to Professor Holst, Professor Sir Hermann Bondi, KCB, FRS remarks about Rule 0:
+
+"It has been my misfortune to have had to do with a good number of laboratories that do not follow this simple rule, but specify the one particular person who has worked for instance on infrared spectroscopy, defining a wavelength to within five percent. Once you know that is how it recruits its staff, it is hardly worth visiting that lab. It may, with great effort, manage to be second-rate but very likely will be less.
+
+When you come to a place that says never mind what our present pressing needs are, we must recruit the ablest person we can find irrespective of specialty, then it is going to be a first-rate laboratory. Nothing else matters and Holst knew this, but it is sad to see that his knowledge has not spread more widely, anything else is a denial of that most characteristic of human properties and that is adaptability. It is not surprising to me that he was so very successful here, I only wish the lesson he taught were more widely appreciated." [Holst was the first director of Philips Research Laboratories.]
+
+Rule 0 is more than an antidote against fragmentation. It also implies that it would be a mistake to plan the scientific future of the department under the assumption that computing science's components have been identified. I trust that the discipline will evolve into unforeseen dimensions and we must hope that at least one of such developments takes place in our department.
+
+*                *
+*
+
+Rule 1 used to be particularly relevant in the industrial environment. With the increasing dependence of the universities on money that comes from grants with strings attached, it becomes of equal relevance for the academic world. No breakthrough ever took place because some "benefactor" ordered it. We should not seek to provide what the world asks; a leading institute should provide what the world needs—whether it is welcome or not! It is my strong impression that in our area all significant progress has primarily been opportunity-driven —rather than demand driven—, the opportunity each time having been created by the combination of vision and superb mastery of one's technologies. The doing of successful scientific research is a very subtle balancing act between doing something insipid and trying something impossible.
+
+We might in this light reconsider how happy or unhappy we are with some of our grants and to what extent the attached strings are shackles. Quite a few grants could very well turn out to be curses in disguise. (I am not a historian of science but sometimes ponder about possible explanations of the in general sorry state of American computing science; "too many grants" is one of them.)
+
+*                *
+*
+
+For the industrial environment, for instance, Rule 2 implies that an important task of the manager of a research outfit is to shield his people from interference from Company Headquarters. But its relevance was driven home to me while I was still full-time in Eindhoven. It began with a scientifically sterile colleague who maintained his self-esteem by explaining that he had no time for research because "he sacrificed himself for the department"; by the time my work began to draw international attention he had manoeuvred himself into the position in which he had to accuse me of neglect of my educational obligations so that I could publish articles for my own greater glory. (He was a bitter man.) This was an isolated incident, but it turned out to be symptomatic; later, raising the contents and requirements of a programming course —by which it became for mediocre students a difficult course to pass— was resented by the mathematicians as "not in the interest of the department": the department was more interested in raising its output, even if it had to be done by lowering the standards. I learned one lesson: the department is not a goal in itself, and as soon as you allow it to become so, the door through which educational fraud can enter is set ajar.
+
+Consequently I was taken somewhat aback by some of the criteria by which younger faculty was judged. Our scientific activities —in teaching and in research, I prefer not to separate the two— are the only significant ones; to attach any weight —even if it is done with the best of intentions—to tertiary criteria —visibility, grantmanship, service to the department, whether someone is a father for his students, etc.— is deadly dangerous. I am sorry if this sounds cruel, but this is the unavoidable price for excellence.
+
+*                *
+*
+
+When I asked the director of a large —and successful— British software house his most serious problem, he said without hesitation "how to prevent clusters of incompetence from emerging". I was reminded of that when I noticed the —for me unusual— weight given to the "peer review". What, if the peers aren't any better? The mechanism does not protect us from harbouring fragments that are too shallow, too speculative, or —as the case may be— too fraudulent to merit the name of science. (And let us have no illusions: such topics abound! We are fortunate in not having professors in software metrics, animation or key-wording!)
+
+Not only does the mechanism of peer review fail to protect us from disasters, in a certain way it guarantees mediocrity: the genius has no peers. And to make matters worse, his publication record does not reflect his work either. At the time it is done, truly original work —which, in the scientific establishment, is as welcome as unwanted baby— is very hard to publish as it takes at least another ten years for the appropriate journal to be founded. (I sooner blame someone for his publication list being too long than being too short.)
+
+The moral is that we cannot delegate our responsibility to judge ourself. We can forsake it, but not delegate it. By hiding behind the excuse "But that is not my specialty" we degrade ourselves to lame ducks, and we should not do so. A good young scientist is able to explain
+
+- what he is trying to achieve - why he is tackling this in the way he is - why he believes he can do it - the criterion by which he will decide whether he has succeeded or failed.  He is, in fact, able to explain this to his next-door neighbour. If we are too lazy or too stupid to follow such an explanation, we should resign. By urging young scientists to submit papers for publication and to apply for grants so that we can rely on the judgements of others we make ourselves ridiculous.
+
+Nuenen, 21 December 1987
+
+prof.dr. Edsger W. Dijkstra
+Department of Computer Sciences
+The University of Texas at Austin
+Austin, TX 78712-1188
+USA
+
+Transcribed by Kevin Hely
+Last revised Thu, 14 May 2009

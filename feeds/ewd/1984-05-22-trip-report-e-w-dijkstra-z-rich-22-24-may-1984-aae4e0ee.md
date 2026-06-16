@@ -1,0 +1,52 @@
+---
+title: "Trip report E.W.Dijkstra, Zürich, 22–24 May 1984 (EWD888)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD08xx/EWD888.html
+published: "1984-05-22T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd08xx/EWD888.PDF
+---
+
+# Trip report E.W.Dijkstra, Zürich, 22–24 May 1984
+
+EWD 888
+
+Trip report E.W.Dijkstra, Z�rich, 22-24 May 1984.
+
+I left on Sunday at 15:15, I was home again on Tuesday at 15:45. I travelled via Amsterdam by train, coach, and air; both KLM flights were dead on time. As soon as Niklaus Wirth had heard that I was going to Texas, he had invited me to give a lecture at the ETH "while I was still in Europe", and I had accepted the invitation. Hence.
+
+At 19:45, Niklaus and his wife were at the Z�rich airport. Half an hour later we were at their home in Furch, by my standards high up in the mountains: we had a beautiful view over the nearby lake (with still higher mountains at its other side). They refused to believe that KLM had fed me well enough and I had to eat the spaghetti that Niklaus had prepared (The spaghetti was nice.) The rest of the evening we talked: we had not seen one another for quite some time.
+
+Monday we spent at the ETH from about 9:00 to about 19:00. In the morning Niklaus gave me a detailed demonstration of their Lilliths (annex laser printer) and some of the software he had developed, and then we talked about the structure of that software. I was very impressed; what I saw struck me as remarkably elegant and efficient. Niklaus's competence is so impressive because, by now, it is so broad: from language design to computer design, from language implementation to computer construction, from hardware interfaces to product specification. He proudly showed me his text editor; I knew no other text editors to compare it with, but it was all so clear and clean that I am fully convinced that his pride was justified. In passing he mentioned that by re-engineering the compiler (which had been done by others) he had speeded it up by several (binary) orders of magnitude. He clearly enjoyed how much he could do with "this little machine". (One begins to suspect that most software is so needlessly complicated that it could be improved by a factor of 10 or more.) I quote one comment from Niklaus: "If Ada's designers would have had to implement the language as well, I bet it would have been a lot simpler.". Currently he was pestered by people that wanted to "improve" Modula 2 with all sorts of "extensions" he had carefully avoided. Apart from that he was in great shape. (Having grown a beard he looks at last like a real computer scientist.)
+
+After lunch I spent one and a half hour with his colleague Nievergelt. That was less successful, partly because by that time I may have been a bit tired. Nievergelt spoke too much the language we know so well from the standard data base person, and I was convinced once more of its inadequacy. Besides that he made the impression of being profoundly unmathematical. Then I listened for half an hour to Dr.Gati, but I am afraid I could not feign interest in his problem: the time to give my lecture was approaching.
+
+Expecting a large audience, Niklaus had scheduled my performance in a larger hall in the building for mechanical engineering. To his horror he discovered that —with noisy traffic outside!— two windows had their frame broken and could no longer be closed. Chalk was of excellent quality and blackboard space almost sufficient. This time I needed 83 minutes, I guess I started with 150 people and ended with 125. We did not observe Engeler in the audience. (Should I have chosen a more aggressive title, say "On avoiding transfinite induction?")
+
+We spent the evening in the pleasant company of a few younger staff members of the institute. Niklaus's wife had prepared a bowl (with kiwi fruit) and a nice, light meal; while opening the second bottle of wine I showed Niklaus how he should have opened the first one. (The next morning, at 7:55, people started to renovate the kitchen!)
+
+Talking about "the big three" —Stanford, MIT, and CMU— , Niklaus remarked "They went for academic glory and failed to educate the engineers that are needed.". I know what he means and largely agree. The alternative of ETH, however, I could not find entirely convincing. There seems to be no link with mathematics (and in this case my impression is that the departments of mathematics and of informatics share the blame). As a culture they ignore —or even deny!— that important aspects of programs can be improved and, as a result, lack an important pretty objective yardstick. This is a handicap in teaching: the pragmatic virtues of the excellent engineer are too elusive. (One of the fringe benefits of formal proofs lies in their explicitness, which makes comparisons of proofs possible.) It is not clear how the ETH can dig itself out of that hole. They face the two usual hurdles. Firstly, when they tried to fill one of their vacancies with someone who could represent "the mathematics of programming", they discovered that they were unable to find/attract a suitable candidate. Secondly, whether they like it or not, the percentage of their freshmen that is without scientific inclination or aspiration is increasing. I have promised to send Niklaus our lecture notes for freshmen —the assumption being that his ability to read Dutch is like my ability to read Italian— : with home computers becoming as ubiquitous are they do, their current introduction to programming —operational and intuitive— is quickly becoming superfluous. I wish them luck, for the mere suggestion of the relevance of (rather formal) mathematical techniques currently encounters still strong resistance.
+
+Z�rich was recommendably clean in comparison with Amsterdam; the bus stop near the Central Station for the coach to Schiphol I can only describe as a garbage dump. The best thing I can say about my own country is that in Amsterdam and Eindhoven the escalators to the platforms in their railway stations were operational. Z�rich was in the (noisy) process of building a new (underground) Central Station: it was a mess as if Z�rich was preparing itself for the next Olympic Games. The current connection to the airport is most impressive: from the central Station it is a 10-minute train ride. (The train revealed how rich the Swiss are: half of the train —eventually to Winterthur— consisted of 1st-class carriages!)
+
+I arrived in Amsterdam at the disgracefully low temperature of 11 �C. The day before, Nuenen had had a rainfall of 26 mm. But at home I found a Harper and Row catalogue announcing a book that contained
+
+"Techniques — including such varied topics as the critical and creative techniques involved in obtaining a Ph.D."
+
+(A book on Artificial Intelligence. Who said that AI is close to fraud?)
+
+Plataanstraat 5
+
+5671 AL NUENEN
+
+The Netherlands
+
+22 May 1984
+
+prof.dr.Edsger W.Dijkstra
+
+Burroughs Research Fellow
+
+transcribed by Corrado Cantelmi
+
+revised
+15-Oct-2011

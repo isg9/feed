@@ -1,0 +1,60 @@
+---
+title: "Tiende toespraak tot mijn studenten, voorjaar 1976 (EWD560)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD05xx/EWD560.html
+published: "1976-03-28T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd05xx/EWD560.PDF
+---
+
+# Tiende toespraak tot mijn studenten, voorjaar 1976
+
+Planten- en dierenrijk kennen heel domme parasiten, die hun slachtoffer zo uitmergelen, dat
+het het niet overleeft. Vergeleken daarmee is de mensheid duidelijk superieur: onze chanteurs,
+afpersers en maffiosi plegen niet de kip met de gouden eieren te slachten. Het loopt natuurlijk
+wel eens uit de hand en soms is hun wurggreep dodelijk voor het slachtoffer, maar onder maffiosi
+wordt dat wel als beleidsfout beschouwd.
+
+Na jaren aarzeling mogen er dan eindelijk casinospelen komen. Waren het aanvankelijk religieuze
+bezwaren tegen des duivels prentenboek, uiteindelijk werd de toestemming vertraagd door de vrees
+met de kansspelen ook de maffia in de kaart te spelen. Ik vond dat wat hypocriet van een bewind
+dat al zo heult met de vakbonden. De wijze waarop onze overheid zich nl. aan deze organisaties
+verslingerd heeft, liegt er niet om!
+
+Het is om even bij stil te staan, dat in onze democratie, waarin alle volwassenen stemrecht
+hebben, de vakbonden hebben versierd dat het afpersingsmiddel van de stakingsdreiging wettelijk is
+toegestaan. Hiermee niet tevreden moeten straks de overwinsten —fijn Germanisms!— worden
+afgeroomd via de VAD. Wat moet met dat geld? Dat moet in een pot. En wie beheren die pot? De
+vakbonden natuurlijk. Ik vestig er de aandacht op, dat dit in de kamer als of het de gewoonste zaak
+van de wereld was, is besproken. Nou vraag ik je.. Ik west wel, waarom ze dat nu doen. Er zijn
+helemaal geen overwinsten, de meeste bedrijven zijn blij, als ze uit de rode cijfers kunnen blijven.
+Iedereen denkt dus "Ach, waar praten ze over! Er komt nooit iets in die pot, dus het kan helemaal
+geen kwaad de vakbonden daar controls over te geven." Maar het gaat om het principe.
+
+Dat er voorlopig niet veel in die pot komt, beseffen de vakbonden ook wel, en hun macht moet
+dus op andere manier worden uitgebreid. Het is hen natuurlijk een doorn in het oog, dat ze niet
+zoveel sympathie genieten, dat iedereen lid is en maandelijks zijn lidmaatschapsgeld aan de vakbond
+afdraagt. Maar ook daar kan wat aan gedaan worden. Bedrijfsinkrimpingen zijn aan de orde van de
+dag, en waarom zouden mensen lid van de vakbond worden, als onder de vakbondsleden de ontslagen
+even hard vallen? Weet je wat? We maken er een regel van dat als er ontslagen moet worden, de
+ontslagen eerst vallen onder de nietleden van de vakbond. Ook hier wordt serieus over gepraat
+alsof dit de gewoonste zaak van de wereld zou zijn!
+
+Maar dit zou betekenen dat ook de vele werknemers, die helemaal geen sympathie voor de vakbonden
+koesteren en misschien wel vinden, dat hun macht al veel te groot is, eigenlijk geen keus meer
+gelaten wordt: om vrouw en kind moeten ze dan wel maandelijks een deel van hun loon afstaan aan
+wat ze wellicht uiterst dubieuze organisaties vinden. Dit zijn je reinste maffiamethodes.
+
+Er wordt wel een beetje tegen deze voorstellen gesputterd, niet omdat ze principieel volslagen
+onjuist zijn, maar omdat pragmatici in de politiek zich toch afvragen, of een dergelijke
+machtsconcentratie in ons land wel gewenst zou zijn. Zij sputteren dus wat. Maar onze
+vakbondsleiders liggen er niet wakker van! Oh nee! Eventuele bezwaren zijn onlangs door hen
+weggewuifd met de opmerking dat, net als de politieke partijen, zij toch ook met hun achterban
+rekening moesten houden, er gemakshalve aan voorbijgaand, dat het recht op een andere partij te
+stemmen, stevig in onze grondwet verankerd ligt. Bij de vakbonden, die bezig zijn te proberen te
+fuseren, zal deze keuzevrijheid illusoir zijn. De maffia duldt nooit concurrenten!
+
+Overigens ben ik van mening, dat er op Hilversum 4 minder moet worden gezeverd.
+
+transcribed by Carl Ludwigson
+
+revised Mon, 5 Nov 2007

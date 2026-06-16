@@ -1,0 +1,76 @@
+---
+title: "Tripreport E.W.Dijkstra, Luxembourg, 7–12 April 1974 (EWD420)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD04xx/EWD420.html
+published: "1974-04-01T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd04xx/EWD420.PDF
+---
+
+# Tripreport E.W.Dijkstra, Luxembourg, 7–12 April 1974
+
+EWD 420
+
+Trip report E.W.Dijkstra, Luxembourg, 7-12 April 1974.
+
+Previous experience had taught me —to put it mildly— that train connections between the Netherlands and Belgium are not quite up to the general standards of continental Western Europe: they are hardly there. As a result I was not too surprised to learn that it would take more than seven hours to cover by train the 170 miles from Eindhoven to Luxembourg; a car seemed a more realistic proposition. When I made a call to Burroughs, Amstelveen, with the intention to suggest timidly to the controller that a car should be hired for me, the controller was away and I was connected to one of his subordinates who, upon my request, explained that he was not really entitled to make such a decision, but promised me to discuss it with the controller next day, when the latter would be back again. A few minutes later I was called back: the subordinate had discussed it with one of his colleagues and "as Burroughs USA was charged for all my expenses" everything was OK and I could go by car! At that moment not inclined to question the validity of their logic, I asked them to hire a small car.... On Sunday afternoon I left in a Ford Escort, with a colour so ugly, that I could only guess that Hertz has chosen it to reduce the chance of theft! But the carlett was in excellent condition and without problems —it was beautiful weather— I arrived in Luxembourg before sunset. The trip implied a renewed acquaintance with Belgian roads: they were as they used to be, even the warning signs "route dégradée" were so old and dirty as to be hardly readable....
+
+Luxembourg is a charming city that seems to have been passed by what in surrounding countries is regarded as "progress". The cross roads in town are protected by traffic lights that change at such a low frequency that a trip through the town leaves the driver all opportunity to wonder about what other civilizations have lost. Later in the week we had dinner in a restaurant that was evidently the regular meeting place of the town's older establishment: we were somewhat regarded as intruders —what, of course, we were!— and particularly one of our company (a Californian) seemed not to understand the atmosphere of the place. Needless to say, the food was superb.
+
+But Luxembourg has not been completely untouched by progress, oh no: it too has its Holiday Inn. It is not located in the town itself, but at the other side of a deep valley in the "European Centre", the bulwark of the European Community, a ghetto of concrete skyscrapers, stainless steel and plastic. And in the Holiday Inn we had our seminar.
+
+When I arrived I found a note that at seven o'clock Jack Cleary would be in the bar —where else?— to meet the participants, and furthermore that I had been given room 511, which is, if you know your binary numbers as I do, of course a beautiful number. The privilege of occupying that room was a short one for its telephone was out of order. I complained about that on Saturday night, on Monday at noon the receptionist told me that "the expert would arrive within an hour", at six o'clock p.m. they told me that the trouble had been dealt with. In spite of all this —mind you, we were in Luxembourg— the telephone was still out of order and I asked to be moved to a room in good condition. When they said that they had only a room available on the fourth floor, I answered that —as all floors were identical— I could not care less, and thus was moved to room 423, a change that I later had cause to regret. A few nights later I shared the floor with a few bus loads of American teenagers who arranged their noisy party largely in the corridor: late at night —early in the morning, I should say— peace was still disturbed by heated arguments about who should sleep where. With nothing else to do I lay thinking about the older people we had disturbed in the restaurant, hoping that they did not know what happened in the ghetto.
+
+Because I had not had the slightest advance information about the audience I was going to address, I had hardly been in a position to prepare my presentation: I had to rely on the feedback I would get. To start with I asked my audience to compose a list of participants, mentioning name, address, activity and educational background. The background was much higher than I had expected (or feared), the overall list being quite impressive —in a few cases the indication was not clear and I have made a guess—
+
+M.Sc (mathematics, physics or computer science)
+
+6
+
+engineers (mostly electronical)
+
+5
+
+B.Sc
+
+3
+
+Ph.D (mathematics, physics or computer science)
+
+4
+
+economics/management
+
+2
+
+total
+
+20
+
+I do not think the latter two have understood a single word of what I have said: as all their colleagues those two seemed utterly blind to the subtle, but profound difference between "being vague" and "being abstract": that it is the specific purpose of abstraction to create a new semantic level in which one can be absolutely precise, is more than I can teach to a superficial person to whom such considerations are, intellectually speaking, totally foreign. That leaves a well-educated audience of 18.
+
+Yet it was a difficult audience to address. Seven had English or American as their native language, another two had studied at an English or American university, but the remaining nine (1 Italian and 8 Frenchmen or French-speaking Belgians) suffered from the usual language barrier. (At meals they had a tendency to separate themselves from the others....) If one is the kind of speaker that delivers monologues in front of any audience, such a language barrier only causes problems in the audience; I, however, do like to adjust my presentations to my audience, I do like to develop a dialogue of some sort. The French half, however, did not give any feedback: they listened respectfully. (Later I have been given to understand that it was not only the language barrier that made them so silent, but also the Latin respect —or even: awe— for authority.) As a speaker I suffered very much from this lack of response and I must confess that after a few days I more or less forgot them and focused my attention on the responding part of the group, no longer consciously restricting my use of the English vocabulary (to the extent of using the verb "to obfuscate", which seemed to puzzle even some of the English natives).
+
+Despite these difficulties it was, on the other hand, some sort of an excellent group: I spoke to them five mornings and four afternoons, and each of these 9 sessions lasted more than three hours —once even close to four!— at a stretch, with one interval for coffee of at most 10 minutes. This is an absolutely cruel thing to do to an audience, in particular if they had —as they had— to sit on plastic. Such long sessions, however, were not planned, they "happened" and that would never have taken place had I seen their attention wavering.
+
+I observed one marked phenomenon: while most of them followed the formal part of my lectures with a keen interest and some even with considerable intellectual excitement, the group was very disappointing when I asked them to solve a problem themselves. For all sorts of problems admitting a solution in the form of a five-line program, it was exceptional if more than one-and-a-half solutions turned up. (This was similar to the San Diego experience: there they were more productive, but also more productive of errors. This group has a little bit stronger inhibitions.) I do not think that this is in all cases a basic incapability, it must be the result of our educational systems that pay not enough attention to the development of skills and tend to restrict themselves to the broadcasting of "knowledge". The resulting wide-spread incapacity to "do something" (rather than "to know something") is nonetheless frightening and alarming.
+
+Outside the official sessions —but occasionally also during them— I observed, perhaps stronger than in San Diego, feelings of strain between "technology" and "management". These are reactions that do not amaze me a bit: I have encountered them at least a few dozen times. During the after-lecture discussion, someone nearly always remarks —after I have shown a perfectly decent way to solve a problem— "But, Sir, our problem is that our managers won't let us do it that way." My standard answer, of course, is "If misunderstanding from the side of your manager is your main problem, perhaps you should try to educate him..." an answer, by now, I have given frequently enough to know that it evokes roars of bitter laughter. In other words, the feelings of strain are quite well-known to me, and I can also understand them, from both sides; I do not have much material for comparison, yet I could not escape the impression that in this group the feelings of conflict, frustration etc. were stronger than average.
+
+We broke up on Friday at noon. The departure is always a little bit sad: however imperfectly one has built up a kind of "family", which then dissolves for no other reason than that the end of the week has come. We said good-bye to each other.
+
+Also the homeward trip was done by day-light, be it that, after a week of continuous sun, I encountered between Bastogne and Liege a severe rain storm. In Nuenen the sun was shining again. A week earlier I had left Nuenen with the trees still bare, when I returned they were green. But the magnolia, who had [been] in full bloom when I left, had lost its flowers.
+
+14th April 1974
+
+BURROUGHS
+
+Plataanstraat 5
+NUENEN - 4565
+
+The Netherlands
+prof.dr.Edsger W.Dijkstra
+research fellow
+
+transcribed by Tristram Brelstaff
+
+revised Sun, 14 Jan 2007

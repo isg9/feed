@@ -1,0 +1,153 @@
+---
+title: "Aan de Raad van Advies (EWD555)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD05xx/EWD555.html
+published: "1976-03-05T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd05xx/EWD555.PDF
+---
+
+# Aan de Raad van Advies
+
+Na ontvangst, lezing en herlezing van van Leeuwen’s “Beschouwing”, van de Bakker’s “Kort Commentaar” en van de uitnodiging van Uw voorzitter wist ik niet goed meer, wat mij te doen stond en heb ik Uw voorzitter om opheldering moeten vragen. De brief van Uw voorzitter sprak nl. slechts van een oordeel over de twee eerstgenoemde stukken en niet van een opinie of oordeel over de daarin behandelde materie.
+
+Ik vroeg hem daarom, of wij onze taak wat ruimer mochten opvatten, dan wel wij verwacht werden ons tot de stukken zelf te beperken en slechts opmerkingen te maken over zaken zoals het slechte Nederlands, waarin de Beschouwing gesteld is. Uw voorzitter vertelde mij, dat een ruimere taakopvatting inderdaad van ons verwacht werd en, sterker, dat commentaar op taalgebruik niet nodig was.
+
+Op dit laatste punt verschil ik ernstig met Uw voorzitter van mening. Slonzig taalgebruik is nl. niet een symptoom van verval, het is een van de meest ervoor werkzame katalysatoren. Met verontreinigingsmiddelen kun je nu eenmaal geen varkentjes wassen. De instelling in dezen van Uw voorzitter dwingt mij uitgebreider op het Nederlands, waarin de Beschouwing gesteld is, in te gaan, dan ik anders gedaan had. (Ik had er in elk geval iets van gezegd! Na het lezen van de Beschouwing was het lezen van het Kort Commentaar een verademing....)
+
+*            *
+
+*
+
+Om te beginnen deugt de spelling niet. De leerlingen van mijn vader, die leraar chemie is geweest, hadden de vrije keuze tussen “Phosphor” en “Fosfor”; de spellingen “Phosfor” en “Fosphor” waren niet toegestaan. Van Leeuwen verraadt onmiskenbaar geen leerling van mijn vader te zijn door (pg. 9, laatste regel) de spelling “klassificatie” te hanteren.
+
+Vervolgens deugt zijn woordkeus niet. Het stuk barst van de germanismen: “benutting” (pg. 1, regel 7 v.o., pg. 2, regels 1–2 v.b., pg. 10, regel 8 v.b.), “vakmatig” (pg. 2, regel 12 v.o.), “overcapaciteit” (pg. 10, regel 6 v.o.), “beroepsmatig” (pg. 12, regel 1 v.b.), “beleidmatig” (pg. 12, regel 3 v.b.). Voorts wordt “uitspreiden” (pg. 1, regel 14 v.o.) als intransitief werkwoord gebruikt. Ook de werkwoorden “prolifereren” (pg. 1, laatste regel) en “overlappen” (pg. 2, regel 8 v.o.) wordt de lezer geacht te accepteren. Het Curatorium van het M.C. zou kunnen overwegen van Leeuwen als dank voor de bewezen diensten een grote van Dale aan te bieden.
+
+De auteur schrijft over “het direct toepasbaar en commercieel belang” (pg. 9, regel 3 v.b.), de lezer in verwondering achterlatend wat hij zich bij een direct toepasbaar belang precies moet voorstellen. Twee systemen (pg. 9, regel 12 v.o.) “staan in verband”: de lezer moet raden waarmee.
+
+De auteur springt wat losjes om met het woordje “dus” (pg. 1, regels 7 en 13 v.o., pg. 6, regel 13 v.o.) en toont grote voorliefde voor het voorzetsel “in” en zijn samenstellingen (pg. 3, regel 4 v.o. “in dit terrein” i.p.v. “op dit terrein”, pg. 3, regel 7 v.b. “daarin” i.p.v. “daarvan”, pg. 8, regel 10 v.o. “daarin” i.p.v. “daarmee”, pg. 8, regel 3 v.o. “in” i.p.v. “tot”).
+
+Zoals na het bovenstaande verwacht kan worden, staan er ook duistere zinnen in, zoals in sectie 1.3:
+
+“De afdeling is altijd op onderzoek en gericht ontwikkelingswerk ingesteld geweest, en wordt nog maar weinig betrokken in de automatiseringsproblemen waarvoor men zich elders geplaatst ziet.”
+
+Ik zit hier met het laatste woordje “en” in mijn maag; zou “maar” op zijn plaats een betere zin vormen? Is de bedoeling te zeggen dat in “onderzoek en gericht ontwikkelingswerk” van de afdeling automatiseringsproblemen elders veronachtzaamd zijn, of wordt betreurd, dat men “elders” nalaat de afdeling met haar juist relevante kennis en ervaringen in de oplossing van zijn automatiseringsproblemen te betrekken?
+
+Sectie 1.4 is zo duister, dat we hem iets nauwkeuriger zullen trachten te ontleden. Ik citeer:
+
+“De algemene opvatting in de Nederlandse informatica is vooral de praktische computerbenutting te ontwikkelen en in mindere mate hierin grondslagenonderzoek te betrekken.”
+
+Ik heb het al wat moeilijk met de constructie “de opvatting is iets te ontwikkelen”; je kunt zeggen “de opvatting is, dat iets ontwikkeld dient te worden” of “het is van belang iets te ontwikkelen”. Maar waar slaat het woord “hierin” op terug? Op de “benutting” of op de “informatica”. Heeft de auteur willen zeggen
+
+“In de Nederlandse informatica staat de efficiency van computergebruik centraler dan het grondslagenonderzoek.”
+
+of
+
+“In de Nederlandse informatica wordt het probleem van efficient computergebruik meer pragmatisch dan fundamenteel benaderd.” ?
+
+Of nog heel iets anders? Ik weet het niet. Ik citeer verder:
+
+“Een goede combinatie is van groot belang maar omdat slechts weinigen tegelijk expert zijn in de praktische en theoretische computerkunde zal dit onderwerp nog wel in discussie blijven.”
+
+Om te beginnen: een combinatie waarvan? De rest van de zin suggereert van “theorie” en “praktijk”, maar vervolgens rijst de vraag wat met “dit onderwerp” bedoeld wordt. En wat voor discussie heeft de auteur op het oog? Ik geef weer twee mogelijke interpretaties:
+
+“Omdat slechts weinigen zowel in de practische als de theoretische computerkunde over voldoende expertise beschikken, is een inniger verband tussen theorie en praktijk op korte termijn helaas niet te verwachten.”
+
+of
+
+“Omdat slechts weinigen zowel in de practische als de theoretische computerkunde over voldoende expertise beschikken om theorie en praktijk metterdaad van elkaar te laten profiteren, zal het gesprek over hoe deze wederzijdse bevruchting het beste tot stand gebracht kan worden, wel in een overloze discussie ontaarden.”
+
+Ik citeer verder:
+
+“De werkzaamheden in de afdeling Informatica tonen goed (en waarschijnlijk beter dan elders in het land) hoe onscheidbaar deze aspecten zijn.”
+
+Deze zin —en misschien is dat de bedoeling!— kan van alles betekenen, varierend van
+
+“De spectaculaire resultaten van de afdeling Informatica zouden zonder innige samenwerking tussen theorie en praktijk niet tot stand hebben kunnen komen.”
+
+tot
+
+“Sinds op de afdeling Informatica theorie en praktijk uit elkaar gegroeid zijn heeft deze afdeling geen significante resultaten meer geboekt.”
+
+Hoe de werkzaamheden in de afdeling Informatica de onscheidbaarheid hebben getoond, blijft in het midden, evenals waarom ze het daar beter zouden hebben getoond dan elders in het land. Wij citeren verder:
+
+“De ervaringen hierover die nu prolifereren in studiecentra en opleidingsinstituten voor informatica verdienen betere benutting in academische kring.”
+
+Welke “ervaringen” heeft de auteur op het oog? Waar slaat “hierover” op terug? Bedoelt hij non-academische instituten, waar waardevol materiaal circuleert, dat in academische kring onbekend is, of bedoelt hij academische “studiecentra en opleidingsinstituten voor informatica” waar materiaal, hoewel “prolifererend” niet “benut” wordt? En rekent hij de afdeling Informatica van het M.C. wel of niet tot de “academische kring”?
+
+Ik moge dit gedeelte van mijn bespreking afsluiten met een (zuster van) Tante Betje van de auteur: (pg. 13, regels 4–6 v.b.)
+
+“Het ligt niet op mijn weg conclusies te ontwikkelen en laat mijn observeringen verder aan de lezer.”
+
+*            *
+
+*
+
+Altijd is er enerzijds het werkgebied, dat als “practisch zinvol” wordt beschouwd, en anderzijds het werkgebied, dat als “theoretisch gezond” wordt ervaren. Dat deze twee gebieden gewoonlijk niet vanzelf samenvallen, is genoegzaam bekend; sterker: er is doorgaans een bewuste inspanning voor nodig, de doorsnede niet relatief in omvang te laten afnemen. Voor wie graag in dit doorsnijdingsgebied wil werken en voor wie zou willen proberen deze doorsnede te vergroten, is de informatica in de afgelopen decaden een uitzonderlijk dankbaar terrein geweest en zal zij dat in mijn verwachting ook nog wel een paar decaden blijven. (Ik beschouw de informatica dan ook bv. als een ideaal werkterrein voor de “wiskundig ingenieur” met de nadruk gelijkelijk verdeeld over beide componenten van die titel. Een geestelijk klimaat waarin een van beide componenten sterk overheerst, lijkt voor de evenwichtige ontwikkeling van de informatica dan ook alles behalve bevorderlijk. Dat bv. in Frankrijk, Polen, Leiden en Utrecht de informatica nooit fatsoenlijk van de grond is gekomen, wijt ik voornamelijk aan de dominante positie van de —zuivere— wiskunde aldaar. Wie zich een beeld wil vormen hoe de informatica kwijnt als de pragmatiek overheerst, kan ik verwijzen naar vele rekencentra —bij voorkeur naar die, die door de hoge-energiephysici gedomineerd worden.)
+
+Ik heb goede nota genomen van de relativering in het Kort Commentaar van de scheiding tussen Theorie en Praktijk, zoals die in de Beschouwing gepresenteerd wordt. Nochtans is de indruk, dat de onderlinge afstand vaak groter is dan wenselijk ware, hierdoor helaas niet weggenomen. Ik kan mij niet aan de indruk onttrekken, dat er op de afdeling theoretisch onderzoek gepleegd wordt, waarvan het onduidelijk is hoe de rest van de informatica ervan zou kunnen profiteren. De opmerking in de Beschouwing (3.6) dat “onderzoek in de subafdeling in de uithoekjes van haar theoretisch specialisme is gefixeerd” lijkt mij dan ook terecht gemaakt. De opmerking (3.7) “In academische kring liggen de tegenwoordige behoeften duidelijk ruimer.” mag van mij zelfs versterkt worden: laat die restrictie “in academische kring” maar rustig weg.
+
+De liefde kan evenwel niet van één kant komen, en bij de keuze van het practisch werk moet derhalve ook een vraagteken gezet worden. Het is de vraag, of de keuze van ontwikkelingswerk, waar geen theorie een boodschap aan heeft en waar geen theorie inspiratie in kan vinden, en dat zijn rechtvaardiging daarom hoofdzakelijk in de bruikbaarheid van het eindproduct moet vinden, voor een groep als de afdeling Informatica van het M.C. verstandig is. Ik ben geneigd deze vraag ontkennend te beantwoorden, zeker als het product geen duidelijk novum is.
+
+Dat van twee van de drie projecten in sectie 5 van de Beschouwing vermeldt wordt, dat elders soortgelijke systemen met succes ontwikkeld zijn, versterkt dan ook mijn reserve. Bij het derde project —computer graphics— laat de Beschouwing zich er niet over uit, of een soortgelijk systeem al elders is ontwikkeld; de veronderstelling , dat zulks inderdaad gebeurd is lijkt niet al te gewaagd.
+
+De opmerking (5.4) “Het graphisch systeem kan zelf dienstbaar zijn in het visualiseren van complexe (data-)structuren tijdens programmaexecutie” —waarbij ik aanneem dat met het laatste woord “programmauitvoering” bedoeld is— heeft mij om twee redenen ernstig verontrust, daar ik mij er slechts al of niet benoemde vakjes met pijlen daartussen bij kan voorstellen, geetaleerd voor didactische (of diagnostische?) doeleinden. Ten eerste koester ik een sterk wantrouwen jegens de didactische en explicatieve waarde van plaatjes met pijlen. Ten tweede proef ik hierin een hulpmiddel om je te leren voorstellen wat er tijdens programmauitvoering gebeurt; ik dacht, dat het belangrijker was te leren, daarvan te abstraheren. Het treft mij daardoor als een verlate echo van het “algorithmisch denken” uit de midden-zestiger jaren.
+
+Ook bij het in sectie 4 in de Beschouwing beschrevene wil ik wel enige kanttekeningen maken. Het Kort Commentaar observeert terecht, dat de Beschouwing hier “vrijwel steeds positief uitvalt” —de veronderstelling dat implementeren niet van Leeuwen’s dagelijks werk is, biedt voldoende verklaring voor de afwezigheid van critische kanttekeningen— en voegt er de waarderende opmerking “Principes van compilerbouw, ook met theoretische nadruk, worden uitgebreid binnen de ALGOL 68 groep bestudeerd.” aan toe, daarbij wijzen op een voorbeeld van de gewenste symbiose tussen theorie en praktijk, tussen denken en doen. Deze opmerking van de Bakker beschouw ik als een heel relevante en heel welkome aanvulling op de Beschouwing.
+
+De Beschouwing vermeldt niet, hoe’n groot gedeelte van de practische subafdeling —het “hart van de afdeling”— de ALGOL 68 groep uitmaakt; mijn vermoeden is, dat het een substantieel gedeelte is. Evenmin vermeldt hij, hoelang een als zodanig identificeerbare groep al werkzaam is; mijn vermoeden is vele jaren. Is ALGOL 68 inmiddels het langst lopende project van de afdeling Informatica?
+
+Ik stel deze vragen, omdat ik de indruk heb, dat de afdeling Informatica met dit project wel heel veel van haar vermogen heeft ingezet op een enkel paard, en daarmee in haar beleid een groot risico heeft genomen. Naarmate dit project een centralere plaats in de afdeling inneemt, wordt het minder ontkoombaar in een evaluatie van de afdeling expliciet een evaluatie van dit project te betrekken.
+
+Er moet worden vastgesteld, of het paard het gehoopte renpaard is gebleken en een klinkklare overwinning heeft behaald, of dat het een sukkelaar is gebleken; die ondanks vele jaren hard duwen nog de eindstreep niet gehaald heeft. Er moet worden vastgesteld of het project de kurk is, waarop de afdeling drijft, dan wel de molensteen om de nek, waaronder de afdeling bezwijkt. Als het project een heel centrale plaats inneemt, moet worden bekeken, hoe de afdeling het zou kunnen afstoten zonder zelfmoord te plegen. Als het antwoord op deze vraag niet duidelijk is, zou dat nl. de diagnose kunnen verhinderen, dat wat op poten is gezet om de afdeling nieuw leven in te blazen, in een slepende ziekte ontaard is.
+
+Ten aanzien van het bovenstaande is de Beschouwing —om begrijpelijke redenen overigens— uiterst neutraal. De uiteindelijke evaluatie van de afdeling mag dat waarschijnlijk niet blijven. (De Beschouwing gaat (4.11) in dezen niet verder dan “De heersende opvattingen over haar [i.e. ALGOL 68] bruikbaarheid zijn in dit stadium nochtans verdeeld.”)
+
+*            *
+
+*
+
+Er zijn in ons land stromingen —Uw voorzitter behoort er toe— die er een voorstander van zijn het begrip “informatica” uiterst losjes —zij noemen het “ruim”— te hanteren, zodat het allen omvat binnen de driehoek, die wordt opgespannen door
+
+a) mensen ( van allerlei disciplines) die wel eens een computer gebruiken
+
+b) electrotechnici die wel eens met pulstechnieken werken
+
+c) logici en overige wiskundigen met enige discrete interesse.
+
+Ik acht dit een te weinig descriptief, en daarom onverstandig, taalgebruik; bij een zo wijd spectrum van zg. “informatici” is er geen coherente discipline meer die al die mensen bindt, waarvan
+
+a) sommigen nog nooit een bewijs geleverd hebben
+
+b) sommigen niet over een getraind abstractievermogen bezitten
+
+c) sommigen nog nooit een programma gemaakt hebben.
+
+Door het ontbreken van deze coherente discipline wordt in dit losse taalgebruik “informatica” tot een holle kreet.
+
+Het komt mij voor dat de afdeling Informatica van dit slordig taalgebruik in meer dan een opzicht het slachtoffer is geworden. Door de vaagheid van de gehanteerde grens tussen de informatica en de rest van de wiskunde heeft de afdeling Informatica binnen het M.C. een stuk profiel verloren. Onthullend is in dezen de zin uit het Kort Commentaar (pg.2–3) “Dat deze medewerkers niet tot de afdeling Informatica behoren, acht ik, gezien het perspectief van het gehele MC, niet van belang.” Dat werkzaamheden binnen het M.C., die de chef van de afdeling informatica tot de informatica rekent, niet binnen, maar wel buiten zijn afdeling bedreven worden, komt mij organisatorisch ongewenst voor. Mist de afdeling Informatica mensen, die er eigenlijk thuishoren, evenzeer kan men opperen, dat de afdeling mensen omvat, die er eigenlijk niet in thuishoren en beter in een afdeling logica of toegepaste wiskunde passen.
+
+Een strengere hantering van de term “informatica” had ons krampachtige constructies als “Theoretische Informatica” —m.i. een contradictio in terminis of een pleonasme— wellicht kunnen besparen, en de afdeling Informatica had zich minder hoeven te versnipperen over “een aantal zwaartepunten”, die met “zwaartepuntjes” beter gekarakteriseerd zijn
+
+*            *
+
+*
+
+Tenslotte moet ik vermelden, dat het streven naar internationale erkenning mij zo zoetjes aan als effectbejag gaat treffen. De politieke manoeuvres, waarmee destijds ALGOL 68 onder die naam en bekrachtigd met het grootzegel van IFIP gepousseerd moest worden, hebben toen op buitenstaanders sterk de indruk gevestigd, dat dit blijk van internationale “erkenning” hoofdzakelijk als hefboom voor binnenlands gebruik moest fungeren. Leek dat toen een geisoleerd geval, nu lees ik in het Kort Commentaar “dat gestreefd moet worden naar werk op hoog niveau [...], teneinde te komen tot een aantal zwaartepunten die nationaal, nu liefst internationaal, bekendheid krijgen.” Nee. De eventuele bekendheid van het werk hoort niet het doel, maar het gevolg van het werk te zijn.
+
+*            *
+
+*
+
+Tot zover mijn commentaar waar de lezing van de Beschouwing en het Kort Commentaar in eerste aanleg aanleiding toe heeft gegeven. Mijn ambivalente houding jegens “the academic establishment” —en in dit geval speciaal jegens de wiskundige sectie ervan— komt er duidelijk in tot uiting. Met een variant op “I love Mankind, it is people that I cannot stand” zou ik kunnen zeggen: “I love Mathematics, it is mathematicians that I cannot stand.”. Deze ambivalentie dat er overigens al uit mijn studententijd toen de in-zichzelf-geslotenheid van het wiskundig establishment (Kloosterman wou van de informatica niets, maar dan ook niets weten!) mij hinderde. De bordjesverhangerij, die we sindsdien hebben kunnen aanschouwen, waarbij wiskundigen op de oude voet —dwz, niet alleen met dezelfde qualiteitsnormen, maar ook met dezelfde relevantie— en significantiecriteria doorgingen, maar alleen deden alsof de term “informatica” nog zo elastisch was, dat het geen kwaad kon hun werk onder die modieuze vlag te presenteren heeft mijn ambivalentie eer versterkt dan verzwakt, omdat ik anderzijds in deze benarde tijden meer oog voor de zorg om de continuiteit heb gekregen. We willen per slot van rekening de wiskunde als kostbaar cultuurgoed graag zo ongeschonden mogelijk aan de volgende generatie overdragen!
+
+Hoe de Raad van Advies verder handelen moet, is mij op het ogenblik nog niet zo duidelijk. Graag wil ik eindigen met een citaat dat mij gisteren onder ogen kwam, en dat mij relevant lijkt. Het is uit het voorwoord van Laurence Trib Corinne S.Schelling en John Voss tot “When Values Conflict” dat bij Ballinger Publishing Company eerdaags zal verschijnen:
+
+“Our ways of evaluating policy options, and our ways of implementing policy choices, cannot rise above our way of talking [cursivering van de schrijvers] about what is at stake and what is to be done.”
+
+Nuenen, 11 maart 1976
+prof.dr.Edsger W.Dijkstra
+
+transcribed by Bart Vreugdenhil
+
+revised
+08-Jan-2012

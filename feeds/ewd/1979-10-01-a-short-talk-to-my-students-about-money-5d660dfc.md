@@ -1,0 +1,51 @@
+---
+title: "A short talk to my students about money (EWD716)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD07xx/EWD716.html
+published: "1979-10-01T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd07xx/EWD716.PDF
+---
+
+# A short talk to my students about money
+
+You may be amazed to discover that in the introduction to a series of lectures on implementation issues I feel compelled to address you on the topic of money. So am I. But I have to do so in reaction to a current trend in what is called "Software Engineering Education", a trend that is becoming more and more fashionable but --as I hope to show in the following-- also regrettable, because confusing.
+
+The current educational argument, reduced to its bare essentials, is more or less as follows. Because the academically trained software engineer --whatever that is-- must be able to take responsibility for large projects and large projects require management, the future software engineer must learn how to manage his project in its environment. Because its environment, whether government or industry, is regulated in terms of schedules and budgets and the like, the software engineer must, therefore, acquire a thorough understanding of how schedules and budgets and the like are used in the regulation and organization of the environment in which he will have to work. The conclusion is obvious: one of the major pillars of wisdom on which any curriculum for software engineering must rest is called Management Science. I have learned that for many this "conclusion" is so much an article of faith that merely challenging it is already regarded as an act of heresy, only to be committed by the lunatic that is courting to become cast out from his society. But to act as that kind of lunatic is the scientist's predicament, so there we go.
+
+One of the underlying assumptions concerns the proper role of the Universities: it is assumed that for the benefit of us all the campus should prepare the students for later life by familiarizing them, while still on campus, with the world outside, in which he will have to fit once he has got his degree. It is a view. Sometimes I fear that, within a few years, it may become the only view that will be permissible in our country. It is not my view. Let us listen, by way of contrast, to what the Cambridge historian G.R.Elton has to say about the teaching of his subject, because I think that his remarks are equally pertinent to any other topic than history:
+
+"Three or four years spent at a university cannot teach a man to know history; they cannot train him as a politician or publicist or publisher; they can at best begin to lay some foundations for a view of the world and (universities being what they are) are likely to lay foundations which, as later experience shows, need to be broken up. None of this invites blame: the impossible need not be attempted. But if those years do not produce an effective conditioning of the reasoning mind, if they do not teach a man to think better than otherwise he would have done, they may justly be condemned as a waste of time."
+
+(from: Elton, G.R., "The Practice of History", Sydney University Press 1967)
+
+The other underlying assumption is that something called Management Science and worthy of the name, indeed, exists. I, for my part, haven't encountered that yet.
+
+*                             *
+
+*
+
+I leave to you the choice of ordering principle according to which you prefer to arrange your impressions and memories. Perhaps you are used to interpreting each accident as a manifestation of the justice of God; or you prefer to describe changes as shifts of power; maybe you classify your impressions as phenomena associated with the rise and fall of ideas; perhaps you see primarily the circulation of money. I leave you free: so far as I am concerned, none is in any way "truer" than any other. But I do take the liberty of pointing out that for certain goals some of them are more helpful than others, and even that ordering principles have been adopted despite the fact that they have almost always been confusing.
+
+Generally speaking, money has been one of those. I do not exclude that it is a helpful notion for someone "that understands all about money", but must add that I am not aware of having met such a person. In general, as I said, financial considerations are profoundly confusing. This is not to be wondered at, and no one is to be blamed for it: money is a notion as abstract and elusive as coins are concrete and tangible.
+
+Evidently money has been used as a means for keeping track of mutual rights and obligations. As computing scientists we are reminded of the absolutely essential role played by non-negative integers (in this context known as "semaphores") when the co-operation between loosely coupled processes has to be organized. Representing an integer value by the corresponding number of things --say: number of coins in your pocket-- admits by the very nature of the representation non-negative values only, and as a computing scientist I am therefore perfectly willing to "understand" how since their invention coins have played some sort of role for the purpose of regulation. And when it is explained to us that the monetary crash of 1929 has been precipitated by almost unbounded credits, we are almost willing to accept that as an explanation: as computing scientists we only know too well that, to serve its purpose, a semaphore value must be strictly bounded from below. Such analogy may give us some coarse appreciation of money's proper role, but that is about all. Let me, therefore, give you two examples of how without a more subtle understanding of money, financial considerations may lead a designer astray. I observed both in the mid-seventies.
+
+I listened to a series of lectures about hardware design. One of the speakers tried to explain to us that thanks to the rapidly developing technology hardware design had almost become impossibly difficult. After some probing the speaker's problem became clear: whenever he had the choice between different designs, he used to choose the cheapest, but that patter of behaviour presupposed that he could determine the price of a considered design with sufficient accuracy. And now he discovered to his dismay that technological changes had made "the future values of the coefficients in the price-equation" unpredictable. The poor man had lost his one and only guiding principle and did no longer know how to design!
+
+The second example of financial confusion is a little bit more subtle and, I think, more wide-spread. I had described the outline of a system for the automatic management of a two-level store in a general purpose computing facility and had tried to justify all my design decisions. Though he thought most of my justifications pretty convincing, one of my academic colleagues was profoundly disturbed, because nowhere in my considerations I had paid any attention to the obligation of the system designer to maximize the utilization of the most expensive components of the installation. I was not amazed at the objection, because I have heard it many times before, though I was perhaps a little bit amazed to hear it from him. What did amaze me was, that it took me several letters to convince him that the supposed obligation to maximize the utilization of your installation's most expensive components is sheer nonsense.
+
+You see, there are two completely different questions involved. The one question is roughly: "Given such and such an installation, what is the best way to provide such and such a service, and how good is that optimal way?" (For the sake of the argument I have slightly simplified that question by doing as if the notions "best" and "optimal" are sufficiently defined.) The other question is --equally roughly--: "Given the prices of the different possible installations, for which installation gives the optimal service most value for its money?"
+
+To provide the answer to the first question is clearly the job of the computer professional, but note, that the question as put is absolutely independent of prices: it is possible to think about the question how to use an installation that has been given to you for free!
+
+To answer the second question is the job of the director of the computation centre; and, again, note that he can make up his mind without knowing how the different degrees of service can be achieved with the different installations.
+
+If both the computer professional and the director have done a good job, it is highly likely that, in the installation that eventually gets installed, there will not be a surplus of very expensive components, i.e. the ones that are there can be expected to be used reasonably intensively. But that was in no way a target for the implementer, it is only the result of the way the director has decided to spend his money.
+
+The fact that the two concerns can be separated is more important than --as the case may be-- that they may be taken care of by the same person.
+
+1st October 1979                                      prof.dr.Edsger W.Dijkstra
+
+transcribed by Tristram Brelstaff
+
+revised Sat, 12 Jun 2004

@@ -1,0 +1,137 @@
+---
+title: "Naar aanleiding van Experimentele post-propadeuse opleiding voor informatica-ingenieur aan de THE” (Eindhoven februari 1980 SOO/jc/sdb) (EWD733)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD07xx/EWD733.html
+published: "1980-03-24T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd07xx/EWD733.PDF
+---
+
+# Naar aanleiding van Experimentele post-propadeuse opleiding voor informatica-ingenieur aan de THE” (Eindhoven februari 1980 SOO/jc/sdb)
+
+NOTE: This transcription was contributed by Martin P.M. van der Burgt, who has devised a process for producing
+transcripts automatically. Although its markup is incomplete, we believe it serves a useful purpose by virtue of its searchability and its
+accessibility to text-reading software. It will be replaced by a fully marked-up version when time permits. —HR
+
+Naar aanleiding van “Experimentele post-propadeuse opleiding voor
+informatica-ingenieur aan de THE” (Eindhoven februari 1980 500/jc/sdb).
+Dit stuk had zoiets als een beleidsnota moeten zijn; het is helaas slechts
+een armzalige simulatie —om niet te zeggen: een persiflage— van wat het had
+moeten wezen.
+De openingszin van de inleiding is, gezien het benoemingsbeleid van de
+onderafdeling der wiskunde sinds 1962, grotesk.
+Het stuk is in zo onbeholpen Nederlands gesteld, dat de vraag wat er
+bedoeld is maar al te vaak verdrongen wordt door de pijnlijkere vraag of er wel
+iets bedoeld is; de inhoud —vermeend, vermoed of gepretendeerd— is daardoor
+vaak nauwelijks discutabel.
+Even gênant is de collectieve incompetentie van de opstellers, zoals die
+zich manifesteert waar het stuk wel min of meer begrijpelijk is. Zo ontneemt
+het lonken naar de Bondsrepubliek en het zich ophangen aan de Amerikaanse
+curricula het stuk zijn laatste restje geloofwaardigheid, want dat heeft te veel
+van de lamme, die zich door de blinde laat leiden. (Zoals was te verwachten
+staat het ACM curriculum uit 1978 zelfs al weer stevig op de tocht, zie Comm.
+ACM 23, 2 (Feb. 1980) 67 - 70.)
+*              *
+*
+
+Het valt de aandachtige lezer niet mee om veel verder dan de woordenbrei
+op pg.6 in het stuk door te dringen. Ontdaan van ergste taalfouten, ruis en
+dubbelzinnigheid luidt subsectie 3.1 vermoedelijk:
+“3.1. Korte signatuuromschrijving.
+De I-ir beheerst de kennis van (in het bijzonder) automatische verwerking van
+informatie. Hij dient in staat te zijn zelfstandig deze kennis toe te passen
+en te ontwikkelen.”
+(Het origineel —13 woorden langer— is als een zoekplaatje: wie vindt 7 (!)
+zonden?)
+
+Zoals het er staat is het erg “knowledge-oriented”: het weerspiegelt
+het beeld van de ingenieur als de man die de kennis gebruikt (en uitbreidt,
+etc.), die hij in zijn studie heeft vergaard. Dit beeld moge voor sommige
+ingenieurs, wier kennis door redelijk uitgekristalliseerde wetenschappelijke
+disciplines reeds voldoende geschraagd wordt, adequaat zijn, in de informatica
+is dit stadium (nog) niet bereikt; aan kennis en derzelver overdracht kan de
+in de korte signatuurbeschrijving geschetste rol derhalve niet worden
+toegedacht. (Met de heel reële mogelijkheid, dat de intellectuele uitdaging van
+de informatica zo anderssoortig is dan we tot nog toe hebben meegemaakt, dat
+het geschetste ingenieursbeeld nimmer op de informatica-ingenieur van
+toepassing zal zijn, hebben de opstellers blijkbaar absoluut geen rekening gehouden.)
+*              *
+*
+
+De “Eindtermen” in subsectie 3.2 helpen ons niet veel.
+De eerste eindterm is enerzijds belachelijk ruim —ergens “aan werken”
+kan iedereen, zolang geen succes verlangd wordt: zolang een rapport van de
+onzin aan elkaar mag hangen, kan zelfs ir. J.M.H.M.Claessens het redigeren—
+anderzijds beangstigend eng —het schijnt b.v. alle exploratie uit te sluiten
+die onmogelijk als probleemoplossing kan worden omschreven— ; de toevoeging
+“in een veelheid van situaties” hangt er als los zand bij (en is bovendien
+onzinnig: was “de oplossing van allerlei informaticaproblemen” bedoeld?)
+De in de toelichting ad 1. genoemde “generalistenfunctie” lijkt moeilijk
+te rijmen met de in de 1ste eindterm genoemde “zelfstandigheid”; de toelichting
+op “academisch” is —niet alleen taalkundig— een lachertje.
+De tweede eindterm is een slecht gestelde —en slecht gespelde!— kreet;
+de toelichting karakteriseert de koksmaat met zijn ruitekensbroek.
+In de derde eindterm kan ik slechts een vereiste lezen mits we, het
+“general purpose character” van de informatica ontkennend, aan de verzameling
+mogelijke “toepassingsgebieden” een willekeurige (maar niet expliciet vermelde)
+restrictie opleggen. De toelichting ad 3. is mij duister: waar bestaat de
+samenhang met ad 1. uit?
+
+De vierde eindterm is absoluut misplaatst: van iemand die zelfstandig
+kan werken is het immoreel te eisen dat hij het ook “in teamverband” kan. (Als
+hij het kan is het meegenomen, maar je mag het niet eisen.)
+De toelichting ad 4. is. ondanks de linguistische onbeholpenheid
+(“deelgebieden”, maar waarvan?; “het laten samenwerken” i.p.v. “het samen laten
+werken”) onthullend. Hier blijkt —of leg ik dat verkeerd uit?— dat “generalist”
+in tegenstelling staat tot “specialist”; hier blijkt —een indruk, die versterkt
+wordt door 3.3., punt 5: “begeleiding van de realisatie etc.”— dat het niet
+de bedoeling is een vakman op te leiden die zelf iets kan. Ik krijg hier
+onontkoombaar de indruk dat de opstellers zich de vrijheid wensen voor te
+behouden abiturienten met een uiterst mistige bekwaamheid toe te staan. De
+toevoeging “teneinde een automatiseringsprobleem op te lossen” is in tweeërlei
+opzicht onthullend: ten eerste de engheid van visie die alles als “oplossing
+van een probleem” wil zien, ten tweede de inperking —tussen neus en lippen—
+van “informaticaproblemen” tot “automatiseringsproblemen”! De tweede helft van de
+toelichting ad 4. bij de “communicatieve vaardigheden” is in dit rapport een
+gillerd. (Straks wordt van onze hoogleraren vereist dat zij de taal van de SOO
+beheersen.)
+De titel van subsectie 3.3 “Oplossing van een automatiseringsprobleem.”
+heeft mij ernstig verbaasd. wat doet die subsectie hier? Als het slechts een
+voorbeeld beoogt te zijn van wat een informatica-ingenieur zou kunnen doen,
+kunnen we dan niet met een voorbeeld komen waar de academische vorming
+overtuigender tot de activiteit bijdraagt? Als het evenwel representatief geacht
+moet worden, laten we dan meteen de hele onderneming, als we hem de nek niet
+kunnen omdraaien, naar de afdeling bedrijfskunde dumpen. De terminologie
+waarin de zes (2) stappen worden aangeduid doet niet onder voor het gewauwel
+van de SSAA van weleer (en inmiddels hebben we er ook nog een
+“informatieprobleem” bijl).
+Subsectie 3.4 doet vrezen, dat het onder 3.3 genoemde “Oplossing van
+een automatiseringsprobleem” inderdaad representatief geacht wordt. we leren
+in elk geval wat je kunt doen met keuzepakketten: invullen!
+Subsectie 3.5 maakt mij —in weerwil van de titel “Relatie tot andere
+
+informatica-opleidingsmogelijkheden”— niet duidelijk in welk wezenlijk opzicht
+de voorgestelde opleiding verschilt van de h.b.o.-opleidingen. Het bij het
+werkterrein van de informatica-ingenieur genoemde
+
+“- management van software constructie”
+
+getuigt van een onpeilbaar diep wanbegrip.
+*              *
+*
+
+Wat moet je in hemelsnaam aan met zo’n stuk snot? Ik denk niet dat het
+zin heeft de “Bestuurscommissie ad hoc currciculum experimentele studierichting
+informatica” de opdracht te geven het huiswerk over te doen: de stakkers
+kunnen niet beter. Rest ons slechts te adviseren de leden van de commissie
+oneervol te dechargeren en de secretaris over te plaatsen naar een functie waar hij
+minder kwaad kan.
+
+woensdag 12 maart 1980prof.dr.Edsger W.Dijkstra
+
+Transcribed by Martin P.M. van der Burgt
+
+Last revision
+
+2015-03-02
+
+.

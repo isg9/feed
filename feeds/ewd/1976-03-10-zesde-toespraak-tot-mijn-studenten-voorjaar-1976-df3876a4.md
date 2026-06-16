@@ -1,0 +1,57 @@
+---
+title: "Zesde toespraak tot mijn studenten, voorjaar 1976 (EWD556)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD05xx/EWD556.html
+published: "1976-03-10T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd05xx/EWD556.PDF
+---
+
+# Zesde toespraak tot mijn studenten, voorjaar 1976
+
+"Our ways of evaluating policy options, and our ways of implementing policy
+choices, cannot rise above our way of talking about what is at stake and what is
+to be done."
+
+Laurence Tribe, Corinne S. Schelling and John Voss.
+
+Het bovenstaande citaat is me uit het hart gegrepen, en ik vind het daarom een mooi citaat,
+dat ik geregeld moet citeren: horen ze het ook een van een ander. Toen ik het in mijn enthousiasme
+aan een van mijn vrienden liet zien, reageerde die met "Tja, dat lijkt me een waarheid als een
+koe.", een reactie, die mij niet verbaasde, want hij kwam van een van mijn vrienden.... Het
+merkwaardige is, dat allerlei mensen, zelfs mensen op verantwoordelijke posities, niet alleen
+zich van deze waarheid niet bewust zijn, maar haar zelfs niet inzien, wanneer zij erop geattendeerd
+worden.
+
+Ik heb in de laatste jaren nogal eens te maken gehad met officiele stukken zoals
+ontwikelingsplannen, adviezen aan de minister, subsidieaanvragen etc., stukken met doorgaans een of meer hooggeleerde auteurs, stukken waarvan het Nederlands zo rammelde, dat je met de beste wil van de wereld er niet achter kunt komen, wat er nu precies bedoeld is. Als ik dergelijke stukken ter beoordeling kreeg, heb ik daar aanmerking opgemaakt, want ik wens onzin niet voor zin te accepteren, en erger, de proliferatie van dergelijk gebeuzel werkt verontreinigend. Dit is mij ernstig kwalijk genomen: een van mijn collegae heeft mij zelfs schriftelijk te kennen gegeven, dat het zijns inziens volkomen onredelijk mijnerzijds was, om van Nederlandse hoogleraren te eisen, dat ze fatsoenlijk hun taal kunnen hanteren.
+
+Zij zijn waarschijnlijk het slachtoffer geworden van een misvatting, die rooie
+onderwijshervormers nog wel eens willen propageren, nl. de misvatting, dat adequaat taalgebruik
+niet anders dan een luxe is, die de betere standen zich kunnen permitteren en waarmee die betere
+standen zich tegelijkertijd van het grauw afschermen. Die rooie onderwijshervormers moesten
+natuurlijk ook wel iets, wanneer je bedenkt, dat de zg. "redeneersommen" van het programme van
+de lagere school afgevoerd hebben moeten worden, omdat ze voor de leerlingen van de kweekschool
+te moeilijk waren. Maar het blijft een misvatting: adequaat taalgebruik is altijd wanneer ergens
+over gepraat moet worden, een onmisbaar stuk gereedschap. Ik heb millioenenprojecten zien mislukken,
+voorspelbaar zien mislukken en zelfs de mislukking voorspeld op grond van het onbeholpen
+taalgebruik, waarin ze op poten werden gezet. Mijn waarschuwen voor het debacle was een uiterst
+frustrerende bezigheid, want de mensen tot wie ik sprak, waren er niet van te overtuigen, dat het
+onmogelijk is om met een botte bijl de punt van een potlood te scherpen. Dat lukt nu eenmaal niet
+met een botte bijl, het lukt zelfs niet met tien botte bijlen. Als je dat laatste probeert, wordt
+het debacle alleen maar nog duurder.
+
+Het is mogelijk, maar helaas onwaarschijnlijk, dat wanneer U bent afgestudeerd, de vergaderrage
+is uitgewoed. U doet er dus goed aan U er mentaal op voor te bereiden, dat U later ook in commissies
+moet zitten. Ik wil U in dit verband voor een van de typen voorzitters ernstig waarschuwen: dat
+zijn de zg."lijmers". Zodra zich in de boezem van zijn commissie zich een verschil van inzicht
+voordoet, zal de lijmer met een compromis komen, waarmee iedereen zich kan verenigen. Als het
+verschil van inzicht er werkelijk is, betekent dit, dat het compromis, dat de lijmer gebrouwen
+heeft een zo vage flodderige formulering is, dat je er ook niets meer aan hebt. Wacht U voor de
+lijmers, want zij institutionaliseren het gebeuzel. Het meest navrante is, dat de bonafide lijmer
+oprecht gelooft, de zaak een goede dienst te bewijzen.
+
+Overigens ben ik van mening, dat er op Hilversum 4 minder moet worden gezeverd.
+
+transcribed by Carl Ludwigson
+
+revised Mon, 5 Nov 2007

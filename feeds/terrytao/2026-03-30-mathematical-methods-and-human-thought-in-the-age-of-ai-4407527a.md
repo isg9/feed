@@ -1,0 +1,15 @@
+---
+title: Mathematical methods and human thought in the age of AI
+url: https://terrytao.wordpress.com/2026/03/29/mathematical-methods-and-human-thought-in-the-age-of-ai/
+published: "2026-03-30T02:56:25Z"
+feed: terrytao
+guid: http://terrytao.wordpress.com/?p=16239
+---
+
+# Mathematical methods and human thought in the age of AI
+
+[Tanya Klowden](https://courtauld.ac.uk/people/tanya-klowden/) and I have uploaded to the arXiv our preprint “ [Mathematical methods and human thought in the age of AI](https://arxiv.org/abs/2603.26524)“. This is an unabridged version of a solicited article for a forthcoming Blackwell Companion to the Philosophy of Mathematics. I rarely write article-length essays of a philosophical nature (perhaps the [last one was in 2007](https://arxiv.org/abs/math/0702396)), but given the topical interest in AI and formalization for mathematics, which has begun to raise increasingly fundamental questions about what the nature, purpose and practice of mathematics actually is (or ought to be), it seemed like it was a timely opportunity to write about these matters. Other mathematicians seem to have recently come to this conclusion also; see for instance [this paper of Avigad](https://arxiv.org/abs/2603.03684), or [this paper of Commelin, Jamnik, Ochigame, Taelman, and Venkatesh](https://arxiv.org/abs/2603.24914), both of which have come out in the last few weeks.
+
+Our piece took over a year to write – which means, at the current pace of development in the field, that some of it is already slightly out of date. Nevertheless, it was an instructive exercise for both of us to try to look beyond the immediate technical issues presented by current AI and formalization tools and try to point out the philosophical questions that we will have to grapple with as these tools become increasingly capable and integrated into our profession, using prior examples of technological advancement as a guide. We don’t pretend to have definitive answers to most of these questions, but as with mathematics itself, the first step is to pose the questions and then try to make partial progress on them (or at least identify some negative results and eliminate some failed approaches). One point we particularly felt worth stressing is that AI tools and applications (in mathematics or elsewhere) should not be viewed purely through the technical lens of what microscale problems they solve and how effective or efficient they are at solving them, but also through the macroscopic humanitarian lens of how our society, our shared body of knowledge and understanding, and our species benefits (or is harmed) as a whole from these technologies.
+
+Our initial submission ended up significantly exceeding the page limits of the submission and ventured beyond the philosophy of mathematics into broader philosophical and ethical questions about AI in general. A streamlined version of the paper will appear in the forthcoming companion, but we have decided to make the original longer version available on the arXiv.

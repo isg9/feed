@@ -1,0 +1,37 @@
+---
+title: "[Toespraak tot twee afstudeerders] (EWD542)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD05xx/EWD542.html
+published: "1974-01-22T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd05xx/EWD542.PDF
+---
+
+# [Toespraak tot twee afstudeerders]
+
+Ik zal U gezamenlijk toespreken. Had U ieder Uw eigen toespraak willen hebben, dan had U maar niet tegelijkertijd moeten afstuderen. Ter geruststelling kan ik U verzekeren, dat ik bij de voorbereiding dubbel mijn best gedaan heb. Het is evenwel niet alleen de coincidentie der afstudeermomenten, noch de coincidentie van Uw beider pril vaderschap, die een gemeenschappelijke toespraak rechtvaardigt, want evenveel redenen kunnen gevonden worden in de gelijksoortigheid van Uw afstudeeropdrachten, de ondernemende wijze waarop U Uw opdracht vervuld hebt, en de overeenkomst van Uw eerste werkkringen.
+
+U had beiden een vrij concrete afstudeeropdracht: een duidelijk probleem is U als kluif toegeworpen met de opdracht, om daar de kiezen dan maar eens in te zetten. U hebt beiden Uw kluif niet onverdienstelijk afgekloven en Uw bevindingen gerapporteerd in een afstudeerverslag, aan de beperkte omvang waarvan menig afstudeerder een voorbeeld nemen kan. U hebt beiden —en dat mag gememoreerd worden, omdat het aan de uiteindelijke getypte versies niet meer te zien is— mij een manuscript —en dit nu in de letterlijke betekenis van "een handschrift"— getoond, waaruit zonneklaar bleek, dat U geleerd hebt goed te schrijven. Ik heb dat bijzonder gewaardeerd en als U zich later ooit geroepen mocht voelen, mij een brief te schrijven, zal ik hem met vreugde lezen.
+
+In zekere zin betreur ik het om Uwentwil, dat U niet vijf jaar jonger bent, want nu, in het jaar onzes Heren 1975, in de informatica afstuderend, bent U duidelijk afgestudeerd in een nog onvolwassen vak. Ik bezig hier met nadruk de term "onvolwassen" en niet de term "onaf": een levend vak is nl. nimmer "af", in die zin dat het verder ontwikkeld wordt en de focus van zijn aandacht steeds verlegd wordt. In een volwassen vak mag een dergelijke verschuiving van de aandacht zelfs de naaste vakgenoten verrassen, en hoeft er ook geen communis opinio te bestaan ten aanzien van relevantie en belofte, maar is men het doorgaans onderling wel roerend eens over de kwaliteitsnormen, omdat deze inmiddels hun waarde en zelfs noodzaak hebben bewezen.
+
+De informatica heeft dat stadium nog niet bereikt. Het is een jong vak. De geboorte lag voor het begin van Uw studententijd; wat U in Uw studentijd ervan hebt meegemaakt, reikt zowat van de kleutertijd, wanneer de eerste symptomen van zindelijkheid zich beginnen af te tekenen, totaan de eerste puberteitspuistjes, de eerste schaamharen, en de eerste duidelijke symptomen van onzekerheid over eigen identiteit, de tijd waarin men zich zowel verschoppeling voelt als jonge god.
+
+Ik ben oprecht de mening toegedaan, dat U zich een vak hebt gekozen, dat zich —naar ik vurig hoop met Uw hulp, maar anders zonder— zal manifesteren als een werkterrein par excellence voor de goede wiskundige ingenieur. Ik kan nl. het vak slechts zien als een van de moeilijkere takken der toegepaste wiskunde, omdat het tevens een van de moeilijkere ingenieurswetenschappen is, en vice versa. Niet iedereen voelt dat ook zo aan, maar als ik tijd van leven heb maak ik me geen zorgen gelijk te zullen krijgen, want ik ben in dezen ervan overtuigd gelijk te hebben. Ik wil niet verhelen, dat er voordien nog een heleboel water vloeien moet door de Dommel, die maar een klein riviertje is...
+
+De ambivalente houding der wiskunde, die, verrast door de haar onbekende combinatie van uiterste eenvoud en onvermoede complexiteit, de informatica beurtelings negeert, dan wel overspoelt met haar in eigen ogen relevantia, zal waarschijnlijk wel voortduren totdat —om met enige vrijheid Max Planck te citeren— de huidige generatie wiskundige smaakmakers onder de groene zoden ligt. U begrijpt, dat ik hoop oud genoeg te worden om niet mijn gelijk pas van een wolk te hoeven gadeslaan, en besef dat U, bijkans een generatie jonger, in dezen op mij een onmiskenbare voorsprong hebt.
+
+De houding van het collectivum dat ik gemakshalve als "de gebruikers" aanduid, is nauwelijks geruststellender: U hoeft maar even verder te kijken, om U ervan te overtuigen, dat bv. een stuk academische zelfkant staat te trappelen om de glorie der informatica te usurperen, zonder zich te willen onderwerpen aan de harde intellectuele discipline, waaraan deze glorie in laatste instantie ontleend is.
+
+Is het een wonder, dat de informatica over eigen identiteit wat aarzelt?
+
+*                          *
+*
+
+Te midden van die puberteitspuistjes gaat U beiden naar een universitair rekencentrum, de plaats bij uitstek, waar iedere medewerker met de neus in de conflicten gedrukt wordt, die van onbegrip het onvermijdelijk gevolg zijn. U zult wel eens aan een heleboel moeten kunnen wennen. Het is niet ongebruikelijk, dat een rekencentrum weinig waardering heeft voar de leverancier van zijn apparatuur; daar moet U misschien wel aan wennen. Het is eveneens niet ongebruikelijk, dat een rekencentrum niet veel respect kan opbrengen voor het merendeel van zijn klanten; daar moet U misschien ook wel aan wennen. Het is ook niet ongebruikelijk, dat een rekencentrum de verlangens —hoe onzinnig ook!— van zijn minst gerespecteerde klanten vakkundig mobiliseert om de volgende apparatuuruitbreiding gerealiseerd te krijgen, opdat de minderheid die wel respect afdwingt nog aan zijn trekken komt; daar moet U misschien ook aan wennen. U zult daarvoor veel wijsheid moeten opbrengen: de wijsheid meer te gedogen, dan U lief is. Enig cynisme wil ook wel eens helpen. Als ik ook in dezen tot Uw vorming heb bijgedragen, prijs ik me gelukkig als opvoeder niet vergeefs gewerkt te hebben.
+
+Ik gun U beiden in Uw werk een zaak, waardig om U ten volle aan te wijden. Als U uw taak niet te nauw opvat —en daar heb ik alle vertrouwen in— zult U zulke zaken in Uw eerste werkkring zeker vinden, en ik laat U dan ook met een gerust hart daarheen vertrekken. Dat op die weg mijn beste wensen U vergezellen, hoeft U niet als blijk van wantrouwen of twijfel uit te leggen.
+
+Van verder commentaar op, bijvoorbeeld, hoe wij van een geleide economie naar een geleide cultuur dreigen af te glijden, zal ik mij op dringend verzoek van de Dekaan onthouden, en dus rest mij slechts U en allen aan wie U dierbaar bent, uit het diepst van mijn hart geluk te wensen met Uw zo succesvol passeren van de mijlpaal, die onder de naam "Ingenieursexamen" bekend staat.
+
+transcribed by Marielle Winarto
+revised Fri, 28 Nov 2008

@@ -1,0 +1,13 @@
+---
+title: "On notation (with A.J.M. van Gasteren) (EWD950a)"
+url: https://www.cs.utexas.edu/~EWD/ewd09xx/EWD950a.PDF
+published: "1986-01-07T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd09xx/EWD950a.PDF
+---
+
+# On notation (with A.J.M. van Gasteren)
+
+*Handwritten manuscript — no transcription available.*
+
+Scan: https://www.cs.utexas.edu/~EWD/ewd09xx/EWD950a.PDF

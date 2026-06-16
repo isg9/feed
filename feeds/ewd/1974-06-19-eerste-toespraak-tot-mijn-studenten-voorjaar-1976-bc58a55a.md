@@ -1,0 +1,56 @@
+---
+title: "Eerste toespraak tot mijn studenten, voorjaar 1976 (EWD543)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD05xx/EWD543.html
+published: "1974-06-19T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd05xx/EWD543.PDF
+---
+
+# Eerste toespraak tot mijn studenten, voorjaar 1976
+
+29 december 1975
+
+Eerste toespraak tot mijn studenten, voorjaar 1976.
+
+Over de gewelddadige dood van Archimedes, na de val van Syracuse in 211 B.C., zijn twee
+versies in omloop; zij schelen echter zo weinig, dat zij zonder bezwaar in een verhaal vervlochten
+kunnen worden. Na de verovering van Syracuse stuurde de nieuwe Romeinse Befehlshaber een zijner
+soldaten naar Archimedes om hem bij zich te ontbieden. De oude geleerde was in gedachten verzonken
+over de tekening, die hij in het zand germaakt had, en wees de indringer met een korzelig "Loop
+niet door mijn cirkels heen!" terecht. Hierop ontstak de Romeinse soldaat in woede en reeg de
+vijf-en-zeventig jarige aan zijn zwaard, voor het nageslacht slechts als schrale troost de
+overweging latend, dat de veldheer Marcellus de oude Archimedes lekker niet meer heeft gesproken.
+Het ware ook betamelijker geweest, wanneer Marcellus nederig zelf zijn opwachting by Archimedes
+was komen maken, maar een dergelijk respect voor de wetenschap kan men van generaals niet
+verwachten. Ook toen al niet. De Engelse wiskundige en Amerikaanse filosoof Alfred North
+Whitehead schreef naar aanleiding van deze moord, die voor hem een bijkans symbolische
+betekenis had, de volgende beroemde passage, die ik U niet wil onthouden:
+
+"The death of Archimedes by the hands of a Roman soldier is symbolical of a world change of the first magnitude; the theoretical Greeks, with their love of abstract science, were superseded in leadership of the European world by the practical Romans. Lord Beaconsfield, in one of his novels, has defined a practical man as a man who practises the errors of his forefathers. The Romans were a great race, but they were cursed with the sterility which waits upon practicality. They did not improve upon the knowledge of their forefathers, and all their advances were confined to the minor technical details of engineering. They were not dreamers enough to arrive at new points of view, which could give a more fundamental control over the forces of Nature. No Roman lost his life because he was absorbed in the contemplation of a mathematical diagram."
+
+Tot zover Whitehead. Is het erg gewaagd te veronderstellen, dat de Engelse aristocraat hier
+over de band zijn commentaar op de Amerikaanse cultuur geeft? Als die veronderstelling juist is,
+zou het ons evenwel niet passen, ons trots op de Europese borst te slaan: de waarschuwing is nl.
+evenzeer van toepassing op het Europa van vandaag waarin door een wijdverbreid onbegrip, waarvan
+ook onze politici niet verschoond zijn gebleven, de wetenschap een bedreigd bestaan leidt.
+
+Wie de stukken van het huidige zg. wetenschapsbeleid leest, slaat de schrik om het hart:
+iedere keer weer wordt naar voren gebracht, dat het te entameren onderzoek maatschappelijk
+relevante vruchten af dient te werpen. Nu geloof ik niet, dat ook maar een wetenschapsman er
+bezwaar tegen zou hebben, als de vruchten van zijn arbeid tot heil der mensheid worden aangewend.
+Integendeel zelfs: dit is, wat hij in stilte hoopt. Maar hij is realistisch genoeg om te weten,
+dat je dat niet verwachten mag. Hij weet, dat wetenschapsbeoefening een nauwelijks gericht tasten
+is, een verkenning van het per definitie nog onbekende. Hij weet, dat hij blij mag zijn als op de
+honderd ideeen, die hij uitzaait, er uit eentje een eetbare vrucht groeit. En hij weet ook, dat
+dit groeiproces vaak zolang duurt, dat hij blij mag zijn, als hij de vrucht nog bij zijn leven in
+wasdom mag aanschouwen.
+
+De ogenschijnlijk vrije onderzoeker zal op de vraag, waar zijn werk eigenlijk goed voor is,
+oprecht met een bescheiden schouderophalen reageren. Hem op grond daarvan betichten van een
+onverantwoordelijk hobbyisme, van "maar wat aan liefhebberen" is dom, kortzichtig en onrechtvaardig.
+
+Overigens ben ik van oordeel, dat op Hilversum 4 minder moet worden gezeverd.
+
+transcribed by Carl Ludwigson
+
+revised Tue, 16 Oct 2007

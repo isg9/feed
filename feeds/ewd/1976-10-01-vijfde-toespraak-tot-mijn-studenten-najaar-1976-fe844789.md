@@ -1,0 +1,72 @@
+---
+title: "Vijfde toespraak tot mijn studenten, najaar 1976 (EWD589)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD05xx/EWD589.html
+published: "1976-10-01T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd05xx/EWD589.PDF
+---
+
+# Vijfde toespraak tot mijn studenten, najaar 1976
+
+Vijfde toespraak tot mijn studenten, najaar
+1976.
+
+Er leven op Gods aardbodem twee soorten mierenkolonies. Een mierenkolonie is
+een heel ingewikkelde samenleving van allerlei verschillende types mieren, vaak
+zelfs in symbiose met allerlei andere insecten. De twee soorten onderscheiden
+zich door de relatieve specialisatiegraad. Er zijn de hooggespecialiseerd
+kolonies waar wel twintig veschillende soorten beestjes, ieder met hun heel
+specifieke rol in zo' samenleving elkaar verzorgen. Ieder beestje is heel
+gespecialiseerd en aan deze specialisatie ontleent de kolonie zijn efficiency,
+en daarmee zijn overlevingskans. Aan de andere kant zijn er de veel minder
+gespecialiseerde kolonies, waar maar een soort of zes samen met elkaar optrekt.
+Deze kolonies werken minder efficient, zij ontlenen hun overlevingskans evenwel
+aan hun groter aanpassingsvermogen. Het probleem van de hooggespecialiseerde
+kolonies is dat zij slechts ontstaan kunnen als ter plaatse de
+levensomstandigheden eeuwen en eeuwen nagenoeg onvernaderd blijven; veranderen
+die omstandigheden merkbaar, dan gaat zo'n kolonie alsnog te gronde. De
+hooggespecialisserde kolonies hebben dan ook een heel klein verspreidingsgebied,
+de minder gespecialiseerde vind je over de hele wereld.
+
+Ik moest hieraan denken toen ik in gesprekken met jonge wiskundigen onlangs
+merkte, dat de meesten van zins waren om zich een plekje onder de zon te
+veroveren door op een of ander gebied of gebiedje specialist te worden, liefst
+zelfs een van 's werelds weinige specialisten. Ze dachten door zo'n vergaande
+specialisatie hun eigen toekomst veilig te kunnen stellen.
+
+Ik denk, dat zij zich verschrikkelijk vergissen. De verdergaande
+specialisatie in onze samenleving, de steeds fijner wordende werkverdeling is
+een verschijnsel in hoofdzaak van de laatste eeuw. Allerlei speciale
+beroepsopleidingen zijn daarvan een duidelijk symptoom. Deze ontwikkeling is
+ingegeven door een streven naar collectieve efficiency. Om een klein voorbeeld
+te noemen: vroeger studeerde je een vak aan de universiteit en als je dan
+gepromoveerd was kon je, als je daar zin in had, bv. leraar worden. Mijn vader
+was nog van die generatie: als hij zijn vak moest opgeven, zei hij "chemie", als
+hij zijn beroep op moest geven zei hij "leraar"; en hij is altijd chemicaus
+gebleven. Tegenwoordig kan je voor de klas komen te staan nadat je een
+zogenaamde leraarsopleiding hebt gevolgd.
+
+Of het nagestreefde doel, de collectieve efficiency, wel helemaal bereikt
+wordt, is iets waarvan ik nog niet altijd zo zeker ben. In het geval van de
+speciale leraarsopleiding, die dan wel goedkoper is dan een volwaardige
+universitaire studie, heeft het ongetwijfeld tot een verschraling van de
+middelbare school geleid, waarvan de beste leerlingen het ergste slachtoffer
+zijn. En hoeveel onze maatschappij daar later voor zal moeten betalen, is te
+griezelig om over na te denken. Maar laten we vandaag even aannemen, dat over
+het algemeen het doel van de collectieve efficiency er wel mee bereikt wordt. In
+dat geval moeten we niet vergeten, dat het het gespecialiseerde individu is, dat
+de risico's draagt!
+
+De ellende van individuele specialisatie is, dat zelfs een marginals
+verandering in de werkzaamheden de specialist van weleer buiten spel kan zetten.
+En deze veranderingen in werkzaamheden vinden natuurlijk plaats, aangezien zich
+in elke maatschappij economische, politieke en technische veranderingen
+voordoen. Maar hoe fijner de werkverdeling, hoe groter zulke veranderingen
+schijnen en hoe dramatischer hun gevolgen zijn. Met uitzondering van het geniale
+unicum, dat altijd boven de wet zal staan, moet ik dan ook concluderen, dat de
+verdoorgevoerde specialist niet zijn eigen belang dient, misschien het
+collectief belang, maar dan voor de prijs van een vergrote persoonlijke
+kwetsbaarheid.
+
+transcribed by Carl Ludwigson
+revised Thu, 15 Nov 2007

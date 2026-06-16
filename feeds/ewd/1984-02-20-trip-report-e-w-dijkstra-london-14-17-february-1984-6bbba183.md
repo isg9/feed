@@ -1,0 +1,76 @@
+---
+title: "Trip report E.W.Dijkstra, London, 14–17 February 1984 (EWD879)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD08xx/EWD879.html
+published: "1984-02-20T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd08xx/EWD879.PDF
+---
+
+# Trip report E.W.Dijkstra, London, 14–17 February 1984
+
+Trip report E.W.Dijkstra, London, 14-17 February 1984
+
+After an oral examination, my weekly lectures, and a quick lunch, Wim Feijen took took me in his car to the Eindhoven railway station for the 13:36 train to Amsterdam. After all the rain that had flooded Europe, the three rivers I crossed were most impressive. I left Eindhoven in the sun, and arrived in Amsterdam in fog. Fortunately, the fog did not prevent flight KL123 --in the same good old DC8 "Christoforus Columbus" I had last month-- to be flown dead on time. In London the Piccadilly Line made the same squeaking noise as last month; did I also have the same carriage? Shortly after 18:00 I arrived in St. Ermin's Hotel, which was very good --for the heart of London even unusually so--. I had dinner with C.A.R. Hoare, J.C. Shepherdson, D.A. Turner, G. Chen, and L. Paulson; after dinner we were joined by P.Martin-Löf, who had excused himself to prepare his visuals.
+
+The occasion was the Royal Society Discussion Meeting on "Mathematical Logic and Programming Languages". Measured by the number of attendants --450--, the discussion meeting was an exceptionally great success. Measured by the composition of the audience it was probably less so. The audience consisted almost exclusively of (mostly) computing scientists and (some) logicians of British Universities. In view of the target audience that had also included "professional programmers and consultants from industry and commerce", "mathematicians and scientists" and "informed citizens", these latter categories were definitely under-represented. (Among the speakers --10-- I was the only representative from industry.) With the exception of Sir Michael Atiyah, FRS -he was one of the three organizers, but seemed to have left the organization to Hoare and Shepherdson-- the British world of academic mathematics was totally absent. (I was disappointed, but my British colleagues told me that this was exactly what they had expected.) I even don't know whether Atiyah's presence really counts; he seemed better at talking than at listening. The audience was also very British: Ole-Johan Dahl (Oslo), Maurice Nivat (Paris) and Michel Sintzoff (Louvain) were rare exceptions.
+
+For two days, we had two speakers in the morning and three speakers in the afternoon:
+
+-- R. Kowalski, D.A. Turner
+
+-- D.I. Good, R. Milner, P. Martin-Löf (a last-minute replacement of D.S. Scott, who had suddenly decided not to show up)
+
+-- E.M. Clarke, L.G. Valiant
+
+-- J.R. Abrial, C.A.R. Hoare, E.W. Dijkstra.
+
+R. Kowalski gave a talk titled "The relation between logic programming and logic specification". I had never heard Kowalski before, and I think I shall not listen to him again. The first half of his talk was on "imperative" versus "declarative" without defining the terms; in the second half he argued that the distinction was not that relevant.
+
+D.A. Turner -on "Functional programs as executable specifications"- was clear and to the point. I was pleased to see that the scientist is gaining on the salesman. I was struck by the emphasis with which he regarded a formula like "x = 1:x" not as a (symmetric) rewrite rule but as an equation; the latter interpretation forces him to introduce "infinite objects", and I realized that I was not sure that I was entirely happy with that metaphor.
+
+The Wednesday afternoon session was opened by D.I. Good on "Mechanical proofs about computer programs". He was the only speaker with slides --white letters on a blue background-- and his talk about the GYPSY environment as more a presentation than a lecture. Dr. D.W. Braben of BP later remarked to me that Good seemed to have been the only speaker who had adjusted his talk to the industry people that had been supposed to be present in the audience. The automatism with which Braben identified people from industry with second rate scientists was very revealing.
+
+Then we had R. Milner on "The use of machines to assist in rigorous proofs". He talked about the l.c.f project ("logic for computable functions"), about ML ("metalanguage for conversation"), about tactical manoevres in proofs and "the notion of strategy construction". This work is now going on for more than 10 years, and Springer has even published a book about it. I realized that I could think of no one on the continent of Europe that is familiar with this work. Strange..... Are the British insular or are we blind? Do we think it too abstract and/or philosophical? Or too much bogged down by implementation? Or both. I did not run to the store to buy the book. Milner made a clear effort to reach his audience and was (again) a pleasure to listen to.
+
+The day was closed by P. Martin-Löf on "Constructive mathematics and computer programming". I quote from his abstract ".... it no longer seems possible to distinguish the discipline of programming from constructive mathematics. [...] the intuitionistic theory of types [...], which was originally developed as a symbolism for the precise codification of constructive mathematics, may equally well be viewed as a programming language. [...] the inference rules of the theory of types, which are again completely formal, appear as rules for correct program synthesis. Thus the correctness of a program written in the theory of types is proved formally at the same time as it is being synthesized." But the 50 minutes were not enough to introduce an ignorant audience to intuitionistic type theory to the extent that it could follow a comparison with Scottery. He was a very sympathetic speaker and convinced at least me that something (possibly even of great conceptual elegance) was going on. He spoke with an endearing care.
+
+In the evening we had the speaker's dinner, at which I had the honour of sitting opposite to Sir Andrew Huxley, the current President of The Royal Society. It was a very enjoyable meal. [When Sir Andrew Huxley left the table, so did Sir Michael Atiyah, leaving Hoare and Shepherdson with the guests. Did we get a glimpse of the pecking order?]
+
+Thursday morning was opened by E.M. Clarke Jr. on "The characterization problem for Hoare logics: a survey". They say that familiarity breeds contempt: Clarke consistently pronounced "axiomatization" as "axiomization". The fact that he ended with the well-known "topics of further research" did not dispel the impression that this line of research has reached its natural end; it did, in fact, enforce it.
+
+The second speaker was L.G. Valiant on "Deductive learning". He did not have much to tell (yet?). On account of arguments from complexity theory he tried to show that "teaching by example" does not work, but I am told that even the artificial intelligentsia have already acknowledged that. I did not like his cartoon-like pictures (which I thought slightly offensive); apart from that, he was a nice and modest speaker.
+
+After lunch the last session was started by J.R. Abrial on "Program construction as a mathematical exercise". He stressed the importance of studying "the mathematical framework within which each program is supposed to behave. [...] Experience shows that the amount of logical and mathematical tools to be used in the construction of most computer programs is quite small." He lists sets, functions, relations, and natural numbers, sequences and trees. I found myself in partial agreement, having all the time the feeling of "Yes, but.....". In the talk he seemed to redo the foundations of mathematics, but is that really necessary? It might be. At the moment he did not convince me (though, admittedly, his stress on set theory somewhat put me off.) He was a very relaxed speaker, quite happy not to pronounce the s of the plural form.
+
+He was followed by C.A.R. Hoare on "Programs are predicates". I quote from his abstract "A program is identified with the strongest predicate that describes every observation that might be made of a mechanism that executes the program. A programming language is a set of programs expressed in a limited notation, which ensures that they are implementable with adequate efficiency, and that they enjoy desirable algebraic properties. A specification S is a predicate expressed in arbitrary mathematical notation. A program P meets this specification if P → S." In the above quotation the contrast between "limited" and "arbitrary" carries the core of his message. The 1-place buffer, the 2-place buffer --and its implementation using 2 1-place buffers-- and the recursively defined unbounded buffer were his well-chosen examples; the lettering on his transparencies was exquisite, and the talk was a difficult act to follow.
+
+But I was fortunate. During the interval Cliff Jones reminded me how once, at a W.G.2.3 meeting, the lamp of the overhead projector blew as soon as he started using the infernal equipment (about the use of which I had just teased him). In order to give the audience the opportunity to adjust itself to my accent, I started with a few silly remarks, and told that Professor Jones had just promised me not to pray that the lamp would blow under my fingers. I did EWD871, and just after I had explained "s wn u → u bn s" by "In addition, the machine reacts by making itself black."...... the bulb blew! I could not have staged it better. When, eventually, the bulb was replaced, I offered the burnt-out one to Cliff and continued my lecture. My talk was well-received. Upon the request of the session chairman I then closed the Discussion Meeting, thanking the organizers, the speakers and the audience. It was 17:45, and shortly afterwards the hall was empty.
+
+In retrospect it was a pity that I did not end with a summing up or, possibly, a synthesis of some sort. Perhaps I should have tried, instead of telling my own story, but this time I preferred to stick to what I had prepared for the occasion.
+
+Dahl, Hoare and Gries joined me for dinner.
+
+*              *
+
+*
+
+The next morning, while I was writing at the make-up table in my hotel room a letter to W.M. Turski, the telephone rang. It was Braben asking whether he could see me. He arrived within 15 minutes, while I was checking out. He immediately told me that he had ordered a car to collect me and to take me to Heathrow, so that we could have some more time. So, eventually and quite unexpectedly, BP saw me to the airport.
+
+Being the nervous traveller I am, I arrived at the airport well in time, the more so since my flight KL120 was half an hour late, due to late arrival of the aircraft. Fog in Amsterdam was the explanation. When we arrived in Amsterdam, I saw that I had plenty of reason to be glad that we landed at all. The decision not to book on the NLM flight from Gatwick directly to Eindhoven had been a wise one.
+
+At 17:45, Ria collected me at the Eindhoven railway station. At 20:00 we were back in Eindhoven in order to listen to a string quartet. The first violinist could do with a more gifted barber. We were back in Nuenen in time for a telephone call at 23:00 from Detroit.
+
+Plataanstraat 5
+
+5671 AL NUENEN
+
+The Netherlands
+20 February 1984
+
+prof.dr. Edsger W.Dijkstra
+
+Burroughs Research Fellow
+
+transcribed by Tristram Brelstaff
+
+revised Sat, 28 Feb 2004

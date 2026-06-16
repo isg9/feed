@@ -1,0 +1,34 @@
+---
+title: "Recensie voor het tijdschrift “Informatie” (EWD288a)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD02xx/EWD288a.html
+published: "1970-07-01T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd02xx/EWD288a.PDF
+---
+
+# Recensie voor het tijdschrift “Informatie”
+
+2 juni 1970
+
+EWD288a
+
+Recensie voor het tijdschrift “Informatie”
+
+Logica en model van Doede Nauta, W. de Haan, Bussum, 1970 (uit de serie “Het modelbegrip in de wetenschappen” onder redactie van Kees Bertels en Doede Nauta, waarin eerder verschenen “Inleiding tot het modelbegrip” van Bertels en Nauta).
+
+Het boek is gedrukt op tamelijk dik papier (2.5 om voor nog geen 300 bladzijden) en, zoals voor romans niet ongebruikelijk, aan de openslaande kant zo gesneden, dat in het profiel de afzonderlijke katernen duidelijk voelbaar zijn, waardoor iets er in naslaan nodeloos onhandig gaat. Voor het overige is de afwerking van uitgeverszijde keurig, mits men niet valt over verschillende representaties van het cijfer “1” �zelfs op eenzelfde regel!— en de afwezigheid van onderscheid tussen de representatie van het cijfer “0” en die van de kleine “o”.
+
+Over het gebruik dat de auteur van de gedrukte text als medium gemaakt heeft, is Uw recensent niet onverdeeld verrukt. Enerzijds is van de typographische mogelijkheden als vet en cursief kwistig gebruik gemaakt (waarbij Uw recensent het gebruik van cursieve druk als nogal hinderlijk ervoer, omdat hij niet ontdekt heeft, welke functie hieraan toegekend moest worden), anderzijds komt men zonder enige (bijv. typographische) waarschuwing passages tegen als “....., dan moet U een grammaticaal volgebouwde zin zijn.”, wat misleidend veel weg heeft van een (zij het wat vreemde) conclusie ten aanzien van de lezer! De auteur schrijft zelf even later “Zoals reeds opgemerkt zullen we de notatie-met-aanhalingstekens niet consequent volhouden.”; of de lezer met deze inconsequentie —die overigens bij logici merkwaardigerwijze niet ongebruikelijk is— gediend is, waagt Uw recensent te betwijfelen. Het is als programmeren zonder onderscheid te maken tussen “het adres A” en “de inhoud van de geheugencel met adres A”, in het naieve vertrouwen, dat de “intelligente machine” iedere keer wel weten zal, wat er bedoeld is!
+
+Over de woordkeus van de schrijver wil Uw recensent geen oordeel vellen, want dit kan locaal geaccepteerd jargon zijn (”instantie” als kennelijke vertaling van het Engelse “instance” in de betekenis van “voorbeeld” of “specimen” was bijv. nieuw voor hem), de zinsbouw roept hier en daar wel vraagtekens op: ala wij lezen “Daarom zullen we in dit boek logische axiomastelsels vaak identificeren met de logische talen ‘T0’ die ze constitueren”, rijst wel de vraag, wie nu wie constitueren!
+
+De welwillendheid, waarmee Uw recensent dit boek ter hand nam, heeft zich zonder veel moeite kunnen handhaven, totdat op pg. 67 haar een klap werd toegebracht, waarvan zij zich niet meer heeft kunnen herstellen. Na referentie naar de moeilijkheden, die de Grieken ondervonden bij de inpassing van het onmeetbare getal in hun denkraam, vervolgt de auteur vrolijk (teruggrijpend naar de iets eerder geintroduceerde decimale breuk): “Nu men een algebraisch representatiesysteem voor de onmeetbare getallen heeft gevonden —namelijk de oneindig voortlopende aperiodieke decimaalontwikkeling— is er echter geen enkele reden meer om deze getallen te discrimineren ten opzichte van andere getallen: ze zijn in geen enkel opzicht 'mysterieuzer' dan negatieve getallen of breuken, die eerst ook representatiedrempels moesten overwinnen.” Hoe de schrijver, die toch weten moet dat nÚch hij, nÚch iemand anders de decimaalontwikkeling gebruiken kan voor de representatie van een onmeetbaar getal, deze representatiedrempel zo luchthartig wegwuift (om niet te zeggen “zo lichtvoetig neemt”) is Uw recensent een volslagen raadsel. Vanaf dit punt ontrolt het boek zich verder als “a self-inflicted pain”, culminerend in een index, waarin “model” onderverdeeld in 21 subhoofdjes (alphabetisch van en met het “abstract model” tot en met het “tegenmodel”) is opgenomen. En passant lijkt het boek de zoveelste bevestiging van de vrees, dat het centraal stellen van de verzamelingenleer, wat zovele vernieuwers van het wiskunde-onderwijs als heilsboodschap brengen, bij nader inzien neerkomt op pretentieus boerenbedrog.
+
+Kortom, het boek was niet voor Uw recensent geschreven; hij vraagt zich wel af, voor wie dan wel.
+
+Prof.dr. E.W. Dijkstra
+
+transcribed by Bart Vreugdenhil
+
+revised
+30-Dec-2011

@@ -1,0 +1,59 @@
+---
+title: "Zevende toespraak tot mijn studenten, voorjaar 1976 (EWD557)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD05xx/EWD557.html
+published: "1976-03-14T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd05xx/EWD557.PDF
+---
+
+# Zevende toespraak tot mijn studenten, voorjaar 1976
+
+In de bundel essays "Two Cheers for Democracy" van de kunstminnende E.M.Forster komen twee
+essays voor, respectievelijk getiteld "Not listening to music" en "Not looking at pictures".
+Als hij tevens een wetenschapsman geweest was, zou hij wellicht er een derde essay aan hebben
+toegevoegd met de titel "Not reading scientific articles"; als hij het geschreven had, zou ik
+er dankbaar uit geciteerd hebben.
+
+Ik realiseerde me nl. onlangs, dat U bij Uw kennismaking met de TH waarschijnlijk wel langs
+onze bibliotheken bent gevoerd, en dat U toen waarschijnlijk wel door een bibliotheekwezen zoals
+dat heet "wegwijs" bent gemaakt: met de catalogus als topologische kaart in de hand kunt U in het
+land der wetenschap niet meer verdwalen. Zo luidt ongeveer het Credo van bibliotheekwezens. Ik stel
+me voor, dat het beeld is opgebouwd van de student, die beter studeert, naarmate hij meer boeken
+en artikelen doorploegt. En toen bedacht ik, dat waarschijnlijk niemand U verteld heeft, waarom
+en hoe men artikelen moet overslaan. Deze toespraak poogt in deze vermoede lacune te voorzien.
+
+Regel 1 —bekend als Naur's Advice— is, dat men bij eerste lezing een artikel achterstevoren
+moet lezen. Dit is nl. de snelste manier om er achter te komen, dat de auteur geen significant
+resultaat heeft geboekt, een helaas zo frequent optredende situatie, dat het gerechtvaardigd is
+zijn strategic daarop af te stemmen.
+
+Regel 2 is, dat men artikelen aan het eind waarvan de auteur in hoofdzaak naar zijn eigen werk
+verwijst, negeert. Een dergelijke lijst referenties is nl. een bewijs van geestelijke inteelt.
+Geen referenties is altijd nog beter.
+
+Regel 3, die toegepast moet worden wanneer men zijn eerste weerzin heeft overwonnen en besloten
+heeft, er dan in godsnaam toch maar naar ta kijken, leert, dat men zich niet moet laten imponeren.
+Men moet zich niet laten imponeren door indrukwekkende notaties, grote formules vol sterretjes,
+Griekse, of nog erger Gothische letters en dubbele pijltjes met punten erboven. Barokke symboliek
+is in elk geval een symptoom van slechte smaak, en meestal een rookgordijn, dat een betrekkelijke
+leegte moet verhullen. Laat U evenmin imponeren door een overmaat aan abstractheid: er is een
+gerede kans dat het onderwerp thuishoort in de bekende categorie "General Abstract Nonsense".
+
+Regel 4 is dat men moet proberen om, bv. door een stap achteruit te doen en de probleemstelling
+iets te generaliseren, het recht te verwerven het artikel als irrelevant gepriegel terzijde te
+leggen. Ten eerste is dit een bijzonder goede intellectuele training, en wie deze techniek beheerst,
+spaart wederom een hoop tijd en een hoop ergernis.
+
+Regel 5 luidt, dat U in geval van ernstige moeilijkheden zich niet een minderwaardigheidscomplex
+laat aanpraten, maar de schuld van de onbegrijpelijkheid op de auteur schuift.
+
+U moet zich nl. realiseren, dat het merendeel van de gepubliceerde artikelen helemaal niet voor
+hun lezers geschreven zijn, maar voor de grotere glorie van de auteur of ten bate van de zakelijke
+belangen van de uitgever. Dat klinkt cru, en misschien zelfs onrechtvaardig. Toch moet ik U op het
+hart binden, met deze mogelijkheid ernstig rekening te houden: dat voorkomt teleurstellingen.
+
+Overigens ben ik van mening, dat er op Hilversum 4 minder moet worden gezeverd.
+
+transcribed by Carl Ludwigson
+
+revised Mon, 5 Nov 2007

@@ -163,6 +163,30 @@ name = "tratt"
 url  = "https://daniel.haxx.se/blog/feed/"
 name = "danielstenberg"
 
+[[feeds]]
+url  = "https://scottaaronson.blog/?feed=rss2"
+name = "aaronson"
+
+[[feeds]]
+url  = "https://math.andrej.com/feed/"
+name = "andrejbauer"
+
+[[feeds]]
+url  = "https://blog.computationalcomplexity.org/feeds/posts/default"
+name = "complexity"
+
+[[feeds]]
+url  = "https://rjlipton.com/feed/"
+name = "lipton"
+
+[[feeds]]
+url  = "https://gilkalai.wordpress.com/feed/"
+name = "gilkalai"
+
+[[feeds]]
+url  = "https://terrytao.wordpress.com/feed/"
+name = "terrytao"
+
 # Sort order for `hrb list` / `hrb feed`. "desc" = newest first.
 ordering = "desc"
 

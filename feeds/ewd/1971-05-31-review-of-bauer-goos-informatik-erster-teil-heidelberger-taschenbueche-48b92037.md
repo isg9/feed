@@ -1,0 +1,41 @@
+---
+title: "[Review of] Bauer, Goos: “Informatik, Erster Teil” Heidelberger Taschenbuecher, Band 80 Springer Verlag, 1971 (EWD311)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD311.html
+published: "1971-05-31T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd03xx/EWD311.PDF
+---
+
+# [Review of] Bauer, Goos: “Informatik, Erster Teil” Heidelberger Taschenbuecher, Band 80 Springer Verlag, 1971
+
+EWD 311
+
+Bauer, Goos: "Informatik, Erster Teil" Heidelberger Taschenb�cher, Band 80
+Springer Verlag, 1971.
+
+In view of the central position this book is expected to occupy in the German computer science curricula at University level, the book is by definition important and therefore it deserves a review judging the book from as many different points of view as we can think of. Another consequence of the book's importance, however, is that, no matter from which point of view the book is judged, we must choose very high standards.
+
+The book contains four chapters, the first one (56 pages) on "Information and Message", the second (81 pages) on "Fundamental Concepts of Programming", the third one (37 pages) on "Machine Oriented Programming Languages" and the fourth one (30 pages) on "Switching Networks".
+
+The first chapter "Information and Message" covers a broad spectrum of subjects, ranging from optical illusions, via digital messages, codes and Shannon's information theory to message processing and information processing. It shows a great erudition and is very readable. The authors must be complemented for the way in which they compressed so much information into only a quarter of the whole booklet and I have no doubts that the inclusion of much of it is fully justified by the level of ignorance of the average freshman for which the book is intended, but your reviewer found it difficult to justify the inclusion of all of it: he wonders why full tables of German phonemes, the Flexowriter code, the ISO 7-bit code, Morse code, the International Flag Code and bigram and trigram frequencies in German text have all been included. He definitely objects to the inclusion of a map of the human brain, showing the localisation of its different functions: this information is vital for the brain surgeons, but absolutely irrelevant for the person who tries to use his own brain, an irrelevance that your reviewer regards as one of the key messages of computer science.
+
+The last section — in particular subsection 1.7.2 "The interpretation of message processing" — is not too satisfactory. As an interpretation associates with each message "an information", it presents an interpretation as a mapping of a set of messages on to "a set of information". A set of messages is called redundant when the interpretation associates the same information — i.e. the same element of the set called "the set of information" — with different messages — i.e. different elements of the set called "the set of messages". So far as good, but as a conceptual basis for the next chapter — but perhaps it is the next chapter that is to be blamed for this — it is extremely shaky. I will return to this in a moment.
+
+The second chapter "Fundamental Concepts of Programming" leans heavily on the programming language ALGOL 68. As this programming language has been greeted with highly mixed feelings, the decision to use its conceptual framework in such a basic text can only be regarded as a political decision (which may have most undesirable consequences). The decision astonishes your reviewer and he can only conclude that someone has played his political cards extremely well. As an introduction to the conceptual framework of ALGOL 68 the second chapter seems as clear as the subject matter permits. Equating the message with ALGOL 68's "internal object" ("possessed" by the external object in question) it suddenly turns out that when different messages have the same information associated with them, the external objects possess not the same internal object, but "different instances" of that same internal object, and this is not a mere playing with words, because when a few pages later the reference is introduced, it turns out to refer to a specific instance of the internal object!
+
+The first seven sections (64 pages) of the second chapter deal with various aspects (and mannerisms!) of ALGOL 68, its last section (17 pages), called "Remarks on the Practice of Programming", contains some well-motivated remarks on program documentation, followed by an extremely terse treatment of a number of well-chosen examples. When we realize that programming is a human activity, the second chapter suddenly strikes us as presenting a rather one-sided view of the subject. Hardly any attention is paid to the process of program composition, nor to any of the techniques available for providing assertions about the computations evoked by a program. The authors don't seem to feel that, besides controlling and guiding his creative abilities, increasing the confidence in the correctness of his program, is one of the most difficult aspects of the programmer's task. In short, your reviewer is rather disappointed by the second chapter, both for what it gives and for what it omits.
+
+The third chapter arrives at a description of the structure of machine code programs — and eventually machines — via a top-down analysis of the task that is presented by the mechanical execution of a program written in a higher level programming language. The worked out examples of various way of evaluating expressions are somewhat laborious to follow, but it is hard to see how this could have been avoided. The chapter is very well understandable and the attention given by the authors to the possibility [of] parallel computing gives the chapter a very special flavour.
+
+The fourth chapter, on "Switching Networks" is concise and well-written. It gives a short introduction to Boolean algebra, it introduces the common switching elements and makes some networks out of them. The diagrams are of an outstanding quality and are therefore a pleasure to study. Its shortness is one of its virtues: to your reviewer's taste it pays exactly the right amount of attention to the subject.
+
+With the technical get-up of the book, Springer-Verlag did an excellent job, the only possible complaint being that a rather small fount has been used.
+
+May, 1971
+Edsger W. Dijkstra
+Technological University
+Eindhoven, The Netherlands
+
+transcribed by Corrado Cantelmi
+
+revised Fri, 2 May 2008

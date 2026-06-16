@@ -1,0 +1,27 @@
+---
+title: "Tweede toespraak tot mijn studenten, najaar 1976 (EWD586)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD05xx/EWD586.html
+published: "1976-10-01T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd05xx/EWD586.PDF
+---
+
+# Tweede toespraak tot mijn studenten, najaar 1976
+
+Het moet moeilijk zijn om een capabel kabinet samen te stellen. Ter informatie van de volgende kabinetsformateur: ik wil hem wel van advies dienen —gratis zelfs—, maar stel mij persoonlijk niet beschikbaar.
+
+Het grootste probleern bij de kabinetsformatie is de keuze van premier en vice-premier. Het is duidelijk dat deze leidende functionarissen op allerlei gebieden, zoals b.v. omroepen en aborteren, hoewel kabinetten er over kunnen struikelen, geen enkele deskundigheid hoeven te bezitten: de omroepverenigingen gaan gewoon door met hun ethervervuiling en geaborteerd wordt er toch. Het moeilijke punt is, over hoeveel kennis van de economie zij moeten beschikken. Als ze er niets van af weten, kom je in de ellende van Engeland en Italie, wier bankroet, met al zijn onheilspellende repercussies, als een dubbel zwaard van Damocles boven het hoofd van Europa hangt. En wat, als je een doctorandus in de economie neemt? Ja, dat moet U niet vergeten! We hebben het altijd zo familiair over "onze Joop", maar per slot van rekening is hij doctorandus in de economie, al zou je het misschien niet zeggen... Voor wat zich in ons land afspeelt lijkt "inflation by natural gas" een passende beschrijving.
+
+Nou kan je over een doctorandustitel je schouders ophalen, zoals Wim Kan, die hem "het middenstandsdiploma voor politici" noemde; en we weten allemaal, dat een middenstandsdiploma nog geen succesvol winkelier maakt. Zouden we beter af zijn met een echte econoom?
+
+Dat is nou precies het dilemma voor de volgende kabinetsformateur. De ellende is nl. dat een echte econoom ook niet alles is. Wee landen als de USA en Japan, waar de dollar, respectievelijk de yen als eenheden van denken geaccepteerd lijken. Een van de griezelige gevolgen daarvan is, dat het onderwijsbestel op allerlei wijzen aan het economische gebeuren ondergeschikt wordt gemaakt. Dat gebeurt hier natuurlijk ook wel een klein beetje, maar per slot is onze Joop maar doctorandus. Het gebeurt hier bv. wanneer op salarissen van onderwijzend personeel beknibbeld wordt, omdat de bodem van de schatkist in zicht is. Maar dat is zwakke onderschikking vergeleken bij die systemen, waarin het onderwijs specifiek de opdracht heeft de am economische reden gewenste werkkrachten af te leveren.
+
+De neiging zelfs het hoger onderwijs primair als beroepsopleiding te willen zien is ook hier al te bespeuren, maar de neiging is nog mild; het is alsof de doctorandus bij wijze van spreken een schuchtere eerste stap naar de promotie heeft gezet. Als deze opvatting van het hoger onderwijs als beroepsopleiding evenwel helemaal de overhand krijgt, dan worden de kosten van dit onderwijs in het economen-hoofd —hoe kan het anders!— als productiekosten geboekt. En elke econoom weet, dat je, om competitief te blijven, de productiekosten hoort te drukken. Dus: hoe minder onderwijs nodig, hoe beter, en de volgende stap is, dat men probeert het productieproces zo te veranderen, dat men met slechter opgeleid personeel uit de voeten komt: in het Amerikaans heet dat "the deskilling of a function".
+
+Kortom: zodra het economisch denken het onderwijs aan het economisch gebeuren onderschikt, zal datzelfde economisch denken proberen dat onderwijs overbodig te maken en uit te hollen. Ik dacht niet, dat de functie van het onderwijs louter was de economie draaiend te houden; integendeel: het is de functie van de maatschappij onze beschaving in stand te houden.
+
+Ik ben bang, dat ik toch eens met de volgende kabinetsformateur zal moeten praten. Wellicht is onze Joop al verder met zijn proefschrift, dan velen vermoeden.
+
+transcribed by Carl Ludwigson
+
+revised Wed, 14 Nov 2007

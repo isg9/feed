@@ -1,0 +1,77 @@
+---
+title: "A short introduction to the art of programming (EWD316)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD316.html
+published: "1971-08-11T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd03xx/EWD316.PDF
+---
+
+# A short introduction to the art of programming
+
+EWD316: A Short Introduction to the Art of Programming
+
+by
+
+prof.dr.Edsger W.Dijkstra
+
+August 1971
+
+Contents
+
+0. Contents
+
+1. Preface
+
+2. Some Fundamental Notions
+
+3. Programming Languages and their Implementation
+
+4. Variables and relations between their values
+
+5. Programs corresponding to recurrence relations
+
+6. A first example of step-wise program composition
+
+7. The shortest spanning subtree of a graph
+
+8. The towers of Hanoi
+
+9. The problem of eight queens
+
+10. A rearranging routine
+
+1. Preface
+
+The market is already so heavily overloaded with introductory texts on computers and computer programming that one must have rather specific reasons to justify the investment of one's time and energy in the writing of yet another "Short Introduction to the Art of Programming". The sole fact that one likes to write is, in itself, an insufficient justification. Before undertaking such a task I should therefore ask myself "Why am I going to do it?" and also "What do I expect to be the distinguishing features of this little monograph?".
+
+There is a simple, practical reason. At my University I give, mainly for future Mathematical Engineers, an introduction to the art of programming and my students would welcome some supporting material. Besides that, without some form of lecture notes, my colleagues have very little idea of what I am really trying to teach! The contents of this course show signs of settling down —I have now given it three times— and therefore this seems the appropriate moment to produce a document that can serve as lecture notes.
+
+These are purely local circumstances and as far as they are concerned, a normal set of lecture notes —in Dutch, say— would do. The fact that I have not chosen this form means that I am aiming at a larger audience. Such an act is always somewhat presumptuous and the usual author's trick to save the image of his modesty is to say that from various sides he has been urged to produce his manuscript —a trick that I could apply in this case without lying. But I don't think that I shall resort to that trick because I really believe that a larger audience than just my students can benefit from it, or even enjoy it.
+
+The fact is that over the last years I have addressed myself to the question of whether it was conceivable to increase our programming ability by an order of magnitude and what techniques (mental, organizational or mechanical) should then be applied in the process of program composition. Personally, I felt these investigations very rewarding: I gained a much deeper understanding of the nature of the difficulty of the programming task, I became much more conscious about my "programming style", which improved considerably, and found myself, when programming, in much better control of what I was doing than I had ever been before. Needless to say, my teaching was heavily influenced by these experiences.
+
+The purpose of this little monograph is to assist the programming reader in cleaning up his own thinking, to transmit to him some mental disciplines by sticking to which he can avoid making his job unnecessarily difficult. It is born out of dissatisfaction with the usual kind of programming course, which now strikes me as like the type of driving lessons in which one is taught how to handle a car instead of how to use a car to reach one's destination. This monograph is intended as a complement to such courses; I shall try to present programming —to quote Niklaus Wirth— "as a discipline on its own merits, as a methodology of constructive reasoning applicable to any problem capable of algorithmic solution".
+
+I expect the distinguishing feature of this little monograph to be its incompleteness, incompleteness in many, many respects.
+
+It will not be self-contained in the sense that I assume my readers somewhat familiar with a decent higher level programming language. (This assumption is a direct consequence of the local circumstance that my students have had a modest prior exposure to the cleaner aspects of ALGOL 60.)
+
+For those readers who identify the programmer's competence with a thorough knowledge of the idiosyncrasies of one or more of the baroque tools into which modern programming languages and systems have degenerated, the book will also be very incomplete, because I won't describe any programming language —not even the one I use— to any degree of detail. I shall use some sort of programming language, as "a communication language" say, not for the communication of algorithms, but for the communication of ways of thinking, as a vehicle for programming style.
+
+In yet another respect, this little monograph will be very incomplete. As said above, I shall try to present programming "as a discipline on its own merits, as a methodology of constructive reasoning applicable to any problem capable of algorithmic solution". At present, such a methodology does not yet exist in the full sense of the word, only elements of it have become apparent, others are just lurking behind our mental horizon. This of course, is not very satisfactory, but it is a true reflection of the current, still rather poor state of the art. It is a consolation that no piece of scholarship ever reaches the state of perfection and I tell myself that the conviction that there is more to come is no justification for witholding what we have got.
+
+It will also be incomplete as a result of the choice of the examples and the choice of the considerations. By necessity, the examples will be "small" programs, while the need for a discipline becomes really vital in the case of "large" programs. Dealing with small examples in an ad-hoc fashion gives the student not the slightest clue as to how to keep the construction of a large program under his intellectual control. Illustrating how we can avoid unmastered complexity, I hope to deal with small examples in such a fashion, that methodological extrapolation to larger tasks is feasible. The selection of considerations is also kept to a strict minimum: we restrict ourselves to programming for purely sequential machines and when we consider a trade-off question, we shall usually present this in the form of a trade-off between computation time versus store requirements. In this respect the document may strike the reader as very strongly dated, perhaps even out-dated by the time it appears in print. If so, I hope that I can justify my defense, which is that such a reader has failed to read between the lines: it is not so much the particular trade-off question chosen that matters, as the fact that problem has been approached in such a fashion that we have made a conceptual framework in which such specific trade-off questions can be postponed until the appropriate moment. The only thing I can do at this stage is to urge my readers to read between the lines as much as possible. (If one tries to transmit ideas or methods, one can talk about them but that alone is insufficient: one must show examples illustrating them. When lecturing, it is my sad experience that after having dealt with a specific example, I find the attention of half my audience completely usurped by this example: they have forgotten that the example was only brought to their attention to illustrate something more general. This is a sad experience and no amount of prior warning that this misunderstanding is bound to happen if they are not careful, has ever enabled me to avoid it!) To put it in another way: it is my purpose to transmit the importance of good taste and style in programming, the specific elements of style presented serve only to illustrate what benefits can be derived from "style" in general. In this respect I feel akin to the teacher of composition at a conservatory: he does not teach his pupils how to compose a particular symphony, he must help his pupils to find their own style and must explain to them what is implied by this. (It has been this analogy that made me talk about "The Art of Programming".)
+
+There is a further class of potential readers that will find this subject matter very incompletely dealt with, viz. those who identify the programmer's task with writing programs in, say, FORTRAN or PL/1. One of my implicit morals will be that such programming languages, each in their own way, are vehicles inadequate to guide our thoughts. If FORTRAN has been called an infantile disorder, PL/1 must be classified as a fatal disease.
+
+Although I would love to do it, it is impossible to give a true acknowledgement, listing all persons whose relevant influence on my thinking I gratefully remember or should remember. With my apologies to all persons unmentioned I would like to make a few exceptions and list in alphabetical order: my mother mrs.B.C.Dijkstra-Kluyver, R.W.Floyd, C.A.R.Hoare, P.Naur, B.Randell, D.T.Ross, N.Wirth and M.Woodger. None of the persons listed, however, should in any way be held responsible for the views expressed (with the possible exception of my mother who is in some sense responsible for my existence).
+
+I am deeply indebted to my sister-in-law, mrs.E.L.Dijkstra-Tucker for her willingness to correct my use of English in yet another manuscript and to W.H.J.Feijen for the great care with which he has screened the text for typing errors.
+
+Back to top
+
+Next chapter: 2. Some Fundamental Notions
+
+transcribed by Bert Put
+
+revised Mon, 1 Sep 2008

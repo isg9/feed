@@ -1,0 +1,31 @@
+---
+title: "ACM Symposium in Gatlinburg “Operating System Principles” (EWD214)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD02xx/EWD214.html
+published: "1966-07-16T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd02xx/EWD214.PDF
+---
+
+# ACM Symposium in Gatlinburg “Operating System Principles”
+
+EWD 214
+
+ACM Symposium in Gatlinburg "Operating Systems Principles".
+Het symposium was teleurstellend, omdat het bitter weinig over "principles" ging en meer over "multi-access systems" in het bijzonder dan over "operating systems" in het algemeen. De "invited comments" waren over het algemeen beter dan de officiële bijdragen.
+
+Er waren ongeveer 160 man, uit Zweden (1), uit Duitsland (1), uit Nederland (3), uit Frankrijk (2), uit Engeland (ongeveer 10) en uit de USA. Er waren 17 bijdragen (14 uit de USA, 2 uit Engeland en de mijne).
+
+Uit roddel heb ik veel opgestoken. De grote moeilijkheid voor de Amerikaanse computerindustrie is het exploiteren van intellect, ze doen veel te weinig aan onderzoek. Het zijn Managements Science en de Business Schools, die hiervan de schuld kregen. De enige computerindustrie, die noemenswaard aan onderzoek doet is de IBM, nl. in Yorktown Heights. Tot voor kort was dit een reservaat, waarheen goede mensen van de concurrenctie werden weggezogen, dat voor IBM een statussymbool was, dat verder niet de minste invloed had op de "Company Policy", want die werd gemaakt in Poughkeepsie. Sinds kort is de interne status van Yorktown Heights veranderd in a "Research Division", zulks ten detrimente van het werkklimaat. ("We must now write silly reports for management morons.") General Electric leeft in een soort symbiose met MIT, maar dat is niet erg bevredigend voor GE, die geen kans ziet om de mensen van de campus los te weken. ("You cannot do this kind of work under the management of a man who has been taught how to make washing machines. The best these guys can do is to optimize a steady state solution for a production process; directors fail to see that in our field we just have no steady states...")
+
+De "discussions from the floor" waren doorgaans belabberd, meer dan de helft was commerciële holklap, die inderdaad elke research moet afstoten. Vooral het "IBMerese" was heel erg.
+
+Project MULTICS (GE en MIT samen) is een hoofdstuk apart. Ik herinner me hoe ik gedeprimeerd uit Hongarije terugkwam, ziende hoe fnuikend het is voor het peil van het denken, wanneer je probeert om onbetrouwbare, obsolete apparatuur toch te gebruiken. MULTICS was andersom deprimerend. Het treft je het meeste als een samenraapsel van ondoordachte "gadgets, gimmicks and contraptions", geïntroduceerd meer omdat ze zagen dat ze ze konden maken, dan dat ze wisten hoe ze ze moesten gebruiken. En daar zuchten ze dan nu onder, wat ook tot bewustzijnsvernauwingen leidt. De absolute afwezigheid van enige invloed van wiskundig denken was opvallend; dit laatste voel ik als het zoveelste symptoom van een diepgeworteld Amerikaans wantrouwen jegens de intellectueel.
+
+Voor de IBM360 had men over het algemeen geen goed woord over. De EL X8 heeft grote indruk gemaakt, vooral bij de mensen van MIT, die dachten dat de mogelijkheid "to attach a new command to an active chain" het privilege van de GE645 was. Later bleek de toekomstige machine van Burrough's het ook te zullen kunnen.
+
+Mensen van "The Mathematical Laboratory, Cambridge" hadden bijzonder weinig waardering voor de activiteiten op het gebied van Computer Education door hun Department of Electrical Engineering (of zo iets). "They have an IBM machine, their instruction is of similar quality." Waar hadden we zulke geluiden ook al weer eerder gehoord?
+
+Ik kreeg de prijs voor de beste voordracht, de grappigste uitnodiging was om na afloop meteen mee te komen naar Palo Alto om mijn critisch oog te laten gaan over het ontwerp voor de volgende machine van Burrough's.
+
+transcribed by Angelo van der Sijpt
+revised Mon, 22 Jan 2007

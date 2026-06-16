@@ -1,0 +1,58 @@
+---
+title: "Trip report E.W.Dijkstra, London and Colchester, 16–20 Jan. 1984 (EWD873)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD08xx/EWD873.html
+published: "1984-01-22T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd08xx/EWD873.PDF
+---
+
+# Trip report E.W.Dijkstra, London and Colchester, 16–20 Jan. 1984
+
+Trip report E.W.Dijkstra, London and Colchester, 16-20 Jan.1984
+
+In her capacity of BP Venture Research Fellow, Netty van Gasteren attended a two-day seminar in London that was presented by her three colleagues in Edinburgh: Rod Burstall, Gordon Plotkin, and Robin Milner. In my capacity of her supervisor I could join her, and so did, since it seemed and effective way of being briefed on what the trio is up to, and I could combine it with a visit to the University of Essex, where I would like to meet Dr. Roland Backhouse.
+
+We left Eindhoven with the 13:36 train and caught the 15:15 KLM coach from Amsterdam Central Station to Schiphol, where we had plenty of time to catch KL123 to Heathrow --in view of the unreliable weather we had not scheduled our trip tightly--. Flight KL123 was so bumpy that Netty was unable to eat on board; fortunately she had a little something at the Airport. (We flew in a good old DC8, planned to be sold at the end of the year. It became quite clear that the flight personnel would only part from it with regret, since it was the type of plane they liked most. In London we had one of the smoothest landings I ever witnessed --and that in spite of the most lousy weather!-- and I could understand some of their affection for the old machine!) Keith Cowey of the Venture Research Unit collected us and early in the evening we arrived at our destination, the Shepperton Moat Hotel.
+
+The Edinburgh trio was scheduled to arrive one hour later --just in time for dinner--, but 5 inches of snow in Edinburgh delayed their flight so much that I had already prepared a replacement lecture, in case they did not show up, when they finally arrived. That was after the soup: we had given up waiting.
+
+That night I learned that, if you have an electronic travel alarm, you should check the battery before leaving: mine was dead. So I switched on the alarm provided by the hotel and went to bed. That that piece of equipment was out of order I only learned the next morning when I overslept. Eventually Netty woke me by telephone. I had a high-speed breakfast, and then the seminar started.
+
+The theme was "Developing a Science of Complex Discrete Systems" --and not "Complete", as was typed on the list of participants--. Each of the three speakers had two slots. Rod Burstall spent one slot to an overview, to his experience with "Categorical Programming" and to the work he did with Butler Lampson --who just left Xerox PARC and went to DEC-- on "A Kernel Language for Abstract Data Types and Modules". His second slot was mainly filled out with an example he had worked out the evening before. He wanted to show the usefulness of his notion of "type" in program specification and showed his initial specification of a thermodynamics programming package used in the oil industry.
+
+Robin Milner's topic was "Using algebra for concurrency: some approaches". For reasons of time he gave only an introduction (which could have served as an introduction to Tony Hoare's Communicating Sequential Processes as well). His lecture was built on on two extremely carefully chosen examples, and was a delight to listen to. He abstained from trying to sell the immediate relevance of his work to the oil industry.
+
+Gordon Plotkin's topic was a "Kernel Language", with its semantics so well-defined and its proof rules so well-established, that it can serve as the foundation for whatever programming language we would like to define and master. His goal seems very close to the one Scott and Strachey set themselves when they developed their "Denotational semantics"; he was very dissatisfied --and I think rightly so-- with how that had worked out in practice. (Whether his approach will work out better remains to be seen.) It was, however, very hard to extract this topic from his presentation, which was chaotic in the extreme. He spent most of his time on clarifying his baroque syntax, on explaining LISP fundamentals --such as the difference between "cons" and "append"--, on a too elaborate example for the generation of the possible structures of paraffin molecules, and on correcting his numerous errors.
+
+In a number of rather different ways, the whole seminar struck me as very British. I mention the following observations.
+
+(i) With great imagination, they set themselves high and intellectually ambitious goals. But their notations abound with local conventions, which are often uncritically adopted and never explicitly stated. (They seem to have never made up their minds about how to delineate scopes of dummies and, as a result, they usually don't; they rarely state the relative binding power of infix operators, etc..)
+
+(ii) The role of Logic --in Britain still Philosophy's Handmaiden-- is primarily descriptive and that of mathematics in applications is primarily one of "modelling". (This was striking for us: we heard the term over and over again, whereas we never use it.)
+
+(iii) When, at the end, Rod Burstall was asked whether this type of work was done only in Edinburgh, he said "Oh no,...", and listed a number of other British Universities!
+
+(iv) The tension between academia and industry struck me as exceptionally strong. I found the speakers with their oily examples condescendingly talking down to their audience, but perhaps they were right: it was sometimes hard to believe half the audience consisted of scientists with a Ph.D --the one and only German participant was very different--.
+
+On Thursday morning, 9 o'clock, Netty and I were collected by Dr. Ian White, who would take me to Liverpool Street Station and Netty to Britannic House. We were caught by one traffic jam after the other, and eventually I was fortunate to be able to catch the 10:50 train to Colchester. At 12:20, I arrived at the University of Essex; of the staff I was introduced to, Tony Brooker and Roland Backhouse were the only ones I had met before.
+
+When I made the appointment, I had been asked whether I would be wiling to give a lecture, and I had agreed, giving as my title "The propositional calculus and Leibniz's Principle." Upon arrival I learned that I was scheduled at 15:00 and that the performance had been moved to a larger auditorium. (The P.A. system was excellent --for a change!-- but the --fixed!-- blackboard was not up to par.) I found it a very difficult audience to work with. Later I learned that I had had a double handicap to overcome. The first was that my audience had been familiarized with the misuse of notation that distorts "P≡Q ∧ Q≡R" into "P≡Q≡R"; the second one was that my audience, consisting of Essex students of computing science, was essentially amathematical. I know that --mathematics being as unpopular as it is-- more departments have tried to offer --by way of "computing without tears"-- computing without mathematics.
+
+My visit to Essex was my N-th confirmation (N>>0) that this does not work. It made the whole place rather depressing (as exemplified by the staff member who seemed to welcome each sabbatical leave "if only to be away from Essex).
+
+An hour after my talk had ended, we were joined by Netty. Until 20:00 we were left to our own devices. Then our hosts joined us for a very pleasant and civilized dinner. At 23:30 we were back in the University's Conference Centre --in the old mansion of Wivenhoe Park--. That night we were its only occupants --I had been given a key for the front door--. The next morning, 7:45, personnel had arrived to give to give us our breakfast and to order our taxi, which on its way to the station ....... got stuck in a traffic jam. By way of encouragement the driver told us that British Rail was on strike at several stations. Our train, however, was on schedule and we caught it. The snow, which had been predicted, did not show up and without further disturbances we completed our return journey: at 17:25 we were back in Eindhoven.
+
+Plataanstraat 5
+
+5671 AL NUENEN
+
+The Netherlands
+22 January 1984
+
+prof. dr. Edsger W. Dijkstra
+
+Burroughs Research Fellow
+
+transcribed by Tristram Brelstaff
+
+revised Mon, 27 Sep 2004

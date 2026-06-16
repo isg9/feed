@@ -1,0 +1,43 @@
+---
+title: "Verslag van het bezoek aan Grenoble en Parijs (6–11 december 1967) (EWD222)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD02xx/EWD222.html
+published: "1967-05-10T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd02xx/EWD222.PDF
+---
+
+# Verslag van het bezoek aan Grenoble en Parijs (6–11 december 1967)
+
+EWD 222
+
+Verslag van het bezoek aan Grenoble en Parijs (6-11 december 1967)
+De stad Grenoble staat volslagen op zijn kop vanwege de komende Olympische Winterspelen (men rekent o.a. op 2000 tot 2500 extra zieken en gewonden plus enkele 10-tallen doden). De algemene nervositeit werd iets minder toen het eindelijk behoorlijk begon te sneeuwen; gelukkig had ik op het laatste moment voor mijn vertrek uit Eindhoven bedacht, dat dichte schoenen wellicht geschikter waren dan slippers.
+
+Ik ben ondergebracht in het eerste perfecte (Franse) hotel, dat ik ooit heb meegemaakt, en werd bij mijn aankomst opgevangen door Griffiths, een Engelsman, die verleden jaar in Villard-de-Lens deel uit maakte van het Britse contingent, maar inmiddels min of meer in dienst is bij de Universiteit van Grenoble. Tot zover was de organisatie perfect: een tegengestelde ervaring was dat, hoewel was afgesproken dat de Universiteit de (considerabele) hotelrekening betalen zou, dit overal bekend was behalve bij de receptie van het hotel!
+
+Ik ben twee volle dagen in het instituut voor toegepaste wiskunde geweest: zuivere wiskunde—en later heb ik begrepen, dat dat typerend is—zit in een volslagen ander gebouw. Donderdagmorgen hebben enige medewerkers mij een indruk gegeven van wat ze deden—presentatie opvallend helder, zeker wanneer je in aanmerking neemt hoe slecht het Frans zich hier voor leent. Hoewel ik officieel alleen vrijdagmorgen voor het officiële colloquium spreken zou (in wezen hetzelfde verhaal als in Gatlinburg etc.) heb ik, voor een iets kleiner gehoor donderdagmiddag een volledig ongeprepareerde voordracht van twee uur gehouden over de synchronisatie tussen het centraal rekenorgaan van de EL-X8 en de peripherieapparatuur. Een grote fractie van het gehoor bestond uit mensen van IBM (zie later) en het verhaal maakte, hoewel ik zelf niet erg tevreden was over de manier, waarop ik presenteerde, daardoor een enorme indruk. Vrijdagmorgen heb ik voor een inmiddels groter publiek, de generale repetitie gehouden (van weer twee uur) van wat ik maandag in Parijs vertellen wil. (Titel "Towards correct programs" onderwerp "An effort to increase our ability to create reliable mechanisms"). In Parijs verwacht ik minder Britten onder mijn gehoor (die aanzienlijk tot de levendigheid van de discussie bijdroegen) zodat ik hoop het daar wat sneller te kunnen doen. (Wat wel goed uitkomt, want ik moet dan een vliegtuig halen.)
+
+De aanwezigheid van de Britten houdt verband met het feit dat de Universiteit van Grenoble op het ogenblik een multi-console configuratie heeft (in eerste instantie met een PDP-8 als "buffermachine" en voor het grotere spul wordt dan een IBM 7044 ingeschakeld) en dat ze van plan zijn een dergelijk systeem op te bouwen met behulp van een IBM 360/67. Dit laatste wordt ontwikkeld in samenwerking met IBM; in het kader van dit contract heeft de Universiteit b.v. Griffiths in dienst. Hoe dit allemaal tot stand gekomen is heb ik niet ontdekt: men is nl. heilig overtuigd van de bezwaren van de IBM 360 voor zulk soort toepassingen en over de ongeschiktheid van de IBM-terminals zijn ze heel openhartig.
+
+Het systeem met ±24 teletypes, de PDP-8 heb ik in werking gezien, in een instructielokaal vol studenten. De demonstratie was perfect: na 20 minuten derailleerde het systeem, zodat iedere student zijn werk van ± het laatste uur de mist zag ingaan en opnieuw kon beginnen. Et populus murmuravit contra Moisen... Ik verwachtte een rel, "an open revolte", maar het werd gelaten geaccepteerd, het gebeurde eens per week. De instructeur gaf de schuld aan de apparatuur, maar kreeg van mijn begeleiders geen bijval. Wat niet verwonderlijk is, gezien de betrouwbaarheid van de teleprinters en de PDP-8. Wij houden het op "a lurking bug".
+
+De jongens achter de toetsenborden waren enthousiast bezig. Ik heb het angstige vermoeden, dat de oorzaak van hun enthousiasme gezocht moest worden in het feit, dat hun taak zo onnozel was, dat ze het nog konden zonder intellectuele inspanning. Bij de educatieve waarde van de hele opzet zet ik enorme vraagtekens—"Het enige, dat je met een kleine machine doceren kunt, is hoe je met een kleine machine klungelt". Ik heb dit voorzichtig aan mijn gastheer Bolliet laten merken, die mij onmiddellijk bijviel. De multiconsole-configuratie is meer een statussymbool, en dit is, wat Grenoble hard, hard nodig heeft.
+
+Uit roddel heb ik min of meer begrepen hoe Grenoble vechten moet tegen Parijs en Bourbaki. Een combinatie van wettelijke regelingen en gekonkel heeft b.v. de volgende gevolgen:
+
+1. Wie wil promoveren over een toegepast wiskundig onderwerp moet bovendien een verhandeling schrijven over een hem opgelegd, niet door hem zelf te kiezen, onderwerp uit de zuivere wiskunde (zulks uit te maken door Bourbaki himself te Parijs). De schade, die deze barriere voor het toepassen van wiskunde toebrengt aan de Franse economie moet enorm zijn.
+
+2. Om hoogleraar te kunnen worden moet men aan zoveel wettelijke vereisten voldoen, dat het b.v. practisch onmogelijk is om in het buitenland getraind intellect voor deze posten te importeren. (Mag niet van Parijs)
+Iemand als Bolliet, die een afdeling Computing Science heeft opgebouwd, die 200 studenten verzorgt, heeft in de hierarchie van de Universiteiten van Frankrijk een heel ondergeschikte, in elk geval onzekere positie. Parijs ziet de bloei van Grenoble met lede ogen en zal alles in het werk stellen om dit tegen te gaan. Fijn land! En het is dacht ik, juist Grenoble's positie van verdrukten, die IBM de mogelijkheid gegeven heeft dit instituut zozeer te infiltreren. Toen ik mijn vrees uitte, dat in de komende jaren een goed stuk van Computer Science wel eens kon degenereren in leren leven met en knutselen aan het inmiddels al beruchte "Operating System 360", oogstte ik een grimmige glimlach ten teken, dat de vrees gedeeld werd.
+
+De zaterdag heb ik in Grenoble doorgebracht op een allerplezierigste manier, die dunkt me alleen in Frankrijk mogelijk is: in haar appartement serveerde onze charmante gastvrouw haar gasten een lunch, die duurde van 12.15 tot 17.30 uur.
+
+Ik heb wel begrepen, dat men, althans in Grenoble, "The French Chapter of the ACM" niet als wetenschappelijke, maar als politieke instelling beschouwt zodat ik niet met een erg gerust hart naar Parijs ga. Van de drie verhalen, die ik in Frankrijk heb gehouden, beschouw ik de voordracht, die ik voor Parijs heb voorbereid, duidelijk als de belangrijkste ("The Gatlinburg story" raakt natuurlijk ook wel wat versleten), maar toen ik hem in Grenoble ten doop hield, kwam hij maar gedeeltelijk over het voetlicht. Uit een gehoor van zestig waren een stuk of tien—mensen met ervaring in grote projecten—duidelijk gegrepen: dat tiental is in elk geval meer dan van tevoren overtuigd van de mate, waarin "Simplex Veri Sigillum" voor het programmeursvak geldt. De resterende vijftig waren beleefd enthousiast omdat ze het verhaal van begin tot einde hadden kunnen begrijpen—complimenteerde me bij wijze van spreken over de elegance van de oplossing, waarmee ik een en ander illustreerde—maar dat de totale begrijpbaarheid van mijn verhaal nu juist de kern van mijn betoog (zeg "boodschap", zo je wilt) was, ontging hen geloof ik. Er zijn kennelijk mensen, die pas het gevoel hebben van een voordracht iets geleerd te hebben, mits ze de spreker niet hebben begrepen.
+
+In Parijs een gehoor van een man of zestig, waaronder een stuk of tien intelligent reageerden.
+
+E W.D.
+
+transcribed by Angelo van der Sijpt
+
+revised Sun, 7 Oct 2007

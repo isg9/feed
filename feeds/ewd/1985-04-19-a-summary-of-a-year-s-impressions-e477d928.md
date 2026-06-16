@@ -1,0 +1,79 @@
+---
+title: "A summary of a year’s impressions (EWD918)"
+url: https://www.cs.utexas.edu/~EWD/transcriptions/EWD09xx/EWD918.html
+published: "1985-04-19T00:00:00Z"
+feed: ewd
+guid: https://www.cs.utexas.edu/~EWD/ewd09xx/EWD918.PDF
+---
+
+# A summary of a year’s impressions
+
+A summary of a year's impressions
+
+(Speech at the Second Annual Spring Banquet of the University of Texas Student Chapter of The Association for Computing Machinery.)
+
+As you have probably deduced for yourself, my title is not really fair: it is only an academic year and even that is not over yet. But shorter titles better catch the attention, so --in a good commercial tradition-- we let salesmanship prevail over honesty. (Don't forget that the Dutch have been nicknamed "the Greeks of Western Europe". This was a --not very flattering-- comment on their trading practices.)
+
+A slightly dishonest title, however, is not out of place, for my talk will be slightly dishonest too. I shall put on my European hat, not because it fits me better than any other --in fact: I prefer the freedom of walking with my head uncovered-- but because I felt that that was more or less expected from me. It's for the occasion. One should avoid disappointing one's host. But part of the dishonesty of my European hat is that I shall fake some more surprise, as if I had not visited this continent dozens of times before.
+
+Now, the rôle of the foreigner commenting on someone else's country is always a risky, as one cannot hide under the cloak of humility as when criticizing one's own country. To reduce the risk of now being expelled from your community as the embodiment of un-American activity, let me point out two things. Lest I be lynched, so to speak. Firstly, my wife and I were willing to leave our family and our country for yours, so you can hardly expect us to be completely out of sympathy with your collective endeavours; and secondly, I could say nasty things about Europe too. I could, for instance, point out that from the point of competition it does not seem to matter very much what you do: Whatever stupidity you commit, it will almost certainly be faithfully copied in Europe one or two decades later. (Off-hand I can only think of two major exceptions: the Vietnam War and, until recently, Artificial Intelligence.)
+
+In a discussion of the two sides of the Atlantic Ocean, the use of the terminology of our National Myths combines, of course, the dangers and advantages of gross oversimplification. But, when all is said and told, I think the advantages prevail because, even if those national myths are crude caricatures, they come to contain --as we shall see in a moment-- a greater element of truth than we would perhaps like or expect. Because everybody up to a point tries to live up to his National Myth, those National Myths become self-fulfilling prophecies and to the extent that that happens we should regard ourselves as fictional characters, as figures created by literature and folklore.
+
+What are the myths, reduced to their bare bones? The European believes he can save Civilization by Education, the American believes he can save society by Technology. The European will try to solve specific problems first and foremost by Thinking, the American by a million-dollar budget to buy Equipment with.
+
+The amazing thing is that such mythical faiths are indestructable, no matter how overwhelming the evidence contradicting them. Did European education save civilization? I seem to remember that, in this century, Europe ignited two world wars. Did American technology save its society? By all measures, the average productivity of the American worker is now only half of that of his European counterpart. (The statistics were not clear whether Europe included Britain; probably not.) There you are, but .... the myths persists, and by persisting they shape our societies and thereby us: the average American is surrounded by more gadgetry and his education does have greater cavities.
+
+(Of course I know that ours is a confusing county: its name is "the Netherlands", it is called "Holland" and its citizens are "Dutchmen". But we have very old links: the Dutch founded New York, the Netherlands was one of the very first foreign countries to be honoured by an American ambassador. His name was John Adams; you may have heard of him. Last December we went for Christmas to were we came from. Just before we left, my wife saw our neighbour from across the street and told him that we went for a few weeks to the Netherlands. Reaction: "Oh, how nice! Is it now summer over there?")
+
+We are not only the victims of the myths about ourselves but also of the myths about the other side. We were coming to the Mecca of Technology, weren't we? Well, probably we should have known better, but one of our greatest surprises while settling down was the profound level of technical incompetence we found ourselves faced with. Order an ironing board at Sears; we really had to get used to it that, by the time you come to collect it, it has become a hair dryer. We would get gas heating, so our house was wired for electric heating; for the sake of humidity control we would get two compressors, so the house was wired for one; eventually I ended up giving the man who designed our airconditioning a one-hour lecture on elementary control theory. In my innocence I thought I had come here to do computing science; now I know more about airconditioning than I ever wanted to know.
+
+Now closer to our common business, the topic that I call "computing science". The myths influence our perspective of the topic. What is it about? Is it about computers --as your name "computer science" suggests-- or is it about the control of complexity? I would like to point out that these are no idle questions. What did the NSF do in reaction to a perceived trailing behind of American computing science? To your best-known universities it gave a few million dollars each, explicitly earmarked for upgrading their computing equipment-- stuff of which they probably had already too much. When last year a delegation of a big American computer manufacturer, kindly and with the best of intentions, asked how they could support our research endeavors in Eindhoven, I could only answer "How kind of you! The best way of helping us is by not giving us equipment.".
+
+After our arrival we learned another thing that has consequences, both for our conception of computing and for our vision of the rôle of the universities. In our naivety we were considerably disturbed by the discovery that over here the interface between supplier and customer is very different from what we were used to: under the slogan "Satisfaction guaranteed", the American supplier leaves the last stages of quality control of his products entirely to the customer. At first sight it seems very practical and economical, for if your customer turns out not to demand high quality, why bother? But I fear that the attitude is penny-wise and pound-foolish.
+
+My modus operandi was to design what according to my standards was the very best thing I felt I could realize. My customers used to be delighted with the smoothness of the service provided by what I had offered to them. That was, of course, nice, but somehow secondary. For me it was much more important to demonstrate that the job could be done excellently and to raise the quality standards of the profession. I am now beginning to understand slowly why such developments hardly took place here.
+
+As soon as unqualified "user satisfaction" is accepted as quality criterion, you are in danger of faulting Albert Einstein for the fact that the Theory of Relativity is too difficult for the average highschool kid. You are also in danger of discovering easier ways of achieving "user satisfaction", for instance by making your customers "feel good", something that can be achieved by propaganda instead of by the quality of your products. And this is probably what is euphemistically denoted by "the post-industrial shift from manufacturing to marketing".
+
+I must mention a further consequence of accepting "user satisfaction" as quality criterion. It inextricably intertwines the intrinsic problems of computing science with the local problems of embedding computers in society and is thus responsible for the fact that for someone from outside American computing science is often so parochial.
+
+It also affects the way in which the rôle of the University is seen. The Ph.D. programs have been established about a century ago in reaction to the realization that American science was nonexistent: in the nineteenth century, the whole of the USA produced precisely one brilliant scientist --Josiah Willard Gibbs-- and he was totally unknown in his own country. The absence of American science was the result of the vocational role that had been granted to the universities, and the Ph.D. programs have been erected to remedy the situation. The measure worked, but only partly. It worked in the sense that now, more than a century later, American science definitely exists. It failed in the sense that the American university is still tied to the rôle of vocational training: in this respect the Ph.D. programs did no more than increasing the number of vocations by one, viz. that of the research scientist. I knew all this, but was yet surprised by the strength of the pressure on the academic community. The pressure is strong and subtle, but somehow many people --staff and students-- feel subconsciously that one must have very strong reasons and a lot of guts for displeasing the computer industry, the DoD, or one's colleagues on the rest of the continent. This is a pity.
+
+It is the strength of that pressure that forces me to devote a few words to the American ambivalence towards science and learning. We all now accept that "Johnny can't add", but save the situation by knowing that "Johnny has a way with machines". The myth has to reconcile American technology with the "farm boy", uncorrupted by the fruits of learning and still in the American Garden of Eden. Reconciling the incompatible is a main function of myths, thus so far, so good.
+
+But in order that you may see how much harm the myth can do, I now ask you to look at the following three facts in combination.
+
+- With a strong sense of economic responsibility, the American University sees and acknowledges the task of training the manpower and developing the knowledge, technology, and methods industry needs. For a CS department, these are the needs of the computer industry.
+
+- The University is very fortunate because today it is the high-technology industry it has to cater for. And since high technology is unthinkable without vigorous underlying science, the academic world now can --and hence must-- combine its scientific and its economic obligations. For the Department of Computer Sciences in particular it is Heaven, for the computer industry is a high-technology industry if there ever was one. (For many people, "high-tech" is almost synonymous with "computers.)
+
+- In the computer industry, driven by the slogans of its own invention, the correlation between the quality of a product and its position in the market is negligible, if not negative. The practice of the computer industry is all but unaffected by computing science's achievements, and the management of it, operating under traditions that predate the high-technology industry, does all its best to deny that they are in the high-technology business. They would, indeed, be shocked out of their wits, were they to discover that their leading technology is a highly mathematical one. Much safer to stick to good-old American common sense.
+
+So there we are. The industry we feel called to serve is very sick, if not mortally ill. It has acknowledged that tuberculosis cannot be cured by ordinary asperine, but the only cure it accepts is aspirine repackaged for "round-the-clock relief". (And stomach-friendly!) We are faced with the dilemma of a grave discrepancy between what society asks and what society needs. I think the University has no choice: it has to go its own way until society comes to its senses. So much for our industrial relations.
+
+Finally two remarks, one about universities in general and one about UT in particular.
+
+I knew that I would enter an environment in which the distinction between the scientist and the salesman is dangerously thin and in which the Publish-or-Perish syndrome is so strong that Carl Friedrich Gauss would have been denied tenure. I was, however, unprepared for the discovery that one of the considerations for giving tenure is the candidate's "visibility"; I had not realized that the morals of the bestseller society had pervaded the academic community to such an extent. Similarly I was totally unprepared to see offered, as a service from UT to its students, a short course on "How to market your Ph.D." I was, in fact, shocked.
+
+The last remark is about UT, in particular on the popular response to the question whether foreign students should pay higher tuition fees than residents; 85% of the people asked thought that appropriate. My sad conclusion was that 85% of those people had very little understanding of the conditions under which the academic enterprise can flourish. The academic world is essentially cosmopolitan, everywhere. If it stops being that, it unavoidably loses its strength and universities degenerate into local parochial schools. The Dutchman Erasmus was equally at home in Cambridge, Leuven, Paris, and Switzerland, and that familiarity was essential in opening up the closed outlook of the Middle Ages. The phenomenon of "Der Wanderstudent" has been essential in the building of the academic tradition. Foreign students are a crucial ingredient of academic life; so is a not necessarily foreign but at least cosmopolitan staff.
+
+The topic is compounded by the circumstance that it is not clear yet whether the American system of higher education is self-supporting. The last time I checked it at one of your institutes of scientific excellence I discovered that of its faculty no less than 40% had been (mainly or entirely) educated outside the USA, and by international standards that figure is a bit high. We should remember that if the USA is not yet scientifically self-supporting, the symptoms of that shortcoming have been suppressed. The suppression is one of the things we could blame Hitler for, providing you, as he did, with a strong influx of well-trained intellect.
+
+My firm hope is that, one of these centuries, US scientific life will become vigorous enough to sustain itself. But it can only do so in the recognition that scientists are intrinsically citizens of the world, because Science belongs to all and needs all.
+
+Austin, 19 April 1985
+
+prof. dr. Edsger W. Dijkstra
+
+Department of Computer Sciences
+
+The University of Texas at Austin
+
+Austin, TX 78750
+
+United States of America
+
+Transcribed by Michael Lugo
+
+Last revised Sat, 29 May 2004.
