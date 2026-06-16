@@ -1,5 +1,5 @@
 ---
-title: 'Fast Unrounded Scaling: Proof by Ivy'
+title: "Fast Unrounded Scaling: Proof by Ivy"
 url: https://research.swtch.com/fp-proof
 published: "2026-01-19T21:46:00Z"
 feed: russcox
@@ -47,7 +47,6 @@ Scale(x,e,p):
 
 5. Let 𝑡𝑜𝑝=⌊x·𝑝𝑚/2m/2b⌋,𝑚𝑖𝑑𝑑𝑙𝑒=⌊x·𝑝𝑚/2b⌋mod2m,𝑏𝑜𝑡𝑡𝑜𝑚=x·𝑝𝑚mod2b.
 
-
    Put another way, split x·𝑝𝑚 into 𝑡𝑜𝑝\|\|𝑚𝑖𝑑𝑑𝑙𝑒\|\|bottom where 𝑏𝑜𝑡𝑡𝑜𝑚 is b bits, 𝑚𝑖𝑑𝑑𝑙𝑒 is m bits, and 𝑡𝑜𝑝 is the remaining bits.
 
 6. Return ⟨(𝑡𝑜𝑝\|\|𝑚𝑖𝑑𝑑𝑙𝑒)/2m+1⟩, computed as 𝑡𝑜𝑝\|\|(𝑚𝑖𝑑𝑑𝑙𝑒≠0) or as 𝑡𝑜𝑝\|\|(𝑚𝑖𝑑𝑑𝑙𝑒≥2).
@@ -74,7 +73,6 @@ Those algorithms are:
   chosen to produce a result r∈\[0,254), which is at most 54 bits
   (55-bit output; b=64,m≥128−55=73).
 
-
 The “output” bit counts include the ½ bit but not the sticky bit.
 Note that for a given x and p, the maximum result size
 determines a relatively narrow range of possible e.
@@ -89,7 +87,6 @@ Scaleℝ(x,e,p):
 
 2. Let 𝑝𝑚ℝ=10p/2𝑝𝑒.
 
-
    (Note: 𝑝𝑚ℝ is an exact value, not a ceiling.)
 
 3. Let b=bits(x).
@@ -97,7 +94,6 @@ Scaleℝ(x,e,p):
 4. Let m=−e−pe−b−1.
 
 5. Let 𝑡𝑜𝑝ℝ=⌊x·𝑝𝑚ℝ/2m/2b⌋,𝑚𝑖𝑑𝑑𝑙𝑒ℝ=⌊x·𝑝𝑚/2b⌋mod2m,𝑏𝑜𝑡𝑡𝑜𝑚ℝ=x·𝑝𝑚mod2b.
-
 
    (Note: 𝑡𝑜𝑝ℝ and 𝑚𝑖𝑑𝑑𝑙𝑒ℝ are integers, but 𝑏𝑜𝑡𝑡𝑜𝑚ℝ is an exact value that may not be an integer.)
 
@@ -145,7 +141,7 @@ a carry into 𝑚𝑖𝑑𝑑𝑙𝑒 or even 𝑡𝑜𝑝.
 There are two main cases: exact results (𝑚𝑖𝑑𝑑𝑙𝑒ℝ\|\|𝑏𝑜𝑡𝑡𝑜𝑚ℝ=0)
 and inexact results (𝑚𝑖𝑑𝑑𝑙𝑒ℝ\|\|𝑏𝑜𝑡𝑡𝑜𝑚ℝ≠0).
 
-## [Exact Results](\#exact_results)
+## [Exact Results](#exact_results)
 
 Exact results have no error, making them match Scaleℝ exactly.
 
@@ -210,7 +206,7 @@ We will consider four cases:
 
 - \[Large Powers, Parsing\] p∈\[−400,−28\]∪\[28,400\], b≤64, m≥73.
 
- [**Small Positive Powers**](#small_positive_powers)
+[**Small Positive Powers**](#small_positive_powers)
 
 **Lemma 7**. For inexact results and p∈\[0,27\] and b≤64, Scale(x,e,p) computes uscale(x,e,p) and 𝑚𝑖𝑑𝑑𝑙𝑒≠1.
 
@@ -325,11 +321,9 @@ Proving that 𝑚𝑖𝑑𝑑𝑙𝑒≥2 for the cases we listed above means pr
 
 - \[Printing\] (b≤55, m≥66.)
 
-
   For all large p and all x∈\[254,255): x·𝑝𝑚mod255+66=121≥255+1=56.
 
 - \[Parsing\] (b≤64, m≥73.)
-
 
   For all large p and all x∈\[263,264): x·𝑝𝑚mod264+73=137≥264+1=65.
 
@@ -403,7 +397,7 @@ such that x·cmodm∈\[𝑙𝑜,_hi_\].
 The second step is to use that solution to solve the “modular minimum” problem of
 finding an x in a given range that minimizes x·cmodm.
 
-## [Modular Search](\#modfirst)
+## [Modular Search](#modfirst)
 
 Given constants c, m, 𝑙𝑜, and _hi_, we want to find the minimum x≥0 (the “first” x) such that x·cmodm∈\[𝑙𝑜,_hi_\].
 This is an old programming contest problem, and I am not sure whether it has a formal name.
@@ -446,10 +440,10 @@ This loop is easily verified to be correct:
 - It starts with x=0 and considers successive x one at a time.
 
 - While doing that, it maintains 𝑥𝑟 correctly:
-
   - If 𝑥𝑟 is too small, we _must_ add a c (and increment x).
 
   - If 𝑥𝑟 is too large, we _must_ subtract an m (and leave x alone).
+
 - If 𝑥𝑟∈\[𝑙𝑜,_hi_\], it notices and stops.
 
 The only problem with this `modfirst` is that it is unbearably slow,
@@ -458,7 +452,7 @@ but we can speed it up.
 At (A), xr≤hi,
 established by the initial xr=0 or by the end of the previous iteration.
 
-At (B), 𝑥𝑟−c<𝑙𝑜≤_hi_<𝑥𝑟.
+At (B), 𝑥𝑟−c<𝑙𝑜≤*hi*<𝑥𝑟.
 Because 𝑥𝑟−c<𝑙𝑜, subtracting m≥c will
 make 𝑥𝑟 too small; that will always be followed by at least
 ⌊m/c⌋ additions of c.
@@ -467,7 +461,7 @@ speeding future trials.
 We will also have to update 𝑚𝑥, to make sure x is maintained correctly.
 
 At (C),
-𝑥𝑟≤_hi_<𝑥𝑟+m,
+𝑥𝑟≤*hi*<𝑥𝑟+m,
 and by a similar argument, we might as well replace
 c with c−m·⌊c/m⌋,
 updating 𝑐𝑥 as well.
@@ -734,7 +728,7 @@ op modfindall (xmin xmax c m lo hi) =
 Because `modfind` and `modfindall` both call `modfind` O(1) times,
 they both run in O(logm) time.
 
-## [Modular Proof](\#modular_proof)
+## [Modular Proof](#modular_proof)
 
 Now we are ready to analyze individual powers.
 
@@ -1085,7 +1079,6 @@ _Proof_. We proved these five cases:
 
 - [Lemma 10](#lemma10). For p∈\[−400,−28\]∪\[28,400\], b≤64, and m≥73, Scale(x,e,p) computes uscale(x,e,p) and 𝑚𝑖𝑑𝑑𝑙𝑒≠1.
 
-
 The result follows directly from these. ∎
 
 [**A Simpler Proof**](#simpler_proof)
@@ -1265,7 +1258,7 @@ and only touches on the actual algorithms to the extent that they
 are relevant to what was proved. The [main post’s related work](fp#related)
 discusses the algorithms in more detail.
 
-### [Paxson 1991](\#paxson_1991)
+### [Paxson 1991](#paxson_1991)
 
 → Vern Paxson, “ [A Program for Testing IEEE Decimal-Binary Conversion](https://www.icir.org/vern/papers/testbase-report.pdf)”, class paper 1991.
 
@@ -1291,11 +1284,11 @@ which I followed in this proof.
 Using this post’s notation (xR=x·cmodm),
 the two steps in Paxson’s paper (with two algorithms each) are:
 
-- _FirstModBelow_: Find the first x≥0 with xR≤_hi_.
+- _FirstModBelow_: Find the first x≥0 with xR≤*hi*.
 
   _FirstModAbove_: Find the first x≥0 with xR≥𝑙𝑜.
 
-- _ModMin_: Find the x∈\[𝑥𝑚𝑖𝑛,𝑥𝑚𝑎𝑥\] that maximizes xR≤_hi_.
+- _ModMin_: Find the x∈\[𝑥𝑚𝑖𝑛,𝑥𝑚𝑎𝑥\] that maximizes xR≤*hi*.
 
   _ModMax_: Find the x∈\[𝑥𝑚𝑖𝑛,𝑥𝑚𝑎𝑥\] that minimizes xR≥𝑙𝑜.
 
@@ -1360,7 +1353,7 @@ The former are especially easy to round, so Paxson needs to exclude them.
 (In contrast, numbers near zero modulo m are a problem for Scale
 because the caller might want to take their floor or ceiling.)
 
-### [Hanson 1997](\#hanson_1997)
+### [Hanson 1997](#hanson_1997)
 
 → Kenton Hanson, “ [Economical Correctly Rounded Binary Decimal Conversions](https://web.archive.org/web/20000607192440/http://www.dnai.com/~khanson/ECRBDC.html)”, published online 1997.
 
@@ -1386,7 +1379,7 @@ proving that 53-bit floating-point
 numbers can be converted with 128-bit mantissas,
 but I have not reconstructed it and confirmed that.
 
-### [Hack 2004](\#hack_2004)
+### [Hack 2004](#hack_2004)
 
 → Gordon Slishman, “ [Fast and Perfectly Rounding Decimal/Hexadecimal Conversions](https://mp7.watson.ibm.com/f55d084fadf9ae59852574ab0058f749.html)”, IBM Research Report, April 1990.
 
@@ -1465,7 +1458,7 @@ In contrast, the explicit GCD-like algorithm in `modfirst`
 and explicit searches based on it seem far less
 sophisticated and less error-prone to adapt.
 
-### [Giulietti 2018](\#giulietti_2018)
+### [Giulietti 2018](#giulietti_2018)
 
 → Raffaello Giulietti, “ [The Schubfach way to render doubles](https://drive.google.com/file/d/1IEeATSVnEE6TkrHlCYNY2GjaraBjOT4f/edit),” published online, 2018, revised 2021.
 
@@ -1493,7 +1486,7 @@ allowing the use of 126-bit 𝑝𝑚 values.
 (Using 126 instead of 128 is necessary
 because Java has only a signed 64-bit integer type.)
 
-### [Adams 2018](\#adams_2018)
+### [Adams 2018](#adams_2018)
 
 → Ulf Adams, “ [Ryū: Fast Float-to-String Conversion](https://dl.acm.org/doi/10.1145/3192366.3192369)”, ACM PLDI 2018.
 
@@ -1561,7 +1554,7 @@ calculation.
 Even corrected, the results are loose in two directions: they include x both smaller
 and larger than the exact range \[2b−1,2b−1).
 
-### [Jeon 2020](\#jeon_2020)
+### [Jeon 2020](#jeon_2020)
 
 → Junekey Jeon, “ [Grisu-Exact: A Fast and Exact Floating-Point Printing Algorithm](https://fmt.dev/papers/Grisu-Exact.pdf)”, published online, 2020.
 
@@ -1636,7 +1629,7 @@ I believe the false negatives are from omitting semiconvergents
 and the false positives are from the approach not limiting x
 to the range \[2b−1,2b−1).
 
-### [Jeon 2024](\#jeon_2024)
+### [Jeon 2024](#jeon_2024)
 
 → Junekey Jeon, “ [Dragonbox: A New Floating-Point Binary-to-Decimal Conversion Algorithm](https://raw.githubusercontent.com/jk-jeon/dragonbox/master/other_files/Dragonbox.pdf)”, published online, 2024.
 
@@ -1649,7 +1642,7 @@ Like in Ryū and Grisu-Exact, the proof
 only considers the truncated computation ⌊x·2e·10p⌋
 and computes an exactness bit separately.
 
-## [Conclusion](\#conclusion)
+## [Conclusion](#conclusion)
 
 This post proved that Scale can be implemented
 correctly using a fast approximation

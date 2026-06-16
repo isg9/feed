@@ -147,6 +147,18 @@ name = "bun"
 url  = "https://yosefk.com/blog/feed"
 name = "yosefk"
 
+[[feeds]]
+url  = "https://mcyoung.xyz/feed.xml"
+name = "mcyoung"
+
+[[feeds]]
+url  = "https://faultlore.com/blah/rss.xml"
+name = "faultlore"
+
+[[feeds]]
+url  = "https://tratt.net/laurie/blog/blog.rss"
+name = "tratt"
+
 # Sort order for `hrb list` / `hrb feed`. "desc" = newest first.
 ordering = "desc"
 
