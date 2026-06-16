@@ -48,3 +48,50 @@ transcribed by Hans Terlouw
 
 revised
 Sat, 9 Jan 2010
+
+---
+
+## English translation
+
+### (on a proposed configuration of one P1400 and four P880's)
+
+The idea is so simple. You have small programs and larger programs.
+Therefore set up a configuration of a few small machines and a larger one, and then
+the smaller programs can run on the small ones and the larger programs on the
+larger machine. Simple comme Bonjour!
+
+On closer inspection, however, it turns out to be a fallacy, for with computers it is not true that many little ones make a big one. It would make life for users considerably more complicated, even if the machines were compatible (which in the present proposal is not even the case, but more on that later).
+
+A conscientious programmer takes into account the limitations of the
+machine that has to execute his program. (The remark that has been made, that by no
+means all programmers are always so conscientious in this respect, is irrelevant:
+your most intensive users do indeed become so, and it is they we are talking about, not
+the little beginners who may also be allowed to knit a botched-up rag now and then.) The proposal
+would, to begin with, imply that the user must know the macroscopic characteristics
+of two different machines. Annoying.
+
+Even more annoying is that the user must choose which machine is to execute the program.
+Often that choice has to be made before the program
+has been written, because the choice will influence the structure of the program to be written.
+This means that a programmer must determine when a program is "small"
+and when "large". It was suggested whether computing time was the criterion for this.
+That is already not attractive, for depending on the input data
+the same program may then sometimes be small and sometimes large. Another aspect is
+the working space required, but this too can differ for the same program from run to
+run. Finally there is also such a thing as the length of the program text.
+Users would, for instance, perhaps have to realize how long the texts
+of library procedures are! But the most annoying thing of all is that these
+different criteria may well point against one another, which would confront the user
+with the kind of conflicts that we precisely so much wanted
+to spare him.
+
+So far for remarks that bear (somewhat) on the body of programs as it has developed up to now. In the choice of a next machine, however, we have more responsibilities: the machine must promote the way of working we are striving for. If more advanced or in some respect more streamlined machine applications are to get off the ground, then this cannot be done by expressing every program over and over again from beginning to end at the same standard level of a fixed programming language. The means to this end are the build-up of large procedure libraries and (special purpose) language processors. The use of these undoubtedly has the consequence that more programs —at any rate in terms of text length— become large. This is a desirable development; by the proposed configuration of "many little ones that do not make a big one", however, it would be counteracted. (To make matters worse, we may note here as well that all machines in the configuration as proposed work with linkage editing, whereby program length causes an extra penalty,)
+
+Finally, the machines are not compatible, so incompatible that even the ALGOL systems must differ. The hope that these differences could be realistically masked by software must be characterized as illusory. Without this incompatibility defect the proposed multi-machine configuration is already highly unattractive; with this defect utterly unacceptable.
+
+15 April 1971prof.dr.Edsger W.Dijkstra
+
+transcribed by Hans Terlouw
+
+revised
+Sat, 9 Jan 2010

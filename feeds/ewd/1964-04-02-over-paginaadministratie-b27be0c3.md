@@ -213,3 +213,215 @@ Van het feit, dat de schone schuifopdrachten in een enkel register snel zullen z
 transcribed by Sam Samshuijzen
 
 revised Tue, 18 Jul 2006
+
+---
+
+## English translation
+
+### On page administration
+
+EWD 84
+
+15 May 1964
+
+On page administration.
+
+0. Some terminology.
+
+In order to avoid confusion of speech, we introduce the notions "page frame" and "page". A page is a quantity of information of 512 words; a page frame is a portion of one of the memories, intended, if used, to house a page. A page frame therefore occupies 512 words. The page is thus the quantity of information that "fits" into a page frame.
+
+In the programs it is the pages that have a clear identity. The text of the object program is subdivided into pages, pages whose existence begins in the course of the compilation process and ends after completion of the program. Large arrays will likewise have their elements arranged into pages; in principle these pages begin their existence upon the execution of the array declaration, and they end their existence upon the definitive departure from the block in question.
+
+The stack is treated somewhat differently; it will indeed always consist of a number of pages, but in order to address the elements of these pages a mechanism other than the one needed to select an element from a general page (program text or large array) will be created. The elements in the stack, namely, will during their lifetime be able to reside only at a fixed place in the cores, so that we can characterize these elements throughout their existence by their physical core address.
+
+Every page (at least the non-stack pages) derives its identity from a quantity attached to it, a so-called BZV (BladZijde Variabele, Page Variable). Usually the BZV's are situated in the stack of the program in which these pages occur. (This holds most clearly for the pages that make up the program text; the corresponding BZV's may be regarded as global variables of this program. It also holds for the BZV's of array pages; these are local quantities of the block in which the array is declared.) There also occur, in the interplay, other pages, e.g. the pages that the library of standard procedures, which is deemed to be permanently present on the drum; these evidently cannot be accommodated exclusively in the stack of 1 program. For the library is a part of the universe in which the various programs are jointly embedded; the library surpasses, encompasses, in lifetime also the individual programs. This finds its reflection in the fact that, beside what the programs need privately, at a fixed place in the core memory a little row of BZV's will be accommodated, the "library BZV's", to which every individual program, by virtue of the fact that they will permanently be found at a fixed place, has access via direct addressing. A similar arrangement will be made to make it possible to transfer pages from one process to another process; here I have in mind input-output buffers.
+
+Page frames we have, in the nature of things, in two kinds, namely "core page frames" and "Drum page frames". In both media they occupy 512 consecutive memory words. The BZV's are called "variables" because among other things they record in which page frame(s) the page in question is to be found. We shall presently describe extensively and in detail which information is recorded in the BZV's and how. In this convention two things have served as a guideline: the most frequently occurring case must be recognizable as quickly as possible (a consideration of time, then) and the BZV must take up as little space as possible (a consideration of memory space, then). The latter is important, because the BZV's —as we shall see later— will reside permanently in the core memory and to every occurring page a BZV is attached.
+
+The page frames too are described more closely by additional "variables". For the drum page frames - of which there are very many - this is only a single bit, which indicates whether this drum page frame is free or occupied. For the core page frame this status information is considerably more extensive, but there this matters less, because the maximum number of core page frames is so much smaller. The information that describes the status of a core page frame is called a KIE (Kern Inhoud Element, Core Content Element). A KIE occupies, up to now, four words. (We note in passing that this is almost one percent of the memory space that is taken up by the core page frame itself; with much smaller core page frames the memory space required for the KIE's would begin to take its revenge.) Precisely what a KIE indicates in full and how, we shall likewise discuss in detail.
+
+1. Classification of core page frames.
+
+In the following a classification will be given of the principal states that we distinguish in a core page frame. This classification indicates (in every case) which role this core page frame is playing at this moment. In the individual programs this role is fairly clear; we must, however, realize that a core page frame can also be involved in a drum transport order, either to dump onto the drum the page that it housed, or to take over the content of a drum page frame. These actions are undertaken not so much by the individual programs as by the coordinator. The duration of these transports is by no means negligible, and we must therefore explicitly introduce the status of a core page frame "involved in a transport". How many distinctions we wish to make within this, which facets are of importance during such a transport, depends on the coordinator. That the partition of core page frames to be described below is meaningful is therefore actually not demonstrable without also describing in detail that part of the coordinator that is relevant here. We shall nonetheless attempt this; this report may then serve as "underlying information" for the description of the coordinator mechanisms concerned. (As they are described in the block diagrams of the document "bladzorg" [page care] dated 1–3 May 1964.)
+
+I am aware that the partition to be given below is not compelling; it is the reflection of well-considered (if one wishes to be pejorative, "arbitrary") decisions. The best that I can therefore strive for is to make it probable that the decisions taken pave the way to a manageable organization!
+
+By way of introduction to the kind of difficulties, the following "PTT-parable" may serve. The PTT [the postal service] has taken upon itself to deliver letters, does not deliver these instantaneously but knows perfectly well that these letters have a finite travel time. If all addressees had eternal life and never moved house, the PTT would have no problem. Given, however, is the fact that addressees spend only a finite residence time per address. The problem of letter delivery would take on quite different forms if the average residence time at one and the same address were once small relative to the average travel time of a letter! (Sometimes I wonder whether the PTT is really aware how very much they have, in this matter, crawled through the eye of the needle.)
+
+Similar difficulties we too have, owing to the fact that drum transports do not take place instantaneously. During the period in which a page is being transported between slow and fast memory, all sorts of things can happen to it. The page can cease to exist. It can also happen that while we are busy dumping this page onto the drum, renewed interest in it arises. In other words: a drum transport is undertaken on the grounds of some decision or other (that a page is, it seems, not very interesting, for instance), but during the execution of such a transport circumstances may arise on account of which one actually wishes to revoke this decision, or rather to give the transport a different meaning. The first decision that we have therefore taken is that, for the role assignment of a core page frame that is going to be involved in a transport, we shall take no decision that reaches further into the future than the completion of this transport.
+
+It comes down to the fact that we have not followed the following arrangement. If one of the programs shows a lively interest in a page, say page A, which at that moment is not in the cores, then one finds out which page that is in the cores seems the least interesting. Let this be page B. One now removes page B from the cores (if it does not also stand on the drum, this implies a dumping transport to the drum) and subsequently issues a transport order to take over page A onto the freed core page frame. This arrangement therefore forces us, with respect to the core page frame in question, to look two transports into the future, and this we have not chosen.
+
+Instead we make the system such that there is, in principle, a free core page frame. If a need for page A now arises, a transport order to this free core page frame is issued; subsequently it is analysed whether, through this occupation, the number of free core page frames has become alarmingly low; if so, then one looks which is the least interesting and this one is removed from the cores; the latter therefore possibly entails a dumping transport.
+
+The reasons that we have chosen the second method are the following. Once more, we are aware that they are not compelling. In the first case you must first choose the least interesting, thereby making room for what you need. This seems unfavourable in two respects. The choice process, which is the least interesting, could well be a bit time-consuming, and moreover (possibly) the room-making transport comes first, before the transport from drum to cores can take place. The program that needed page A is thereby guaranteed to be held up for quite a long time. That is all fine in multiprogramming, if you have many other programs, but that is of course not something to build on. In the chosen arrangement the transport for page A can be issued right away, so that the program that needs page A can resume as soon as possible. The question now is whether the machine has yet another useful program in the pipeline, and this is therefore the perfect moment to pick out the "least interesting" and just go ahead and make room.
+
+Another consequence is purely organizational: in the start store for the drum there will at every moment stand at most 1 start order for a given core page frame; in transport every core page frame is involved with at most 1 page. This means that we can keep track, per core page frame, of the information about what is on its way, what is being transported away, etc., i.e. that we can keep the size of a KIE small. Although we have not worked out the alternatives to the very end (we made attempts, but got stuck, possibly through lack of experience), we have the feeling that the system to be proposed here derives its simplicity, among other things, from the fact that a core page frame, during the time that it is being freed, has not already been given another destination.
+
+Now we shall give the classification of the core page frames. A core page frame can in the first instance be in two mutually exclusive states, namely changing and non-changing. A core page frame is changing when a drum transport order has been issued for this core page frame, of the completion of which the X8 has as yet taken no cognizance; otherwise the core page frame is non-changing.
+
+As long as a core page frame is changing, no X8 program will touch its cores, nor will it issue, for this core page frame, any further start orders. The offering of a start order therefore always implies (regardless of the direction of the transport) the transition from non-changing to changing; the taking cognizance of the completion of the transport therefore, thanks to this same convention, always implies the inverse transition.
+
+(We are aware that the rule that no program shall select the cores of a changing page frame is needlessly stringent. If this transport is a transport from drum to cores, this selection would under nearly all circumstances be meaningless; in the inverse case there is still something to consider: if we want to read from the core page frame, this is still possible; if we want to write into it, this has only the consequence that the copy that comes onto the drum is, during that process, already becoming obsolete. Logically this would be possible; we have, however, not permitted it.
+
+The first reason is that hereby, upon inspection of the state of a core page frame, the transport direction would suddenly become interesting, whereas, as we shall see, it otherwise hardly plays a role. (After the conclusion of a transport during the execution of which we have not interfered with the core page frame, we can always regard the core page frame as a copy of the drum page frame, regardless of in which direction the transport has taken place.) The second reason is a matter of caution: suppose that the transport detects a parity error! To then still extricate oneself, if the program has meanwhile been allowed to change the content of the core page frame as it was intended, seems a needless aggravation of this already precarious task. (Changing core page frames thus remain in every way untouched.)
+
+Changing core page frames are distinguished into PREFREE and PRECOPIES.
+
+A changing core page frame is PREFREE when —taking into account the momentary knowledge of the interest shown— after the conclusion of the transport there will be no interest in the content of the cores. This is therefore most clearly the case when the page involved in the transport will cease to exist during this transport. Also when an original is dumped in order to make a free core page frame (see below), we shall regard this core page frame as PREFREE.
+
+A changing core page frame is a PRECOPY as soon as it has been established that, after completion of the transport, interest in the core content is deemed to arise. This is most clearly the case in the fetching of a drum page frame that contains a page with which one of the programs has to work on.
+
+A non-changing core page frame is in the first instance a FREE one, a COPY or an ORIGINAL.
+
+A non-changing core page frame is a FREE one when its KIE is not associated with a BZV: the content of these cores has been completely "written off", except that we shall indeed require correct parity. (But this is only an obligation for the tooth-brushing.)
+
+A core page frame is a COPY or an ORIGINAL when it contains a page; its KIE is then associated with the BZV of this page. The difference between a COPY and an ORIGINAL is that in the case of the COPY a drum page frame is also associated, where this same page is to be found. An original exists solely on the cores alone. Core page frames that contain program text will therefore usually be COPIES (this is not necessary: they can have been built up by the compiler in the core memory, and if there is always sufficient room in the core memory, then they have never been dumped and have thus remained original.
+
+Between these five states (principal states; we shall differentiate them somewhat further later) 10 transitions are possible.
+
+1) FREE → PRECOPY. This takes place when a free core page frame has been chosen to take over a page that at that moment stands only on the drum. This is a very ordinary transition.
+
+2) PRECOPY → COPY. This takes place as part of the taking cognizance of the completion of a drum transport, after which interest in the transported page possibly arises. This is the normal transition by which the state PRECOPY is left. We once more draw attention to the fact that this transition can take place after the conclusion of a write order to the drum (see transition 10.)
+
+3) COPY → ORIGINAL. This transition takes place as soon as a program writes onto a page that was stored in a core page frame which was on the books as a COPY; a side effect of this is that the drum page frame that was recorded in the KIE of the core page frame is released. At the same time the reference to this drum page frame is, in order to prevent confusion, removed. This is a normal transition for pages of a large array; with program pages this will not happen.
+
+4) ORIGINAL → PREFREE. This transition takes place when the coordinator's choice to create room has fallen on an "uninteresting" ORIGINAL. Because an ORIGINAL stands in the cores, a free drum page frame is chosen for this page and a (dumping) start order is issued. This transition (just like transition 1) therefore always takes place at the moment that a new start order is offered to the drum. This transition too must be deemed normal.
+
+5) PREFREE → FREE. This transition takes place as part of the taking cognizance of the completion of a drum transport. If the KIE of this core page frame was still coupled to a BZV (and if at the end of the transport the page still existed, then this will be the case) then at this moment the coupling is undone. At this moment this core content is no longer reachable via this BZV.
+
+6) COPY → FREE. This transition takes place when the coordinator's choice to create room has fallen on an "uninteresting" COPY; the transition also takes place when a page ceases to exist (e.g. a page of a large array upon departure from the block) that is present in the cores as a COPY, a case in which a drum page frame is also released.
+
+7) ORIGINAL → FREE. This transition takes place when a page that is present in the cores as an original ceases to exist, e.g. an array page upon block departure. This will also happen upon shrinkage of a program stack, because, as we shall see later, the stack pages will always stand in the cores as originals.
+
+8) FREE → ORIGINAL. This transition takes place upon stack growth and likewise upon the first reference to one of the elements of a newly introduced array page. Upon the array declaration no page is yet introduced for a large array, only a set of "potential" pages, i.e. a set of BZV's, which are initialized with the special indication "sober". Only upon the first reference to such a page is an actual (i.e. non-low) page attached to this BZV. This introduction takes place, in the nature of things, in the cores and therefore gives rise to an ORIGINAL.
+
+9) PRECOPY → PREFREE. This transition will, if it occurs, be exceptional. It means that we abandon the supposition that a page was interesting and decide that we do not want to have this page in the cores after all. This could occur because the program that requested this page is, in the meantime, terminated as a result of an error report. The most probable case in which this occurs is as a consequence of the hint (see below); here a program can announce in advance that it will most probably show interest, presently, in a certain page. That interest is not necessary; the hint may concern an array page that ceases to exist during transport.
+
+10) PREFREE → PRECOPY. This transition is again much more probable than the previous one. It occurs when interest is shown in a page that at that moment was just involved in a transport to which, at that moment, the intention had been attached that it would yield a FREE core page frame; in all probability this was therefore a dumping transport for an array page.
+
+2. Subdivision of the principal classifications for core page frames.
+
+The FREE core page frames are the easiest, because there is least to tell about them. The most important requirement is that, at the moment when we need a free core page frame and there is indeed one, we discover as quickly as possible which core page frame we can take for it. For this purpose the FREE ones are strung in a chain, the link element of which is included in the KIE of the core page frame. For this purpose one can make do with a single chain, because you can use the FREE ones —they are all equally dear to you— according to the principle of a stack. A new free one you link on at the front of the chain; if you need a free one, you take the first of the chain. It is the duty of the tooth-brushing to include at the beginning all core page frames that are then free into this chain.
+
+For the changing core page frames we must distinguish whether the transport concerns a still-existing page or not. With the PRECOPIES this is in any case so; for the PREFREE ones, however, the page need no longer exist. In the case of a changing core page frame for the benefit of an existing page, the coupling of BZV and KIE will exist during the transport. Whoever asks for a page that is involved in changing will, via the BZV of that page (this BZV is unique for that page and the only way to make contact with that page), be referred to the KIE, where, however, it will be noted that the core page frame is changing. To this "premature" coupling we are forced by the existence of the library: it is, after all, very well possible that a program cannot proceed because of the absence of a library page; during the waiting time of this program another program, which can indeed proceed, may very well discover that it needs this same library page. It is for the PREFREE ones that we must indicate the distinction whether the page still exists; for the PRECOPIES we can already assign meaning to the so-called sanctity counter. (See below.)
+
+The COPIES and the ORIGINALS are subdivided into "profane ones" and "sacred ones". A sacred core page frame is a core page frame to which the coordinator may not, on its own authority, assign another role. It is, namely, indeed possible to write the programs in such a way that a page is not necessarily somewhere in the cores; it is, however, not permitted that a page whose presence has been ascertained by a program disappears at any arbitrary microscopic moment. Naturally not: if a program wishes to select an element of a large array and has ascertained at which core address this element resides, then between this ascertainment and the actual selection this element may not disappear from the cores. Well, very often this will be guaranteed by having the piece of verification of the presence and the actual selection executed in deafness. If the X8 has begun on such a little piece, then that is first finished before the coordinator possibly decides otherwise about the role of this core page frame. (In multiprogramming one must, as is known, be careful with deafness: in the individual programs the X8 will very often be momentarily deaf.)
+
+The mechanism of temporary deafness is, however, not powerful enough: the efficiency of the individual programs is considerably increased if they have the possibility of being able to count, with respect to a limited number of pages over a limited course of time, on these pages not being snatched away from under their fingers. Upon each program lies the duty to be so constructed that it at no moment sanctifies too many core page frames simultaneously, for otherwise they would block the core memory. (In this respect we have, in the treatment of the stack, cut a few corners; see later.)
+
+Sanctification of a core page frame is something that happens at the instigation of one of the individual programs; this program thereby takes upon itself the duty to undo this sanctification in due time, to "profane" this page frame again. In particular, a program that needs, for its continuation, a page not present in the cores will ask for this page in a sanctified core page frame. Coupled with this sanctification is that this program can presently, via a P-operation, go and wait on this page. Hereby we prevent the following situation: a program definitely needs a page that stands only on the drum, a drum transport for this program is started and the program comes onto the waiting list of the blocked programs. After completion of this transport the waiting program is transferred to the executable ones, but it does not come up immediately. If we had not sanctified the page in question, then the possibility would exist that this program, by the time that it does come up, must come to the discovery that the page on which it had been waiting has in the meantime disappeared again. This, then, we have ruled out with the help of sanctity: this page remains inviolable in the core memory until the program that requested this page has indeed been able to select the content of this page.
+
+The library creates here a small complication. From the foregoing one might conclude that it is sufficient to give every core page frame a sanctity bit, but while the one program is waiting for the arrival of a library page, another program can proceed and also come to wait on this page. And not only in this state. In each program we shall sanctify the page from which at that moment the orders are being obeyed, i.e. sanctify upon entry and profane upon departure. Two different programs can thus both wish to sanctify the same page. For that reason the KIE contains not a sanctity bit, but a sanctity counter; sanctification means increase by 1, profanation means decrease by 1, and a core page frame counts as profane when its sanctity counter = 0. (Beside the individual programs we shall, in the "Hotel for abstract machines", also have regulars, for the servicing of input-output, for example; thanks to the sanctity counter it is now also possible to define more than 1 small regular in the same program page, respectively to activate a regular in parallel.)
+
+The sacred requesting of a page imposes an inescapable obligation upon the coordinator (namely, to come forward with that page sooner or later); the program at whose instigation this has happened has thereby taken upon itself the obligation to profane this page again sooner or later. This is the one mechanism; this seems to us absolutely necessary. Besides this we do not, at this stage, want to rule out the possibility that a (probably handmade) program gives the coordinator a so-called "hint", to the effect "Presently I shall probably be interested in such-and-such a page". This is the kind of remark that the coordinator may set aside as not opportune; the program that has given the hint will, for the actual selection, nonetheless execute the presence test again. If the coordinator gets the hint and the page is present, then it can increase the interest number of this core page frame, thereby diminishing the chance that this page is kicked out in the near future; if the page is not there, then a drum transport may be issued (if there is a suitable free one, if there is room in the start store, etc.). This processing of the hint is not accompanied by sanctification. Here we therefore see that with the PRECOPIES too the sanctity counter of this core page frame will have to be given when the PRECOPY passes into a COPY. In the following section we shall see that this datum, when all is said and done, will be superfluous.
+
+3. Report-back of the arrival of pages.
+
+When a program asks for a sacred core page frame, then this means, from the side of the program, that it wishes to be informed, via the completion of a P-operation, of the presence of this page; it means, for the system, that the arrival of this page in a core page frame must be sealed by the raising of a semaphore. The first question is where we accommodate this semaphore. A first suggestion is to accommodate this semaphore with the start order; we would then have four of these drum semaphores, one for every possible start order in the store. Upon the offering of a new start order we would have to set this semaphore = 0; in the sanctity counter of the PRECOPY we keep track of how many programs are really waiting on this page, and as reaction to the intervention we execute the V-operation on this semaphore with the then-prevailing value of the sanctity counter as increment. A program that has to wait on a page does this because the page is already changing or because a start order for that page must be issued; in both cases it is known which of the four start orders takes care of the transport, and the program knows at that moment on which semaphore it must presently go and wait. This arrangement is, however, extremely tricky. It works well, namely, when the requesting program is already waiting on this semaphore by the time the page arrives; in that case the V-operation namely brings about that the program is transferred from the list of the blocked ones to that of the executable ones. This goes awry, however, when at the moment of arrival of the page the program is not yet that far, is not yet up to the P-operation. By the time that this is the case, namely, that same place in the start store (and thereby that same semaphore) may long since have been used for another transport.
+
+A way out of these difficulties is to accommodate the semaphore not with the start order but with the KIE of the core page frame in question. This is then indeed safe, but has the disadvantage that this will start to cost the necessary memory places. A programmed semaphore costs, namely, three memory places, and this would therefore mean roughly a doubling of the some fifty KIE's; this is all the sadder because normally no more than four of these semaphores are used.
+
+We have decided to spare both cabbage and goat [to have it both ways] and to accommodate the semaphores that govern this blockade with the individual programs (gambling on the fact that we shall have considerably fewer programs in action than core page frames). Every program therefore has its own semaphore. The requesting of a sacred core page frame now means (the setting = 0 of the own semaphore, if the tooth-brushing has not already taken care of that) and the notifying of the drum organization via which semaphore the completion of the transport must this time be signalled back. Upon taking cognizance of the completion of the transport, the "drum-intervention reactor" must now raise not a fixed semaphore by possibly more than 1, but a little list of semaphores (possibly empty, possibly longer than 1) must all be raised by 1. To this end the own semaphores contain a link element, and with the start order is located the initial link. And now we see that the sanctity counter with the PRECOPY is actually superfluous; it is, namely, equal to the length of the semaphore chain that hangs on the start order concerned.
+
+An essential supposition that underlies this last arrangement is that, per program, the request of a sacred page and the P-operation on the own semaphore alternate with one another in time: for if you first sacredly request the one page and then the other, and subsequently do 1 P-operation, then you no longer know which page has now arrived. This also permits us to make the own semaphore includable in only 1 single chain. Should, which I do not suppose, this "un-nested" use of the own semaphore lead to undesirable restrictions, then we can always still go over to a semaphore per core page frame.
+
+4. Codings.
+
+For the sake of completeness I shall now describe which conventions we have made about the manner in which the BZV's and the KIE's hold the information that they must house. This is not exciting at all; the decisions taken are sometimes utterly arbitrary, and when they are not, they are dictated by the purest opportunism.
+
+4.1. The structure of the BZV.
+
+A BZV occupies 1 word (with care no more, because we must enter one into the core memory for every existing page). A BZV knows four states.
+
+1) BZVi = -0
+
+This will mean "The page in question is sober".
+
+2) BZVi = | d[26] = 1
+
+| d[25] = 0
+
+| d[24] . . . d[0] = start address drum page frame, padded on the left with zeros
+
+This will mean that the page in question is not sober, is to be found at the indicated place on the drum and nowhere else; the page is moreover not involved in a transport.
+
+3) BZVi =:BKPk (i.e. Base Core Page frame no. k), padded on the left with zeros.
+
+This will mean that the page is not sober, is not involved in a transport, is indeed present on the cores, and indeed as
+
+BKPk[0] through BKPk[511]
+
+Note 1.: BKPk will be a multiple of 512.
+
+Note 2. The base address of the corresponding KIEk is found by
+
+:KIEk =:BPKk / 128 + KPC
+
+(KPC = KIEtable Positioning Constant); a KIE therefore occupies four words. Note 3. State 3 will be characterized by BZVi greater than 0.
+
+4) BZVi =:BPKk, padded on the left with zeros)
+
+This will mean that the page is involved in a transport with respect to core page frame k.
+
+Note. This state distinguishes itself from 1) by the fact that BZVi ≠ 0 and from 2) by the fact that
+
+d[25] = 1.
+
+The consequence of these conventions is that the fixed presence of a page follows entirely from the BZV, without consultation of the KIE; upon writing onto such a page the KIE must indeed be consulted to see whether this writing perhaps entails the transition from COPY to ORIGINAL. We can consider rendering this, in state 3, in bit d[25]; I actually feel little for this at the moment; selection of an array element is anyhow a considerable process and consulting the KIE is, again, not exactly insurmountable (the testing of such a higher bit also costs something).
+
+4.2. The structure of the KIE.
+
+KIEk[0] =
+if coupled to a BZV, then
+= :BZVi, padded on the left with zeros
+
+else
+= - 0
+
+KIEk[1] = if drum reference applicable (implies non-free)
+
+d[26] = 1.
+
+d[25] = 0
+
+d[24] . . . d[0] = start address drum page frame, padded on the left with zeros
+
+else (i.e. drum reference not applicable)
+
+if non-free, then = -0
+
+else (i.e. if FREE)
+
+if last page frame from free chain, then = +0
+
+else =:KIEj (≠ 0), referring to the KIE of the next page frame from the free chain
+
+KIEk[2] =
+if COPY or ORIGINAL, then HHTk (< 128)
+
+(= 0, 1, 2, 3, . . . .) HHT means "Sanctity counter".
+
+if PRECOPY, then 128 + HHTk + 1024 * start order number
+
+if PREFREE, then 256 + 1024 * start order number
+
+if FREE, then 512.
+
+KIEk[3] = strategic information (also called interest number).
+
+4.3. Remarks.
+
+During transport of an existing page frame KIEk and BZVi are therefore coupled to one another, also when the core page frame is PREFREE. During transport of a no-longer-existing page the core page frame is, in the nature of things, PREFREE, KIEk[0] = -0 and also KIEk[1] = -0. The murdering of a page that is involved in a transport entails, namely, immediate release of the drum page frame anyway. This is possible because the drum organization processes the transport orders in the order of offering; every later destination of this drum page frame therefore only becomes effective once the first transporting has fully finished.
+
+We have not interspersed the core page frames with the corresponding KIE's, although this would save us the shift order for the reduction of KIEk to BKPk or vice versa. The reasons were:
+
+- should ever a system of memory protection make its entry, then it is probable that a technique that lets core page frames begin on high powers of two will accord better with what becomes customary
+- it could well be convenient for test purposes (perhaps initially we shall still conduct inspection)
+- the reduction of physical address to core page frame and line number within this page frame is considerably facilitated.
+
+Of the fact that the clean shift orders in a single register will be fast, we shall therefore make grateful use.
+
+transcribed by Sam Samshuijzen
+
+revised Tue, 18 Jul 2006

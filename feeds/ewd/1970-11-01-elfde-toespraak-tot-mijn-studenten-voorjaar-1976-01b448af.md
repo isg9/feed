@@ -61,3 +61,64 @@ Overigens ben ik van oordeel, dat er op Hilversum 4 minder moet worden gezeverd.
 transcribed by Carl Ludwigson
 
 revised Mon, 5 Nov 2007
+
+
+---
+
+## English translation
+
+### Eleventh address to my students, spring 1976
+
+Professional dealing with large numbers of people has a debasing effect. Of the general
+staff this is well known: before and after the battle they count the assets: so many tanks, so many
+trucks, so many cannon, so many men... For every unit a price has been fixed,
+so that afterwards it is known precisely, in dollars, guilders, pounds or roubles, how much the battle
+has cost. The only difference among the various sets of bookkeeping is the ratio of the prices of
+the different units: in dollars a man is relatively more expensive than in roubles. And whoever
+refuses to see in this a compliment to the 200-year-old can sneeringly remark that it all comes about because
+in the capitalist system the engines of war, such as tanks and cannon, can be manufactured so cheaply,
+but that I then consider a sour remark. Every system that increases the relative value of a man
+I applaud; I am therefore a great proponent of birth control, if need be with
+retroactive effect.
+
+You must not think, however, that this debasement is confined to generals. Have you ever
+spoken with a transport official? For him "passenger-kilometers" are just such units as
+"ton-miles". We cannot fault them; indeed, even more, I often feel pity for the NS [Dutch Railways]
+welling up in me: when I see the stinking horde shoving each other about in Amsterdam-Centraal and
+behaving badly on the train, I often think to myself "I would rather transport ore...".
+
+If, owing to the absence of a transport official among your circle of acquaintances, you do not understand what I
+mean, then go and find an insurance official: how he can talk to a newly married man about "a nice
+widow's coverage" is highly illuminating. And if you cannot find one of those either, then take
+a head nurse, a personnel manager, a trade-union leader or an education expert. You can
+then, as you choose, be reduced to a patient, to a placement problem, to a contributor,
+or to a cognitive complex.
+
+The conclusion forces itself upon us that we are really at a loss with large numbers, and it
+would be illuminating if we honestly admitted that most people can scarcely count to ten,
+and only feign to be able to handle larger numbers by appending zeros to them. It
+would likewise be sensible to take seriously into account that the debasement that
+characterizes present-day education —both secondary and higher— might well be the inevitable
+consequence of the increase of scale.
+
+If that is so, then for that reason alone we must place a few question marks against what in modern
+Dutch I believe must be designated as "the department happening", "which somehow strikes me
+as a nostalgic yearning for participatory security in the personal motivation toward the
+educational-scientific task-setting with respect to the framework of equal opportunities for
+the people in the region." What I mean is that, "viewed purely from a social-critical standpoint" of course, the
+establishment of departments is humbug, if what is intended thereby is a reduction of scale that
+is supposed to compensate for the undesirable consequences of the increase of scale.
+
+You can of course try to fragment a faculty that has outgrown its strength into departments
+and to turn the aforementioned department happening into so time-consuming a parlour game
+that in the end no one any longer has the time to look beyond the boundaries of his own
+fragment. But to make this endeavour succeed, one would indeed have to man higher education with
+near-sighted ostriches, who no longer see that at the ministry the atmosphere prevails of the
+general staff, of public transport and of the insurance business. You are merely a consumer
+of study units.
+
+Incidentally, I am of the opinion that on Hilversum 4 there should be less drivel.
+
+transcribed by Carl Ludwigson
+
+revised Mon, 5 Nov 2007

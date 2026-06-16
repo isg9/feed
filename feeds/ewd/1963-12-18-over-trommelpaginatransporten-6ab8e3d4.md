@@ -74,3 +74,76 @@ E. W. Dijkstra
 transcribed by Sam Samshuijzen
 
 revised Sun, 13 Feb 2005
+
+---
+
+## English translation
+
+### On drum page transports
+
+EWD 72
+
+On drum page transports.
+
+1. So as not to make it too difficult, we restrict ourselves for the time being to array pages.
+
+1.1. The need for a transport is detected by the needy program itself, and indeed while deaf. For if it were not to happen while deaf, then, after establishing that the page is indeed present, it could still be snatched away from under your fingers.
+
+1.2. If a transport proves necessary, then we go to the coordinator, i.e. the program is placed on the waiting list. We only return into the program once the page transport has been completed; we then return into the program while deaf, and the requested array page has been sanctified.
+
+1.2.1. The page has been sanctified with the following intention: once the transport has been completed, this program can proceed again; it is not said that it will also resume immediately. In the intervening time the page must not disappear!
+
+1.2.2. Returning while deaf is not strictly necessary, provided that the program first selects the array element and only afterwards desanctifies the page. If we return while deaf —which we get for nothing— then we are free in the order of element selection and desanctification. The program has the duty to desanctify the array page, to select the element (order free) and to become hearing again. This too we get as a gift via the restoring return jump. A side advantage is that, when this program proceeds while still briefly deaf, the desanctification is guaranteed to take place within a foreseeable time after continuation.
+
+1.3. I assume that in the case of a necessary array page transport the reigning program page is also sanctified. This considerably eases the return procedure. If we do this, then, I assume, the program page must also be desanctified while deaf (see 1.1., 1.9.2. et seq.).
+
+1.4. It is unproven that the sanctification procedure cannot bring the whole thing to a standstill. We can only attempt to furnish this proof once we have a complete survey of the request procedure in the case of an absent (array) page.
+
+1.6. I restrict myself for the time being to that part of the coordinator which will be permanently present in core, at a damned fixed location. The coordinator will comprise a number of so-called "coordinator routines"; as a rule these will be called with a deaf-making subroutine jump. Calling a coordinator subroutine does not in itself necessarily mean "abandonment of the reigning ALGOL program". As a rule it may be the case that the coordinator routine establishes whether or not the reigning program can continue to work unhindered. If so, then the ALGOL program presently continues unhindered — the machine becomes hearing upon the restoring return jump out of the coordinator routine. The other possibility is that the coordinator routine decides that this (ALGOL) program cannot continue unhindered. In that case the program is abandoned, i.e. it is no longer "the reigning program", it is placed as non-active on the coordinator's waiting list, and the coordinator chooses another program and makes that one reigning.
+
+I am perhaps splitting hairs here; what I am also trying to do is to find a terminology. In the text of the ALGOL program many a call of a coordinator routine functions as a "possible abandonment". Within the coordinator routine the abandonment or non-abandonment of the program is a conscious matter, and we can, prior to the abandonment while deaf, and after the return, take deliberate measures (sanctifying and desanctifying, for instance).
+
+1.7. Coordinator routines may not, "across their break point", occupy fixed memory locations holding variable information: after all, they can be activated in parallel. Functionally, the actions in question therefore continue to belong to the calling program. For reasons of space —also because they are supposed to reside permanently in core— they too, even in the case of multiprogramming, reside in core in only a single copy.
+
+1.8. A consequence of the degree of awareness of a possible interruption is the following: an ordinary interrupt implies that, upon stack shifting, the B register must be adjusted and that we must be very careful with absolute references to stack locations. In a coordinator routine we can be much freer: after all, upon returning below the break point we can test whether the stack has shifted and, if so, adjust some addresses! (for practical reasons this had better not get out of hand!)
+
+1.9. Examples of coordinator routines are the P operation, the V operation, and the indexing operations (writing and reading). If it turns out to be a small array, the whole thing fizzles out!
+
+1.9.1. Note. The previous sentence strengthens me, on account of the difficult separability of "runtime system" and coordinator, in the conviction that for the time being we need not think about multiprogramming in machine code.
+
+1.9.2. To what extent the call of a coordinator routine in the case of a break point implies "sanctification" of the calling page will depend from case to case. One might maintain that in every program the reigning page is always sacred, but I am not much taken with that, if it means that every program, regardless of how long it remains non-active, always keeps occupying at least 1 page. One can, for instance, look into whether one can make do with introducing sanctification only in those cases in which one can rely on the inhibition being lifted in the short term. It becomes clear once again that we can only assess the "soundness" of the concept of sanctity once a concrete proposal is on the table. The role of Advocatus Diaboli seems to me extremely important in this matter! It would not surprise me if our idea about sanctity were to change drastically in the course of these investigations.
+
+1.10. The coordinator waiting list contains all the programs in the machine, subdivided into two categories, the blocked ones and the executable ones.
+
+Blocked programs are programs that cannot proceed because they are waiting at a semaphore, for the completion of an event necessary for their continuation.
+
+Executable programs are programs that could proceed, were it not that the X8 can help only 1 of them along. (I assume that the program being executed by the X8 continues to be ranked among the executable ones; the term "waiting list" is then somewhat curious, but let us simply resign ourselves to that. If the control really resides in the coordinator, then the term is in order.)
+
+The effect of the P operation can be that a program now becomes blocked from executable; the effect of the V operation can be that a (different) program is transferred from the group of blocked ones to the executable ones. A program that, while in action, is interrupted by an interrupt remains ranked among the executable ones!
+
+We can also view it thus: if in a program a P operation is initiated, then at that moment the program was in action, hence executable. Now there are two cases. Either the reigning values of the semaphores in question form no obstacle, or they do. In the first case they are decremented, the P operation is thereby completed and the program remains executable. (Whether it also remains in action is quite another chapter!) In the second case the program is taken out of the group of executable ones. The group of blocked ones therefore contains only all the programs that have got stuck in an initiated but not completed P operation.
+
+1.11. With regard to the executable programs we can take two roads as concerns sanctification. We consider a program that was in action, has been interrupted by an interrupt, and as a result has come onto the executable part of the waiting list.
+
+1.11.1. In the one technique we allow the program page on which we were engaged at the moment of the interrupt to disappear during the waiting. This implies: a) that in the waiting list, among the status quo data, we must store the return address in an invariant form. b) that if the coordinator decides that this executable one is now due to be continued, it must be tested whether the program page from which we came and to which we want to return again is still in the same location in core, in other words the continuation must be played as a goto statement to another, i.e. possibly absent, page. c) that then, in the case of absence, the program appears once more on the list of blocked programs by virtue of the now requested drum transport.
+
+If now, after a completed transport, this program ends up again among the executable ones, but does not immediately get its turn and hence the page may have disappeared again before actual use, then this is not only sad, but also dangerous: for it would mean that we have introduced the possibility of "effectless" drum transports. Are we then still certain that we have not introduced the "After You" effect? This could be obviated by sanctifying the core page at the moment of deciding that the transport will take place and letting the desanctification take place only through the actual continuation of this program.
+
+1.11.2. In the other technique we proceed on the assumption that the return address of a program interrupted by an interrupt is stored as a physical core address, but that during executable waiting the page in question will always be sacred. The other way in which a program can come among the executable ones is via the blocked ones. If blocking always takes place from within a coordinator routine, then we may again make do with a physical address. After all, the coordinator routine is permanently in core; the coordinator routine then gets the duty, in the case of a used break point, to make sure that it does not burn its bridges behind it. (Either by storing the return address in an invariant form, or by sanctifying the calling page across the break point.)
+
+This technique can, in the first instance, be played in two ways. We can always sanctify the reigning page; this requires measures at every jump from one page to another. A coordinator routine then possibly has the duty, in the case of a used break point —if it may take too long— to lift the sanctification and, after the return, to jump back testing.
+
+The other way is that at goto statements to other pages we do nothing at all, but in the case of an interrupt we sanctify the abandoned page and desanctify it upon continuation. In this case we must possibly, in a coordinator routine —if the break is guaranteed to be short— sanctify this page for the duration of the break.
+
+1.11.3. By treating the library as Voorhoeve has suggested, we cannot make do with including a sanctity bit in the KIE. For: from a library page a coordinator routine is called, and the library page is left behind sacred. In the meantime another program gets its turn, which likewise abandons this library page via such a coordinator routine. One of the two programs is the first to be continued again: that program must then not desanctify the library page! When I had dug this snake out from under the grass, I was rather pleased with myself!
+
+The second is clear: the KIE has, instead of a sanctity bit, a sanctity count. Count = 0 means profane, count positive means sacred. Sanctifying means incrementing the count by 1, desanctifying means decrementing the count by 1. The well-known "Holy, holy, thrice holy" begins to take on a special relief.
+
+Note. Must we keep, per program, a "desanctification obligation" for the case in which the program is terminated prematurely? I think so.
+
+18 December 1963
+E. W. Dijkstra
+
+transcribed by Sam Samshuijzen
+
+revised Sun, 13 Feb 2005

@@ -117,3 +117,117 @@ Last revision
 2014-12-08
 
 .
+
+---
+
+## English translation
+
+### Commentary on “Structural Plan for Computing Science (University Education)” of the ARSI
+
+Commentary on “Structural plan Computing Science (University Education)” of the ARSI.
+“Learn to write well, or not to write at all.” (John Dryden)
+“Big is beautiful and much is delicious.” (Maarten Toonder)
+The first thing one notices about the ”Structural Plan Computing Science (University Education) of the
+Academic Council, Computing Science Section, code “AR 74/75-5” (following the
+ARSI, to be denoted below as the Magnum Opus) is its bulk
+and the poor Dutch in which it is couched: just as little could have been said better in
+half the number of pages.
+The second is its lack of clarity. Imagine a report
+about “The teaching of writing”, in which the reader is regularly left in
+uncertainty as to whether passages now pertain to the teaching that teaches little children
+in the first grade to get letters onto paper, or to teaching in
+spelling, or to teaching in commercial correspondence, or to lecture courses for
+prospective men of letters and authors: thus does the Magnum Opus write about
+“computing-science education”.
+The third is that in this Magnum Opus —which deals with a
+Structural Plan for Computing Science for University Education!— half a page concerns
+the practice of science, the remaining 69.5 concern teaching. (With
+respect to the practice of science the Magnum Opus knows not much more to
+tell than that it must be “promoted”.)
+The fourth is the emphasis with which “the need of society” has been chosen as
+the principal guideline. Not a scientific discipline, but
+“fields of employment” serve as the point of departure, to such a strong degree that —although the
+authors deny this with a none too convincing appeal to the diversity of the
+fields of employment— the Magnum Opus actually proposes a couple of vocational training programmes
+that hardly seem to rise above the level of the NOVI (better known
+under the old, and perhaps more honest, name SSAA): the
+only difference seems to be that the teachers are allowed to wear the gown. This emphatic
+gearing towards fields of employment is all the more questionable because, in this discipline still far
+from full maturity, scientific and technical developments can still so drastically alter the nature
+of the work. (Here be it noted
+that the less people partake in these developments, the more they wield a
+static picture of the societal need.) The fear that the
+material taught, if it is of any value Űberhaupt [at all], will have a half-life of
+at most five years, nowhere resounds in the Magnum Opus. (On the contrary!
+In the basic programme material is brought up that even now is demonstrably
+unmasked as ripe for the scrap heap.)
+The greatest lacuna of the Magnum Opus is that it presupposes the meaningfulness and
+feasibility of the proposed (rather gigantic)
+educational activity to be so self-evident that not even an attempt
+has been undertaken to render it plausible. Since well-nigh all
+sciences could profit from the computer, great hordes of
+students —alphas, betas, gammas, the whole bunch— must receive basic instruction in
+computing science. Very simple! But what remains of it? It
+becomes of the level of a lecture course “filling in a giro slip” —what is the
+automation of the giro service other than a large “application package”?—.
+(The fact that, in the Introduction to the Art of Programming for
+the secondary-vocational-education teachers who follow that course, we already have to draw up a special mock examination
+because otherwise they would never obtain a pass mark, speaks
+warning volumes.)
+Alongside this dubious basic instruction for all, two
+vocational training programmes are suggested, computing science “I” and business computing science “BI”, and the
+Magnum Opus argues repeatedly and emphatically that a “field of study computing science”
+ought to be incorporated into the Academic Statute. The only motivation is
+a political one: if only we can now hand out the official label of “academically trained
+computing scientist”, then we shall surely catch up our “backlog”. (The
+quotation marks around the “backlog”, with which the Magnum Opus tries to pressure the
+department, indicate that with the manner in which
+the Magnum Opus thinks to demonstrate this, I still have my marginal notes.)
+The Magnum Opus tactfully nowhere mentions that the viability of an
+academic field of study depends, among other things, on a scientific discipline that underpins it.
+In the case of the computing-science programme “I” —provided it is not
+proposed as stale as in the Magnum Opus— such a
+discipline does indeed begin to take shape (but there are still enough other
+reasons for me to be so apprehensive that I even consider a graduation track “I”
+in the Academic Statute premature); with respect to
+business computing science “BI” such an underpinning scientific discipline is
+largely absent. This absence —though candidly admitted in the Magnum Opus— has
+been no impediment to the drafters to propose nonetheless a number of
+professors in this as-yet hypothetical discipline! In short,
+even without calling into doubt the postulated needs of society,
+and without contesting the posited primacy of this guideline —something
+to which I am, for that matter, wholeheartedly prepared— I must conclude that
+the Magnum Opus bears a disturbing amount of resemblance to the well-known
+proposal to establish at all medical faculties chairs for “The
+cure of as-yet incurable diseases.”. Its proposers may
+fancy that they thereby bear witness to vision; practice has taught that this
+only attracts quacks.
+A last characteristic of the Magnum Opus may, because it is so utterly
+questionable, alas not remain unmentioned: its undisguised
+anti-intellectualism. Thus it is stated in the appendix for the I-Programme that the
+proposal guarantees (sic!) that no “ivory tower” computing scientists
+will be trained. (In the name of world peace, or something?) And I can but
+pray that, should that proposal against all hope be followed, every now and then
+an “ivory tower” computing scientist will still slip through the meshes of the net. But
+that is of course naive, for they guarantee, after all, that such a thing
+will no longer happen......
+
+21 February 1975 prof.dr.Edsger W.Dijkstra
+
+Eindhoven University of Technology
+
+P.S.
+Now that there is still some room left on this page, for those who would otherwise not
+believe it, finally a little stylistic blossom from the Magnum Opus (p. 31):
+“As objective is named ”the need for education with respect
+to information systems in organizations“, which is analysed by
+means of the use that organizations made of computers at that moment,
+in comparison with the essence of administrative information systems.”
+
+Transcribed by Martin P.M. van der Burgt
+
+Last revision
+
+2014-12-08
+
+.

@@ -22,3 +22,24 @@ Rest mij slechts U en de U dierbaren van ganser harte geluk te wensen met de vol
 
 transcribed by F. Koenders
 revised Thu, 13 Nov 2008
+
+---
+
+## English translation
+
+### [address to a student at the conferral of the engineer's diploma]
+
+After having spent seven years at the Eindhoven University of Technology, you are going to the State University at Leiden. I personally am rather glad of this, for I still have a soft spot for that latter institution, my Alma Mater.
+
+You will notice that this capricious old lady, who has just celebrated her four-hundredth birthday, is a vessel full of contradictions. On the one hand she is an institution in which traditions play a great role, on the other hand she is traditionally progressive: in my student days, when a politically left-leaning student still counted as a contradictio in terminis, Leiden was already distinctly pink. It is as if the lady gaily skips along all the more in the foremost ranks of renewal in order to show everyone that her arteries have not yet hardened. You will notice that the old lady sometimes does grow tired of this, and sometimes lets herself be overtaken, breathlessly, by the well-founded doubt as to whether all of it really must be so. We are now at the stage where the polonaise, in which she could still keep step with some enthusiasm, has, through minister Van Kemenade, gradually had imposed upon it the rhythm of the tarantella, the ominous dance of death of the possessed.....
+
+Formerly we had the Ministry of O.K. and W. [Education, Arts and Sciences]. In a fit of cultural barbarism the K [Arts] was removed from it, the W [Sciences] is rapidly disappearing, and many ask themselves with concern how long the O will still stand for Onderwijs [Education]. Whereas some time ago it looked as though it would become the O of Opleiding [Training], now it appears to be becoming the O of Opvoeding [Upbringing] (or perhaps even Omturning [Re-moulding]!), Re-moulding into the drab uniform human being, the only type for which there is apparently still room in the minister's vision of the socialist promised land. Do not deceive yourself: the man really means it. We have a minister of O who flouts education entirely with his dictatorial boot, who, instead of serving Education, wants to make Education subservient, subservient to a vision that exhibits all the characteristics of the hallucination of a religious fanatic.
+
+I am not exaggerating. After having propagated equal educational opportunities for everyone, he is, as appears from the policy outline memorandum [contourennota] published last week, seriously worried that if everyone can study at his own pace, according to his own talent and ambition, this will enlarge the mutual differences among the school-leavers. Of course: he who, through talent, through diligence or —worse still— through the combination of both, outstrips his contemporaries, will keep pulling further and further ahead. According to the text the minister regards such outliers as a serious danger, the combating of which causes him grave concern. And a day later the newspaper is able to report that with the introduction of the comprehensive school [middenschool] the traditional types of school are to disappear. Not that, for example, the gymnasia, which have been placed on the death list, would be inferior. On the contrary! According to the minister the more difficult traditional schools, were they to continue to exist alongside the comprehensive school, would attract the talented pupils, as a result of which the comprehensive school would not be able to come into its own! In short: the gymnasia must go, because they are too good. In other words: we have a minister who, without batting an eyelid, sacrifices a culturally precious heritage to his New Order. It is closer to 1984 than you think.
+
+I find an ideologically fanned persecution of intellectuals just as gruesome a matter as an ideologically fed persecution of Jews. During the persecution of the Jews the old lady did not hesitate: she closed her house and went into hiding. Will she once more know how she ought to conduct herself? In any case you are facing a difficult time, in which I wish you fortitude.
+
+It remains for me only to wish you and those dear to you, with all my heart, happiness on the completion of your academic studies, and to wish you a career that will continue to grant you satisfaction to the full length of your days.
+
+transcribed by F. Koenders
+revised Thu, 13 Nov 2008

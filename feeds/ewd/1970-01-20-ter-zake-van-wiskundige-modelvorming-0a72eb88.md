@@ -20,3 +20,22 @@ Of had iemand anders een derde opzet voor ogen?
 
 transcribed by F. Koenders
 revised Thu, 13 Nov 2008
+
+---
+
+## English translation
+
+**On the matter of mathematical model building**
+
+I hear of plans to devote a special lecture course, response-session or practical or the like to "mathematical model building". I do not quite know what others have in mind here, and I have therefore tried to work out what I myself might imagine by it and what its purpose ought to be. I see two alternatives, and my question is "Is one of these two intended, or does one have something quite different in mind?"
+
+In the first conception the purpose would be to support the package of subjects that we presently teach, and of which we must, to our sorrow, observe that it does not come across all too well, by compelling students to use what they have learned, to make it operational, in particular by having them, in the case of a given problem, create through "model building" the circumstances in which the taught mathematical techniques can be applied. Involuntarily one also thinks of that much-heard word "motivation". With regard to this conception I have a couple of questions and a marginal note. The first question is "Does this not already happen in the lecture courses and practicals that treat the subjects concerned?". If the answer to this question is negative, one could come to the conclusion that those lecture courses and practicals are then candidates for revision; the question "Why should we house this in a special thing called "model building"?" must then in any case be answered. If the answer to the first question is affirmative, and in the respective lecture courses and practicals sufficient attention is indeed devoted to model building, then the remark is that it apparently does not catch on all that well after all, and the question that must be answered becomes "What leads us to expect that a special model-building framework will be more effective in this regard?" The marginal note that I wish to make concerning the first conception is that such an activity, aimed at actually impressing upon our students more thoroughly the usefulness of the subjects taught, cannot be acquitted of advertising aspects. I see in particular the danger of propagating the narrowing of consciousness that the applicability of mathematical method would be confined to the application of the specific techniques and subjects that we teach.
+
+In the second conception the emphasis would come to fall on the point that model building is an intellectual activity; concern for the effectiveness of our thought process, methodology of inventiveness, etc., would then come to stand at its centre. It would thereby be a framework for relatively general reflections that could not clearly be housed as such within one of the other subjects, respectively could not be distributed over them. I consider it by no means out of the question that, when this is set up with care and taste, such a thing leads to an educational activity that is particularly well defensible on ideal grounds. Unfortunately I also see great difficulties. It can have a very horizon-broadening effect, especially if the chosen problems —I assume, namely, that this will largely have to take the form of "case studies"— precisely do not connect too closely with a great deal of what we teach. In so far as it might bring to light the relativity of large portions of our curriculum, I doubt whether such a stimulating influence will really emanate from it. Let me be well understood: personally I am convinced of this relativity of large portions of our curriculum, but in my eyes that is no disqualification, and I would be the last to conclude hastily on that ground "Right then, out with those subjects." But "usefulness" —or, to use the somewhat distasteful term that is so pushed nowadays: "social relevance"— is at the moment so overblown that placing stronger emphasis on this relativity can only give rise to psychic conflicts, if not in students, then in teachers. Hence my reservation about the second conception.
+
+Or did someone else have a third conception in mind?
+
+14 June 1972
+
+transcribed by F. Koenders
+revised Thu, 13 Nov 2008

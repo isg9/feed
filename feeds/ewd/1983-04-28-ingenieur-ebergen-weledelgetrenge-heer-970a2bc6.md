@@ -71,3 +71,31 @@ Transcribed by Lucas Jacques
 
 Revised
 27-Dec-2016
+
+
+---
+
+## English translation
+
+### Engineer Ebergen, Right Honourable Sir
+
+EWD 853A
+
+Engineer Ebergen, Right Honourable Sir,
+
+Your graduation period has run a somewhat different course than originally foreseen, owing to the fact that you were given the opportunity to spend a semester serving as an assistant at the California Institute of Technology in Pasadena. For that visit proved to be more than merely an interruption of a few months. The work you did there had pleased you so well, the problems with which you were confronted there had so gripped you, that you asked me whether you might not graduate on that set of problems.
+
+In the months that followed, I asked myself, not without concern, and sometimes even almost with some incipient feeling of guilt, whether I had really done well in granting you the permission you had requested. For I saw it coming that it would take longer than the sharply delineated subject I had initially assigned to you. And perhaps it would even take considerably longer. You can imagine that I now and then felt somewhat troubled by it. Fortunately, you did not give the impression of feeling troubled: on the contrary, I may well say. You gave, at least outwardly, every appearance of the proverbial fish in water.
+
+Your announcement that you wished to begin your graduation report was received with relief. After that, my heart sank heavy within me only once more, namely when we got to see the first sketch of the beginning of your graduation report. That really contained too much abracadabra, and we had to point out to you the right of the supervising professor to understand what the graduand writes down.
+
+You evidently took that very well to heart, for the next version, which is also practically the final version, is for the overwhelming part a model of compact clarity. And only then did I breathe relieved. I still believe that the original subject would have cost you considerably less time; I also think that the original subject would probably have given rise to a more convincing piece of work. Set against that, however, is my conviction that in your struggle with the subject you had chosen yourself you have undoubtedly learned tremendously much more than would have been the case with the original subject. You have now experienced first-hand what is involved when one must introduce new concepts or must develop new notations, all matters to which the original subject would have given no occasion. That you have learned so much in your graduation period has reconciled me with your choice.
+
+The work you are going to do at the Mathematical Centre will ––if I have understood it correctly–– in the first instance lie in the prolongation of your graduation subject. I rather like that, for you had reached so high, and initially also so vaguely, that the work is most clearly not yet finished, while it most clearly deserves completion. I also find it a little bit of a pity; in that respect I stand identically towards graduation periods and the doctoral promotion: it is always nice when the young engineer or, as the case may be, the young doctor afterwards goes on to do something quite different. Otherwise you get something like the pattern of the American Ph.D., who at the age of 25 has already chosen the specialism of his life. All the more since your subject, as the saying goes, "lies at the focus of interest", I can well countenance your continuation. Moreover, you have displayed enough liveliness and flexibility to justify the confidence that sooner or later you will indeed break free from this subject again and go on to do something else that is nice.
+
+It only remains for me to congratulate you, to include those dear to you in this felicitation, and to have my best wishes accompany you.
+
+Transcribed by Lucas Jacques
+
+Revised
+27-Dec-2016

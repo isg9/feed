@@ -24,3 +24,26 @@ Na aldus tot Uw maatschappelijk verantwoordelijkheidsbesef te hebben bijgedragen
 
 transcribed by Jukka Ketelaars
 revised Sun, 17 Jun 2007
+
+---
+
+## English translation
+
+### Eighth address, autumn 1975
+
+8 November 1975
+EWD 529
+
+Eighth address, autumn 1975.
+With the regularity of the seasons, the halls, the corridors and the footbridges of the TH are obstructed and disfigured by garish, let me just say: exhibitions. If, walking past them, I do not by chance turn my face away in time, there wells up in me, as in Mr. Bommel, the thought: "Fortunately, my good father did not have to live through this." For I too have had a good father, of whom I still remember the indignation when his own NRC yielded to the pressure toward greater superficiality and went over to the printing of newspaper photographs: my good father bought the paper to read it and not to look at pictures. That the editors also did sense that this decision was not entirely above board and condemned the pictures to an obscure existence on the upper half of the back page, was only an inadequate plaster on the wound.
+
+The organizers of these exhibitions cloak themselves in a dubious anonymity. It is not even very clear under whose auspices these exhibitions are mounted. I am afraid that it is our Studium Generale; if so, then I can only hope that its frontmen and frontwomen still know enough Latin among themselves to realize that the cargo is no longer covered by the flag.
+
+Recently there was an exhibition about the barbarism of Nazism, with the well-known dreadful scenes of round-ups, mass transports, concentration camps and massacres. In my innocence I thought, on the basis of the photographs, that the exhibition was about the barbarism of Nazism. When I came to read the text, I was quickly disabused. It was an exhibition with the unnuanced title "Fascism is Murder", and a distillate of the inhuman suffering of millions was abused to impress upon the visitor that this misery had been the inevitable consequence of the power of big capital; to underline this simplistic thesis it was, in passing, just briefly insinuated that after the war the prosecution of the Dutch war criminals had of course been sabotaged by our right-wing politicians.
+
+God, how simple! That I, who as it happens lived through that time myself and was able to see everything with my own eyes, did not come up with this simple explanation on my own, is indeed downright astounding. I, who had always thought that Hitler's National Socialism, with the founding of the Third Reich, had in view the state of salvation for the Germanic people; I, who saw with my own eyes how Hitler put a downtrodden lumpenproletariat back neatly into uniforms after all; I, who saw with my own eyes how Hitler, with enormous sacrifices of intellect, freed the ordinary Germans from the bleeding-dry by international Jewry. Granted, with the persecution of the Jews it all got a little out of hand; in their zeal for the good cause the SA-men did at times act a little more roughly than was strictly necessary. But then, where you chop, splinters fall, do they not? And to think I kept believing that it was such a good left-wing dictatorship, one that had the best in view for the people, such a left-wing dictatorship as the chairwoman of the PvdA would surely have been willing to put in a good word for. How is it possible that I never realized that it was precisely a right-wing dictatorship! I now also suddenly understand why the State Institute for War Documentation is threatened with closure before L. de Jong has completed his historiography: de Jong treats that time far too nuancedly, and that only works confusingly.
+
+Having thus contributed to your sense of social responsibility, we proceed to the order of the day.
+
+transcribed by Jukka Ketelaars
+revised Sun, 17 Jun 2007

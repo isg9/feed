@@ -77,3 +77,41 @@ Wij gaan, zolang het nog kan, over tot de orde van de dag.
 
 transcribed by Jukka Ketelaars
 revised Wed, 13 Jun 2007
+
+---
+
+## English translation
+
+### Eighth address to my students
+
+12 May 1975
+EWD 495
+
+Eighth address to my students.
+
+The motto of what, by coincidence, will become my last address of this semester is simple: "Beware of changes of name!".
+
+Centuries ago Shakespeare sounded his cautionary "What's in a name?", but the quotation, although well known, proves to be not well known enough. Around the penultimate turn of the century the instigators of the French Revolution lost all credibility by introducing new names for the months of the year, yet even that was of no avail: the charlatanry proceeds undeterred.
+
+I remember very well how, during the German occupation, the new edition of "Schwere Wörter" by Brouwer, Gerzon and Ras was said to have been written only by Brouwer and Ras: Gerzon was, after all, Jewish! I likewise still remember how, during the de-Stalinization in Russia, in Amsterdam the Stalinlaan —oh, bitter irony!— was rechristened Vrijheidslaan [Freedom Avenue]. This unworthy occurrence made me wonder how long I would have to wait until the Rooseveltlaan and Churchilllaan that converge upon it would likewise be renamed... Our Ministry of Colonies became the Ministry of Overseas Territories or some such thing, our Ministry of War became that of Defence, just as the United States of America now have their Department of Defense. For which country could afford the wry honesty of a "Department of Aggression"?
+
+When, at the behest of the powers that be, authors' names are juggled with: mind your business! When the ruling authorities start rehanging street-name signs: mind your business! When ministries are rechristened: mind your business!
+
+When a cabinet, instead of in formal dress, ostentatiously presents itself in shabby clothes to Her Majesty our Queen and —however justly!— abolishes the form of address "Excellency" for ministers, mind your business!
+
+I am dredging up these old grievances on the occasion of a recent report in the newspaper that, on the grounds of "income-political considerations" —whoever invented the latter adjective deserves a failing grade for Dutch, but this by the way— it has been decided to abolish academic titles in administrative dealings.
+
+You may dismiss this as the venting of a personal frustration of our prime minister, who is fed up with being constantly reminded by the form of address "doctorandus" —now that, after all, "excellency" is no longer permitted!— that he has not completed his academic study and that it is gradually becoming high time he finally took his doctorate. You can imagine how gladly I, if only on account of his abuse of the language, would take a seat on the doctoral committee. It shall not be granted to me: there remains for me only to wait until this lout lets himself be saddled with an honorary doctorate!
+
+Forget this prime minister: he is not important enough to be remembered. Remember, however, that in the year of our Lord 1975 it was declared ex cathedra that in administrative dealings an academic education —the education that is supposed to teach you to use your brains— had better no longer be mentioned. For it makes no difference at all whether you have completed an academic study with good or perhaps even brilliant result! For it would be undemocratic if we could not just as well entrust the interest of the nation to the first shady baker's apprentice that comes along.
+
+From a government that, to justify the governing baker's apprentice, sees fit to abolish academic titles in administrative dealings, only one kind of measures can be expected, namely measures that seek to hollow out the academic enterprise into such a farce that the arbitrary baker's apprentice is just as good or just as bad as the equally arbitrary academic.
+
+Hence all academic standards of quality are anathema, every form of university entrance examination is rejected as undemocratic, and the academy is given the unworthy task of decking out with the title everyone who presents himself, a title that is thereupon branded as of null and no value whatsoever. A watertight system, but ... mind your business!
+
+The aim is evidently to prevent the intellectual elite still present today from cultivating spiritual progeny: genocide of a cultural minority. The socialist governments in Western Europe evidently envisage a sort of "Endlösung der Akademischen Frage" [Final Solution of the Academic Question].
+
+We proceed, as long as it is still possible, to the order of the day.
+
+transcribed by Jukka Ketelaars
+revised Wed, 13 Jun 2007

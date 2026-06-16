@@ -32,3 +32,34 @@ Technische Hogeschool Eindhoven
 transcribed by Sam Samshuijzen
 
 revised Wed, 17 Jan 2007
+
+---
+
+## English translation
+
+### The end of a craft
+
+EWD 194
+
+The end of a craft.
+In the manner in which automatic computers are handled a drastic change is beginning to take shape, and in connection with the consequences thereof it seems desirable to signal this change in good time. Put briefly, one may state that programming is outgrowing the artisanal stage into a well-founded, rather mathematically oriented discipline.
+
+All of this is a direct consequence of the increase in capacity of technical power, such as we have witnessed it in the last decade. On the one hand this increase has led to a weakening of the efficiency requirements, measured by the somewhat one-sided yardsticks of store space and computation time, so that thinking is thereby now less paralysed; on the other hand this increase has opened up fields of application in which it now appears that the untrained human capacity of comprehension has by far become the most acute bottleneck.
+
+The first writing on the wall was the soaring budget that had to be made available for software projects, a development which was initially curbed somewhat, with some success, by organisational technique. The alarm bell only began to toll in earnest when a large part of the software thus manufactured at great expense turned out, after delivery, simply to be no good.
+
+This failure was an intellectual challenge which, partly because of the economic interests, could not remain unanswered and indeed has not remained unanswered. Proof techniques, with which the correctness of both sequential programs and also of multiprogramming systems can be demonstrated, are being and are developed, proof techniques which will not fail to influence the style of programming profoundly: an accurate feeling for the factors on which the manageability of such proofs may critically depend will, within no very long time, have to be reckoned among the required skills of the competent programmer. Moreover: if one takes it into account in the construction of one's programs, then the task of constructing a series of test cases with which the correctness of a program can be established exhaustively on the machine turns out not to be nearly so impossible as is still often assumed.
+
+Today it is not yet unusual that large programs are made more or less at random and are then subjected to some arbitrarily chosen test cases in order at least to bring to light the grossest blunders and —albeit often at the cost of much machine time— to localise them. And such programs then go out into the world as "tested programs"! But the moment seems near at which such a way of working may, and also will, rightly be called dilettantism.
+
+Of the professional programmer of, if not tomorrow, then the day after tomorrow, considerably more will be demanded in the way of the power of abstraction —needed in order to discern and master structure— and of mathematical proof skill than of a young man whose intellectual baggage comprises no more than a programmers' course of a few months followed by a few years' practice. How quickly the change in the computing climate will set in is difficult to predict: against the economic pressure to deliver work that is a class better (good, that is) stands the inhibiting influence of the cadre of intermediate level or lower, abundantly present in many institutes, of which we may not expect that it will, in so far as it even perceives such a thing, gladly acknowledge that the profession has grown beyond its intellectual ceiling, that its craft has ceased to exist as such.
+
+Forecasts about the number of computers seem to me to be translated rather thoughtlessly into forecasts about the need for programmers of the level currently in vogue. Is it still justifiable to lure mediocre boys with no more than secondary school to programmers' courses with the suggestion that they will thereafter be indispensable specialists, when we can see coming that, by and large, they will not be able to keep up professionally? It is telling in this connection that an Anglo-Saxon institution, as I recently learned, is no longer satisfied with programmers holding a Bachelor's Degree: a Master's Degree is a minimum, they would rather have Ph.D.'s.
+
+prof.dr.E.W.Dijkstra
+
+Technische Hogeschool Eindhoven
+
+transcribed by Sam Samshuijzen
+
+revised Wed, 17 Jan 2007

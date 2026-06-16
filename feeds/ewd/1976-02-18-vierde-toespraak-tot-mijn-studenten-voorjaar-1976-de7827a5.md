@@ -72,3 +72,72 @@ gezeverd.
 transcribed by Carl Ludwigson
 
 revised Tue, 16 Oct 2007
+
+---
+
+## English translation
+
+### Fourth address to my students, spring 1976
+
+Fourth address to my students, spring
+1976.
+
+Recently the State Secretary Klein circulated a missive in which the
+universities and institutes of higher education were urged to keep careful track
+of the secondary appointments of their professors. It is good custom that, as an
+employee, one does not hold secondary appointments without the knowledge of one's
+employer, and, depending on the nature of the secondary appointment, not even
+without the permission of the employer. And no one will object that the
+university establishment, too, be reminded of this good custom from time to time;
+indeed: this is so self-evident that one wonders why this missive of State
+Secretary Klein made the front page of the newspaper.
+
+Well, that became clear if you read the little article somewhat more carefully.
+Let me, since the State Secretary spoke of "commercial sidelines," and in order
+to avoid possible misunderstanding, state at the outset that I, who, coming from
+industry, hold the professorship as an "academic sideline," am not a party to
+this matter. For in his explanatory remarks the State Secretary insinuated that
+all manner of professors, as a consequence of their "commercial sidelines,"
+neglect their scientific duty, and moreover he suggested that they discharge these
+secondary appointments on the sly. How justified is that insinuation?
+
+Look, I am probably terribly naive, but I am not prepared to assume out of hand
+that all professors whom I do not know so well personally would be an order of
+magnitude less decent than the colleagues whom I do know better. In the first
+place they do not discharge their secondary appointments on the sly; in the
+second place they do not do it for a living, but in an unremitting effort not to
+let the gulf between theory and practice be needlessly widened. I know from
+experience how difficult, and also how often how thankless, this endeavour is,
+for the gulf between theory and practice, the tension between the academic and
+the industrial world, is so great that one runs a fair chance of falling between
+two stools. The intersection of what is theoretically sound and practically
+meaningful is so small that in the eyes of many it is regarded as empty. What
+proves practically meaningful is then characterized in the academic world as
+"therefore trivial," what seems theoretically sound is for that reason written
+off in industry as "therefore unusable." To break through this deadly
+simplification we need people who loyally have a foot in both camps.
+
+Let us, "for the sake of the argument," follow the State Secretary for a moment
+in his concern about the level of the scientific work of the professors. By what
+would that come under threat the most? Is it under threat? Well, you bet! I must
+confess to you that by now it is so bad that I have learned no longer to inquire
+of a colleague whom I have not seen for a while how his work is going. Among
+professors this ought to be the most normal sign of interest, but one indeed
+unlearns it, for almost always the question proves painful, because the other no
+longer gets around to his work. Through the bother of the WUB, which makes all
+governance and policy degenerate into an endless tournament of slogans, through
+the dismantling of the staff complement of their faculties, and through the
+mandate, by way of reprogramming, to let their institute sink to the mediocrity
+of the "graduate factory," they no longer get around to their work. All their
+time and energy is swallowed up by the desperate bailing-out of a ship sprung a
+leak at the government's hand. If they hold an advisorship, the hours spent on it
+probably coincide with the only hours that they can still devote to science. The
+missive came onto the front page of the newspaper because, in his explanatory
+remarks, our State Secretary showed himself a boor.
+
+Incidentally, I am of the opinion that on Hilversum 4 there should be less
+drivel spouted.
+
+transcribed by Carl Ludwigson
+
+revised Tue, 16 Oct 2007

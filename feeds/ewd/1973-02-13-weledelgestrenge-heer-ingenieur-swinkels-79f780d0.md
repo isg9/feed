@@ -27,3 +27,30 @@ Ir. Swinkels, nogmaals mijn hartelijke gelukwensen.
 Transcribed by Michiel Duvekot.
 
 Last revision: Tue 26 Aug 2003.
+
+
+---
+
+## English translation
+
+### Right Honourable Sir, Engineer Swinkels
+
+EWD 364 - 0
+
+Right Honourable Sir, Engineer Swinkels,
+
+Graduating is rather like being born and dying: such things one does only once in one's life, and that is why they are worth a word of congratulation. I therefore congratulate you most heartily on the title of "mathematical engineer" you have attained, conferred upon you in conclusion of a course of study in the final part of which I, as the official supervising professor, have been somewhat more closely involved: to drs. C. Bron, who carried out the actual guidance of your graduation work, both of us, I think, owe our thanks, and I trust I may openly express these thanks here also on your behalf, the more so since this was the last occasion on which he can render me this service.
+
+Years ago you opted for the field of specialization that has since been adorned with the name "informatics". Once that bullet had been bitten, a number of us talked the matter over together. What attracted me in you was something that a careless observer might have taken for "lack of interest"; I believed I saw something quite different: namely a broad inquisitiveness, a desire to orient oneself widely rather than prematurely and too completely to identify oneself with a specialism that for the rest of a human life might perhaps not be able to offer enough intellectual room for play.
+
+EWD 364 - 1
+
+During your graduation period you designed and realized an implementation for the programming language TRAC, in which, because it concerns a conversational programming language, you could build directly upon the graduation work of ir. J.J. van Amstel. To set a graduating student to work on a reasonably large project is always something of a risk; in your case the risk has not been too great, and we regard your work as crowned with success for a number of reasons. In the first place, because your implementation works. In the second place, because your implementation makes, as regards its construction, a very tidy impression. But the third point is the most important: I believe that you have learned a great deal. It was your first "large" program, and from such a thing one always learns of course, but you have learned more than is inevitable under such circumstances: namely, you also tried to document the construction and the considerations, and in that attempt you experienced that this is far from trivial, because you have to create your own means of expression for it.
+
+The diligence and dedication with which you have worked give me confidence for your future, in which the best wishes attend you.
+
+Ir. Swinkels, once again my heartfelt congratulations.
+
+Transcribed by Michiel Duvekot.
+
+Last revision: Tue 26 Aug 2003.

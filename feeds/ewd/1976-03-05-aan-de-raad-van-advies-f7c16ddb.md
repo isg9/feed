@@ -151,3 +151,148 @@ transcribed by Bart Vreugdenhil
 
 revised
 08-Jan-2012
+
+---
+
+## English translation
+
+### To the Advisory Council
+
+After receiving, reading and re-reading van Leeuwen's "Considerations", de Bakker's "Brief Commentary" and the invitation of your chairman, I no longer rightly knew what was incumbent upon me, and I have had to ask your chairman for clarification. For the letter of your chairman spoke only of a judgement on the two first-named pieces and not of an opinion or judgement on the matter dealt with therein.
+
+I therefore asked him whether we were permitted to take our task somewhat more broadly, or whether we were expected to confine ourselves to the pieces themselves and merely to make remarks on matters such as the poor Dutch in which the Considerations is couched. Your chairman told me that a broader conception of the task was indeed expected of us and, what is more, that commentary on usage was not necessary.
+
+On this last point I differ seriously in opinion from your chairman. For slovenly usage is not a symptom of decay, it is one of the most active catalysts of it. With contaminants one simply cannot wash piglets clean. Your chairman's attitude in this matter compels me to go into the Dutch in which the Considerations is couched more extensively than I should otherwise have done. (I should in any case have said something about it! After reading the Considerations, the reading of the Brief Commentary was a relief....)
+
+*            *
+
+*
+
+To begin with, the spelling is no good. The pupils of my father, who was a teacher of chemistry, had the free choice between "Phosphor" and "Fosfor"; the spellings "Phosfor" and "Fosphor" were not permitted. Van Leeuwen unmistakably betrays himself as no pupil of my father by employing (p. 9, last line) the spelling "klassificatie".
+
+Next, his word-choice is no good. The piece bursts with Germanisms: "benutting" (p. 1, line 7 from the bottom, p. 2, lines 1–2 from the top, p. 10, line 8 from the top), "vakmatig" (p. 2, line 12 from the bottom), "overcapaciteit" (p. 10, line 6 from the bottom), "beroepsmatig" (p. 12, line 1 from the top), "beleidmatig" (p. 12, line 3 from the top). Furthermore "uitspreiden" (p. 1, line 14 from the bottom) is used as an intransitive verb. The verbs "prolifereren" (p. 1, last line) and "overlappen" (p. 2, line 8 from the bottom) the reader is likewise expected to accept. The Board of Governors of the M.C. might consider offering van Leeuwen, in thanks for services rendered, a large van Dale.
+
+The author writes of "the directly applicable and commercial interest" (p. 9, line 3 from the top), leaving the reader in wonderment as to what exactly he is to picture by a directly applicable interest. Two systems (p. 9, line 12 from the bottom) "stand in connection": the reader must guess with what.
+
+The author deals rather loosely with the little word "thus" (p. 1, lines 7 and 13 from the bottom, p. 6, line 13 from the bottom) and shows a great predilection for the preposition "in" and its compounds (p. 3, line 4 from the bottom "in this terrain" instead of "on this terrain", p. 3, line 7 from the top "therein" instead of "thereof", p. 8, line 10 from the bottom "therein" instead of "therewith", p. 8, line 3 from the bottom "in" instead of "to").
+
+As may be expected after the foregoing, there are also obscure sentences in it, such as in section 1.3:
+
+"The department has always been geared to research and directed development work, and is as yet but little involved in the automation problems with which one sees oneself confronted elsewhere."
+
+I am here troubled by the last little word "and"; would "but" in its place form a better sentence? Is the intention to say that in the "research and directed development work" of the department, automation problems elsewhere have been neglected, or is it being deplored that "elsewhere" one fails to involve the department, with its precisely relevant knowledge and experience, in the solution of its automation problems?
+
+Section 1.4 is so obscure that we shall try to dissect it somewhat more closely. I quote:
+
+"The general view in Dutch informatics is above all to develop the practical utilization of the computer and to a lesser degree to involve fundamental research therein."
+
+I already have some difficulty with the construction "the view is to develop something"; one can say "the view is that something ought to be developed" or "it is of importance to develop something". But to what does the word "therein" refer back? To the "utilization" or to the "informatics"? Did the author wish to say
+
+"In Dutch informatics the efficiency of computer use is more central than fundamental research."
+
+or
+
+"In Dutch informatics the problem of efficient computer use is approached more pragmatically than fundamentally."?
+
+Or yet something quite different? I do not know. I quote further:
+
+"A good combination is of great importance but because only few are at the same time expert in practical and theoretical computer science this subject will probably remain under discussion."
+
+To begin with: a combination of what? The rest of the sentence suggests of "theory" and "practice", but then the question arises what is meant by "this subject". And what kind of discussion does the author have in mind? I again give two possible interpretations:
+
+"Because only few possess sufficient expertise in both practical and theoretical computer science, a closer connection between theory and practice is, alas, not to be expected in the short term."
+
+or
+
+"Because only few possess sufficient expertise in both practical and theoretical computer science to let theory and practice actually profit from one another, the conversation about how this mutual fertilization can best be brought about will probably degenerate into a fruitless discussion."
+
+I quote further:
+
+"The activities in the Informatics department show well (and probably better than elsewhere in the country) how inseparable these aspects are."
+
+This sentence —and perhaps that is the intention!— can mean all sorts of things, varying from
+
+"The spectacular results of the Informatics department could not have come about without intimate cooperation between theory and practice."
+
+to
+
+"Since theory and practice have grown apart in the Informatics department, this department has booked no more significant results."
+
+How the activities in the Informatics department have shown the inseparability remains undecided, as does why they should have shown it there better than elsewhere in the country. We quote further:
+
+"The experiences in this regard that are now proliferating in study centres and training institutes for informatics deserve better utilization in academic circles."
+
+Which "experiences" does the author have in mind? To what does "in this regard" refer back? Does he mean non-academic institutes where valuable material circulates that is unknown in academic circles, or does he mean academic "study centres and training institutes for informatics" where material, though "proliferating", is not "utilized"? And does he reckon the Informatics department of the M.C. as belonging to the "academic circle" or not?
+
+I may close this part of my discussion with a (sister of) "Aunt Betje" of the author: (p. 13, lines 4–6 from the top)
+
+"It does not lie on my path to develop conclusions and leave my observations further to the reader."
+
+*            *
+
+*
+
+There is always, on the one hand, the field of work that is regarded as "practically meaningful", and on the other hand the field of work that is experienced as "theoretically sound". That these two fields do not usually coincide of their own accord is sufficiently well known; more strongly: a conscious effort is generally required not to let their intersection diminish relatively in extent. For him who likes to work in this intersecting region and for him who would like to try to enlarge this intersection, informatics has in the past decades been an exceptionally rewarding terrain, and it will, in my expectation, remain so for a couple of decades yet. (I therefore also regard informatics, e.g., as an ideal field of work for the "mathematical engineer", with the emphasis equally distributed over both components of that title. A spiritual climate in which one of the two components strongly predominates seems therefore anything but conducive to the balanced development of informatics. That, e.g., in France, Poland, Leiden and Utrecht informatics has never properly got off the ground I ascribe chiefly to the dominant position of —pure— mathematics there. Whoever wishes to form a picture of how informatics languishes when pragmatics predominates I can refer to many computing centres —preferably to those dominated by the high-energy physicists.)
+
+I have taken good note of the relativization, in the Brief Commentary, of the separation between Theory and Practice as presented in the Considerations. Nonetheless the impression that the mutual distance is often greater than would be desirable is, alas, not thereby removed. I cannot escape the impression that research is conducted in the department of which it is unclear how the rest of informatics could profit by it. The remark in the Considerations (3.6) that "research in the sub-department is fixed in the nooks of its theoretical speciality" therefore seems to me justly made. The remark (3.7) "In academic circles the present needs lie clearly broader." may for my part even be strengthened: just drop that restriction "in academic circles".
+
+Love, however, cannot come from one side only, and in the choice of practical work a question mark must therefore also be placed. It is the question whether the choice of development work to which no theory has any message and in which no theory can find inspiration, and which must therefore find its justification chiefly in the usability of the end product, is wise for a group such as the Informatics department of the M.C. I am inclined to answer this question in the negative, certainly if the product is no clear novum.
+
+That of two of the three projects in section 5 of the Considerations it is mentioned that elsewhere similar systems have been successfully developed therefore strengthens my reserve. With the third project —computer graphics— the Considerations does not pronounce itself on whether a similar system has already been developed elsewhere; the supposition that this has indeed happened seems not too daring.
+
+The remark (5.4) "The graphical system can itself be serviceable in the visualizing of complex (data-)structures during program execution" —whereby I assume that by the last word "program execution" is meant— has seriously disquieted me for two reasons, since I can picture by it only named or unnamed boxes with arrows between them, displayed for didactic (or diagnostic?) purposes. In the first place I harbour a strong distrust of the didactic and explanatory value of pictures with arrows. In the second place I taste in this an aid to teach you to picture what happens during program execution; I thought it was more important to learn to abstract from that. It therefore strikes me as a belated echo of the "algorithmic thinking" of the mid-sixties.
+
+With what is described in section 4 of the Considerations too I should like to make some marginal notes. The Brief Commentary rightly observes that the Considerations here "turns out almost always positive" —the supposition that implementing is not van Leeuwen's daily work offers sufficient explanation for the absence of critical marginal notes— and adds the appreciative remark "Principles of compiler construction, also with theoretical emphasis, are extensively studied within the ALGOL 68 group.", thereby pointing to an example of the desired symbiosis between theory and practice, between thinking and doing. This remark of de Bakker's I regard as a very relevant and very welcome supplement to the Considerations.
+
+The Considerations does not mention how large a part of the practical sub-department —the "heart of the department"— the ALGOL 68 group constitutes; my surmise is that it is a substantial part. Neither does it mention how long a group identifiable as such has been at work; my surmise is many years. Is ALGOL 68 by now the longest-running project of the Informatics department?
+
+I pose these questions because I have the impression that the Informatics department has with this project staked very much of its capacity on a single horse, and has thereby taken a great risk in its policy. The more central a place this project occupies in the department, the less avoidable it becomes, in an evaluation of the department, to involve explicitly an evaluation of this project.
+
+It must be established whether the horse has turned out to be the hoped-for racehorse and has won a clear-cut victory, or whether it has turned out to be a plodder that, despite many years of hard pushing, has still not reached the finishing line. It must be established whether the project is the cork on which the department floats, or rather the millstone round the neck under which the department succumbs. If the project occupies a very central place, it must be examined how the department could divest itself of it without committing suicide. For if the answer to this question is not clear, that could prevent the diagnosis that what was set up to breathe new life into the department has degenerated into a lingering illness.
+
+With respect to the above the Considerations is —for understandable reasons, by the way— extremely neutral. The ultimate evaluation of the department probably may not remain so. (The Considerations goes (4.11) in this matter no further than "The prevailing views on its [i.e. ALGOL 68's] usability are nonetheless divided at this stage.")
+
+*            *
+
+*
+
+There are in our country currents —your chairman belongs to them— that are in favour of handling the concept "informatics" extremely loosely —they call it "broadly"—, so that it embraces all those within the triangle spanned by
+
+a) people (of all sorts of disciplines) who occasionally use a computer
+
+b) electrical engineers who occasionally work with pulse techniques
+
+c) logicians and other mathematicians with some discrete interest.
+
+I consider this a too little descriptive, and therefore unwise, usage; with so wide a spectrum of so-called "informaticians" there is no longer any coherent discipline binding all those people, of whom
+
+a) some have never produced a proof
+
+b) some do not possess a trained capacity for abstraction
+
+c) some have never made a program.
+
+Through the absence of this coherent discipline, "informatics" becomes in this loose usage a hollow slogan.
+
+It appears to me that the Informatics department has, in more than one respect, become the victim of this sloppy usage. Through the vagueness of the boundary employed between informatics and the rest of mathematics, the Informatics department has lost a piece of profile within the M.C. Revealing in this matter is the sentence from the Brief Commentary (pp. 2–3) "That these staff members do not belong to the Informatics department I consider, in view of the perspective of the whole MC, of no importance." That activities within the M.C. which the head of the Informatics department reckons as belonging to informatics are conducted not within but outside his department appears to me organizationally undesirable. If the Informatics department lacks people who really belong in it, one may equally suggest that the department comprises people who really do not belong in it and would fit better in a department of logic or applied mathematics.
+
+A stricter handling of the term "informatics" might perhaps have spared us cramped constructions such as "Theoretical Informatics" —in my opinion a contradictio in terminis or a pleonasm—, and the Informatics department would have needed to fragment itself less over "a number of focal points" which are better characterized by "little focal points".
+
+*            *
+
+*
+
+Finally I must mention that the striving after international recognition is gradually striking me as effect-seeking. The political manoeuvres with which, in their day, ALGOL 68 had to be pushed under that name and ratified with the great seal of IFIP firmly established at the time, in outsiders, the impression that this token of international "recognition" was chiefly to function as a lever for domestic use. If that seemed at the time an isolated case, I now read in the Brief Commentary "that one must strive after work of a high level [...], in order to arrive at a number of focal points that acquire national, now preferably international, fame." No. The possible fame of the work ought not to be the aim, but the consequence of the work.
+
+*            *
+
+*
+
+So far my commentary, such as the reading of the Considerations and the Brief Commentary has in the first instance given rise to. My ambivalent attitude towards "the academic establishment" —and in this case especially towards the mathematical section of it— clearly comes to expression in it. With a variant on "I love Mankind, it is people that I cannot stand" I could say: "I love Mathematics, it is mathematicians that I cannot stand." This ambivalence dates, by the way, already from my student days, when the self-enclosedness of the mathematical establishment (Kloosterman would know nothing, but then absolutely nothing, of informatics!) bothered me. The relabelling that we have since been able to behold, whereby mathematicians carried on in the old way —that is, not only with the same quality norms, but also with the same relevance and significance criteria—, but merely pretended that the term "informatics" was still so elastic that it could do no harm to present their work under that fashionable flag, has strengthened rather than weakened my ambivalence, because on the other hand I have, in these straitened times, gained more of an eye for the concern about continuity. We do, after all, want to hand on mathematics, as a precious cultural good, as unscathed as possible to the next generation!
+
+How the Advisory Council ought further to act is at the moment not yet so clear to me. I should like to end with a quotation that came before my eyes yesterday, and that seems to me relevant. It is from the foreword by Laurence Tribe, Corinne S. Schelling and John Voss to "When Values Conflict", which is shortly to appear with Ballinger Publishing Company:
+
+"Our ways of evaluating policy options, and our ways of implementing policy choices, cannot rise above our way of talking [italics of the authors] about what is at stake and what is to be done."
+
+Nuenen, 11 March 1976
+prof.dr. Edsger W. Dijkstra

@@ -63,3 +63,65 @@ E.W.Dijkstra
 transcribed by Ike Naar
 
 revised Tue, 15 Aug 2006
+
+---
+
+## English translation
+
+### To the members of the subdivision meeting
+
+EWD 167
+
+To the members of the subdivision meeting
+
+In order to give You the opportunity to intervene with "Yes, but that is not how I meant it.", I set out the conclusions which I have believed I could attach to Your reactions to my film plan. Two members refrained from comment, because they had no clear idea of what might be hovering before my mind's eye; differences of emphasis aside, the remaining members reacted, in fact, unanimously.
+
+The meaningfulness of the aim was not doubted, in particular
+
+1) responsible instruction about computers for secondary-school pupils is important;
+
+2) it does not seem out of the question that, within the limited compass of a film (I am thinking of three quarters of an hour), one might convey something that is sufficiently worthwhile.
+
+It was not deemed misplaced that I should set such a project in motion, or rather have it carried out. Spontaneous suggestions to be sure to involve this or that person, warnings not to put too much time into it, etc., I summarize in the first instance as a unanimous warning not to venture too far beyond the field of my acknowledged competence. The members unanimously shared my conviction that such a project, however it is carried out, will be very extensive. I therefore do not regard Your positive reactions as permission to set the project irrevocably going, but rather as encouragement for a reconnaissance of the terrain, so that in due course I may put a somewhat better documented proposal up for discussion. Because the reconnaissances on which the definitive decision must be based will already prove rather costly, we must first carry out the cheap reconnaissances and, on the basis of the outcome, decide whether we go on reconnoitering. In short, we must prepare ourselves for a multi-stage decision.
+
+I envisage the beginning of the reconnaissances as follows.
+
+In the first phase we must draw up a proposal regarding the content of the film, that is, the subjects (examples) to be treated in it and a sketch of how we envisage their presentation. This seems to me the most urgent for the following reasons:
+
+1) if it appears from this that what we can think up is not sufficiently worthwhile, we can stop straight away;
+
+2) in our immediate vicinity there are enough people with interest, with a grasp of the subject, of the child's little soul and -to a somewhat lesser degree- of the medium, to justify the hope that something responsible will come out of it; especially if at this stage we impose upon ourselves the restriction of not going too far into cinematographic details, the danger of overstepping our competence does not seem to me unacceptably great;
+
+3) it seems desirable that there be a strict shooting script before any rather intensive collaboration with quite different people is embarked upon: for if you genuinely interest others in a still vague plan, you run the risk that as many films as interested parties get conceived;
+
+4) the said reconnaissance (content and sketch of the form) is not expensive and is indeed enjoyable.
+
+Subsequently, a piece -say of 2 minutes- of test film would have to be made. At as early a stage as possible we must check ourselves on our weakest point, and if everything turns out quite differently from what we had dreamed, then on closer consideration it is, after all, not such a good idea and we must stop with it. In the absence of further data, for the final version I assume a guide price of f 5000,-/minute; a 2-minute test piece may be a little less fine, but on the other hand you are of course already faced with start-up costs there. The decision actually to go ahead and make the test piece therefore requires a well-considered judgment, in other words, this must take place in the second phase.
+
+In the first phase we can cautiously explore how this test piece might be made. As long as we do not yet have a solid shooting script, however, we must be careful with sounding people out. In the first phase the possible making of a test piece can only be discussed with someone who is prepared to withdraw from the project after he has made the test piece. If no such person is to be found, then the search for a maker of the test piece becomes the search for a maker of the film, and thus shifts to the second phase.
+
+The rules which I have imposed upon myself for this consultation with You imply that my plans become deliberately vaguer the further they lie in the future. The stage which we must have reached at the end of the second phase of the reconnaissance I therefore merely indicate. It would have to comprise the following.
+
+1)
+there would have to be a test piece
+
+2)
+there would have to be a realistic cost estimate (this must then be possible)
+
+3)
+there would have to be insight into the financing possibilities
+
+4)
+there would have to be insight into the material manufacturing possibilities
+
+5)
+there would have to be a survey of the people involved in the project, including the nature and extent of the role to be played by them; without selling oneself to professional didacticians and pedagogues, it will have to be carefully checked whether their combined competence does not exhibit downright gaps.
+
+6)
+there must be a picture of how the actual manufacturing is going to be organized.
+
+E.W.Dijkstra
+
+transcribed by Ike Naar
+
+revised Tue, 15 Aug 2006

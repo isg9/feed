@@ -96,3 +96,99 @@ Om uit een haargroep de langst wachtende klant te bepalen, kiest men uit die gro
 transcribed by Sam Samshuijzen
 
 revised Wed, 19 Jul 2006
+
+
+---
+
+## English translation
+
+### Examination Problem “Cooperating Sequential Processes”
+
+EWD 150
+
+Examination problem "Cooperating Sequential Processes."
+
+The customers of a barber are numbered from 1 to N inclusive; the integer "N" (as well as the integer "M" to be mentioned later) is to be given in the universe in which this program is to be understood.
+
+The structure of the society is as follows:
+
+begin integer array klantsem, rangnummer [1 : N];
+integer kappersem, klantnummer, lopend zwart, lopend blond,
+aantal zwarte wachters, aantal blonde wachters;
+⋮
+⋮ (1)
+⋮
+parbegin
+kapper: begin
+wie volgt:
+⋮
+⋮ (2)
+⋮
+⋮
+P(kappersem);
+kapper knipt haren van de klant aangewezen door de waarde
+van de variabele genaamd klantnummer;
+⋮
+⋮ (3)
+⋮
+⋮
+goto wie volgt
+end;
+klant 1: begin ....................end;
+⋮
+⋮
+⋮
+klant i: begin
+naar de kapper:
+⋮ (4)
+⋮
+P(klantsem[i]);
+leven van alledag en laat de haren groeien;
+goto naar de kapper
+end;
+⋮
+⋮
+⋮
+klant N: begin....................end
+parend
+end
+
+In (1) the further required semaphores and variables must be declared. Subsequently the necessary initializations must be carried out.
+
+In (2) the barber must decide whether he is going to cut a next customer; if not, then he may be held up in "P(kappersem)". During the cutting no activity is demanded of the customer.
+
+In (3) the barber must report the completion of the haircut to the customer in question, so that the latter can resume everyday life.
+
+In (4) the customer reports to the barber; he may only complete "P(klantsem[i])" after the barber has cut him.
+
+The customers with number from 1 to M (< N) inclusive have black hair, those with number from M + 1 to N inclusive have blond hair.
+
+The barber has a great aversion to switching over from cutting blond customers to cutting black-haired customers. He has therefore adopted the following line of conduct:
+
+As long as he is set on blond customers, he calmly lets the black-haired ones wait; he sets himself to cutting black-haired customers as soon as
+
+1) no more blond customers are waiting and moreover
+
+2) at least 3 black-haired customers are waiting.
+
+As long as he is set on black-haired customers, he calmly lets the blond ones wait; he sets himself to cutting blond customers only as soon as
+
+1) no more black-haired customers are waiting and moreover
+
+2) at least 1 blond customer is waiting.
+
+The examinees are requested to fill in the parts (1), (2), (3) and (4) missing from the program; for section (4) a blond and a black version must be made.
+
+Customers of the same hair colour are helped in order of arrival; begin the program with the barber set on blond customers.
+
+The variables which have already been included in the declaration at the beginning of the program have been introduced there in order to facilitate the marking of the programs, and may furthermore be regarded as a hint towards the solution.
+
+The variables "rangnummer[i]" are intended to indicate whether the i-th customer must be cut; if not, then let "rangnummer[i] = 0", and if so, then let "rangnummer[i]" equal the arrival number of customers with the same hair colour. Incoming black-haired and blond customers respectively are counted, by hair colour, by the quantities "lopend zwart" and "lopend blond" respectively, both counts beginning with 1.
+
+The variable "aantal zwarte wachters" is to equal the number of black-haired customers with "rangnummer[i] > 0".
+
+In order to determine, from a hair group, the longest-waiting customer, one chooses from that group the customer with minimal positive rank number; the examinee need make no extra effort to speed up this search process — we may, so to speak, assume that this search process pales into insignificance beside the cutting itself.
+
+transcribed by Sam Samshuijzen
+
+revised Wed, 19 Jul 2006

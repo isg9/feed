@@ -427,7 +427,7 @@ AF := true; comment nu kan het toetsenbord weer iets in AR0 zetten;
 
 Onder “accepteren
 van een symbool” valt onder meer het uitprinten hiervan. Door
-pas daarna AF = true
+pas daarna AF = true
 te zetten, kan men ervoor
 zorgen, dat de basismachine pas een volgend karakter accepteert,
 nadat het voorgaande netjes is verwerkt. Het toetsenbord plaatst de
@@ -502,9 +502,9 @@ is ongedefinieerd.
 Bij
 het drukwerk heeft de OK-indicatie slechts 2 mogelijke waarden:
 
-000 000 000      OK
+000 000 000      OK
 
-111 111 111      niet
+111 111 111      niet
 bedrijfsklaar (d.w.z. bv. niet aangesloten)
 
 De
@@ -905,10 +905,10 @@ is OK d.w.z.
 
 Tellingdeel
 AR0
-= 000    000    000
+= 000    000    000
 
 slotwoord
-= +0     (d.w.z. allemaal nullen)
+= +0     (d.w.z. allemaal nullen)
 
 De
 regeldrukker bevat een detector “paper low”; als deze
@@ -1031,17 +1031,17 @@ bestaande uit 5 opeenvolgende woorden.
 label [–1] :
 
 tellingdeel
-:   copie
+:   copie
 van OK-status als in tellingdeel van AR0
 
 adresdeel
-:   nadere
+:   nadere
 specificatie slotwoord (zie onder)
 
 label [0] :
 
 tellingdeel
-:   000
+:   000
 000 000
 
 adresdeel
@@ -1052,7 +1052,7 @@ label [1] :
 
 d26 t/m
 d19
-:   irrelevant, mits niet alle = 0.
+:   irrelevant, mits niet alle = 0.
 
 d18 t/m d0
 :
@@ -1208,6 +1208,1207 @@ Men
 initieert dit proces door eenmalig AR3 en AR2 met hetzelfde te
 vullen. Men kan een aangewezen apparaat om de zoveel tijd ergens nota
 van laten nemen, met maximum periode van circa vijf seconden.
+
+transcribed
+by Martin van der Burgt
+
+revised 2013-06-20
+
+---
+
+## English translation
+
+### Documentation on the communication apparatus attached to the EL X8
+
+Documentation on communication apparatus attached to the EL X8
+
+0. Introduction
+
+Provision
+has been made for a maximum of 48 so-called Devices, numbered from 0 through
+47.
+They
+fall into two groups:
+nr.
+0 through 31: the real devices
+nr.
+32 through 47: the administrative devices.
+The
+administrative devices perform, in parallel with the base machine,
+certain operations (such as “teeth-brushing” and
+“fault handling”); these devices have a fixed
+number, which is not installation-dependent.
+The
+real devices in a specific installation derive their number from
+their place in the communication cabling; these device numbers are therefore
+indeed installation-dependent, and may even have to be changed upon
+re-installation.
+
+1.
+Communication
+instructions.
+
+The
+instruction repertoire of the X8 has the possibility of reading the 1st, (2nd and
+3rd) so-called IF-word into A or S. So far only the layout
+of the 1st IF-word has been decided:
+
+d26 = permanently 0 (
+is the sign bit)
+
+d25 = IF dev. nr.
+39
+
+d18 = IF dev. nr.
+32
+
+d17 = IF dev. nr. 0
+
+d0 = IF dev. nr. 17
+
+For
+the last 26 entries d = 1 means: IF = true
+(IF = Intervention Flip Flop).
+
+The setting of IF's
+by the base machine takes place individually by means of the instructions:
+
+set IF true
+
+set IF false
+
+whereby
+the device is designated by the address part of the instruction.
+
+N.B. These instructions
+are B-modifiable.
+Furthermore,
+to each device there is attached a so-called LVIF (Listening Permission on the
+Intervention Flip Flop); the instruction repertoire contains the instructions:
+
+set LVIF true
+
+set LVIF false
+
+whereby
+again the device is designated by the address part of the
+instruction. These instructions too are B-modifiable.
+
+Finally, to each
+device there is attached a so-called AF (Action Flip Flop); this can be
+set by the base machine in only 1 direction, namely:
+
+set AF true
+
+whereby
+again the device is designated by the address part of the
+instruction. These instructions too are B-modifiable.
+
+Finally the base
+machine knows:
+
+set IV true
+(make hearing)
+
+set IV false
+(make deaf)
+
+(IV
+= Intervention Permission).
+
+2.
+Meaning
+of IF, LVIF, IV and AF
+
+If
+an IF is true,
+this means that the
+base machine has not yet reacted to at least 1
+report-back from the
+device in question.
+An
+intervention takes place provided
+
+- IV =
+true
+and
+
+- For
+at least 1 device “LVIF and
+IF” holds.
+
+By setting
+the LVIF's the base machine can regulate which devices the
+intervention mechanism does or does not take note of. By setting IV the
+base machine can (namely, by “make deaf”) temporarily
+prevent itself from being interrupted by interventions.
+The
+execution of the intervention consists of the execution of the instruction
+at address 24 in place of the next instruction. At address 24 there must be a
+non-stacking subroutine jump; its execution is special in two
+respects:
+
+- The
+incrementing of the instruction counter OT is suppressed (the instruction was
+indeed not fetched under control of OT).
+
+- The
+base machine becomes deaf.
+
+The
+subroutine jump in 24 refers to the beginning of the intervention routine,
+which begins by saving the status quo of the interrupted program,
+after which it is investigated which IF or IF's were
+responsible for the intervention. What the IF is to the base machine, the AF
+is to Charon. Just as IF = true
+means that there is
+something for the base machine to do again, so AF = true means
+that there is something for the corresponding communication device to do
+again, i.e. that at least 1 instruction has been given for this device.
+
+3.
+Fixed
+assignment of memory locations to devices
+
+The
+AF reports for a device to Charon the presence
+of at least 1
+start instruction; the IF conversely reports to the base machine the
+presence
+of at least 1
+report-back from this device. Further specification (number of
+start instructions and which, number of report-backs and which, etc.) takes
+place via the core store, which is accessible both to the base machine and to
+Charon (with priority for Charon).
+
+For this
+communication, for each device four consecutive
+memory locations are reserved, beginning at:
+
+64
++ 4 * device number
+
+(This
+thus runs from 64 through 255). In what follows these 4 words
+will be denoted by AR0, AR1, AR2 and AR 3.
+The
+9 most significant bits on the one hand and the 18 least significant bits
+on the other are often regarded as independent components; the
+part d26 through d18 is then called “the count part”, the part
+from d17 through d0 is then called “the address part”.
+
+By way of anticipation we
+give the general function of the 4 device words.
+
+Rem. 1.
+These functions are
+not applicable to all devices; exceptions will be mentioned
+per device.
+
+Rem. 2.
+In this
+anticipatory overview we give we give only a first
+indication of the meanings.
+
+AR0 :
+
+Count part
+:
+work space for Charon, in particular reserved for the OK-status.
+
+Address part
+: label
+of the prevailing link.
+
+AR1 :
+
+Count part
+: IFT
+
+Address part
+:
+irrelevant, ≠ (for reasons of compatibility with the X2
+it is not used by Charon)
+
+AR2 :
+
+Count part
+: AFT
+
+Address part
+: usually
+work space for Charon
+
+AR3 :
+Work space for
+Charon (often reserved for the so-called “running code word”).
+
+4. Chains
+of start instructions
+
+4.1. Layout
+of the start instruction
+
+Per
+device one can “make pending” a chain of start instructions.
+Each start instruction – because it occurs only in a
+chain also called a “link” – consists
+of a number of consecutive memory locations. By the “label
+of a link” one understands the address of the second word
+of this link.
+
+The
+general layout of a start instruction is:
+
+label [–1] :
+so-called final word. Before
+the actual execution of this start instruction, the content of
+this word is irrelevant to Charon; after the completion of the execution
+Charon has rendered an account of the outcome of the
+start instruction.
+
+label [0] :
+
+Count part
+:
+all zeros
+
+Address part
+: label
+of the next link
+
+label [1] :
+Code words for the
+description of
+
+etc.
+the start instruction;
+their layout is device-dependent.
+
+A start instruction
+is thus prepared in the form which is specific to the device
+in question. The start instruction is not positionally bound to the
+region of the core store to which the actual information transport
+relates. Because for the labels 18 bits are always reserved
+there is no hardware restriction imposed on their location.
+
+4. 2. The
+hooking-on of a start instruction
+
+In
+AFT (0 ≤ AFT ≤ 511) there is recorded, for the benefit of Charon, the number
+of links of the start chain (including the link which is being
+handled by Charon). In the Action Flip Flop AF it is indicated
+whether ADT > 0.
+After
+the new link has been completely prepared (with, at the address designated by its
+label, e.g. + 0 on account of the absence of a next
+link) it must be hooked on.
+The
+hooking-on organization must, in a so-called fill pointer VW, remember the label of the
+last link hooked on. The hooking-on protocol is now, in
+order:
+
+- 1.
+By
+M[VW] := label of new link the new link is hooked on.
+(If there is no “last link” (any more), this must be
+suppressed); furthermore VW := label of new link.
+
+- By
+an additive output instruction (version PLUSA or PLUSS) AFT must be
+incremented by 1, whereby the new value of AFT also comes into the
+base-machine register.
+
+- If
+this new AFT-value = 1, the base machine must
+
+3.1
+replace the
+address part of AR0 by the new label (without disturbing the
+count part),
+
+3.2.
+subsequently
+set AF true.
+
+Rem.
+During
+the handling of the start instruction the address part of AR0 points to
+this start instruction. As a conclusion Charon decrements AFT by 1. If the
+result of this is > 0, then Charon replaces the address part AR0 :=
+address part M[address part AR0], i.e. proceeds to the next link.
+If the result of the AFT decrement = 0 (delivered in the form of
+nine zeros), then simultaneously AF is set false
+and the transition to the next link is suppressed. This, plus the
+fact that with a non-empty start chain the AFT decrement can take place at
+moments uncontrollable by the base machine, is the
+background of the aforementioned hooking-on rites, which must be strictly
+adhered to.
+
+4.
+3. The
+reacting to a report-back
+
+In
+IFT there is recorded, for the benefit of the base machine, the number
+of report-backs from Charon to which the base machine has not yet reacted.
+Completion of a report-back is concluded by Charon
+with the incrementing of IFT by 1 and the setting
+of IF true.
+
+The base machine must,
+within the framework of the reaction to a report-back, decrement IFT by 1 and
+ensure that IF – which has the meaning “IFT>0” –
+is left behind suitably. Because here too Charon can do the
+IFT-incrementing at moments uncontrollable by the base machine,
+the IFT decrement and the corresponding IF adjustment subject the base machine to
+a strict protocol.
+This
+reads:
+
+- Set IF
+False
+
+- Decrement
+IFT by 1 with MINA, MINS ( or PLUSA or PLUSS).
+
+2.1.
+Because
+the address part of AF1 ≠ zero, when IFT becomes algebraically
+zero the count part of AR1 becomes nine zeros.
+
+- If
+the new value of IFT found in the register ≠ 0, then set
+IF true.
+
+This protocol too
+must be strictly adhered to.
+
+5.
+The
+keyboard
+
+The
+keyboard is an input device whose number is
+installation-dependent.
+
+It
+is a deviant device insofar as the operator can operate this input device
+without the base machine having given a start instruction for it.
+When
+the base machine is prepared to accept a next character from the keyboard,
+the following must hold of
+
+AR1 :
+the count part must consist of
+nine zeros, the address part must be ≠
+zero
+
+AF must be true.
+
+The initial value of
+AR0, AR2 and AR3 is irrelevant.
+
+Pressing
+a key has as its consequence
+
+- if
+AF then
+AR0 := character else
+AR3 := character;
+
+- AF := false;
+
+- IFT := IFT + 1 and
+IF := true;
+
+The protocol for the
+reaction to the intervention of the keyboard is as follows:
+
+L0 : IF := false;
+IFT := IFT - 1 annex if IFT > 0 then
+begin AR0 := something negative: goto L0 end;
+A := AR0;
+if A > 0 then begin AR0 := something negative; A must now be accepted as the next
+symbol end;
+AF := true; comment now the keyboard can again put something in AR0;
+
+Under “accepting
+a symbol” there falls, among other things, the printing-out of it. By
+setting AF = true
+only afterwards, one can
+ensure that the base machine accepts a next character only
+after the preceding one has been neatly processed. The keyboard places the
+X8 in an essential hurry situation: the X8 must process this character as
+quickly as possible, but postpone “AF := true” to the bitter end.
+
+6.
+The
+teleprinter printing unit
+
+The
+arrangement for AR0, AR1, AR2 and AR3 is normal. The count part of
+AR0 contains the OK-status, the address part of AR2 is not used.
+The running code word in AR3 is split into a count part and an address part
+(see below). The start link consists of 3 words, the first two
+are normal, the last, label [1], contains the code word.
+
+A start link
+gives the possibility of sending the words from N consecutive addresses to
+the printing unit of the teleprinter. Of each word the lowest determine an
+action of the printing unit (I assume that in each of these
+words the 21 highest bits are irrelevant; I would always make them =0.)
+
+The
+code word determines the length and location of the valuation to be carried out,
+namely
+
+count part of code word
+
+=
+length of the array,
+(whereby count part = 0 prescribes the length
+
+=512;
+provision is thus not made in the empty
+
+start instruction)
+
+address part of code word
+= start address of the valuation –
+1.
+
+If
+the start instruction is accepted by Charon, the code word
+from the prevailing link is taken over into the running code word (in AR3, that is).
+
+Per
+word transmission to the printing unit Charon makes contact with
+the store twice. In the first memory contact with AR3 the
+count part (mod. 512) is decremented by 1 and the address part ( modulo
+218)
+is incremented by 1. If the resulting count part = 0, then the word transport
+still to follow is the last of the start instruction. In the
+memory contact following the one with AR3 the word is
+transported, designated by the address part just written away
+into AR3. If – through a malfunction – the start instruction
+is broken off prematurely, then the count part of AR3 contains
+the remaining number of words to be printed, and the address part the
+address of the last transported word.
+
+The
+prevailing OK-status of the printing unit is remembered in the
+count part of AR0; after the completion of each start instruction this
+count part is taken over into the count part of the final word (label
+[–1]) of the link being completed. The address part of the final word
+is undefined.
+
+For
+the printing unit the OK-indication has only 2 possible values:
+
+000 000 000      OK
+
+111 111 111      not
+operational (i.e. e.g. not connected)
+
+The
+status of the Charon program for the printing unit thus knows two
+states, denoted briefly as OK and non
+OK.
+Above
+we have described the normal completion of a start instruction when
+it is accepted in the state OK. A start instruction which is
+accepted in the state non
+OK is, with one exception,
+immediately completed symbolically. (With report-back of the non
+OK status in the
+final word). The one exception is the so-called HOK-instruction (Restore OK
+state), which can normally be included in the start chain and is
+characterized by a code word consisting of nothing but zeros.
+(Partly as a consequence of this one cannot
+in 1 start instruction send the
+content of the words at addresses 1 through 512 to the printing unit:
+these would namely be interpreted as a HOK-instruction. The
+HOK-instruction must not be given if the device is already in the
+OK-state.
+
+NB.
+Keyboard and teleprinter printing unit each keep track, independently of
+each other, mechanically, of the prevailing shift. For the printing unit
+the shift determines which of the two characters appears on paper for a five-bit
+print command; for the keyboard the prevailing shift determines which
+half of the keyboard is blocked.
+
+6.1. Hardware
+code teleprinter EL X8
+
+(Omitted,
+see original.)
+With
+a black ribbon X has as
+side effect the starting of a red flickering attention signal which
+can only be switched off by the operator.
+
+7.
+The
+tape reader
+
+The
+meaning of the central administration AR0 through AR3 is normal, as
+described in 3.
+
+The
+start link consists of 3 consecutive words:
+
+label [-1] :
+
+final word, namely:
+
+count part
+:
+Ok
+indication
+
+address part
+:
+undefined
+
+label [0] :
+
+count part
+:
+all zeros
+
+address part
+:
+label
+of the next link
+
+label [+1] :
+the sole code word,
+namely
+
+count part
+:
+
+length
+of the array (whereby count part =0
+
+prescribes the length =512; provision is thus not made in
+the empty start-
+
+instruction)
+
+address part
+:
+start address of the word array – 1.
+
+If
+the start instruction is accepted by Charon, the code word
+from the prevailing link is taken over into AR3. Per punching read
+Charon makes contact with the store twice. In the first
+memory contact with AR3 the count part (mod. 512) is decremented
+by 1 and the address part ( mod. 218)
+is incremented by 1. If the resulting count part = 0, then the word transport
+still to follow is the last of the start instruction. In the
+memory contact following the one with AR3 the punching read, filled out
+on the most significant side with zeros, is filled in at the
+memory location designated by the address part just written away
+into AR3.
+
+When
+the start instruction is broken off prematurely, AR3 contains, in
+the count part, the missing number of punchings, in the
+address part the address of the last filled word.
+The
+prevailing OK-status of the tape reader is remembered in the
+count part of AR0. At the end of the processing of a
+start instruction the OK-status then prevailing is copied into the
+count part of the final word of the link concerned.
+
+the OK-status knows
+three values:
+
+000 000 000
+
+111 111 111
+
+111
+111 110
+OK
+
+not
+operational (i.e. e.g. not connected
+
+end of tape
+
+The
+last two states are denoted briefly as “non
+OK”. If the
+tape reader is non
+OK, all
+following start instructions are, with one exception,
+immediately completed symbolically, with report-back of the
+prevailing non
+OK status in the
+final word. The one exception is the so-called HOK-instruction (Restore OK
+state), which can normally be included in the start chain. Partly
+as a consequence of this one cannot
+have read 512
+punchings in one start instruction, beginning the storing at address 1.
+The HOK-instruction must not
+be given if the
+tape reader is already OK.
+
+Rem.
+1 The
+symbolic completion does not disturb AR3, so that the datum of how
+much has yet been read before “end of tape” broke off the reading process
+is not lost before the next read instruction
+is effectively accepted.
+Rem.
+2 The
+tape reader reads at a speed of 1000 punchings per second; the
+reading process thus occupies the store for ½ percent of the time.
+
+Rem.
+3 The
+tape reader contains a switch for various tape widths This
+tape width is not deemed to contribute to the information;
+program-wise the prevailing tape width is not detectable.
+
+Rem.
+4 The
+tape reader reads all configurations uninterpreted, including “blank
+tape” and “all holes”.
+
+The
+tape passes, in order:
+1.
+a
+mechanical detector for end of tape,
+2.
+the
+brake,
+3.
+the
+reading station,
+4.
+the
+drive.
+
+The
+ends of the tape can therefore not be read.
+
+The tape reader is
+equipped with a red and a green button. By pressing the red button
+one stops the tape reader immediately and renders the detector
+for end of tape ineffective. By pressing the green button the
+tape reader returns to its normal state. The pressing of the
+red and green button as such does not penetrate to the base machine:
+if a start instruction is (or comes) under handling it merely takes
+somewhat long before it is dealt with.
+When
+end of tape is detected, the tape reader jumps instantaneously into the
+state as if the red button had been pressed; the pressing of the
+green button has effect only when there still lies a sufficiently long
+tape in the tape reader.
+Rem.
+5 The
+red button gives the operator the opportunity, in emergency situations, to
+stop the tape reader for a moment (a knot or a kink or whatever) without
+this penetrating to the logic of the processing program. He can even,
+if he is sufficiently quick, offer a number of tapes one after another
+to the processing program as a single tape.
+
+Rem.
+6 If
+a tape has been read to the end, then, before a next
+tape can be read over that tape reader, two things must have happened:
+
+- the
+base machine must have given a HOK-instruction.
+
+- the
+operator must have concluded the inserting of the next tape
+with the pressing of the green button.
+
+The
+order of these two actions does not matter.
+
+8.
+The
+tape punch
+
+The
+central administration at the locations AR0 through AR3, as well as the layout
+of the start link, is the same for the tape punch as for the
+teleprinter printing unit, see 6. (Teleprinter and tape punch are namely
+served by exactly the same Charon program.) Now the lowest 7 bits of each
+word determine what is punched. (I assume that the
+remaining 20 bits are irrelevant; I would always make them =0.)
+
+The tape punch too
+has a red and a green button. the pressing of the red button
+has as its consequence that the tape punch stops instantaneously and that the
+selection for end of tape is temporarily ineffective. By pressing
+the green button this is undone again.
+
+When the detection for
+the end of tape gives alarm for the first time, there are still at least a few
+meters of tape available. In contrast to the tape reader, which
+stops instantaneously at end of tape, the tape punch calmly completes
+the prevailing start instruction and only then passes into the state “end of
+tape”, in which the following start instructions (if any) are
+completed symbolically up to the first HOK-instruction.
+This
+HOK-instruction brings the tape-punching into the closing state. In the
+closing state punch instructions are again accepted normally, albeit
+that no attention is paid to the cries of distress of the end-of-tape detection.
+The closing state was introduced to give the
+programmer the opportunity to punch end-indications on the tape;
+it is however his responsibility to ensure that
+these end-indications are not too long.
+After
+the last punch instruction of the closing the programmer gives a
+second HOK-instruction, which has a twofold consequence. The Charon program
+passes again into the normal OK-state and the programmer can offer the
+start instructions for the next tape. A second effect
+of the second HOK-instruction is that the tape punch itself gets into the state
+as if the red button had been pressed, whereby pressing the green
+button has effect only after a new tape has been inserted.
+
+Rem.
+With
+the offering of the start instructions for the next tape the
+program thus need not wait until the operator has changed the band.
+The
+OK-status gives four values:
+
+000 000 000
+111 111 111
+
+111
+111 110
+
+111
+111 101
+OK
+
+not
+operational
+
+end of tape
+
+closing state
+
+9.
+Line printer
+
+The
+central administration (AR0 through AR3) as well as the three-word
+start link (label [-1] through label [+1]) have the normal function.
+The last word of the start link is the code word which indicates, in a manner
+to be described further, what kind of line must be printed.
+
+For the specification of
+the start instruction one builds up in the store, at a number of
+consecutive addresses, the so-called line image. Place and length of
+the line image are given in the code word of the start link, namely
+
+code word:
+count part
+:
+number of words of which the line image consists
+
+(1 ≤ this number ≤
+36)
+
+address part
+:
+start address of the line image – 1.
+
+Charon
+sends the words of the line image, in order of ascending address,
+to the line printer. In each word four six-bit symbols are packed
+
+d26.... d21
+1st symbol
+
+d19.... d14
+2nd symbol
+
+d12.... d7
+3rd symbol
+
+d5.... d0
+4th symbol
+
+The
+three separation bits d20, d13 and d6 must be =0.
+
+The
+action of the line printer is best described in terms
+of its reaction to a symbol array defined as above
+(whose length is always a multiple of four.)
+The
+very first symbol of the array is interpreted deviantly
+and is the so-called skip indication (see below); thereafter the
+symbols of the array specify what the line printer must print on that line,
+position by position in the order from left to right. The
+maximum number of characters per line is 143. If the line image in the
+store is shorter than 36 words, the line printer leaves the
+unspecified positions at the right end of the line
+unprinted. The length of the symbol array which is sent to the line printer
+is by definition a multiple of four; if necessary the
+programmer must therefore fill out the array with 1, 2 or 3 spaces.
+
+The meaning of the
+skip indication (regarded as a number from 0 through 63) is as follows:
+
+0
+through 31
+advance the paper
+over the indicated number of lines and then print the line,
+as specified by the rest of the line image.
+
+32
+through 39
+line advance
+controlled by an eight-hole punched tape, then print.
+
+40
+through 63
+does not occur
+
+(In
+the case of forms of a fixed length one can insert into the line printer
+a cyclically glued eight-hole punched tape, which is transported over a
+punching with each line. This tape gives 8 channels,
+numbered from 0 through 7; the tape-controlled line advance takes place
+until in channel nr. “skip indication – 32” a
+punching is detected in the tape. With coupling to a
+computer this kind of facility is superfluous; I do not intend to
+use it.)
+
+The
+meaning of the symbols of the array after the skip indication follows from
+the following table. The symbol value is regarded as a number from 0 through
+63. (roller EL X( of THE.)
+(table
+omitted, see original document).
+
+Rem.
+In the printout the zero is narrower than the letter O.
+
+The normal state
+is OK, i.e.
+
+Count part
+AR0
+= 000    000    000
+
+final word
+= +0     (i.e. all zeros)
+
+The
+line printer contains a detector “paper low”; if this
+signals, the OK-state continues to exist – line-print
+instructions are thus accepted normally – but in the
+start link there appears
+
+final word = +1 (d26
+= ··· = d1 = 0, d0 = 1)
+
+If
+the programmer now – i.e. while the state is OK –
+gives a HOK-instruction – as always in the form of a code word
+equal to nothing but zeros – then on the line printer the
+light “Change Paper” lights up. The line printer thereby
+gets into the state as if the red button had been pressed; pressing
+the green button has effect only when “paper low” gives no
+alarm, i.e. when the operator has, if necessary, loaded new paper.
+
+If
+the line printer is not connected then:
+
+Count part AR0
+= 111 111 111
+not
+operational
+
+final word
+= 111 111 111 ,
+followed by an undefined address part
+
+This
+state counts as non
+OK, and the following
+start instructions ≠ HOK are completed symbolically.
+
+Three other causes
+can bring forth the state non
+OK.
+They leave behind:
+
+count part AR0
+=
+111 111 110 and
+
+final word
+:
+count part = 111
+111 110
+
+address part: d17
+= ····· d4
+= 0
+
+d3 = 1
+if “Yoke
+open”
+
+d2 = 1
+if paper
+torn
+
+d1 = 1
+if
+parity error in transmission
+
+d0 = 1
+if also
+“paper low”
+
+Of the bits d3, d2 and
+d1 at least 1 must be equal to 1. The parity-error signalling
+d1 = 1 concerns the symbol transmission for the line printer: each
+six-bit symbol is namely provided with a parity bit and sent to the
+line printer. With standard rollers, where fewer than 64
+different symbols are allowed in the array, d1 = 1 means
+“parity error in transmission or non-existent symbol”.
+
+With every non-empty
+combination paper low is also reported in d0 = 1. In that case
+the first HOK-instruction restores the OK-state, but the indication
+paper low remains hanging. A second HOK-instruction from the machine
+then switches on, normally, the light “Change Paper”.
+
+Rem.
+1 In case of
+non
+OK
+due to one of the three mentioned causes the reacting program may
+ignore d0. If it turns out that “paper low” prevails, one will notice
+that indeed at the very next start instruction.
+
+Rem.
+2 The
+presentation of matters, as if there were on the line printer only a red
+and a green button, is somewhat simplistic: there are more
+on it. The effect is however that after the HOK-instruction following “paper
+low” the base machine can without further ado already offer the next
+start instructions; they will only be processed after the operator
+has, according to the rules of the art, loaded new paper.
+
+Rem.
+3 If
+the line-print instruction has been broken off prematurely, the count part
+of AR3 contains, as usual, the number of remaining (i.e. not
+transported) words and the address part the address of the last
+transported word. If the line-print instruction has been completed
+normally, the count part contains 511 and the address part the address of
+“the first non-transported word”.
+
+10. The
+drum
+
+In
+the central administration AR0, AR1 and AR2 have the normal
+meaning. AR3 is unused. A start instruction is a link
+consisting of 5 consecutive words.
+
+label [–1] :
+
+count part
+:   copy
+of OK-status as in count part of AR0
+
+address part
+:   further
+specification of final word (see below)
+
+label [0] :
+
+count part
+:   000
+000 000
+
+address part
+:
+label address of next link.
+
+label [1] :
+
+d26 through
+d19
+:   irrelevant, provided not all = 0.
+
+d18 through d0
+:
+start address on drum
+
+label [2] :
+
+d26
+= ··· =
+d19 = 0
+
+d18
+= 0
+transport direction from drum to cores
+
+= 1
+transport direction from cores to drum.
+
+label [3] :
+
+d26
+= ··· =
+d12 = 0
+
+d11 through d0 : length
+( thus < 4096)
+
+In
+the count part of AR0 there means:
+
+000 000 000
+111 111 111
+
+111
+111 110
+OK
+
+not
+operational
+
+something wrong
+
+The
+last two states give occasion for symbolic completion
+up to the HOK-instruction (Characterized by label[1] = + 0; label [2]
+and label [3] do not take part in the HOK-instruction).
+
+In
+the final word there is
+
+d26 through d18
+: (count part) :
+a copy of the count part of AR3.
+
+d17 = … =
+d14
+: always = 0
+
+d13 = 1
+if memory contact
+accepted too late
+
+d12 = 1
+if parity error.
+
+d11 through d0
+final state of
+count counter (must = 0).
+
+d13
+= 1 or d12 = 1 implies OK-status: 111 111 110.
+
+Ad d13:
+The drum places
+the core store in an essential hurry situation. If this
+(through gross overloading!) could not be honored,
+d13 = 1 is set and the transport is interrupted.
+
+Ad d12:
+The
+drum transports are subject to the normal parity check.
+If, with a transport from cores to drum, a
+word with incorrect parity stands in the cores, the
+transport instruction will give alarm. Trying again is then
+guaranteed to be pointless.
+
+Rem.
+1 In
+“label [1]” at least 1 of the bits must be =1 in order to be able to
+distinguish the instruction from the HOK-instruction.
+
+Rem.
+2 The
+incrementing of the running drum address takes place modulo 2 ↑ 19 :
+the drum store is thus cyclically arranged.
+
+Rem.
+3 With
+a transport from drum to cores which are not there, information
+is lost undetected; with a transport from cores which are
+not there, the parity check sounds the alarm. The running
+core address too counts around ( modulo 2 ↑ 18), but this is not very
+interesting.
+Rem.
+4 In
+d 11 through d0 one finds the final state of the counter, i.e. the number
+of non-transported words. In case of a fault the failed word counts as
+transported: if it is the last word one finds, therefore, d11 = …
+= d0 = 0.
+
+11. The clock
+
+The clock is
+invariably device nr. 39. It works independently of AF and
+has three functions.
+
+11.1
+The
+actual clock
+
+Every
+10 insec AR0 is incremented by 1 modulo 2 ↑ 27. The cycle of
+this counting process is of the order of magnitude of two weeks.
+
+11.2
+The
+code alarm
+
+Every
+10 insec the address part of AR1 is decremented by 1 modulo 2 ↑ 18.
+If thereby AR1 in total becomes = +0, then in the
+count part of AR1 :000 000 001 is set and IF becomes true,
+in other words the intervention of the code alarm can take place. Whoever does not want this
+intervention can thus suppress it definitively by making the
+count part of AR1 immediately ≠. The
+maximum running time of the code alarm is about 40 minutes.
+
+11.3
+The
+device alarm
+
+Modulo
+512, every 10 insec the count part of AR2 is decremented by 1. If
+the result in the count part becomes = 0 and the address part of AR2 =
+NR ≠ 0
+then:
+
+- of the device with device number = NR the LVAF is set to true,
+
+- in AR2 AR3 is taken over.
+
+One
+initiates this process by filling, once, AR3 and AR2 with the same value.
+One can have a designated device take note of something every so often,
+with a maximum period of about five seconds.
 
 transcribed
 by Martin van der Burgt

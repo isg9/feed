@@ -893,3 +893,865 @@ transcribed by
 Johan E. Mebius
 
 revised Thu, 29 Mar 2007
+
+
+---
+
+## English translation
+
+### Multiprogramming and the X8 (Continuation of EWD51)
+
+EWD 54
+
+MULTIPROGRAMMING AND THE X8
+
+DIRECT ACCESS TO INSTALMENTS AND SECTIONS  -  DIRECT ACCESS TO INSTALMENTS AND SECTIONS
+
+PART 1: EWD51
+
+0
+1
+1.1
+1.2
+1.3
+2
+2.1
+2.2
+2.3
+
+PART 2: EWD54
+
+2.4
+3
+3.1
+3.2
+
+PART 3: EWD57
+
+3.3
+4
+4.0
+4.1
+4.2
+4.3
+4.4
+
+DUTCH-ENGLISH DICTIONARY OF PRINCIPAL KEYWORDS
+
+Seinpaal
+Semaphore
+
+Verhogen (V)
+To raise, To
+increase
+
+Prolagen (P),
+
+a neologism
+coming from
+To try and lower,
+
+Probeer te verlagen
+To try and decrease
+
+Ingreep
+Interrupt,
+Interruption
+
+Kernen
+Core storage,
+
+Main storage
+
+Trommelgeheugen
+Drum storage
+
+Multiprogramming
+and the X8, instalment 2.
+
+(Continuation of EWD51)
+
+X8 No. 18.
+
+2.4.
+Accumulation of
+start commands and acknowledgements.
+
+If the semaphores that govern the synchronization with the
+external equipment were at most two-valued, we would have
+insufficiently eliminated the race situation. The essential
+race situation may then have been eliminated, but the "moral" race situation
+still remains. An example may illustrate this.
+
+Suppose that we must carry out a
+number of drum transports in otherwise arbitrary
+order. At the first transport you have no knowledge of the position of the
+drum, and the machine will on average have to wait half a revolution;
+after completion of this transport, however, you know full
+well how the drum stands, and it is not unenticing to try to use this
+knowledge, i.e. to carry out the transports in such an order
+that the waiting times can, if possible, be kept somewhat
+short.
+
+If you now have an
+organization for drum transports that can only take note of the next
+transport - through the intervention of a subsequent start command then offered via
+program - once the previous transport
+has been completely dealt with, then the endeavour to give that next
+start command on time as well breeds a "moral" race situation: it
+is then not strictly necessary, but nevertheless highly desirable, that the
+"completion report" of the previous transport produces a swift reaction.
+
+In the case of
+drum transport the autonomously to be executed action is determined by:
+
+(a)
+
+start address
+in core
+
+(b)
+
+start address
+on drum (plus specification of which drum, since at most 1
+drum transports at a time)
+
+(c)
+
+length
+of the transport
+
+(d)
+
+direction
+of the transport
+
+The acknowledgement
+consists of two bits:
+
+(e)
+
+whether the
+transport was successful - i.e. no parity error has
+occurred
+
+(f)
+
+the
+acknowledgement that the transport - successful or failed, see (e) - is completed.
+
+Per start command one now makes available a number of
+consecutive words, in which, in a fixed coding now not relevant
+to the matter, there is room for the data (a) through (e); the datum
+(f) is conveyed by raising a semaphore reserved for that purpose.
+
+The control of
+the drum transports must therefore have knowledge of this semaphore - and
+an added flip-flop - plus of the location of the code information (a) through
+(e).
+
+To avoid
+the moral race situation one now makes available a number of such
+start spaces in a number of consecutive
+memory locations; if per start command for the data a through e, say,
+two words are needed and, say, four start commands
+can be accumulated, then this start magazine costs us 8 consecutive
+memory locations. The drum-transport organization must now
+process these start spaces cyclically.
+
+There are in this
+case two extra complications, the cyclic processing and the
+error reaction.
+
+2.4.1. The
+cyclic processing.
+
+The
+start commands now stand in a cyclic magazine of known
+length. This start magazine is filled under control of a rotating
+fill pointer, which is an entirely programmable affair.
+
+The
+having-been-refilled is each time indicated by
+
+"V(start semaphore drum transport)".
+
+The autonomous
+drum transport empties the start magazine - processes the start commands -
+under control of a cyclically rotating "empty pointer", with which
+the computer has nothing to do, except that at the very beginning this
+must stand in phase: the first executed start command must indeed
+be the first one given. From that moment on the empty pointer, barring
+disasters, runs neatly behind the fill pointer.
+
+2.4.1.1.  One of the
+solutions is to
+clear this empty pointer as part of the process that turns the
+machine on; the "toothbrushing program"
+can clear the fill pointer and we start the two processes automatically in
+phase. Idealistically this organization is in order, from a practical viewpoint
+it is no style, because in case of doubt you can never again get the whole thing back
+"as sure as a house" into the harness, other than by switching the
+machine off and on.
+
+2.4.1.2.
+This extra objection is met - albeit at the cost of an
+extra command - if the empty pointer can be cleared from
+the computer. If you include this clear command in the toothbrushing program,
+then you can also, in the meantime, in case of doubt, get the whole thing back
+under control by the computer under control of program.
+Although it costs an extra command in the code of the computer, this
+solution is for the time being not unattractive.
+
+2.4.1.3.
+We can agree that the empty pointer stands at a fixed location in the
+store, e.g. immediately preceding the
+start magazine.  If this is the only place where the fill pointer
+is remembered,
+then in an autonomous transport this would, per word, give rise to a great many
+memory contacts. After all: 1 memory contact
+for the word itself, but before the corresponding physical address
+is known, a memory contact with the corresponding - meanwhile
+possibly incremented - start information must have been made, but to make this
+possible, it is necessary that first yet another memory contact
+be made to get hold of the prevailing value of the empty pointer.
+
+(My
+remark: is this about the
+empty pointer, about the fill pointer, or about both? Johan E. Mebius)
+
+This is rather too
+crazy; one can reduce the number of memory contacts per word transport from
+three to two by stipulating that we have indeed introduced a fixed
+memory location for the empty pointer, but at the same time at the
+drum organization add a couple of flip-flops - in our case two -
+into which, at each start-command acceptance (i.e. the P-operation by the
+autonomous equipment), we copy the incremented empty pointer from the fixed
+memory location. This under the motto that during an entire
+block transport the value of the empty pointer is constant.
+
+Remark: The total of 2 memory contacts per word transport was based on the assumption that the start address in the core and length together would be accommodated in one word. We shall come back to this again briefly later at the end of 2.4.
+
+2.4.2. The error reaction.
+
+It is of course
+very pleasant to be able to give a number of start commands "in
+advance", but let us be well aware that one generally
+only sets store by the later transports if the
+preceding transports have proceeded successfully. This is very clearly
+the case with a failure of a transport from drum to core:
+if here, during word transport, something goes wrong - parity error - then you can
+no doubt try it again. If we now accumulate two transport commands,
+of which the first reads a piece of drum, after which the
+next wants to write something else to those same drum locations, then it is
+evidently not intended that that second transport take place
+if the first has failed.
+
+The question therefore is
+how the autonomous transport reacts to a detected parity error,
+besides that in the start data the failure is indicated (see
+point e, from 2.4.)
+
+Attempts to keep the autonomous organization from further action by clearing the action flip-flop, possibly also setting the start semaphore to zero, have failed, because the analysis of 2.1. (in EWD51) thereby collapsed.
+
+A healthier
+solution seems to be to introduce the drum organization with two states,
+indicated by an OK-bit (implemented on a flip-flop). As soon as
+a parity error is detected, the organization passes into the
+state non OK;
+when non OK, then
+no word transport takes place, every transport is immediately
+terminated under error report. This holds both for the transport in which
+the parity error occurred and for the subsequent transports that
+still stand in the start magazine.
+
+The start magazine is therefore processed "symbolically", thereby
+guaranteeing that the whole game of semaphores runs through unhindered.
+
+The question is how
+then the transition from non
+OK to OK is to be effected. For a moment we thought
+that this could be done on the basis of emptiness of the start magazine. The
+fact that the transport mechanism, in order to discover that emptiness, does not
+suffice with the P-operation as its only contact with the
+start semaphore, should have made us suspicious. The
+unreliability of an automatic transition to the OK-state
+one realizes when a new start command is added to an almost
+empty magazine. If the P-operation takes place just before the
+V-operation, the semaphore in question can become just briefly = 0,
+whereas that is not the case if the P-operation were to take place just after the
+V-operation: suddenly the sequence "1 -> 0
+-> 1" would have a different effect than the sequence "1 -> 2 ->
+1". And this was not intended: such an implicit
+termination of the non
+OK state makes safe handling impossible.
+
+There are, at first
+sight, two obvious possibilities to have the machine explicitly
+restore the OK-state.
+
+2.4.2.1.  This is the extension of the situation described in 2.4.1.2.: the same command that clears the empty pointer should also restore the OK state. One can indeed couple these two things, because the OK-state must be restored at a moment when the start magazine is empty anyway; with filling one can then just as well begin again at the start.
+
+2.4.2.2.  The other possibility is an extension of the situation as described in 2.4.1.3. In the start magazine one can, besides transport commands in both directions, also permit "restore OK-state" commands. In the case that an error report is detected, the computer adds the command "restore OK-state" to the magazine and repeats the failed commands. The first solution adds a command to the code of the central computer, the second adds a command to the arsenal that the autonomous organization accepts from the start magazine. Besides from "extension considerations" I also have a pronounced preference for the latter solution because the central computer can here already take its measures without the requirement of an empty start magazine cropping up, or the extra specification of how the autonomous transport organization reacts to the zero-settings while something is still running. In this way, after all, we guarantee that the autonomous organization gets the information steering it neatly administered sequentially.
+
+The functioning
+of the autonomous drum transport we can, on the assumption
+that the latter solution has been chosen, document for the well-disposed reader as
+follows.
+
+Legend:
+
+the quantity
+"CyclicCounterValue" is located at a fixed place in the
+store;
+
+the various data in the start magazine are regarded as
+just so many vectors of length four;
+
+the first vector is boolean
+array
+OKRestore [0:3];
+
+if the value of an element of this vector is true, then it is a
+restore-OK-state command and the corresponding values from the
+other arrays do not matter; furthermore we have:
+
+integer array DrumStartAddress,
+CoreStartAddress, Length [0:3];
+
+boolean array TransportDirection,
+SuccessReport [0:3];
+
+The boolean "ParityCorrect" is global
+with respect to the undeclared procedure "NextWordTransport", as are the
+anonymous quantities that regulate track selection, transport direction and
+drum synchronization. The quantities declared below
+stand on flip-flops.
+
+begin boolean
+OK, integer counter;
+
+start:
+
+P (Start semaphore Drum transport);
+
+counter :=
+
+CyclicCounterValue := mod (4, CyclicCounterValue + 1);
+
+if
+OKRestore[counter] then
+OK := true else
+
+begin
+
+if OK then
+
+begin
+
+SetTransportDirectionTo (TransportDirection[counter]);
+
+SetTrackSelectionTo (DrumStartAddress[counter]:1024);
+
+WaitForDrumPosition (mod (1024,
+DrumStartAddress[counter]));
+
+NextWord:
+
+if
+Length[counter] != 0 then
+
+begin
+
+NextWordTransport (CoreStartAddress[counter]);
+
+Length[counter] := Length[counter] - 1;
+
+OK := ParityCorrect;
+
+if
+OK then goto NextWord
+
+end
+
+end;
+
+SuccessReport[counter] := OK
+
+end;
+
+V (Interrupt signal Drum transport);
+
+goto start
+
+end
+
+(NB: != means "not equal to" - JEM)
+
+Later I hope, by way of
+example, to show the structure of the program that plays
+the piece of equipment described above.
+
+Rem.  For the
+start command for the
+drum we must find room in advance for:
+
+Length: 12 bits;
+
+CoreStartAddress: 18 bits;
+
+DrumStartAddress: 19 bits;
+
+(drum): 2 bits;
+
+OKRestore: 1 bit.
+
+For the success report you need no new position and you could use the
+OKRestore-bit. We thus arrive at a total of 52 bits,
+which fits splendidly into two words. A
+complication, however, is that the two first items (Length and CoreStartAddress - JEM)
+together require 30 bits. The 3 bits that you fall short, you could accommodate in the
+second word, take them over externally on 3
+flip-flops upon acceptance, so that the number of memory contacts per word does not
+needlessly increase. (An X8 word
+consists of 27
+bits - JEM)
+
+3. The
+coordinator.
+
+3.1.
+On the
+administration of
+a population.
+
+In the coordinator the administration must
+take place of, e.g., which input and output devices are assigned to which
+programs, which programs have been held up
+as a result of which semaphores, etc., etc..
+
+If the number of programs were, e.g., at most 10,
+if the set of semaphores were a fixed limited collection, then we would not have to
+deal with the problem posed in the following. I do not wish, especially at the beginning of my explorations, to
+impose on myself such a drastic limitation, and therefore seek an organization
+in which the number of programs, the number of semaphores that participate, can vary
+arbitrarily in time, but in such a way that all these entities
+do not lose their identity during their existence.
+
+A straight-down-the-line method is to number all
+entities of a particular class consecutively in order of introduction.
+This method is practically unusable because
+
+(a) after a while these numbers become arbitrarily high;
+
+(b) to the question of how one can obtain further data on entity no. so-and-so of a
+particular class, only a search system can give an answer.
+
+The solution that at the moment appeals to me
+the most is inspired by the hotel business: as soon as you arrive at
+the hotel, you are assigned a free room, and for the duration of your
+visit your room number is your identification.
+
+Extra facilities are that if my hotel is
+full, I can build a storey onto it and, if the top
+storey is empty, I can if need be demolish it again.
+
+The consecutively numbered hotel rooms are
+mapped in the store onto consecutive locations (or fixed formations thereof):
+demolition of the top floor therefore means that
+store is freed for other purposes. It could therefore make sense.
+
+The tactic now is that every new guest gets the
+lowest-numbered free room. Program-technically this is
+simple: we remember the size of the hotel, of each room whether it is
+occupied or not, and finally the rank number of the lowest occupied
+room. If a new guest arrives, he immediately gets his room and
+we search for the next free room; if a guest leaves the hotel, then
+his room is released and at the same time this room number is briefly
+compared with the prevailing lowest free room number, which is replaced if
+necessary. The search work is thereby very simple, it is even
+the question whether we actually need the redundant datum "lowest free room number"
+at all. (If a lot of searching had to be done, I would
+accommodate the occupied-bits in words and make use of the
+normalize command to find the first free one; because of the "so many bits
+per word" this solution appeals to me less.)
+
+I know that the tactic "new guest gets
+lowest free room" does not minimize the time-average of the effective hotel size:
+if at a moment when the hotel is very full,
+a stayer registers, then the gap count can drop ever so
+drastically, before the stayer has packed up his belongings on the top floor
+I cannot start demolishing. I nevertheless thought that this
+tactic would, at the cost of little, already help me a great deal, certainly
+enough, because the hotel rooms that I have in mind will not be so
+terribly voluminous.
+
+The hotel analogy goes further: many a hotel will
+house a number of regular guests - the hardware semaphores, the standard
+communication programs and the like; it is clear that the regular guests will get the
+lowest-numbered rooms, from the very outset unto
+eternity.
+
+I assume that the number of hotels directly
+managed by the coordinator is limited, known and constant.
+Besides the two administrative data mentioned, we shall also have to remember, per hotel,
+the location - i.e. the address of the zeroth room. This too I imagine
+stored at a fixed place.
+
+3.2. The
+waiting lists for
+abstract machines.
+
+A word of warning in advance. I must erect a
+building whose contours are beginning to dawn on me. I
+have an idea of the kind of foundation on which this building will rest: what
+the foundation will exactly have to bear, I shall only know once the
+superstructure is finished. In designing the superstructure I must, however,
+constantly ask myself whether a foundation can still be built for it. In other words,
+let no one expect at this stage a watertight argument in which
+something is now introduced with a razor-sharp reference to the
+necessity that will be set out 100 pages further on: that 100th
+page has, after all, not yet been written!
+
+The order in which I shall, in first approach, try to
+describe the various "operating spaces" of this building is more or less
+accidental. Probably I will always choose that
+component for which the least obscure task description and a possible
+construction stand most clearly before my eyes at that moment. That
+the readability must sometimes suffer from the fact that I cannot say everything
+at once and that now and then my thoughts are more fully worked out
+than I can describe at that moment, I regard, alas, as
+unavoidable. So much for this apology.
+
+If a concrete machine - a
+transput device - hangs in its P-operation, then the
+coordinator need take no special note of that: the concrete
+machine remains, after all, on the lookout, and as soon as the obstacles have been
+removed, the concrete machine begins to run autonomously.
+
+With the abstract machine it is different: these
+are programs that have ceased their activity because they then
+could not proceed. As soon now as the obstacles are gone, then they must
+be woken from their deep slumber. Following up the consequences -
+keeping track of the changed situation - of a V-operation on one or
+more semaphores is a task that lies typically in the
+coordinator's path.
+
+We consider all abstract machines that participate at
+a given moment, i.e. all abstract machines that at a
+given moment have either explicitly ceased their activity
+- through a P-operation - or have been interrupted somewhere in their
+activity through interruption. These abstract machines together form the population of
+HAM, i.e. "Hotel for Abstract Machines", and are during their
+existence identified by the room number of the room assigned to them in HAM.
+
+Remark:
+According to this definition the coordinator itself is not an abstract machine and
+the coordinator is therefore not included in HAM. This holds, mind you,
+for
+the kernel of the
+coordinator, i.e. that part of the coordinator that
+will always be present in core as
+central administrator. (How it gets there is such a charming "very-beginning
+problem", with which we shall wisely not occupy ourselves for now. The very-beginning problem is, after all, isolated.)  In order
+not to make the time-average of the core-store occupancy by the coordinator
+too large, we shall normally have parts of the coordinator on
+the drum and only fetch them in advance when they at some point
+have to come into action. It might well be that we can organize this
+most elegantly by regarding these offshoots of the coordinator
+as abstract machines, which will then belong to the regular guests of HAM.
+
+One of the regular guests of HAM will be
+the
+"Dummy Abstract Machine" c.n. DAM. The text reads:
+
+"LDAM: P (SDAM); goto
+LDAM"
+
+All this implies that SDAM will be a regular guest of the semaphore hotel, about which more later.
+
+The coordinator is now such that when there is
+no
+single abstract machine left to simulate, because they are all blocked by
+semaphores, the operation
+
+"V (SDAM)"
+
+is executed; DAM thereby gets a turn and switches
+itself off again for the time being through the operation "P (SDAM)". Such
+a dummy machine is logically not necessary, it probably makes the
+whole speculations a bit simpler. We
+then need not take into account in our description that the
+coordinator may possibly find no abstract machine to delegate the computer
+to. In the case that the coordinator is, e.g., always executed
+by a deaf X8, we can in DAM make the machine hearing, which might just
+be pleasant.
+
+Remark: It is not strictly necessary
+that the operation V (SDAM) only be executed if there really
+is nothing more to do. If it should turn out that we make DAM a
+machine with minimal priority, then it might well be
+that DAM, e.g., makes a little turn once every couple of seconds. Something like that could
+occur if you could assign to abstract machines two priorities,
+a static priority and an effective
+priority, where the effective priority, initially derived from the
+static one, slowly grows if the abstract machine just
+keeps not getting a turn. This in order to ward off the danger of permanent neglect.
+If it turns out more elegant to let DAM amble quietly along in this,
+then there is therefore nothing whatsoever against it.
+
+About the fact that there are indeed a few objections
+attached to giving the rooms of HAM a fixed size, we step over
+that for the moment.
+
+(If we, as I definitely envisage it at the moment, give the rooms
+of HAM a fixed size, then the question that we
+leave unanswered for now is whether we must choose the rooms so large
+"that they will always be sufficient" - a risky decision! -
+or whether we must make an organization in which a guest must leave his excess
+baggage behind in follow-rooms or a central depot. We
+merely signal the problem now.)
+
+The guests in HAM fall into two
+separate categories: blocked machines and interrupted
+machines.
+During non-activity of the coordinator there is one
+machine that falls into neither category, namely the abstract
+machine that is in action at that moment.
+
+If the control, as a result of an
+interruption, ends up in the coordinator, the abstract
+machine that was in action passes into the group of interrupted machines.
+
+If the control is referred to the coordinator as a result of a
+P-operation, then this happens
+under specification of one or more semaphores. If one
+of these
+semaphores is non-positive, then the machine that was in action passes
+over to the group of the blocked; if all specified semaphores are
+positive, they are all decreased by 1 and the abstract
+machine that was in action is included in the class of interrupted
+machines.
+
+The interrupted machines are thus the machines
+from which the coordinator can choose; the blocked machines are
+those
+of which the coordinator need take no note as long as the
+corresponding semaphore has not become positive. This happens by
+means of the V-operation, and when the V-operation is executed, the
+coordinator must therefore turn out.
+
+If this is a V-operation on a hardware
+semaphore, executed by an autonomous device, then this happens
+with an interrupt as side-effect; if the V-operation is, of course by
+program, executed on a programmed semaphore, then this
+program does so not with an addition of an output command but by a
+(sub)routine jump to the coordinator. The machine interrupting
+itself in the V-operation is included in HAM in the class of the interrupted;
+there are, after all, logically no objections to letting this machine, after
+completing the V-operation, simply continue to work as usual.
+
+To indicate the subdivision into classes,
+we are going to string chains: every room of HAM contains room for another
+room number. The abstract machines that are interrupted are arranged in
+one order or another.
+
+Externally we note the number of
+the first interrupted abstract machine; in each room we note the
+room number of the next interrupted machine and in the room of the
+last of the row we note a marker recognizable as such.
+
+(If
+it turns out that we often have to add a newcomer to the company at the end of
+the row and the row can attain an appreciable length,
+it is advisable to note externally, besides the number of the first, also the
+number of the last of the chain. If we often have to operate "at the back of
+the chain", you can make the chain traversable in two directions, by also noting
+in each room the number of the predecessor.
+Adding and removing thereby becomes more cumbersome; I did not think
+that this "double linkage" was necessary. Keeping track externally of
+the number of the last is something else, for that has side-benefits:
+it makes the marker superfluous.)
+
+The premise of this technique is that we surreptitiously
+do introduce a maximal size
+of HAM, namely via the number of bits that we make available in each room for
+the number of the follow-room; because this number, however,
+only increases logarithmically, you can without unheard-of
+waste adopt a majorant that is always safe.
+
+Before we now go on to discuss in more detail the chains in which the
+blocked machines are included, it is good
+to consider for a moment why we actually introduced the idea of the blocked machines.
+We could do without. If a machine executes the
+P-operation, but this cannot be terminated on account of a non-positive semaphore,
+then you could include this abstract machine in the list of
+interrupted machines, provided that as "state of progress" a
+reference to the beginning of the P-operation is included. If this
+abstract machine ever gets a turn again, then it will doubtless once more, with fresh
+courage, try the P-operation.
+
+This has two disadvantages. First, it is
+not inconceivable that the machine then spends a demonstrable part of its time
+on letting P-operations fail; second, the combating of
+permanent neglect must then be watertight, because otherwise the computer
+could spend all its time on failing P-operations, while
+a meaningful process would find no passage. The introduction of the class
+of the blocked machines we can therefore see as a means both to raise
+the efficiency by not even trying things that are evidently doomed
+to fail, and as a means to have, later on
+with the strategy, our hands free.
+
+Let us now look at the blocked abstract
+machines, for now under the simplifying
+assumption that every P-operation in a blocked machine
+takes only 1 semaphore as argument.
+
+If the active machine now encounters a P-operation,
+the control is referred to the coordinator; if the
+semaphore is positive, the P-operation is completed and the machine is
+included in the class of interrupted machines, otherwise it is possibly
+one of the many machines that must wait until the
+semaphore in question becomes positive.
+
+In order now, when the V-operation is executed on
+a semaphore, to discover which abstract machines may thereby
+be transferred to the class of interrupted machines, it must
+not be necessary to search through all rooms of HAM to see whether
+there might also be a blocked machine that was waiting precisely on this semaphore.
+This search process we can again obviate with a chain.
+
+Let all semaphores be
+accommodated in the Hotel
+for Semaphores HS and be identified by their room number in this hotel.
+In each HS-room there is noted, besides the value of the
+semaphore, whether abstract machines are meanwhile waiting on this semaphore's
+becoming positive; if so, then these
+abstract machines are linked together in a chain and the HS-room
+contains (in any case) the HAM-room number of the first of the series.
+
+If now the V-operation is executed on a particular semaphore,
+then the consequences that must be attached to it are
+clear. If the semaphore was already positive, then we need
+only add 1 to it; if it was initially = 0, then we must
+look whether abstract machines were meanwhile waiting on it; if
+so, then one of these machines can be detached from this chain
+and included in the chain of interrupted machines. The strategic question peeks
+around the corner here in the case
+where more than 1 abstract machine was waiting on the semaphore in question;
+in that case, after all, a choice must be made.
+
+It becomes more complicated when we
+consider that there will also be programs that, via P-operations with
+more than 1 semaphore, hand control over to the coordinator, and 1
+or
+more of the specified semaphores is at that moment non-positive. A
+possible solution is the following, on the assumption that the
+HAM-room of this machine is large enough to contain the HS-numbers of the
+semaphores supplied with the P-operation.
+
+The abstract machine in question is
+included in the chain of the very first semaphore that is found
+non-positive. If this semaphore later becomes positive through a
+V-operation and this program is selected as a possible
+candidate for unblocking, then first the row of semaphores that stands
+specified in its HAM-room is tested. Only if these are all positive
+can the P-operation be completed, otherwise the result is that
+the machine is included in another semaphore chain. The chain
+that hangs from the semaphore on which the V-operation had been executed, has
+thereby become 1 shorter; if it has not thereby become empty, then
+another link is again chosen from it. Etc. etc. until the chain is empty or
+the semaphore is again = 0.
+
+It thus comes down to having the candidate
+for unblocking execute its P-operation anew, the P-operation
+whose semaphores now stand meanwhile specified in its HAM-room.
+(That 1 of the tests is thereby superfluous, because of at least 1
+semaphore it is known that it is positive, we let be for what it is; suppressing this
+test will require more time than just executing it.)
+
+We thus see here twice, two situations
+in which the semaphores of a P-operation must be examined. I would
+like to call them: "the offered P-operation" and "the suggested
+P-operation", suggested namely by the becoming-positive of a first
+blocking semaphore. Because it is tempting to exploit their
+correspondence, it is good to point briefly to the difference: when the
+coordinator is done with the offered P-operation, it can pass on to
+the order of the day; when the coordinator is done with a
+suggested
+P-operation, then the coordinator must (in any case if the
+P-operation has
+given rise to a new blockade) return to the
+suggesting semaphore!
+
+Organizationally there is still an open question,
+namely whether a HAM-room for an abstract machine can indeed harbour this little list
+of HS-numbers. The Hotel for Semaphores too has a
+maximum size, which manifests itself in the number of bits that we make available for
+an HS-room number. Since P-operations can be supplied with
+arbitrarily many semaphores, I can never guarantee in advance that a HAM-room is large
+enough. The best solution probably distinguishes two kinds of P-operations, those with no more
+than, say, three semaphores - this is the overwhelming majority - and the
+P-operation with more semaphores. If only the first is processed as
+smoothly as possible and the second kind can also be, then we have done the one
+and not left the other undone.
+
+A possible solution for the P-operation with
+arbitrarily many semaphores is the following: in the HAM-room one takes
+up not only the return address for the case of a successfully
+completed P-operation, but also the return address that refers to
+the beginning of the P-operation. The offered P-operation processes the
+semaphores without storing them in the HAM-room; the suggested
+P-operation one can now simulate by letting the abstract machine begin again just before
+its P-operation. The coordinator then gets a
+P-operation offered, of which it must still be known that this represents an
+offered P-operation. I suggest this solution with
+trepidation for two reasons:
+
+(a)
+
+trying to
+complete the P-operation will, in this way, cost quite a bit of time;
+the consideration that P-operations with so many semaphores will probably not occur so often
+is somewhat undone by the consideration that precisely with a P-operation with many semaphores the chance of failure is
+great.
+
+(b)
+
+this runs
+logically fine if the program in which the P-operation occurred was
+still present in core; if not, then this little game, especially because of
+the special state of the coordinator, which must after all remember that
+this here actually concerns a simulated suggested P-operation,
+might well turn nasty.
+
+An alternative solution is to give an abstract
+machine more HAM-rooms; the first time that
+an abstract machine comes along with a P-operation with such a long waiting list,
+you will have to take the extra trouble to reserve one or
+more extra
+HAM-rooms as follow-rooms. I do not believe that it is
+sensible, after this demanding P-operation, to release those "follow-rooms"
+again: you had better assume that this abstract machine
+now once and for all offers such demanding P-operations and that we should therefore
+just leave the reservation in HAM permanently like that, until the abstract
+machine is fully removed.
+
+As regards the strategy for the transfer
+from blocked to interrupted, I think that you are fairly well off if,
+upon blockade of an offered P-operation, you place the abstract machine at
+the beginning of the chain of the blocking semaphore and
+then, upon the V-operation, try to unblock the abstract machine hanging on
+the semaphore in order from beginning to end. This is
+the cheapest version of "first come, first served."
+This does not exclude permanent neglect of a machine that has remained
+hanging in a P-operation with more than 1 semaphore, namely if these semaphores are
+fought over by other abstract machines. Can we here say "So be it" and
+conclude that this machine is therefore
+incompatible with the rest?
+
+transcribed by
+
+Johan E. Mebius
+
+revised Thu, 29 Mar 2007

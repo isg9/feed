@@ -28,3 +28,30 @@ Na aldus tot Uw maatschappelijke vorming te hebben bijgedragen, ga ik over tot U
 
 transcribed by Jukka Ketelaars
 revised Wed, 13 Jun 2007
+
+---
+
+## English translation
+
+### Second address to my students
+
+EWD 477
+
+Second address to my students.
+Today I wish to address you on the subject of science policy, and what I have to say to you applies equally to what Mr. Trip is attempting, to what an industrial or university research centre is attempting, as to what each individual researcher is attempting.
+
+In every scientific investigation one endeavours to serve two masters: the one master is called "quality", the other master is called "relevance". The demand of quality means that the work must satisfy the norms that have grown out of the scientific tradition. Those norms imply that the work has been carried out with the greatest possible care, so that no irresponsible conclusions are presented as trustworthy. Those norms further imply that the work, through its internal consistency and adequacy, contributes effectively to our collective knowing and/or being-able. The demand of relevance means that it helps other people in one way or another with their difficulties. In these days it unfortunately seems to be necessary to stress that relevance need not necessarily be direct social relevance, in the sense that it visibly contributes to the solution of those problems that make the front page of the newspaper: we must reserve to ourselves the right to find many a "cultural" contribution certainly just as "relevant".
+
+It is very easy to pitch both demands so high that almost nothing satisfies them any longer. Whoever does not desire the stagnation that follows from this, and who wishes to stimulate the practice of science, must then ask himself in which respect he adopts a more tolerant stance. It is clear that there may be no compromising on the demand of quality: a good piece of work that nevertheless interests no one is in any case good and harmless, which cannot be said of an unmasked pseudo-contribution to a topical problem. On the contrary!
+
+Our government has unfortunately willed otherwise. Now that even higher education has been allotted a role in the fanatical attempt at greater homogenization of our society, there is no longer any place there for demands of quality. Not only is the poorer now permitted; it has even reached the point that excellence is barred, for how can you homogenize as long as you allow outliers? Subsequently, in order to curb the growth of the university enterprise, the government hit upon the luminous idea of compensating for the excessive tolerance with regard to quality by a pronounced intolerance with regard to relevance: if something does not contribute to the energy problem, environmental hygiene, or a few more such vulgar subjects, then it need no longer be done....
+
+How hard this second blow to the neck lands follows from the following quotation from Sir Hermann Bondi:
+
+"The problem of academic research I think can be put reasonably bluntly. If you look at the problems that arise outside, in their own right, almost 20 per cent. of them are trivial and 80 per cent. or so are evidently insoluble, and it is the task of the academics to swim in that exceedingly narrow layer separating the trivial from the insoluble, that remarkably thin layer in which thought, skill and work can actually make a difference."
+
+The intolerance that declares this thin little layer forbidden territory reduces whatever must thereafter still pass for the practice of science to fruitless feints.
+Having thus contributed to your social formation, I proceed to your scientific formation.
+
+transcribed by Jukka Ketelaars
+revised Wed, 13 Jun 2007

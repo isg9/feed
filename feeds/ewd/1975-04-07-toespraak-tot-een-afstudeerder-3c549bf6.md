@@ -22,3 +22,24 @@ Met het behalen van Uw academische graad wil ik U graag van ganserharte gelukwen
 
 transcribed by F. Koenders
 revised Thu, 13 Nov 2008
+
+---
+
+## English translation
+
+### [Address to a graduate]
+
+You graduate at a difficult moment; your time of study has coincided with a period in which the university enterprise, through vigorous growth, has at last landed in grave difficulties. The difficulties are well known: higher education threatens to swallow up an unbearably large portion of the budget, the increase in quantity could be achieved only by accepting an almost proportional decrease in quality, and the labour market does not quite know what to do with these great numbers of new academics. All manner of bodies have been blamed for the arising of these abuses.
+
+A customary scapegoat is the university enterprise itself: especially from the mouths of those who now advocate retrenchment, one often hears the reproach that over the past fifteen years the university itself wanted and stimulated this growth. In its lack of nuance this reproach is absolutely unjust, and I set store by contradicting these allegations here in public. For a good ten years now the imposed scaling-up —and not least because of the loss of quality induced thereby— has filled many in the university world with great concern. At most one may reproach them for not having resisted it more sturdily, out of a misconceived sense of duty. That this sense of duty —"to go along, in order to prevent worse"— has much of the collaborator's sense of duty is not unconnected with the consciousness of guilt that now gnaws at many of them.
+
+Another scapegoat —how could it be otherwise!— is the business world, which is supposed to have failed by not shifting its bearings through reorientation. This reproach too is unjust. Years ago optimists may sincerely have thought that the work for which you need a good academic could just as well be done by two half-baked academics, but nowadays only an ostrich still believes that: no ten people with merely popular-scientific knowledge together make a scholar, any more than a couple of amateurs together at the keyboard can take over the role of a concert pianist. He who spreads knowledge spreads stupidity, for an essential characteristic of knowledge is concentration.
+
+Besides the question of guilt there is the question of who pays the toll. It is very obvious to regard those now graduating as the ones left to foot the bill. In the longer term, however, that is but the half-truth, for in the long run our whole nation threatens to reap the bitter fruits of a missing elite: colourless mediocrity at all levels. As long as an intellectual elite is portrayed as a priestly caste favouring itself at the expense of the rest, instead of as the cork on which our civilization floats, there is little hope. The rabble with which President Nixon surrounded himself liked to use the term "elitist" in order to cast suspicion especially upon the more upright among his opponents; let us hope that this has been a low point, from which the rehabilitation of the indispensable elite will be able to take place. But it will be a long road, certainly in all countries where levelling is accepted as a political ideal.
+
+As a student you have lived through an eventful period of the university world, sometimes uplifting, but mostly less uplifting. I could imagine that you would observe with sorrow, perhaps not without rancour, that circumstances have rather spoiled your time as a student, just as, measured by objective standards, a good part of my youth was "spoiled" by the din of war. That I nevertheless look back upon my youth with gratitude is because, thanks to the threats of that time, I now know better what is dear to me and why. May it be granted to you to look back one day upon your time as a student in a similar way, with gratitude, in spite of all its shortcomings.
+
+On the attainment of your academic degree I should like to congratulate you most heartily, a felicitation in which, by the nature of the matter, I likewise wish to include your family and the others dear to you. I may end with the wish that a career be allotted to you which will continue to grant you satisfaction to the very length of your days.
+
+transcribed by F. Koenders
+revised Thu, 13 November 2008

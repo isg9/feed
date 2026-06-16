@@ -72,3 +72,74 @@ transcribed by Carl Ludwigson
 
 revised
 12-Nov-2014
+
+---
+
+## English translation
+
+### Examination problem "Cooperating Sequential Processes" (April 1966)
+
+Examination problem "Cooperating Sequential Processes"
+
+April 1966
+
+In each of five cyclic processes (named, respectively, "A", "B", "C", "D" and "E") there occurs a critical section (named, respectively, "TA", "TB", "TC", "TD" and "TE"). They are critical in the sense that, for their execution times, five mutual exclusion relations must be guaranteed:
+
+1) the simultaneous execution of TA and TB is forbidden
+
+2) the simultaneous execution of TB and TC is forbidden
+
+3) the simultaneous execution of TC and TD is forbidden
+
+4) the simultaneous execution of TD and TE is forbidden
+
+5) the simultaneous execution of TE and TA is forbidden.
+
+The cyclic processes are started outside their critical section; as long as a process must wait at the entrance of its critical section, this may not, for any of the remaining processes, constitute a permanent obstacle to entering their critical section.
+
+The structure of process A is as follows:
+
+A: begin
+
+start: non critical section A;
+
+.
+
+.
+
+.
+
+. (1A)
+
+.
+
+.
+
+TA;
+
+.
+
+.
+
+.
+
+. (2A)
+
+.
+
+.
+
+goto start
+
+end
+
+The structure of the remaining processes is analogous.
+
+The pieces 1A, 2A, 1B, 2B, 1C, 2C, 1D, 2D, 1E and 2E, together with the enclosing block, must be filled in.
+
+The examinees are requested to hand in only paper written on one side.
+
+transcribed by Carl Ludwigson
+
+revised
+12-Nov-2014

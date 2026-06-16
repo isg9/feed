@@ -57,3 +57,59 @@ Overigens ben ik van mening, dat er op Hilversum 4 minder moet worden gezeverd.
 transcribed by Carl Ludwigson
 
 revised Mon, 5 Nov 2007
+
+
+---
+
+## English translation
+
+### Seventh address to my students, spring 1976
+
+In the collection of essays "Two Cheers for Democracy" by the art-loving E.M.Forster there occur
+two essays, titled respectively "Not listening to music" and "Not looking at pictures".
+Had he also been a scientist, he might perhaps have added a third essay to it with the title
+"Not reading scientific articles"; had he written it, I should have quoted from it gratefully.
+
+For I realized recently that, upon your introduction to the TH, you were probably led past
+our libraries, and that you were then probably "shown the way" by a library official, as it is
+called: with the catalogue as a topological map in hand, you can no longer lose your way in the
+land of science. That, roughly, is the Credo of library officials. I imagine that the image is
+built up of the student who studies the better the more books and articles he plows through. And
+then it occurred to me that probably no one has told you why and how one ought to skip articles.
+This address attempts to fill this presumed lacuna.
+
+Rule 1 —known as Naur's Advice— is that on a first reading one should read an article back to
+front. For this is the fastest way to find out that the author has achieved no significant
+result, a situation occurring, alas, so frequently that it is justified to attune one's strategy
+to it.
+
+Rule 2 is that one ignores articles at the end of which the author refers chiefly to his own work.
+For such a list of references is proof of intellectual inbreeding. No references at all is always
+still better.
+
+Rule 3, which must be applied once one has overcome one's initial repugnance and has decided, for
+heaven's sake, to take a look at it after all, teaches that one should not let oneself be
+impressed. One should not let oneself be impressed by impressive notations, large formulas full of
+little stars, Greek, or worse still Gothic letters, and double little arrows with dots above them.
+Baroque symbolism is in any case a symptom of bad taste, and usually a smokescreen meant to conceal
+a relative emptiness. Nor should you let yourself be impressed by an excess of abstractness: there
+is a fair chance that the subject belongs in the well-known category "General Abstract Nonsense".
+
+Rule 4 is that one should try, e.g. by taking a step back and generalizing the problem statement a
+little, to earn the right to set the article aside as irrelevant fiddling. In the first place this
+is an exceptionally good intellectual exercise, and whoever masters this technique again saves a
+heap of time and a heap of annoyance.
+
+Rule 5 is that, in the case of serious difficulties, you should not let an inferiority complex be
+talked into you, but should shift the blame for the incomprehensibility onto the author.
+
+For you must realize that the majority of published articles are not written for their readers at
+all, but for the greater glory of the author or for the benefit of the publisher's commercial
+interests. That sounds harsh, and perhaps even unjust. Yet I must impress upon you to reckon
+seriously with this possibility: it prevents disappointments.
+
+Incidentally, I am of the opinion that there should be less drivel on Hilversum 4.
+
+transcribed by Carl Ludwigson
+
+revised Mon, 5 Nov 2007

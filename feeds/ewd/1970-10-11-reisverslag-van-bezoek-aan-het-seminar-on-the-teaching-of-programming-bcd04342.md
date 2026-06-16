@@ -30,3 +30,33 @@ transcribed by Bart Vreugdenhil
 
 revised
 08-Jan-2012
+
+
+---
+
+## English translation
+
+### Trip report on the visit to the Seminar on the Teaching of Programming at University Level
+
+The four principal speakers were (in order of appearance) the undersigned (4 hours), Knuth, Iverson and Parlis (all 3 hours). These appearances were all too long, too tiring, both for the speaker and for the audience, and one of the things I shall continue to remember about this seminar is that this is not a good arrangement. (Each of us began with two hours uninterrupted!) The organizers left the organizing of discussions to the speakers; this too was not a happy choice.
+
+My talk “The Art of Programming” went reasonably well, apart from a few low points; and I left too little explicit room for discussion. At the outset I had indeed said that I appreciated interruptions, but that proved insufficient. (The others fared the same way.)
+
+Don Knuth somewhat disappointed me; I now really know that I need not study his encyclopaedia. It is called “The Art of Programming”, the title of his lecture was “The Analysis of Algorithms”, and that is a far more adequate title. He has the disposition of a non-applied mathematician: computing science is for him chiefly an inexhaustible source for his little puzzles. It is very curious, perhaps it is very American: first they give computing science the most vulgar motivation (minimizing resource usage), and then they turn away from it with some disgust “to do the really interesting problems”. Thus you find Don Knuth proudly determining the variance of the number of carries generated in an addition in the base-b system, whereas the only important thing is the length of the maximal carry-train!
+
+Iverson was disgusting, this was a “slick commercial” about APL. What I found most repugnant was his coarseness toward his audience. If it was his intention to sell APL, then he did not succeed in this: the audience did not accept him. I cannot deny the design consistency (nor shall I do so); what at first sight seems mere ad-hoccery usually turns out to have been considered in one way or another. It has confirmed my impression that the influence of APL on its users is fatal: it is a giant bag of tricks! And instead of combating the tendency to see programming as puzzle-solving, the tool encourages this conception. I thought —and still believe this— that programming is first and foremost a conceptual challenge, and I do not see how APL is a step forward in this respect. It even strikes me as a step backward.
+
+Perlis was particularly listenable. I found his introduction very illuminating, in which he argued that “program correctness” could not be seen apart from what the program was supposed to do, and was thereby inextricably bound up with our theoretical insight into the application! The intellectual challenge that the existence of computers entails thus becomes the need for decent theories about activities that until now we did intuitively, in a slapdash manner, or not at all. The most convincing thing I found was the description of the first course (he described three), in which he described “from top to bottom” the relation man -> algorithm -> language -> machine -> man. First programming in a higher programming language and then, as the processing of the algorithms is treated in more detail, stripping the language of its frills. In his second course he compared various programming languages, in the third he discussed quality aspects of programming languages. The endeavour was noble, but this last I found less convincing, all the more because he evidently considered himself rather bound by what already existed.
+
+Two speakers (each from an English software house) illuminated the practice of programming in the industrial environment in their own way. d'Agapeyeff rubbed the audience very much the wrong way by arguing that he had so little use for the computer scientists as they came from the university. He set against this his own internal training programme; the general reaction was that it was an excellent division of labour, that he should then just teach his own people that, that this kind of training could not possibly lie within the province of the universities. The question was even raised whether he actually needed “graduates” for this kind of work. Owing to his exaggeration this discussion never really got going. Jackson showed what happened in his company; this was a warm plea for structuring, which was better received by the audience. (Which of course also had to do with the audience!)
+
+J. Aron (Federal Systems Division, IBM) gave a talk in the terminology of the manager. People who had never heard this, or did not wish to hear it, became very angry about it. I personally have a soft spot for this man, I did not get irritated and even learned something from it: FSD is trying to get away from the “Chinese Army Approach”. Whether they will succeed in this seems very much the question, since the need for the Chinese Army is dictated to no small extent by the baroqueness of the tool. It was fascinating to hear that they wanted to get away from it; until a year ago they could demonstrate to us, with reasons attached, that the Chinese Army was the only possibility!
+
+What the “average” participant of this seminar took away, in which direction his thinking was stimulated, I am unable to gauge; it is for myself even very much the question whether, and if so how, I came away from it a wiser man. A number of people gave summaries of their impressions on the last afternoon (van der Sluis, Hoare, Wirth, Samelson and Michaelson). Even if I discount the fact that they stood there in a position that calls for saying friendly things, it nevertheless seemed as though I had not come off so badly. It struck me that I was unanimously classified as an “artist”; I do wonder what they do with it and what I do with it! The concept of “Structured Programming” catches on strongly; it seems necessary to me to tackle, in this style, something big for once, but I am rather afraid of that. A great many detailed decisions then have to be taken, and so far I have mainly demonstrated that these all require unexpectedly much care.
+
+Edsger W. Dijkstra
+
+transcribed by Bart Vreugdenhil
+
+revised
+08-Jan-2012

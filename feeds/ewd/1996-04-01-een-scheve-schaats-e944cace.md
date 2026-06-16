@@ -55,3 +55,33 @@ USA
 Transcription by Patrick Tingen.
 
 Last revised on Fri, 12 Dec 2008.
+
+---
+
+## English translation
+
+### Putting a foot wrong
+
+In [0], a Liber Amicorum published on the occasion of the retirement of colleague Kruseman Aretz, we can read on p. 159 the following historical sketch:
+
+"In Eindhoven, from the beginning of the 60s until the mid-(eighties) 80s, a monoculture grew up under the leadership of Dijkstra. This monoculture we often designate as the Eindhoven programming style or the Eindhoven school. In a monoculture no other crops fit, and these are soon called weeds by the growers of the monoculture. Many who wanted to grow something else perished in that time, but you did not."
+
+*
+
+*
+
+*
+
+It is hard to read into this anything other than accusations of unhealthy one-sidedness and stifling intolerance.
+
+The reproach of one-sidedness is surprising, since Dijkstra (already in 1984) professionally covered a broader terrain than most of us, and it therefore raises the question whether the Author has perhaps not looked further than his nose is long. It is of course true that Dijkstra has not actively moved in all subfields of informatics —we think e.g. of file management, "trace" theory and the study of compiler construction—, but in fairness we ought to take into account that this abstinence on his part reflects a consciously chosen division of labour between him and his colleagues. The reproach, as unsubstantiated as it is unfounded, of deadly intolerance surprises still more: since it is a complete mystery who these "many" who are said to have "perished" can then have been, we can only conclude that the Author has sucked these victims out of his thumb. Of course Dijkstra has, like every craftsman, judged and weighed, for this is what society (rightly) demands of its experts; perhaps the Author has failed to realize that a judgement which, in the name of tolerance, always approves everything, gives no information and thus amounts to nothing. (Another explanation is that the Author has scarcely been aware of the insinuating nonsense he wrote down.) The quoted piece is so far below par that we can with an easy conscience write the Author off as a rancorous piece of snot. Harder to digest —because more disquieting— is that this libel could appear in an official publication of the Eindhoven University of Technology. Fortunately, with foresight, the colophon has been closed with:
+
+"Although this book has been compiled with very great care, neither author(s) nor publisher accept any liability for damage arising from any errors and/or imperfections in this book."
+
+[0]  E.H.L. Aarts et. al. (Ed.) Simplex Sigillum Veri, A Liber Amicorum for prof. dr. F.E.J. Kruseman Aretz, TU Eindhoven, 1995
+
+ISBN 90-386-0197-2
+
+Austin, 14 March 1996
+
+Prof. dr. Edsger W. Dijkstra

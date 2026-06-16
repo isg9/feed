@@ -133,3 +133,123 @@ transcribed by Martin van der Burgt
 
 revised
 2013-06-20
+
+---
+
+## English translation
+
+### Future Prospects of Fundamental Programming
+
+EWD 259
+
+Future Prospects of Fundamental Programming.
+
+Underway is a research project into the possibilities of raising our
+programming capacity by an order of magnitude. The motivation for this
+research lies in the observation that the present State of the Art most
+clearly lacks a sound methodology, with all the detrimental consequences
+that this entails: “small” programs are made by trial and error,
+“large” programs all too often degenerate into debacles. The reason
+that I have taken up this research is that I thought I might contribute
+my modest share in this matter, a hope that, on the grounds of
+temperament, concern, manner of working, and results achieved in the
+past, does not seem altogether unjustified.
+
+I have now been at it for about a year. The first half year went into an
+analysis of why programming so often becomes so inhumanly difficult (“a
+catalogue of our incapacity”) and into a sorting out of what we can
+still do reliably without overburdening our powers of imagination or
+oversight too greatly (“a catalogue of our relevant capacities”). All
+this in order to get a feeling for what kinds of program structures we
+ought to try to confine ourselves to in the name of conceivability.
+
+In the second half year I tried out all manner of program structures, at
+first still very much groping in the dark. (The great problem with these
+experiments was, of course, to carry them out as cheaply as possible, to
+find “play material” of just sufficient complexity that something could
+be learned from it.) Clear indications regarding a useful structure first
+presented themselves when I seriously did justice to the requirement of
+“adaptability”, i.e. that every large program must (at least
+potentially) be able to exist in hundreds of related versions, without
+the intellectual investment required for this being allowed to rise in
+proportion to that number. Since then my experiences have been extremely
+encouraging: the requirement of provability, that the program is correct,
+as well as the requirement that the program be adaptable, turn out, when
+taken to heart, to lighten the task of the programmer considerably,
+because they guard him against all manner of confusing convolutions.
+
+The most significant outcome of the experiments to date is perhaps that
+it has clearly come to light that programming languages, such as are at
+the moment in vogue (including all their variants), are inadequate as a
+programming vehicle when we impose the requirement that we want to
+formulate the program in the same way as we can understand and conceive
+it. The same objection still adheres to them that also adhered to the
+machine languages, namely that the program must in essence be written and
+understood at one and the same semantic level. When I now devise an ALGOL
+program, I notice that I conceive and write it down in the “stepwise”
+manner I have meanwhile taught myself — with great gain in time and
+reliability; but what I have then written down, I must translate “by
+hand” into ALGOL as best I can. I have experienced in my own person how
+risky this process is; now I know how “unreadable” ALGOL programs, for
+instance, are, and I am beginning to see why.
+
+What began as the search for a mental discipline “How do we program for a
+given machine, or in a given programming language?” is growing into the
+development of a new ”programming tool”. For now I am still playing, but
+there will come (I hope!) a moment at which this tool calls to be
+completed into a sufficiently complete system and to be implemented into
+a working system. (And by “working” I mean: with a realistic degree of
+performance: “the proof of the pudding is the eating”, but that does not
+really work if you are allowed to take only a mouse-sized bite once a
+month!)
+
+On the possibilities for this I can press in two and a half ways. (As the
+project matures, with more emphasis and perhaps with three.)
+
+1)
+The project pursues an extremely practical aim and be realistic. Without
+the possibilities of realization I am doomed to the role of an armchair
+scholar (or armchair dreamer), a contemplative function which — I thought
+— I do not yet deserve. (Aside: this is a wonderfully ambiguous
+formulation!)
+
+2)
+Once the tool has been developed in my head to a sufficient degree of
+completeness, then I need it in order actually to teach students
+programming. To teach students to make do with a piece of tooling whose
+defects you have meanwhile come to know is bad and depressing enough; at
+the moment that you know how you can circumvent these defects, doing such
+a thing becomes unworthy of the academy.
+
+3)
+(This is for the time being the half argument.) Once the tool has, in
+conceptual terms, come into its own, then its implementation is still a
+considerable software project, which we shall have to take upon ourselves.
+The question is to what extent, by means of refined “bootstrapping”, the
+piece of tooling under development can be sensibly used for its own
+construction. The answer to this I do not yet know. If, however, it turns
+out to be affirmative, here lies an ideal field of work for graduating
+students: they could not have it any better!
+
+If the promise which this project seems to hold is fulfilled, it is a
+project for at least two permanent staff members. We must try to organize
+it in such a way that more people (permanent staff members, graduating
+students, or perhaps even trainees) can collaborate on it, so that they
+learn from it. From educational considerations this is desirable; about
+the attainable number, no responsible statement can be made at this stage
+— namely before a solid piece of design work has been done. (My personal
+inclination is to work with small groups and, if need be at the expense
+of throughput time, to minimize the amount of work. While on the one hand
+I know that premature parallelization leads to debacles, on the other
+hand I also know (from close at hand) that the striving to make parallel
+development possible greatly benefits a design. I shall do my best.)
+
+If the project gets going and is to keep going, the permanent staff
+members will have to devote themselves to it completely and, by the time
+that we can bring a machine into our activities, have unlimited access to
+this machine.
+
+transcribed by Martin van der Burgt
+
+revised
+2013-06-20

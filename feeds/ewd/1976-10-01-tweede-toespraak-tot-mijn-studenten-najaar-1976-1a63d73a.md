@@ -25,3 +25,27 @@ Ik ben bang, dat ik toch eens met de volgende kabinetsformateur zal moeten prate
 transcribed by Carl Ludwigson
 
 revised Wed, 14 Nov 2007
+
+---
+
+## English translation
+
+### Second address to my students, autumn 1976
+
+It must be difficult to put together a capable cabinet. For the information of the next cabinet formateur: I am quite willing to advise him —free of charge, even—, but do not make myself available personally.
+
+The greatest problem in the cabinet formation is the choice of prime minister and deputy prime minister. It is clear that these leading officials need possess no expertise whatsoever in all sorts of fields, such as for instance broadcasting and abortion, even though cabinets may stumble over them: the broadcasting associations simply carry on with their pollution of the ether, and abortions get performed anyway. The difficult point is how much knowledge of economics they must command. If they know nothing about it, you end up in the misery of England and Italy, whose bankruptcy, with all its ominous repercussions, hangs like a double sword of Damocles over the head of Europe. And what if you take a doctorandus in economics? Yes, you mustn't forget that! We always speak so familiarly of "our Joop", but when all is said and done he is a doctorandus in economics, even if you might perhaps not say so... For what is going on in our country, "inflation by natural gas" seems an apt description.
+
+Now, one can shrug one's shoulders at a doctorandus title, as Wim Kan did, who called it "the retailer's diploma for politicians"; and we all know that a retailer's diploma does not yet make a successful shopkeeper. Would we be better off with a real economist?
+
+That is precisely the dilemma for the next cabinet formateur. The misery, you see, is that a real economist is not everything either. Woe to countries like the USA and Japan, where the dollar, respectively the yen, seem to be accepted as units of thought. One of the gruesome consequences of this is that the educational system is in all sorts of ways made subordinate to the economic goings-on. That happens here too, of course, a little bit, but after all our Joop is only a doctorandus. It happens here for instance when the salaries of teaching staff are skimped on, because the bottom of the treasury is in sight. But that is weak subordination compared to those systems in which education has the specific assignment of delivering the workers desired for economic reasons.
+
+The tendency to want to see even higher education primarily as vocational training is also already to be detected here, but the tendency is still mild; it is as if the doctorandus has, so to speak, taken a timid first step toward the doctorate. If, however, this conception of higher education as vocational training gains the upper hand entirely, then the costs of this education are entered in the economist's head —how could it be otherwise!— as production costs. And every economist knows that, in order to stay competitive, one ought to push down production costs. So: the less education needed, the better, and the next step is that one tries to alter the production process in such a way that one can manage with worse-trained personnel: in American this is called "the deskilling of a function".
+
+In short: as soon as economic thinking subordinates education to the economic goings-on, that same economic thinking will try to make that education superfluous and to hollow it out. I did not think that the function of education was merely to keep the economy running; on the contrary: it is the function of society to maintain our civilization.
+
+I am afraid that I shall have to have a word with the next cabinet formateur after all. Perhaps our Joop is further along with his dissertation than many suspect.
+
+transcribed by Carl Ludwigson
+
+revised Wed, 14 Nov 2007

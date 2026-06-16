@@ -58,3 +58,25 @@ Overigens ben ik van oordeel, dat er op Hilversum 4 minder moet worden gezeverd.
 transcribed by Carl Ludwigson
 
 revised Tue, 16 Oct 2007
+
+---
+
+## English translation
+
+### Third address to my students, spring 1976
+
+Last semester I devoted a number of addresses to the confusion that is irrevocably created when we attempt to describe and understand machines in anthropomorphic terms. For today it is the turn of the confusion that irrevocably arises when we set about describing a collective of people as an individual.
+
+Last week I spoke about surveys and their harmful influence on the person surveyed, who feels morally obliged to have opinions. We have not yet discussed the influence of the outcome! But how are those outcomes formulated? Shall we give it a try? "Catholic Netherlands pleased with new archbishop." "The Dutch people consider the democratization of industry to be of subordinate importance." "The THE wishes to commit itself more to the interests of the region." "The PvdA stands behind the policy of the government." You can no doubt continue the little list yourself now.
+
+The tiresome thing about formulations of this kind, in which linguistically a collective appears as an individual, is that they suggest a far greater homogeneity than there is in reality, a false representation of affairs that gives rise to all manner of conflicts. In the first place there is the personal conflict for the dissident. The Dutch Catholic, whom the rather extremely Romish double chin of the new monsignor has inspired to hesitation, asks himself with concern whether he still belongs to the Church at all. The member of the "TH community" —another such nasty term— for whom the significance of science does not stop at the provincial borders, can easily be seized by similar doubts. We must not think too lightly of personal conflicts of this kind, for they have seriously damaged many a person's capacity for loyalty.
+
+It is not easy, in the knowledge that something is a fiction, to live with this fiction without letting one's own integrity be impaired. It is de facto so difficult that many prefer to forget that this homogeneity is a fiction. And then the fat is in the fire: for these people, namely, every sign of inhomogeneity is an assault on their vulnerable certainty, and therewith the germ is laid for the intolerance that is so characteristic of all totalitarian regimes. We all know the symptoms. We know how the witch hunt of the Inquisition was meant to save the fiction of the unity of the Roman Church. We know how ecclesiastical censorship, which could only be lifted by the episcopal Imprimatur, was meant to obscure the diversity. We know how during the Cold War McCarthyism in the USA unleashed a hunt for communists that must have made the Jesuits of the Inquisition jealous. We know how in the USSR not sharing the prevailing political views is sufficient to be branded as a criminal or as a madman. As good Dutchmen we are masters at pointing the accusing finger, provided it points to a spot beyond the borders..... But you must not think that everything is hunky-dory here.
+
+The present so-called "democratic discussions" give off the strong suggestion that he whose opinion is not shared by the majority has got it wrong. And if he is unwilling to surrender his opinion, he is a nuisance who is not prepared to cooperate. And if he also ventilates his own opinion, he is a disloyal spoilsport. That cheap condemnation is the lot of us all, from schoolchildren in the classroom to ministers in the cabinet. When, a week before I was to address graduating students, the dean of the subdepartment undertook in this matter an attempt at preventive censorship, I was therefore not surprised. Shocked, though.
+
+For the rest, I am of the opinion that there should be less drivel on Hilversum 4.
+
+transcribed by Carl Ludwigson
+
+revised Tue, 16 Oct 2007

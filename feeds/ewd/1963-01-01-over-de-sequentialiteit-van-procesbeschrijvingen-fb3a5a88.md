@@ -116,29 +116,29 @@ Als U zich een entourage wilt voorstellen, waarin men voor dit probleem gesteld 
 
 Wij kunnen dit bereiken met twee seinpalen, zeg SX en SY, waarbij: SX betekent, dat nu eerst een sectie TX aan de beurt is, en SY betekent, dat er nu eerst een sectie TY aan de beurt is. Voor machines X en Y luiden de programma's nu:
 
-"LX: P(SX); TX; V(SY); proces X; goto LX"        en
+"LX: P(SX); TX; V(SY); proces X; goto LX"        en
 
-"LY: P(SY); TY; V(SX); proces Y; goto LY"    .
+"LY: P(SY); TY; V(SX); proces Y; goto LY"    .
 
 Wij kunnen dit direct op twee verschillende manieren uitbreiden. Indien wij de machine X vervangen door een wolkje machines Xi, die allemaal van dezelfde toonbank gebruik willen maken om hun productie te lozen, en de machine Y vervangen door een wolkje machines, die allemaal bereid zijn, om informatie van de toonbank af te nemen (ongeacht, door welke van de machines Xi het er op is gelegd, het beeld van de schrijfmachines gaat hier dus niet meer op), dan luiden de programma's voor machines Xi en Yj analoog aan de boven gegeven programma's:
 
-"LXi: P(SX); TXi; V(SY); proces Xi; goto LXi"     en
+"LXi: P(SX); TXi; V(SY); proces Xi; goto LXi"     en
 
-"LYj: P(SY); TYj; V(SX); proces Yj; goto LYj"    .
+"LYj: P(SY); TYj; V(SX); proces Yj; goto LYj"    .
 
 Hadden we ook nog een groepje machines Zk gehad, en was de opgave geweest, dat de uitvoering van een TX-sectie, een TY-sectie en een TZ-sectie elkaar in die volgorde cyclisch moesten opvolgen, dan hadden de programma's geluid:
 
-"LXi: P(SX); TXi; V(SY); proces Xi; goto LXi"     en
+"LXi: P(SX); TXi; V(SY); proces Xi; goto LXi"     en
 
-"LYj: P(SY); TYj; V(SZ); proces Yj; goto LYj"     en
+"LYj: P(SY); TYj; V(SZ); proces Yj; goto LYj"     en
 
-"LZk: P(SZ); TZk; V(SX); proces Zk; goto LZk"   .
+"LZk: P(SZ); TZk; V(SX); proces Zk; goto LZk"   .
 
 Wij merken hierbij op, dat in de laatste twee voorbeeldjes de machines Xi gelijk zijn: zij representeren uitsluitend, dat de handelingen TX ergens door geïnterspatiëerd moeten worden, zij laten in het midden, hoe complex deze tussenliggende handelingen gerealiseerd zullen worden.
 
 Een volgende opgave moge aantonen, dat onze operaties P en V in hun huidige vorm nog niet helemaal machtig genoeg zijn. Wij beschouwen daartoe de volgende configuratie. We hebben twee machines A en B, elk met hun critische sectie TA respectievelijk TB; deze secties zijn volledig onafhankelijk van elkaar, maar er is nog een derde machine C in het spel met zijn critische sectie TC en de uitvoering van TC mag in de tijd niet samen vallen met die van TA, noch met die van TB. We kunnen dit doen met twee seinpalen zeg: SA en SB. Voor machines A en B is het programma eenvoudig, nl.
 
-"LA: P(SA); TA; V(SA); proces A; goto LA"      en
+"LA: P(SA); TA; V(SA); proces A; goto LA"      en
 
 "LB: P(SB); TB; V(SB); proces B; goto LB" ,
 
@@ -148,7 +148,7 @@ maar voor machine C is het volgende programma. hoewel veilig, onacceptabel:
 
 Immers: machine C zou de statement P(SA) succesvol voltooid kunnen hebben op een moment, dat machine B in sectie TB bezig is. Zolang sectie TB nu nog niet voltooid is, kan machine C niet verder —dat is correct— maar ook machine A kan zijn sectie TA niet meer uitvoeren en dat is niet correct: indirect, via machine C zijn hier de secties TA en TB toch weer gekoppeld. Door de operatie P(SA) van machine C is de seinpaal SA overhaast op false gezet, daarmee machine A onnodig hinderend.
 
-Wij gaan daarom de operaties P en V uitbreiden tot operaties, die we een willekeurig aantal argumenten mee kunnen geven —daarmee de grenzen van ALGOL 60 overschrijdend, maar dat doet er in dit verband bitter weinig toe. Voor de V-operatie is de betekenis duidelijk: het is niet anders dan de simultaneous assignment, die aan alle meegegeven seinpalen gelijktijdig de waarde true toekent. De P-operatie met een aantal argumenten, bv. "P(S1, S2, S3)", is een operatie, die slechts beëindigd kan worden op een ogenblik, dat alle meegegeven seinpalen de waarde true hebben (in ons voorbeeld dus een ogenblik, waarop geldt: "S1 and S2 and S3"), beindiging van een P-operatie houdt dan in, dat aan alle meegegeven seinpalen simultaan de waarde false toegekend wordt. Ook na deze uitbreiding wordt de beindiging van een P-operatie weer beschouwd als een ondeelbare gebeurtenis.
+Wij gaan daarom de operaties P en V uitbreiden tot operaties, die we een willekeurig aantal argumenten mee kunnen geven —daarmee de grenzen van ALGOL 60 overschrijdend, maar dat doet er in dit verband bitter weinig toe. Voor de V-operatie is de betekenis duidelijk: het is niet anders dan de simultaneous assignment, die aan alle meegegeven seinpalen gelijktijdig de waarde true toekent. De P-operatie met een aantal argumenten, bv. "P(S1, S2, S3)", is een operatie, die slechts beëindigd kan worden op een ogenblik, dat alle meegegeven seinpalen de waarde true hebben (in ons voorbeeld dus een ogenblik, waarop geldt: "S1 and S2 and S3"), beindiging van een P-operatie houdt dan in, dat aan alle meegegeven seinpalen simultaan de waarde false toegekend wordt. Ook na deze uitbreiding wordt de beindiging van een P-operatie weer beschouwd als een ondeelbare gebeurtenis.
 
 Met deze uitbreiding zijn we in staat machine C zodanig te definiëren, dat het gesignaleerde bezwaar niet meer optreedt:
 
@@ -188,6 +188,197 @@ ongemoeid laat";
 P(Sklaar);...."
 
 Als de laatste P-operatie van de zesde machine voltooid is, heeft n de waarde 0, scapro heeft de waarde van de gevraagde som en alle seinpalen en de vijf eerstgenoemde machines zijn terug in hun oorspronkelijke toestand.
+
+transcribed by Gerrit Jan Veltink
+
+revised Mon, 22 Mar 2010
+
+---
+
+## English translation
+
+### On the sequentiality of process descriptions
+
+It is not unusual for a speaker to begin his lecture with an introduction. Because I am here possibly addressing an audience that, as a whole, is less familiar with the set of problems I wish to broach and the terminology I shall have to use, I should, in this case, like to give two introductions by way of preface, viz. one to paint the background of the problems and a second one to give you a feeling for the nature of the logical problems that we shall run up against.
+
+My first introduction is a historical one. First I must tell you what you are to picture when one speaks of a sequential process description. You all know such process descriptions. Consider, for example, the description of the construction of the altitude from the vertex C of the triangle ABC. It can read as follows:
+
+1) draw the circle with centre A and radius = AC;
+
+2) draw the circle with centre B and radius = BC;
+
+3) draw the straight line determined by the intersection points of the circles named under 1) and 2).
+
+This is a description for the benefit of someone whose "ready knowledge" does not encompass the construction of the altitude; for his benefit the construction of the altitude is built up out of a number of operations from a more limited repertoire, operations which he can carry out in the prescribed order, one after the other, i.e. sequentially. It will not have escaped the attentive little reader that we have hereby specified more than is strictly necessary: it is indeed essential that operation 3) be carried out only after operations 1) and 2) have been completed, operations 1) and 2) might perfectly well have taken place in the reverse order, more strongly, a draughtsman who can operate two pairs of compasses at the same time, so to speak one with each hand, may carry out operations 1) and 2) simultaneously. But this freedom has, in our process description, vanished entirely under the table.
+
+Now a more numerical example, one that connects somewhat more closely with the world of thought in which the problems to be treated presently have become topical. Given the values of the variables a, b, c and d, it is required to compute the value of the variable x, determined by the formula "x:=(a+b)*(c+d)". When the carrying out of this value assignment does not belong to the primitive repertoire of the calculator —and you may by now be thinking of the computing machine— then this computation rule must be built up out of more elementary steps, e.g.:
+
+1) compute t1:= a + b;
+
+2) compute t2:= c + d ,
+
+3) compute x:= t1 * t2.
+
+This computation rule contains precisely the same overdetermination as our altitude construction: the order of the first two steps is immaterial, they could even be carried out simultaneously.
+
+The above process description is representative of the mode of operation of the more classical computing automata. The repertoire of elementary operations is, because for each operation special technical provisions are required, finite and, for financial reasons, even very limited; these machines owe their enormous flexibility to the fact that arbitrarily complicated algebraic expressions such as the one illustrated above can be worked out by a sequence of such elementary operations. Inherent in this sequential description of the process is that one specifies more than is strictly necessary. For a long time this caused no trouble, but in recent years a change has come about, and indeed through two causes: a change in the structure of machines and the advent of a new class of problems for which one would like to put these machines to use.
+
+The classical sequential machine does "one thing at a time" and performs one function after the other. For the sake of efficiency one has come to build more specific apparatus for specific functions, but if one then holds fast to the requirement that the various operations are to be carried out strictly sequentially, then there suddenly forces itself upon one the image of a machine as an interplay of N organs, of which at each discrete instant only 1 or 2 are working. If N is large, this means that the greater part of your machine stands idle for the greater part of the time, and that is evidently not the intention.
+
+The second cause is the advent of a new category of problems; originally computing automata were used only for processes fully defined in advance, and the machine could then carry out the process on its own, at its own pace. As soon, however, as one wants to have the information-processing process act in concert with some other process —e.g. a chemical process that is to be controlled by the computing automaton— then quite different problems arise. Tying back in to our example of the computation of x:=(a + b)*(c + d), we are then no longer in the situation that it does not matter which sum is formed first. If the data a, b, c and d are supplied at unknown moments by the environment of the computing automaton, and it is the machine's task to deliver the value of x as quickly as possible, then this means that the automaton must just go ahead and carry out a partial computation as soon as the data required for it have come in: which addition one then wants carried out first will depend on the order in which the data a, b, c and d become available. This was my first introduction, and I hope I have thereby given you an idea of what you are to picture when one speaks of a sequential process description, and of why the question has been raised of less strictly sequential process descriptions.
+
+Now my second introduction, which is intended to give you, from the very outset, some idea of the logical problems that we shall bring down upon ourselves by abandoning strict sequentiality.
+
+Just as in an ordinary piece of algebra variables are denoted by letters, in general "names", so in the process of information processing one has the continual duty of identification, the duty to find, given the name, the object thereby designated. Under some circumstances one would gladly have at one's disposal the selection process that the schoolmistress in the class has at her disposal when she says "Johnny, come up to the board." Assuming that the class as a whole is paying attention and is obedient, this process works flawlessly under the assumption that there is 1 and only 1 Johnny in the class. The peculiar thing about this selection mechanism is that it works regardless of the number of children in the class. This idyll is, alas, technically not realizable, or at most realizable in a defective way, and we obtain a statement of the problem that is more in keeping with reality when the children do not respond spontaneously to the calling of their name and the schoolmistress, when she wants Johnny at the board, is compelled to take Johnny by the ear and drag him up to the board by it. Now if this is an old-fashioned school in which every child has its fixed place in the class, then the schoolmistress, if she has put the children in their places at the beginning of the year, can rechristen them for her own convenience, and replace the name "Johnny" —which is not very helpful for finding the boy— by an identification which, by virtue of its structure, immediately defines which ear she is to grab: she can call the boy "third row, second desk". This is essentially the technique that is followed in classical automata in classical applications. In more modern applications one can no longer do this, and one must, for example, be equal to the problems that the schoolmistress gets if the children may choose where they sit.
+
+So as not to make it impossible for the schoolmistress, we assume that each of the unwilling children has pinned on a name tag. If the schoolmistress now wants Johnny at the board, she must therefore look Johnny up. The schoolmistress works sequentially, can read only one name tag at a time, and the schoolmistress works systematically: she has, for herself, ordered the desks uniquely in some manner or other, and when she wants Johnny, she goes down the desks in this order, repeatedly asking herself "Are you Johnny?", if not, then she goes to the next desk. This process works flawlessly, provided we can guarantee that the children do not change seats during the schoolmistress's round, provided we can guarantee that the two processes "child localization" and "child permutation" are not carried out simultaneously. For you will surely understand that Johnny, as soon as he realizes that he is the figure being sought, goes and sits at the back of the class, and as soon as the schoolmistress has searched the front half of the class, he quickly jumps to the front. We can refine the schoolmistress and have her, when she has searched the whole class and not found Johnny, start again from the beginning with fresh courage, but this is no solution, for Johnny then quickly jumps to the back again. Now you might remark that if those permutations were carried out not with so much malice, but merely at random, then the expected time for localizing Johnny would remain finite, indeed would not even have grown larger as a result of his freedom to jump about. This remark, however hopeful, brings no relief. Those who have delved into the "Theory of computability" know how much weight is attached to a finite, i.e. a guaranteed terminating algorithm, and they will understand that a process which potentially keeps spinning on infinitely long is not an attractive element. Much worse is that in practice it is usually questionable whether we may regard the permutations of the children as random at all. If there is a finite probability that, once the schoolmistress has gone through the class one time, the children are seated again exactly as they were when the schoolmistress began searching, then this might very well be the first period of a purely periodic phenomenon.
+
+But even if we accept the risk that we shall never find Johnny, her misery is still beyond surveying, for besides the risk that she does not find Johnny, she runs the much greater danger that she drags the wrong child up to the board, viz. if the children, between the moment at which she has with satisfaction concluded "So, you then are Johnny" and the moment at which she, on the basis of this conclusion, has reached out her hand to the corresponding ear, quickly change places once more. In an information-processing process this would amount to a disaster. And this is the end of my second introduction, of which I hope it has given you some idea of the kind of problem that we shall encounter.
+
+At the end of my first introduction I named two causes that were responsible for a growing interest in less strictly sequential process descriptions. I touched on them only lightly, and it may not have struck you that they were drawn from almost opposite settings. In the first case I named the increasing complexity of machines, which are now built up out of a number of more or less autonomously working components, and the task was to have these together carry out one process. In the second case, where we looked at the automaton in a so-called "real time application", the image was conjured up of a single piece of apparatus that had the possibility, upon a change in the external urgency situation, of switching over to the now most urgent of its possible tasks. These two arrangements, an interplay of a number of machines on one process and, conversely, one machine dividing its attention over a number of processes, were for a long time regarded as essentially foreign to each other. People have even invented different names for them, the one is called "parallel programming" and the other is called "multiprogramming", but you must no longer ask me which is which, for that I can no longer keep straight, ever since I discovered that the logical problems which they call forth through the non-sequentiality of the process definition are in both cases exactly the same.
+
+In what follows I shall avail myself of the image of a number of mutually weakly coupled, in themselves sequential machines, thereby connecting with the first setting. But this is only a manner of description, for to what I shall henceforth call a machine there does not necessarily correspond a discretely identifiable piece of apparatus: in what follows my distinguished machines may be quite abstract and represent nothing more than an in itself sequential partial process. This finds expression, among other things, in the fact that I shall show a great fondness for an interplay of N machines, N arbitrary. If I used the term machine only for an identifiable functional piece of apparatus, then I might regard the number of machines for each installation as fairly constant. Now, however, that a machine, as the personification of an in itself sequential partial task, can be created by the user ad libitum, such a fixed upper bound is no longer acceptable. I am therefore going to talk about the interplay of N machines, N not only arbitrary but, if need be, even variable during the process. Superfluous machines can be destroyed, new machines can be created as needed and taken up into the interplay of the others. I hope that you will now, on my authority, be willing to accept, or else, afterwards, see for yourself, that without harming the generality we can restrict ourselves to sequential machines that carry out some cyclic process or other.
+
+Let us begin with a very simple problem. Given two machines A and B, both engaged in a cyclic process. In the cycle of machine A there occurs a certain critical stretch, called TA, and in that of machine B there occurs a critical stretch TB. The task is to see to it that the two machines are never simultaneously each engaged in its critical stretch. (In terms of our second introduction: machine A might be the schoolmistress, stretch TA the selection process of a new pupil who must be fetched to the board, while the stretch TB represents the process "child permutation".) No assumptions may be made about the relative speeds of the machines A and B, the speed at which they work need not even be constant. It is clear that we can realize the mutual exclusion of the critical stretch only if the two machines can somehow communicate with each other. For this communication we make available some common store, i.e. a number of variables that are accessible to both machines in both directions, i.e. to which both machines can assign a value and of which both machines can inquire the prevailing value. These two operations, assigning a new value and inquiring the prevailing value, count as indivisible operations, i.e. if both machines want "at the same time" to assign a value to a common variable, then the value afterwards is either the one or the other assigned value, but not some mixture or other. Likewise: if the one machine inquires the value of a common variable at the moment that the other machine assigns a new value to it, then there penetrates to the inquiring machine either the old or the new, but not some wild value. It will turn out that for this purpose we can restrict ourselves to common logical variables, i.e. variables with only two possible values, which, in keeping with standard techniques, we denote by "true" and "false" respectively. Furthermore we assume that both machines can refer to only 1 common variable at a time, and then also only either to assign a new value or to inquire the prevailing value. In figure 1 a tentative solution is given, in block-diagram form, for the structure of the programs for both machines. Each block has its entrance at the top and its exit at the bottom. With a block having a double exit the choice is determined by the value of the logical variable just queried: if this has the value true, then the exit at the lower right is meant, if this has the value false, then we choose the exit at the lower left.
+
+There occur in this diagram two common logical variables, LA and LB. LA means: machine A is in its critical section, LB means: machine B is in its critical section. The diagrams in fig. 1 are clear. In the topmost block machine A, if it arrives there at a moment that machine B is engaged in section TB, waits until machine B has left its critical stretch, which is marked by the assignment "LB:= false", whereby machine A's wait is then lifted. And conversely. The diagrams may be simple, but unfortunately they are also wrong, for they are somewhat too optimistic: they namely do not exclude that both machines end up in their respective critical stretches at the same time. If both machines are outside their critical stretch —say somewhere in the block left blank— then both LA and LB are false. If they now arrive at the same time in their topmost block, then both find that the other machine puts not a straw in their way, and they both go on and arrive at the same time in their critical section.
+
+So we have been somewhat too optimistic. The mistake has been that the one machine did not know whether the other was already inquiring about its state of progress. The diagrams of fig. 2 make a much more reliable impression, and it is easy to verify that they are utterly safe. For instance, machine A can only begin stretch TA after it has been ascertained, while LA is true, that LB is false, and regardless of how quickly after this knowledge of machine A this fact becomes obsolete again, because machine B quickly carries out its topmost block "LB:= true", machine A can then safely enter stretch TA, because machine B will nevertheless be held up nicely until LA is set to false after the conclusion of stretch TA. This solution is thus entirely safe, but we must not think that we have thereby solved the problem, for this solution is too safe, there exists namely the possibility that the whole interplay of these machines comes to a standstill. If they carry out the topmost block of their diagram at the same time, then both machines run into the wait that follows it and remain, until eternity of days, politely standing before the same door, saying "After you", "After you". We have been too pessimistic.
+
+You see that the problem is not trivial. To me, at least, after these two attempts, it was not at all crystal clear that there existed a safe solution that did not at the same time harbour within it the possibility of a dead-end road. I then laid the problem in this form before my then colleagues of the Computation Department of the Mathematical Centre, telling them that I did not know whether it was solvable. To Dr. T.J. Dekker belongs the honour of having been the first to find a solution, which moreover was symmetric in the two machines. This solution is rendered in fig. 3. A third logical variable has been introduced, viz. AP, which means that in case of doubt machine A has priority. Through the asymmetric meaning of this logical variable, portions of these programs are more or less each other's mirror image, but functionally the solution is wholly symmetric and the one machine is not privileged over the other. To prove that this solution satisfies the requirements posed, we first observe that the stretches TA and TB are preceded by the lock that we already recognized in figure 2 as safe. Simultaneous execution is thus impossible. We need only verify that it is now, moreover, excluded that both machines remain waiting before their critical section. In these waiting cycles the value of AP is not altered. If we restrict ourselves to the case that AP is true, then machine A can only keep cycling if LB too is true; under the condition AP true, however, machine B can only keep running around in the cycle that sets LB to false, i.e. forces machine A out of its cycle. In the case AP false the analysis runs in the same manner. Because AP, being a logical variable, is either true or false, the possibility of waiting on each other forever is thereby likewise excluded. Q.E.D.
+
+Dekker's solution dates from 1959, and for nearly three years this solution lived on as a "curiosity", until this sort of problem suddenly became topical for me again at the beginning of 1962, and Dekker's solution served as the starting point of my subsequent attempts.
+
+The statement of the problem had in the meantime changed drastically. In 1959 the question was whether the described possibility of communication between two machines made it possible to couple two machines in such a way that the executions of the critical stretches mutually excluded each other in time. In 1962 a much wider group of problems was examined, and moreover the formulation of the question was changed into "Which possibilities of communication between machines are desirable in order to play this kind of game as gracefully as possible?"
+
+Dekker's solution served as a starting point in various ways. Because in this solution it is unclear how one is to proceed when the number of machines is enlarged, while the task remains to guarantee that at each moment at most 1 critical section is under treatment, it was a spur to seek other ways. Through an analysis of the difficulties that Dekker had to overcome, we could obtain an indication of what would be a more hopeful way to take.
+
+The difficulties arise because, when one of the machines has inquired the value of a common logical variable, this information can immediately afterwards already be obsolete again, even before the inquiring machine has effectively reacted to it, in particular: even before the inquiring machine has been able to inform its partners that it has "made a snapshot" of the value of a common variable. The hint that can be drawn from this reflection is that one must seek more powerful "elementary" operations on the common variables, in particular operations in which, for the transport of information between machine and common store, the restriction of one-way traffic no longer holds.
+
+The most promising operation that we have been able to devise is the operation "falsify". It inquires the value of a logical variable, and the fact that this operation has been carried out is made known in half of the cases: the operation falsify namely leaves the logical variable on which it has operated with the value "false".
+
+The operation "falsify" can be defined as follows:
+
+"boolean procedure falsify(S); boolean S;
+
+begin boolean Q; falsify:= Q:= S; if Q then S:= false end" ,
+
+provided we mention here that the operation falsify, in spite of its sequential definition, is to be regarded as an elementary instruction of the repertoire of the machines, where "elementary" in this case means that during the operation falsify by one of the machines the logical variable in question is inaccessible to all other machines.
+
+That this operation is a step in the right direction follows clearly from the fact that we now immediately have the solution for a little cloud of machines X1, X2, X3, ....., each with its critical stretch TXi, which must now all exclude each other in time. We can play this with 1 common logical variable, say SX, which indicates that none of the machines is engaged in its critical stretch. The programs now all exhibit the same structure:
+
+"LXi: if non falsify(SX) then goto LXi; TXi; SX:= true; proces Xi; goto LXi"
+
+whereby we draw attention to the fact that in the programs for the separate machines Xi it nowhere finds expression how many machines Xi there actually are: we can therefore, by mere addition, enlarge the little cloud of machines Xi.
+
+The programmed little waiting cycle that occurs in this is of course quite nice, but it answers our purpose rather poorly. A little waiting cycle is, after all, the way to keep a machine busy "without effect". But if we now consider that the greater part of these machines will be simulated by a central computer, so that every action in the one machine can only take place at the cost of the effective speed of the other machines, then it is rather costly to go and demand attention of the central computer in a little waiting cycle for something utterly useless. As long as the little waiting cycle cannot be left, the speed of this waiting machine may, as far as we are concerned, drop to zero. To bring this to expression, we introduce, in place of the little waiting cycle, a statement, an elementary instruction of the repertoire of the machines, which can last a very, very long time. We denote this with a P (for Passering [passage]); anticipating later needs we represent the statement "SX:= true" by "V(SX)" —with the V of Vrijgave [release]. (This terminology is borrowed from the railways: at an earlier stage the common logical variables were called "Seinpalen" [signal posts/semaphores], and if their name begins with an S, then that is still a reminiscence of that.) The text of the programs reads, in this new notation:
+
+"LXi: P(SX); TXi; V(SX); proces Xi; goto LXi" .
+
+The operation P is a tentative passage. It is an operation that can be terminated only at a moment that the logical variable specified with it has the value true; termination of the operation P also entails that the logical variable in question is again assigned the value false. Operations P can indeed take place simultaneously, but the termination of a P-operation is again regarded as an indivisible event.
+
+The introduction of the operation V is more than introducing an abbreviated notation. For: while we still had the little waiting cycle with the help of the operation falsify, the duty of detection with respect to the becoming-true of the common logical variables rested on the individual machines that stood waiting for this event, and in that sense the waiting was a fairly active occupation upon a relatively neutral event. With the introduction of the P-operation we have more or less achieved that we say to a machine that cannot for the time being proceed further: "Just go to sleep, we'll wake you up again when you may proceed." But this means that the setting-to-true of a common logical variable, for which perhaps a machine stands waiting, is no longer a neutral event like any other value assignment: here, namely, there may have to be attached to it the side effect that one of the "sleeping" machines must be "awakened". It means that the logical variables which, while false, can hold up one or more machines, need not be permanently observed, provided that upon transition to the value true a "central wakener" can be made attentive to this transition. If the central wakener keeps, per common logical variable, a record of which machines are at the moment waiting on each logical variable, then the central wakener can, provided it is explicitly drawn attention to the becoming-true of such a common logical variable, quickly decide whether on the basis of this transition a sleeping machine can be awakened, and if so which one. The operation V can now be conceived of as a combination of the assigning of the value true to a semaphore, plus the drawing of the central wakener's attention to this event. It is clear that this central wakener cannot do its work if we permit the common logical variables also still to be modified "on the sly", under the table, by normal value assignments (of the neutral type "S:= true"). To underline this prohibition, I shall from now on call the common logical variables "semaphores", and I lay it down that the only possibility by which a machine will be able to communicate with an existing semaphore will be the P-operation and the V-operation.
+
+And with this the operation "falsify", which through the attractiveness of its simplicity has been so helpful to us in the formation of concepts, has disappeared again from the scene, and the question is justified whether, through the introduction of the semaphore, which is accessible only via the operations P and V, we have not thrown out the child with the bathwater. This is fortunately not the case. By removing the operation "falsify" from the elementary repertoire of the distinguished machines and giving the operations P and V in its place, we have lost nothing: if the introduction of the operations P and V is not to be an empty gesture, then there must be at least 1 semaphore on which they can work. This one semaphore —call it "SG", the Semaphore General— is, however, already sufficient to add the operation falsify on an arbitrary common logical variable to the repertoire of all machines. For:
+
+If we define in every machine:
+
+"boolean procedure falsify(GB);
+
+boolean GB;
+
+begin boolean Q;
+
+P(SG); falsify:= Q:= GB;
+
+if Q then GB:= false; V(SG)
+
+end"
+
+and we further agree that every reference to a common logical variable in every machine will be encapsulated between the statements "P(SG)" and "V(SG)" (so that the assignment "GB1:= true" will now have the form "P(SG); GB1:= true; V(SG)"), then we have hereby assured that the additional condition is satisfied that "during the operation falsify by one of the machines the logical variable in question is inaccessible to all other machines." With the exchange we have thus not cut into our own flesh.
+
+We are now going to show that the operations P and V are, in their domain of application, not restricted to mutual exclusion, but that we can also use them to synchronize two machines with respect to each other. Suppose that we have two cyclic machines, say X and Y, which each have in their cycle a critical section, say TX and TY respectively, on which the following requirements are imposed:
+
+1) the execution of the critical section TX may not coincide in time with that of TY;
+
+2) the executions of the sections TX and TY must be alternating events (it was this condition we were aiming at when we spoke of "mutual synchronization").
+
+If you wish to picture a setting in which one is confronted with this problem, then just think of the following. Process X is a digit-producing process (a computation process), process Y is a digit-consuming process (a typewriter), and these two processes are coupled by a "counter" with the capacity of one digit. The operation TX is the laying down of the next digit to be typed on an empty counter, the piece TY represents the taking of the digit off the full counter. The strict alternation flows from the requirement that, on the one hand, no digit offered to the counter "may be lost" but must indeed be typed, and that, on the other hand —if for a while there is no supply— the typewriter must not go and fill its time with typing the last digit yet again.
+
+We can achieve this with two semaphores, say SX and SY, where: SX means that now first a section TX is in turn, and SY means that now first a section TY is in turn. For machines X and Y the programs now read:
+
+"LX: P(SX); TX; V(SY); proces X; goto LX"        en [and]
+
+"LY: P(SY); TY; V(SX); proces Y; goto LY"    .
+
+We can extend this directly in two different ways. If we replace the machine X by a little cloud of machines Xi, which all want to make use of the same counter to discharge their production, and replace the machine Y by a little cloud of machines, which are all prepared to take information off the counter (regardless of which of the machines Xi laid it on, so the image of the typewriters no longer holds here), then the programs for machines Xi and Yj read, analogously to the programs given above:
+
+"LXi: P(SX); TXi; V(SY); proces Xi; goto LXi"     en [and]
+
+"LYj: P(SY); TYj; V(SX); proces Yj; goto LYj"    .
+
+Had we also had a little group of machines Zk, and had the task been that the execution of a TX-section, a TY-section and a TZ-section must follow each other cyclically in that order, then the programs would have read:
+
+"LXi: P(SX); TXi; V(SY); proces Xi; goto LXi"     en [and]
+
+"LYj: P(SY); TYj; V(SZ); proces Yj; goto LYj"     en [and]
+
+"LZk: P(SZ); TZk; V(SX); proces Zk; goto LZk"   .
+
+We remark here that in the last two little examples the machines Xi are identical: they represent exclusively that the operations TX must be interspaced somewhere by something, they leave open how complex these intervening operations are to be realized.
+
+A next task may show that our operations P and V, in their present form, are not yet quite powerful enough. To this end we consider the following configuration. We have two machines A and B, each with their critical section TA and TB respectively; these sections are completely independent of each other, but there is still a third machine C in play with its critical section TC, and the execution of TC may not coincide in time with that of TA, nor with that of TB. We can do this with two semaphores, say: SA and SB. For machines A and B the program is simple, viz.
+
+"LA: P(SA); TA; V(SA); proces A; goto LA"      en [and]
+
+"LB: P(SB); TB; V(SB); proces B; goto LB" ,
+
+but for machine C the following program, although safe, is unacceptable:
+
+"LC: P(SA); P(SB); TC; V(SB); V(SA); proces C; goto LC" .
+
+For: machine C might have successfully completed the statement P(SA) at a moment that machine B is engaged in section TB. As long as section TB has not yet been completed, machine C cannot proceed —that is correct— but machine A too can no longer execute its section TA, and that is not correct: indirectly, via machine C, the sections TA and TB are here coupled again after all. Through the operation P(SA) of machine C the semaphore SA has been set to false prematurely, thereby needlessly hindering machine A.
+
+We are therefore going to extend the operations P and V into operations to which we can give an arbitrary number of arguments —thereby overstepping the bounds of ALGOL 60, but that matters bitterly little in this connection. For the V-operation the meaning is clear: it is nothing other than the simultaneous assignment that assigns to all the semaphores given with it the value true at the same time. The P-operation with a number of arguments, e.g. "P(S1, S2, S3)", is an operation that can be terminated only at a moment that all the semaphores given with it have the value true (in our example, then, a moment at which there holds: "S1 and S2 and S3"); termination of a P-operation then entails that to all the semaphores given with it the value false is assigned simultaneously. Even after this extension the termination of a P-operation is again regarded as an indivisible event.
+
+With this extension we are in a position to define machine C in such a way that the objection signalled no longer arises:
+
+"LC: P(SA, SB); TC; V(SA; SB); proces C; goto LC".
+
+Finally I should like, although this is decidedly not the application for which the P- and V-operations were conceived, to show how we can with them compute the scalar product of two vectors without committing ourselves to the order in which the products of the elements are added together.
+
+Suppose that we want to compute the sum SIGMA(i,1,5,A[i] * B[i]) —in words: the sum, for i running from 1 through 5, of (A[i] * B[i])—;
+
+suppose that the 7 semaphores have been introduced: Ssom, Sklaar [Ssum, Sdone] and the five semaphores Sterm[i] with i=1,2,3,4 and 5; all 7 with the initial value false;
+
+suppose that in the meantime five machines have been created of the structure (i=1,2,3,4,5):
+
+"Lterm[i]: P(Ssom, Sterm[i]);
+
+scapro:= scapro + A[i] * B[i];
+
+n:= n - 1;
+
+if n = 0 then V(Sklaar) else V(Ssom);
+
+goto Lterm[i] " ,
+
+all engaged in their —only— P-operation;
+
+Now consider a sixth machine which, under the conditions named above, is just about to begin the following statements:
+
+".....; n:= 5;
+
+scapro:= 0;
+
+V(Ssom, Sterm[1], Sterm[2], Sterm[3], Sterm[4], Sterm[5]);
+
+"program that leaves the named semaphores, scalars and vector elements
+undisturbed";
+
+P(Sklaar);...."
+
+When the last P-operation of the sixth machine has been completed, n has the value 0, scapro has the value of the requested sum, and all semaphores and the five first-named machines are back in their original state.
 
 transcribed by Gerrit Jan Veltink
 

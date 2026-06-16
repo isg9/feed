@@ -27,3 +27,29 @@ keer gaan wij thans over tot de orde van de dag.
 
 transcribed by Jukka Ketelaars
 revised Wed, 13 Jun 2007
+
+---
+
+## English translation
+
+### Second address, autumn 1975
+
+20 September 1975
+EWD 515
+
+Second address, autumn 1975.
+A more or less mechanical view of the world has been held at least since classical antiquity, when the planets, each in its own sphere, were supposed to revolve around the earth. In the Renaissance, the work of Kepler, Copernicus and Galileo, and thereafter that of Newton, gave the mechanical world view a new and not-to-be-underestimated stimulus. Spurred on by the success of the exact sciences, more and more has been forced into this straitjacket, and in psychology, for instance, the school of Behaviourism arose, a school which holds an extremely mechanical view of man. And there we now sit with it! If you look closely, the behaviourists actually have no genuine view of man at all: they have crossed a mechanical rat with Pavlov's slavering dog and then said: "Well, in principle a man works just the same." Only the caveat "in principle" seems to have worn away in the last half century. First the individual man, and subsequently aggregates of men, reduced themselves to a control apparatus, to a bookkeeping of response versus stimulus. After psychology, in the wake of this simplification, all manner of activities have arisen which present themselves, quite wrongly, as sciences, such as economics, sociology, pedagogy, political science, andragogy and what have you: dubious activities which in the English-speaking world are so aptly designated as "the soft sciences", with the emphasis on "soft" and the word "sciences" to be pronounced with the requisite sarcasm in the voice. Their collective name is "Fraud", for they do not test their hypotheses —which cannot withstand the
+test of criticism— precisely for that reason; their collective name is "Fraud" because they do not shrink from making recommendations without admitting that they have failed, when the advice that was followed does not produce the predicted effect. In fact they are no different from the rainmaker, who explains the drought that persists despite his dances as the vengeance of the gods, nor from the fortune-teller at the fair, who from her crystal ball —which is in fact of pressed glass— distils predictions so vague
+that a future which clearly refutes them is scarcely conceivable. But in times of
+difficulty, when man desires more certainty than he can rightfully
+lay claim to, the soothsayer is besieged...
+
+Our government has, fortunately, understood this well. In an attempt to make our ruined country liveable again after the Second World War, higher education, which in the nineteen-thirties had become somewhat bogged down, was stimulated with all hands and might. This injection, which was intended for the sciences, has unfortunately failed: it has for the most part degenerated, and at the universities, indeed even at the technical colleges, the germ of the "soft sciences" has developed into a cancerous tumour. And the boundless drivel made its entrance. What does one do with a large-scale failure? Quite simply: one does not even take the trouble to deny it, one declares it ex cathedra to be a success, a most promising step in the direction of a better society!
+
+It is, of course, rather annoying that in the older scientific disciplines there are still some bourgeois scholars who can separate the chaff from the wheat; no matter: one tightens the financial thumbscrews on them a little more and then they will indeed sing a softer tune. That technique has been well known since the Inquisition. If, in spite of this, the gospel of the "soft sciences" still comes across as somewhat unconvincing on account of flagrant quackery, once again, no matter! One explains this as the proof that in the past decades too little money has been made available for the "soft sciences", and thereby justifies the decision to transfer the money withheld from science over to the quack. To cover up this fraudulent manoeuvre, one first invents a Minister of Science Policy; and to underline politically the fact that the established sciences are really not so important, one chooses for this a flunked-out student. For further details I refer you to the memoranda of Minister Trip and to the latest Speech from the Throne.
+
+Postponing the further consequences of the rising quackery to a next
+occasion, we now proceed to the order of the day.
+
+transcribed by Jukka Ketelaars
+revised Wed, 13 Jun 2007

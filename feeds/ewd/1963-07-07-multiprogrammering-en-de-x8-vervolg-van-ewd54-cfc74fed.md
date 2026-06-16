@@ -12,7 +12,7 @@ EWD 57
 
 MULTIPROGAMMERING EN DE X8
 
-DIRECTE TOEGANG TOT DELEN EN SECTIES  -  DIRECT ACCESS TO INSTALMENTS AND SECTIONS
+DIRECTE TOEGANG TOT DELEN EN SECTIES  -  DIRECT ACCESS TO INSTALMENTS AND SECTIONS
 
 DEEL 1: EWD51
 
@@ -87,9 +87,9 @@ De functie van de luisterbits. (7 juni 1963)
 
 Een ingreep (zie 2.3., EWD51 - 7) vindt slechts plaats als
 
-(a) de machine horend is
+(a) de machine horend is
 
-(b) het collatieresultaat van ingreepwoord(en) en (overeenkomstige) luisterwoord(en) ≠ 0 is.
+(b) het collatieresultaat van ingreepwoord(en) en (overeenkomstige) luisterwoord(en) ≠ 0 is.
 
 Door een luisterbit = 0 te maken, kan men dus bereiken, dat de bijbehorende seinpaal, als de laatst allang positief is en de bijbehorende ingreepflipflop allang = 1 gezet is, tot nader order toch geen ingreep teweegbrengt.
 
@@ -214,7 +214,7 @@ net een nieuwe constante nodig, dan lukt het niet meer!) Tot zover is GIER ALGOL
 
 En dit soort overwegingen is bedenkelijk, omdat op louter lexicographische gronden niet alle gegevens ter beschikking zijn, die uitmaken, of iets dynamisch zinvol is of niet. Het angstige is, dat het gevolg van vermeende slimheid zelfs averechts kan werken. Een enkel voorbeeld moge dit toelichten: stel dat we in een programma eerst een cyclus A hebben, gevolgd door een cyclus B met een binnencyclus C. Nu beschouwen we twee mogelijke indelingen: cyclus A zit schrijlings over een paginagrens
 en cyclus B kan nog in zijn geheel in de tweede pagina; het andere arrangement is, dat we de programmatekst wat doorschuiven, zodat cyclus A in zijn geheel aan het begin van een pagina komt te liggen en nu cyclus B schrijlings over een paginagrens ligt, maat zo, dat de binnencyclus C nog in dezelfde pagina als A past. Op grond van het bekende regeltje "optimalisering is vooral van belang bij binnenste cycli" lijkt het tweede beter, want zowel A als C zitten nu niet meer schrijlings. Maar als A vele
-malen minder doorlopen zal worden dan B, dan is de eerste oplossing dynamisch toch echt te preferen! Een en ander ter illustratie van het feit, dat we met minimaliseringen  van pagina-overgangen erg voorzichtig moeten zijn. De ervaring heeft bovendien geleerd, dat dergelijke groepeerderijen, die al gauw op uitgebreide analyses van de samenhang, de "cross-references" in de aangeboden tekst neerkomen, vertaaltijden makkelijk tot een veelvoud doen exploderen. Het dubieuze effect en mijn voorliefde
+malen minder doorlopen zal worden dan B, dan is de eerste oplossing dynamisch toch echt te preferen! Een en ander ter illustratie van het feit, dat we met minimaliseringen  van pagina-overgangen erg voorzichtig moeten zijn. De ervaring heeft bovendien geleerd, dat dergelijke groepeerderijen, die al gauw op uitgebreide analyses van de samenhang, de "cross-references" in de aangeboden tekst neerkomen, vertaaltijden makkelijk tot een veelvoud doen exploderen. Het dubieuze effect en mijn voorliefde
 voor "load and go" maken, dat ik me niet erg aangetrokken kan voelen tot dergelijke optimaliseringen. Het ontaardt gauw in een poging tot raffinement op het verkeerde ogenblik.
 
 Wat kan je wel doen? Wel, het onderbrengen van constantes in de pagina, waarin ze gebruikt worden, is een duidelijk voorbeeld. Het kost haast niets en het succes is verzekerd!
@@ -272,7 +272,7 @@ is, ontdek je dat pas, nadat je de hele ketting, resp. tabel hebt afgewerkt en j
 Vooralsnog zie ik het meeste heil in de naar opklimmend trommelpaginanummer gesorteerde aanwezigheidslijst, en wel voornamelijk omdat deze lijst evenredig lang is met de kernpaginatabel, zodat ik de twee door elkaar kan vlechten. Ik moet de alternatieven gewoon uitwerken. Hoe zwaar we ruimte tegen tijd laten wegen, hangt er mede van af, hoe frequent we proberen moeten om via deze administratie bij een gegeven trommelpaginanummer een kernpaginanummer te vinden. Vooralsnog vergt dit naar
 schatting 10 procent van de rekentijd, ook als alles in het kerngeheugen zit. En dat vind ik nog wat veel.
 
-Nu de tweede mogelijkheid: de opmerking is nl. dat het niet nodig is om de vraag "waar staat trommelpagina nummer zoveel" zo rap te kunnen beantwoorden, als we een mechanisme kunnen bedenken, waardoor het aantal malen, datdeze vraag gesteld  wordt, maar genoeg gedrukt wordt.
+Nu de tweede mogelijkheid: de opmerking is nl. dat het niet nodig is om de vraag "waar staat trommelpagina nummer zoveel" zo rap te kunnen beantwoorden, als we een mechanisme kunnen bedenken, waardoor het aantal malen, datdeze vraag gesteld  wordt, maar genoeg gedrukt wordt.
 
 Voor sprongen naar de volgende pagina is de oplossing gevonden. Het feitenmateriaal, dat hiervoor door de centrale administratie bijgehouden moet worden is onafhankelijk van de omvang van het programma en onafhankelijk van de intensiteit van interpaginareferenties en tenslotte altijd up to date.
 
@@ -282,6 +282,292 @@ zal blijken, dat het de moeite loont om daar alles en alles aan te doen
 Laten we als specifiek voorbeeld eens beschouwen het meegeven van de link aan een procedure (het meegeven van het beginadres van een impliciete subroutine als actuele parameter is van hetzelfde laken een pak). Het is duidelijk, dat we dit terugkeeradres invariant, dwz. in termen van trommelpaginanummer moeten meegeven, zeg om de gedachten te bepalen een adres in trommelpagina 287. Het is echter onverstandig om bij de Return de centrale administratie zonder meer te confronteren met de
 vraag "waar staat trommelpagina 287?". We kunnen er allicht op gokken, dat die nog op dezelfde kernpagina staat. Wat we dus moeten doen is als terugkeeradres twee dingen meegeven: een invariant trommeladres en een kernadres, het laatste als suggestie! De localisatie van een trommelpagina kunnen we beschouwen als een tijdrovend sommetje, waarvan we het antwoord heel makkelijk kunnen controleren en waarvoor we een schatting hebben, die in 95 procent van de gevallen raak zal zijn, nl. als de oude pagina
 nog op zijn plaats staat. Als dat niet meer het geval is, dan is er in de tussentijd zoveel gebeurd, dat de verificatietest er nog wel bij kan.
+
+transcribed by Johan E. Mebius
+
+revised Thu, 29 Mar 2007
+
+
+---
+
+## English translation
+
+### Multiprogramming and the X8 (Continuation of EWD54)
+
+EWD 57
+
+MULTIPROGRAMMING AND THE X8
+
+DIRECT ACCESS TO INSTALMENTS AND SECTIONS  -  DIRECT ACCESS TO INSTALMENTS AND SECTIONS
+
+PART 1: EWD51
+
+0
+1
+1.1
+1.2
+1.3
+2
+2.1
+2.2
+2.3
+
+PART 2: EWD54
+
+2.4
+3
+3.1
+3.2
+
+PART 3: EWD57
+
+3.3
+4
+4.0
+4.1
+4.2
+4.3
+4.4
+
+DUTCH-ENGLISH DICTIONARY OF PRINCIPAL KEYWORDS
+
+Seinpaal
+Semaphore
+
+Verhogen (V)
+To raise, To
+increase
+
+Prolagen (P),
+
+a neologism
+coming from
+To try and lower,
+
+Probeer te verlagen
+To try and decrease
+
+Ingreep
+Interrupt,
+Interruption
+
+Kernen
+Core storage,
+
+Main storage
+
+Trommelgeheugen
+Drum storage
+
+Multiprogramming
+and the X8, instalment 3.
+
+(Continuation of EWD51 and EWD54)
+
+June 1963
+
+X8 No. 19.
+
+3.3.
+The function of the listening bits. (7 June 1963)
+
+An interrupt (see 2.3., EWD51 - 7) takes place only if
+
+(a) the machine is listening
+
+(b) the collation result of interrupt word(s) and (corresponding) listening word(s) ≠ 0.
+
+By setting a listening bit = 0, one can thus achieve that the associated semaphore, even if the latter has long been positive and the associated interrupt flipflop has long been set = 1, nevertheless brings about no interrupt until further notice.
+
+One is evidently not interested in a semaphore becoming positive if there is nothing waiting on it. Especially in the case of a hardware semaphore, whose being positive in principle brings about an interrupt, it is regrettable if this interrupt takes place and the coordinator can do nothing other than take note of this fact disinterestedly, disinterestedly because nothing in the whole pattern of possibilities changes. An interrupt does, after all, cost time (and we shall have to remain continually alert
+to keep this time from increasing too much).
+
+The idea now is to let the coordinator see to it that the listening bit of a hardware semaphore indicates whether or not something is waiting on this semaphore: if the waiting chain that hangs on the hardware semaphore (see 3.2., EWD54 - 8 ff.) is empty, the associated listening bit will be = 0, otherwise = 1. It is the task of the tooth-brushing routine to see to this initially,
+it is the task of the coordinator to keep it up to date at all times.
+
+The use of the listening bit is hereby clear. How effective it is I cannot by any means assess. In general it holds that it will be more effective
+
+(a) if abstract machines are, where possible, preferably hung on non-hardware semaphores.
+
+(b) if the accumulation of interrupts can be higher. This last is connected with the size of the start magazine.
+
+We must at any rate look at this, and for two reasons: firstly, this "paying attention" probably gives hardly any occasion for a cost increase -in hardware, time, or number of instructions of the coordinator-; secondly, we must be aware that the saving of unnecessary interrupts would take effect here if the computer did not have to wait on the transput devices, i.e. if the whole factory were "processor limited", i.e. precisely the circumstance in which it
+makes every sense to be economical with computer time!
+
+A final remark is that the time expenditure per interrupt is a relatively fixed amount: this counts the more heavily, in percentage terms, the more frequently your peripheral equipment carries out V-operations. (We must not fall into the mistake I made with the X1, where the interrupt program for the tape reader was geared to the 150 char./sec of the Ferranti tape reader -of unblessed memory!- with the sad result that, on account of its now no longer negligible reaction time, it could
+no longer keep up with the EL1000!)
+
+4. Automatic transports between slow and fast store.
+
+4.0. Introduction.
+
+Another not unimportant problem, namely that of the addition or removal of abstract machines, I deliberately leave aside for the time being, and for the following reasons. Within the foreseeable future I hope to get sight of the documentation of how other systems, in which this problem has been solved in a certain degree of generality. In these a solution has undoubtedly been found for the assignment of peripheral equipment to programs; besides concrete objects we shall also have to assign abstract objects
+-newly to be introduced semaphores, for example-. On account of the greater flexibility we are aiming at, it will lie somewhat less simply for us, but it would be unwise to shrink from profiting from another's experience. The second reason is that the administrative duties upon the addition of new abstract machines might well be co-determined by the structure of these machines. This last might well be drastically influenced by the way in which we intend to arrange the automatic transports between
+slow and fast store. This last is therefore more fundamental -and also more difficult; hence I now wish to tackle that first. By way of introduction, a historical survey of three relevant steps.
+
+4.1. The ARMAC.
+
+I still remember very well how wildly enthusiastic we were when we had the design of the ARMAC ready. In its final days, with the X1 on the other side of the corridor, we did sometimes shrug our shoulders pityingly over the old little beast. In retrospect this enthusiasm from 1955 was after all not so unjustified!
+
+In short, the organization of the ARMAC, which was essentially a drum machine, came down to the following. The drum was divided into tracks of 32 words per track. Instruction selection directly from the drum was however impossible: the machine was equipped with a buffer on cores with the capacity of 1 track, and instruction selection consisted of
+
+(1) verification that the right track stood copied in the buffer
+
+(2) selection of the corresponding place in the buffer.
+
+If the first condition was not satisfied, the computing process was, without pardon, held up for 1 drum revolution, in which the buffer was filled with the new track. To make all of that possible, 7 additional flipflops had been introduced (the drum contained 128 tracks, the address length was 7 + 5 = 12 bits) in which the number of the drum track that stood copied in the buffer was remembered. At each instruction selection a test was made for equality of these 7 bits and the 7 most significant bits of the instruction counter.
+
+As an additional feature, at each number selection this same set of 7 was compared with the 7 most significant address bits in the instruction register: in case of equality, on reading one did not wait until the indicated drum place rotated under the heads, but selection was made at once from the corresponding place in the buffer; on writing, writing to the drum did take place, but at the same time the copy in the buffer was kept up to date.
+
+This additional hardware more than paid for itself. Note that the comparison with the 7 bits, which indicated which track stood in the buffer, was carried out twice in each ordinary instruction: first in the instruction cycle, then in the number cycle. In a conventional Von Neumann machine one could hardly do otherwise.
+
+Strictly considered, the majority of these comparisons were superfluous: logically it was admissible -and that was at the time in a certain sense advanced- to run the ARMAC as described above in a non-track-conscious manner. In practice one put this out of one's head: you spent days fiddling at the subroutine for just as long as it took until you had squeezed it into 32 words! And all main programs in the long run also had all constants in the track where they were used; you simply had to.
+
+If we now assume that the machine is programmed track-consciously, then we arrive at the surprising discovery that all comparisons with the 7 bits can be talked away, and with them the 7 flipflops themselves.
+
+The only thing you need are special jump, read, and write instructions to and from such-and-such a place of the buffer. The ordinary jump instructions you can then always let imply renewed filling of the buffer. The only question that then remains is how you pass over from the one track to the other. You could have detected on overflow into the 7th bit of the instruction counter at the same incrementing; an alternative solution is to jump explicitly at the end of a track to the beginning of the next track
+-something we did in practice almost always, because you had to jump over a couple of constants anyway.
+
+Viewed in this way, the automatic 7-bit comparison is thus really, though pretty, utterly superfluous: the programmer could know what the outcome would be (and he did well to know this).
+
+4.2. ATLAS.
+
+A complete picture of the ATLAS I do not have; when I wanted to know it, I could not get hold of the documentation. What has stuck with me of it is that each program can keep numbering its own tracks on the drum, via some technique of relative addressing, from 0, 1, 2, 3, ...; during execution physical tracks are added to these. How precisely, I do not know; it is -at least now- not important for us either.
+
+What is important is that the ATLAS has lodged in my memory as an ARMAC with a number of buffers. (I believe 32 [,] or 64 if you were rich.) For the programmer of each individual program it is not accessible which tracks are at any moment in the buffers. He can freely, as in a real Von Neumann machine, refer to any word in his program (instructions + working spaces). Hardware detects whether the selected track stands in one of the buffers; if so, then the
+corresponding word of that buffer is taken; if not, then one of the buffers is freed and into it the requested track is copied, after which this computation can proceed. All of this carried out in hardware.
+
+This project is in more than 1 respect frightening.
+
+In the first place the comparisons of the one requested with the 32 (or 64) present tracks must be carried out simultaneously, and the hardware required for this is no trifle. It must all happen rapidly, for otherwise you are comparing for the greatest part of the time.
+
+In the second place -although I believe this is not inherent to the system- the strategy according to which a buffer is freed is also laid down in the hardware.
+
+With the ARMAC we did not have this strategy problem: there was only 1 buffer, and a choice of 1 out of 1 gives little freedom.
+
+4.3. GIER ALGOL.
+
+The GIER is a machine with a core store of, say, 100 words and a drum 12 times as large with tracks of about 40 words (I do not know precisely, it is at any rate an odd number.)
+
+The implementation of ALGOL on this machine is, as regards the core store allocation for intermediate results, grafted onto the X1 implementation, for instructions onto the ATLAS, with this difference, that the object program is (ultimately) formulated track-consciously after all.
+
+Characteristic properties of the GIER are, in this connection, that the core store really is quite small, that the machine is fast and can itself carry on working during track transports. The machine has no interrupt features, multiprogramming does not come up for discussion.
+
+The solution of Peter Naur, Jørn Jensen and colleagues is essentially as follows.
+
+A corner of the core store as small as possible is reserved for the "run time system", i.e. the administration (program + data) of which program tracks stand in the core store and where. Everything has been done to keep this part as compact as possible, something you can safely leave to a gifted coder like Jensen.
+
+The rest of the core store is now available for variables and program. The programmer has the duty to see to it that the number of variables does not exceed the 500 to 700. If he wishes to manipulate more variables, he can do so, provided he explicitly -via standard procedures available from the library- transports variables explicitly to and from the drum. The variables in the core store are stacked, the rest is -outside the control of the programmer but under the control of
+the run time system- available for copies of program tracks. During those periods in which the number of variables is small, there is more room in the core store for program, and hence less time is wasted on track transports. (Part of that time he turns to good account by updating a complicated administration.)
+
+The method of working in the GIER ALGOL system does not solve everything for us: it makes no allowance for multiprogramming and still lays the transport burden for variables on the shoulders of the programmers.
+
+Furthermore we must not lose sight of a fairly essential difference: with the GIER one had to start from the assumption that, as a rule, the core store would be too small to contain all the instructions and variables of a program; with the X8 we may, it seems to me, start from the assumption that the core store will, as a rule, be large enough for that.
+
+4.4. Page division.
+
+The idea is thus to divide the information on the drum into "pages" and to let it sit, page by page, in the core store or not. If this is to give occasion for a reasonably brisk handling, then at least three conditions must be satisfied.
+
+(a) As long as the required information does have a place in the core store, as little time as possible must be lost through verification of this.
+
+(b) The information must be distributed over the pages according to a dynamically meaningful criterion.
+
+(c) The strategy according to which "old pages" are removed from the core store must be capable of being rendered probable by some (dynamic) reflection.
+
+4.4.1. The verification. (concerning 4.4 under a).
+
+With the ARMAC the verification took place by means of little hardware, with the ATLAS by means of much hardware, which is in action simultaneously with the computing process. This in contrast to GIER ALGOL, where use is made of the fact that many of these verifications can be talked away. The most obvious fact to use is surely that, if a particular instruction is in the core store, then the whole associated page is in the core store.
+
+The striving to delay the running program as little as possible, as long as the required information stands on the cores, is however more than exploiting self-evident facts to reduce the number of verifications: we also want to see to it that those verifications which are still carried out demand as little time as possible. This is a strategic point of departure, justifiable only by the supposition that a core store of 32 K is so large that for many problems -or for a long
+time- it will be sufficient. A core store of 32 K seems to me so large that it is meaningful to require that all programs which can make do with it be hindered as little as possible by their permission to cross that boundary. (Here the ways part very clearly from those of GIER ALGOL, which must be played in a core store of 1000 40-bit words.)
+
+In our case this means that we, as soon as the core store allocation changes, must be prepared to go into the consequences of this extensively and to make appropriate notes in all sorts of places: we must prepare the dynamic verifications as much as possible.
+
+A single example may illustrate this. Suppose we keep a minimum administration, consisting of a little list of which pages are where in the core store. The question whether an arbitrary page is in the core store might then well be a rather time-consuming affair. The smaller the instruction pages are, the more often it will dynamically occur that a jump to the next -or subsequent- page must be carried out. The resulting
+verification duty you can drastically simplify by noting at each page in core store whether, and if so where, the next page is in the core store. The coordinator then of course has the sweet duty of keeping these notes up to date at the changes.
+
+The idea of "the next instruction" can be used to make many verifications superfluous, the idea of "the next page" to speed up a number of verifications which still must be carried out. The speeding up of verifications by appropriate preparation we shall, if I am not mistaken, encounter more often still; there is, namely, a second reason why the technique is promising. If a verification yields a negative result, a transport must take
+place: the process in question can thus not proceed. Through multiprogramming there does exist the possibility that something else can start running, but [not] the certainty that that other thing does not become the Dummy Abstract Machine (see 3.2., EWD54-7). A more meaningful pacifier for the computer is always better; the coordinator is then the most obvious candidate.
+
+4.4.2. Dynamically meaningful division. (12 June 1963)
+
+The three described examples work with pages of uniform length; with the X8, where the length of drum transports is freely choosable within very wide limits, we are thus not bound to a fixed page length. It is therefore reasonable to ask oneself whether we can let the length of each individual page conform to the structure of the information it harbours. Before I now wish to compare the possibilities of uniform versus non-uniform page lengths, first a remark.
+If we choose uniform page length, then it is clear that we must make a choice for this uniform page length -how is another matter. The remark I wished to make is that in the case of non-uniform page length we must also make such a quantitative choice. If we do not do that, and choose our pages such that everything that belongs together comes onto 1 single page, then the outcome will of course be that we shall accommodate the whole program on a single sufficiently long page. That was not
+the intention. The only way in which we can effect the non-uniform page division seems to be the following. One takes a certain ideal page length in mind. If the program is too long for that, then one divides the program in the most natural way into pieces; if those pieces are still too long, then one looks at the internal structure of these pieces, etc. etc. until the whole lot has been chopped up into suitable chunks.
+
+In the case of uniform page length you proceed, as long as you do not try to be clever, differently. The very crudest is that you simply chop up the text of the program into fixed pieces of so-many instructions each. An obvious refinement is to gather up the constants used in a page across the page and to include them at the back in the same page. (With this grouping you must be a bit careful: if you still have room for a single one and that instruction
+just happens to need a new constant, then it no longer works out!) Thus far GIER ALGOL went and no further; if you try to go much further, then you get more and more considerations which, in the non-uniform page division, must play a part from the very outset.
+
+And this sort of consideration is questionable, because on purely lexicographic grounds not all the data are available which determine whether something is dynamically meaningful or not. The frightening thing is that the consequence of supposed cleverness can even work in reverse. A single example may illustrate this: suppose that in a program we first have a loop A, followed by a loop B with an inner loop C. Now we consider two possible divisions: loop A sits astride a page boundary
+and loop B can still fit in its entirety in the second page; the other arrangement is that we shift the program text along a bit, so that loop A comes to lie in its entirety at the beginning of a page and now loop B lies astride a page boundary, but in such a way that the inner loop C still fits in the same page as A. On the grounds of the well-known little rule "optimization is above all of importance for innermost loops", the second seems better, for both A and C now no longer sit astride. But if A will
+be traversed many times less than B, then the first solution is dynamically really to be preferred after all! All this by way of illustration of the fact that we must be very careful with minimizations of page transitions. Experience has moreover taught that such grouping efforts, which soon come down to extensive analyses of the coherence, the "cross-references" in the offered text, easily make translation times explode to a multiple. The dubious effect and my predilection
+for "load and go" make it that I cannot feel very much attracted to such optimizations. It soon degenerates into an attempt at refinement at the wrong moment.
+
+What can you do then? Well, the accommodating of constants in the page in which they are used is a clear example. It costs almost nothing and success is assured!
+
+For: if we accommodate the successive instructions together in a page, then we know that we are not sitting so foolishly, because after an instruction interest in the next instruction is a very probable occurrence. If we now encounter in our text " ...* 2.5", then the action to be carried out is "multiply by 2.5", and if we split that into two separate pieces in our machine code, then this splitting is something artificial. Accommodating constants in the same page
+is thus not: "conveniently grouping" the offered text, but "not needlessly chopping up". The translator has not destroyed the information that this concerned a constant operation. And what we can at any rate do is to try to limit, to mitigate, the effect of the destruction of information by the translator.
+
+The remark that you can shorten verification duties by noting at each page in core store (see 4.4.1.) where you can find the next one is grafted onto the same sort of considerations. You will do this first consulting of the next one, namely, above all for those jump instructions which do not occur in the text, but which the translator has made up in addition. And those are precisely almost all of them forward jumps; think of the passing over to the next page, or of the translation
+of "if..then..else..". There is no reason whatsoever to let the if-clause give occasion to the same piece of object program that you would have got if the source text had formulated it with explicit jumps -which can be "to anywhere".
+
+I hope to be able to find more examples of this.
+
+I now simply assume that we shall divide "instructions + constants" together into pages of fixed length. There remains of course the question of which length.
+
+If you assume that ultimately the core store is in the majority of cases large enough, then there is an advantage for long pages. For the number of times that verification must be carried out is then fewer, because you stay more often in the same page and verification can thus be omitted. Moreover: the fewer pages are in play, the cheaper the verification. As soon as you must also seriously reckon with the case that your core store turns out too small, then you must
+avoid drum transports, and one of the ways to do that is to be as economical as possible with your core store. You waste, of course, if you are interested in only a little piece of a page, the room that the rest of the page irrevocably occupies. I am thinking at the moment -12 June 1963- of pages of 256 instructions. (My idea about the ideal page length has grown to 256; if it keeps on like this, I might well end up at 512.)
+
+The following considerations have been illuminating for me in seeing which factors were in play. If the core store is too small for the total program, then we can only save drum transports for a long time if the control cycles around within a part of the program text. As prototype of the situation in which gain is to be booked we therefore look at a loop. Dynamically considered, a loop consists of a succession of references to a number of little pieces of consecutive program scattered through the
+program (the written-out loop, subroutines used therein, formal parameters etc.); the question we can pose is "If all these little pieces are M instructions long, what then is the expectation value of the store occupation at a page length N?". You would want to choose N such that that expectation value is minimal. It is of course minimal if we choose N = 1, but that is evidently not the intention: rather, we start from the assumption that N << M is impractical,
+because the concept "page" is then insufficient to let such a piece of M instructions belong together. The chance that the piece of M instructions comes to lie within 1 page is now p1 = (N - M)/N, the chance that the piece comes to lie astride a page boundary is p2 = M/N. The expectation value of the store occupation is now N*p1 + 2*N*p2 = N + M. Under the side condition M < N you thus find that the ideal page length ought to be N = M, and a loop you cram on average into twice as much store as
+you would actually need. (The chance that you would find two pieces M in the same page has been neglected.)
+
+Viewed in this way, the page length of about 40 words in GIER ALGOL is very well defensible: M = 40 seems reasonably attuned to all sorts of standard subroutines, the little pieces of text which fix actual parameters etc. It is also clear that we must introduce a larger page length.
+
+4.4.3. Proposal for speeding up the verification. (19 June 1963)
+
+The following deals only with the pages of uniform length which I intend to use for the storing of instructions + constants (i.e. the static part of the process description). To avoid confusion of speech I speak of core pages and drum pages; a core page is a piece of core store, intended to harbour a copy of a drum page.
+
+I start mainly from a page length of 256 words -the consequences of the distinguished techniques I shall now and then also mention in passing for pages of 512 words-, a core store of 32 K and 1 drum of 512 K.
+
+The core store then harbours at most 128 pages, the drum at most 2048. I assume that the coordinator sets great store by keeping some history per core page, of which drum page stands copied in it, when it was last referred to etc. Let us assume that one word per core page is enough for this administration. We then have a 128-word "core page table".
+
+This table may then be ideal for establishing, given a core page, which drum page stands copied in it, but however sufficient, this administration is hardly adequate to answer rapidly the reverse question "Is drum page [number] such-and-such perhaps copied somewhere on the cores and, if so, where?".
+
+If we simply run down the little list to see whether it is among them, then this costs, say, 4 store cycles per test; assuming that half of the store is filled with uniform pages, then we must lay out at least 1, at most 64 tests, and we arrive at an average of 130 store cycles per verification. (If the core store is somewhat too small and we shall often get nil returns on our request, this average lies higher, because to be able to ascertain absence you must go through the whole lot.) This
+might well, if we do nothing about it, come to demand 25 percent of the computing time. (This is estimated on a verification every 40 instructions of on average 10 store contacts, or 50 of on average 8.) In any case too much. I now wish to combat this in two ways:
+
+(1) to investigate how, by means of extra store room and possibly extra labour upon a change of the core store allocation, this general test can be speeded up
+
+(2) to investigate how we, as long as the core store allocation does not change, can reduce the number of these general verifications.
+
+Analogously to the core page table we can introduce a drum page table.
+
+That would then occupy 2048 words and in each word we could note whether and, if so, where the drum page stands copied in the cores. This indeed makes the reverse question rapidly answerable, but at non-negligible cost. Upon a change in the core store allocation the coordinator must, besides the core page table, also update the drum page table; these labours are negligible, but the store occupation of 2048 words at most is, however, something at which I do
+hiccup a bit. Bearing in mind that you ask only for a 7-bit answer, you can, with three to a word, reduce the size of this table to 683 at most, but this becomes "trading speed for space". (With pages of 512 words you have at most 1024 of them on the drum and at most 64 in the core store: 1024 6-bit answers can be mapped onto 256 words. The speed-up by the drum page table is now less impressive, because scanning of the page table is then also finished on average twice as fast.
+Here, incidentally, we see nicely how larger pages reduce the administration.)
+
+An alternative for performing the compression -from 11 to 7, or from 10 to 6 bits- is to introduce a little list of the drum pages copied in the core store, ranked by ascending page number. This requires, upon removal and addition, some extra administration -some shuffling- but the question of the "where" can now be done with a logarithmic search which is concluded in on average 6 (or 5) rounds. The time duration required for the logarithmic
+search is somewhat greater -according to provisional trials- than that needed for consulting the compressed drum page table (30 to 40 store contacts); in short: at 400, still too much to think lightly about.
+
+You can also string the core pages on a chain, scannable in the order of last reference. The program that walks down such a chain is a little gem, 6 store contacts per round, if I have not made a mistake. As long as you are turning your circles in a couple of pages, the verification goes nicely and this method can compete with the others, but if you have to scan more than five, six links of it, it becomes time-consuming and you must begin to reckon with maximum search times of above the millisecond
+(say 400 store contacts), namely for a page so [long] forgotten that it already stands almost on the nomination to be overwritten. The effect would be that, on a sudden change-over, the machine "has to scratch its head a bit", asking itself where this and that stood again. In connection with multiprogramming this seems to me not attractive. A technical disadvantage (which is shared by scanning of the core page table) is moreover the following: if a drum page is not present on the cores,
+you discover that only after you have worked through the whole chain, respectively table, and your drum transport can only thereafter be started. Rather a faster detection that something is wrong and administrative fiddling after the transport has already been set in motion. As general administration the chain-stringing is thus not usable; at most we can keep, for the four youngest pages for example, a small cyclic little magazine, to help small loops a bit, if this should be necessary. I hope not.
+
+For the time being I see the most salvation in the presence list sorted by ascending drum page number, and indeed mainly because this list is proportionally as long as the core page table, so that I can braid the two together. I must simply work out the alternatives. How heavily we let room weigh against time depends partly on how frequently we must try to find, via this administration, a core page number for a given drum page number. For the time being this demands, by
+estimate, 10 percent of the computing time, even if everything is in the core store. And that I still find rather much.
+
+Now the second possibility: the remark is, namely, that it is not necessary to be able to answer the question "where does drum page number such-and-such stand" so rapidly, if we can devise a mechanism by which the number of times this question is posed is sufficiently reduced.
+
+For jumps to the next page the solution has been found. The factual material that must be kept up to date for this by the central administration is independent of the size of the program and independent of the intensity of inter-page references and, finally, always up to date.
+
+To suppress further verifications I have tried all sorts of things; the great difficulty was that, on the grounds of presence, you can indeed scatter that datum around everywhere, but that it becomes very difficult to ascertain what you must then all revoke, should such a page disappear. What we must, however, exploit is the following: we must see to it that the question "which drum page stands in such-and-such a core page?" is rapidly answerable. That can be done, and from the following
+it will appear that it is worth doing everything and anything for that
+
+Let us, as a specific example, consider the passing of the link to a procedure (the passing of the start address of an implicit subroutine as actual parameter is cut from the same cloth). It is clear that we must pass this return address invariantly, i.e. in terms of drum page number, say, to fix our thoughts, an address in drum page 287. It is however unwise, upon the Return, to confront the central administration straight away with the
+question "where does drum page 287 stand?". We may well gamble that it still stands on the same core page. What we must therefore do is to pass, as return address, two things: an invariant drum address and a core address, the latter as a suggestion! The localization of a drum page we can regard as a time-consuming little sum, whose answer we can very easily check and for which we have an estimate that in 95 percent of the cases will be on the mark, namely if the old page
+still stands in its place. If that is no longer the case, then so much has happened in the meantime that the verification test can still be done in addition.
 
 transcribed by Johan E. Mebius
 

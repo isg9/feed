@@ -41,3 +41,43 @@ E W.D.
 transcribed by Angelo van der Sijpt
 
 revised Sun, 7 Oct 2007
+
+---
+
+## English translation
+
+### Report of the visit to Grenoble and Paris (6–11 December 1967)
+
+EWD 222
+
+Report of the visit to Grenoble and Paris (6-11 December 1967)
+The city of Grenoble is completely turned upside down on account of the coming Olympic Winter Games (among other things one reckons on 2000 to 2500 extra sick and wounded plus several tens of dead). The general nervousness diminished somewhat when it finally began to snow properly; fortunately, at the last moment before my departure from Eindhoven, I had thought that closed shoes might be more suitable than slippers.
+
+I have been put up in the first perfect (French) hotel that I have ever encountered, and upon my arrival I was received by Griffiths, an Englishman who last year was part of the British contingent at Villard-de-Lens, but who has meanwhile become more or less employed by the University of Grenoble. So far the organization was perfect: a contrary experience was that, although it had been agreed that the University would pay the (considerable) hotel bill, this was known everywhere except at the reception desk of the hotel!
+
+I have spent two full days at the institute for applied mathematics: pure mathematics—and later I understood that this is characteristic—is housed in a completely different building. On Thursday morning some staff members gave me an impression of what they were doing—the presentation strikingly clear, certainly when one takes into account how ill-suited French is for this. Although officially I was only to speak on Friday morning for the official colloquium (in essence the same story as in Gatlinburg etc.), I gave, for a somewhat smaller audience on Thursday afternoon, a completely unprepared lecture of two hours on the synchronization between the central processing unit of the EL-X8 and the peripheral equipment. A large fraction of the audience consisted of people from IBM (see later) and the talk made, although I myself was not very satisfied with the manner in which I presented it, an enormous impression as a result. On Friday morning, for an audience that had by now grown larger, I held the dress rehearsal (again of two hours) of what I intend to tell on Monday in Paris. (Title "Towards correct programs", subject "An effort to increase our ability to create reliable mechanisms".) In Paris I expect fewer Britons among my audience (who contributed considerably to the liveliness of the discussion) so that I hope to be able to do it somewhat more quickly there. (Which suits me well, for I then have to catch a plane.)
+
+The presence of the Britons is connected with the fact that the University of Grenoble at the moment has a multi-console configuration (in the first instance with a PDP-8 as "buffer machine" and for the larger stuff an IBM 7044 is then switched in) and that they intend to build up such a system with the aid of an IBM 360/67. This last is being developed in cooperation with IBM; within the framework of this contract the University employs, e.g., Griffiths. How all this came about I have not discovered: people are, namely, sacredly convinced of the drawbacks of the IBM 360 for such kinds of applications, and about the unsuitability of the IBM terminals they are quite candid.
+
+The system with ±24 teletypes, the PDP-8, I have seen in operation, in an instruction room full of students. The demonstration was perfect: after 20 minutes the system derailed, so that every student saw his work of ± the last hour go up in smoke and could begin anew. Et populus murmuravit contra Moisen... I expected an uproar, "an open revolt", but it was resignedly accepted, it happened once a week. The instructor laid the blame on the equipment, but received no support from my escorts. Which is not surprising, given the reliability of the teleprinters and the PDP-8. We put it down to "a lurking bug".
+
+The boys behind the keyboards were enthusiastically at work. I have the anxious suspicion that the cause of their enthusiasm had to be sought in the fact that their task was so silly that they could still do it without intellectual effort. About the educational value of the whole setup I have enormous reservations—"The only thing you can teach with a small machine is how to fumble about with a small machine". I have cautiously let my host Bolliet sense this, who immediately agreed with me. The multi-console configuration is more a status symbol, and this is what Grenoble badly, badly needs.
+
+From gossip I have more or less gathered how Grenoble must fight against Paris and Bourbaki. A combination of legal regulations and intrigue has, e.g., the following consequences:
+
+1. Whoever wishes to take a doctorate on an applied mathematical subject must in addition write a treatise on a subject from pure mathematics imposed on him, not to be chosen by himself (such to be decided by Bourbaki himself in Paris). The damage that this barrier to the application of mathematics inflicts on the French economy must be enormous.
+
+2. In order to be able to become a professor one must satisfy so many legal requirements that it is, e.g., practically impossible to import intellect trained abroad for these posts. (Not allowed by Paris)
+Someone like Bolliet, who has built up a department of Computing Science that serves 200 students, has in the hierarchy of the Universities of France a very subordinate, in any case insecure, position. Paris views the flourishing of Grenoble with envious eyes and will do everything in its power to counteract it. Lovely country! And it is, I should think, precisely Grenoble's position of the oppressed that has given IBM the possibility of infiltrating this institute to such a degree. When I expressed my fear that in the coming years a good part of Computer Science might well degenerate into learning to live with and tinkering at the by now already notorious "Operating System 360", I harvested a grim smile as a sign that the fear was shared.
+
+The Saturday I spent in Grenoble in a most pleasant manner, which it seems to me is only possible in France: in her apartment our charming hostess served her guests a lunch that lasted from 12.15 to 17.30 hours.
+
+I have indeed gathered that one, at least in Grenoble, regards "The French Chapter of the ACM" not as a scientific but as a political institution, so that I do not go to Paris with a very easy heart. Of the three talks that I have given in France, I clearly regard the lecture that I have prepared for Paris as the most important ("The Gatlinburg story" is of course also becoming somewhat worn out), but when I gave it its baptism in Grenoble, it came across only partially. Out of an audience of sixty, some ten—people with experience in large projects—were clearly gripped: that ten is in any case more convinced than beforehand of the degree to which "Simplex Veri Sigillum" holds for the programmer's profession. The remaining fifty were politely enthusiastic because they had been able to understand the story from beginning to end—complimented me, so to speak, on the elegance of the solution with which I illustrated one thing and another—but that the total comprehensibility of my story was precisely the core of my argument (say "message", if you will) escaped them, I believe. There are evidently people who only get the feeling of having learned something from a lecture provided they have not understood the speaker.
+
+In Paris an audience of some sixty men, among whom some ten reacted intelligently.
+
+E W.D.
+
+transcribed by Angelo van der Sijpt
+
+revised Sun, 7 Oct 2007

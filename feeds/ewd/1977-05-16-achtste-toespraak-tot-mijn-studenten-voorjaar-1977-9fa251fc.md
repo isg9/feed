@@ -30,3 +30,32 @@ Voor het geval dat deze fatsoensrakker onoverhoopt aan de macht komt wil ik U é
 
 transcribed by F. Koenders
 revised Thu, 13 Nov 2008
+
+---
+
+## English translation
+
+### Eighth address to my students, spring 1977
+
+I must let you share in a downright terrifying observation. Recently, within the family circle, I quoted from the right-hand column of the front page of the Saturday Supplement of the NRC of 23 April 1977 the following sentence, after I had asked them whom they thought was being quoted here:
+
+I am more interested in upholding high moral conduct than in politics.
+
+Without hesitation my wife and my mother, who was staying with us that weekend, said, "Van Agt, of course!"
+And that was precisely the downright terrifying observation. For it was not our caretaker Minister of Justice who was being quoted! Nor was it the lead candidate of the Christian Democratic Appeal who was being quoted! It was the translation of an answer given in an interview by a professional censor from Brazil, a country that is nowadays held in particularly high regard neither for the integrity of its administration of justice nor for the level of its democracy.
+
+I could probably also have quoted the sentence preceding it from the censor:
+
+But in fact I do this out of personal conviction, to keep high moral values high.,
+
+a sentence with a Van-Agtian appeal to the dignitary's own conscience.
+A piquant detail is that this professional censor, who exercised his repugnant office not only with conviction but also gladly, had been willing to grant the conversation only on condition that his name should under no circumstances be mentioned. That the pronouncements of a representative of this abject regime about how he experiences his own discharge of duty turn out to be "zum Verwechselen ähnlich" with those of our madcap Dries is, given the man's position, rather frightening.
+
+When I hear Dries, I always have to think of my father's comment on Hitler: "If you absolutely want something, you can achieve it. You must then, of course, be prepared to shrink from nothing." And then I am afraid that too many people forget that you must never give power to possessed riffraff of respectability: for it is precisely the possessedness from which the riffraff of respectability derives not only the right, but even the duty, to "shrink from nothing." And then there is no holding them back.
+
+I am afraid that too many people will let themselves be hoodwinked by outward show and the emphatically maintained semblance of venerability. I am afraid that too many people will not remember that in uniform, with all the crosses and oak leaves, all the Nazi bigwigs looked highly respectable. I am afraid that too many people are not aware that the inquisitors of the Middle Ages were proper gentlemen, whom the cardinal's red often did not ill become. When I then see madcap Dries at work, or his pacemaker, colleague Steenkamp —alias red Piet— I do sometimes try to console myself with the consideration that history need not necessarily repeat itself, but that seldom removes my unease that this time the professorial gown is being used as a cloak. You will not often hear me say anything favourable about the PvdA, but Vondeling's reluctance to swear Van Agt in as a member of parliament does him credit.
+
+In case this rascal of respectability should unexpectedly come to power, I want to leave you with one consoling thought: during that Occupation, golden times will dawn once again for political cabaret, underground if need be.
+
+transcribed by F. Koenders
+revised Thu, 13 Nov 2008

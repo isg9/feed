@@ -56,3 +56,58 @@ Ik concludeer dan, dat deze man voldoende inventief of ordelijk geweest is om va
 Transcribed by Frank Steggink
 
 Revised Tue, 6 Jan 2004.
+
+---
+
+## English translation
+
+### An Appreciation of Punched Cards
+
+EWD139 - 0
+
+An Appreciation of Punched Cards
+
+In what follows I hope to give a convincing argument for why I answer the question of whether the THE's EL X8 should be equipped with punched-card apparatus with a wholehearted "No". The outspokenness of my judgement is justified only if, in my argumentation, I approach the medium of the punched card in all fairness. What follows is a test of my capacity for decency in that direction.
+
+I observe that the punched card came of age in the time before the general purpose computing machine. Around this medium there arose special purpose machines of limited programmability, such as reproducers, sorting machines, tabulators, collators, verifying punches, etc..
+
+It is my conviction that much of the possible profit of this medium can be reaped only if one actually has at one's disposal a sufficient quantity of the aforementioned apparatus attuned to this medium: the advantage that punched cards are readily sortable is hard to realize without a sorting machine. (This does not alter the fact that the presence of a general purpose automaton does make a difference: the fact that a fast sorting machine could be connected to the X1, with the X1 controlling the sorting, has often led to sorting processes — which after all could now be carried out on far more complex criteria — taking place after an X1, this with a drastic reduction of the number of passes. Owing to the limited stopping facilities of the sorting machine this unfortunately did, for the computing automaton, mean the introduction of an essential rush situation.)
+
+The style in which one works with punched cards has of course in the past been strongly influenced by the properties of the special punched-card machines. It is my conviction that this influence will remain, particularly there where the punched card is closely bound up with legible script. (It is clear that, since production by and for automata, entirely new modes of use have arisen, such as "a pack of binary cards". This strikes me precisely as the non-typical use of punched cards: that here a great deal of information is distributed over loose cards seems to me more annoying than pleasant, and I should think that this use would never have arisen had the punched card not already been there.)
+
+This style of use manifests itself, e.g., in the customary checking techniques, briefly to be summarized as "twice makes it right" [tweemaal is scheepsrecht]. Punched-card readers and punched-card punches are provided with an extra checking station; what is further down the
+
+EWD139 - 1
+
+line, cards produced by hand are verified after verifying-punching. (The cards produced during verifying-punching are wont to be furnished with a special marking: experience has taught that they are suspect.) Besides parity checks — against incidental malfunctioning of the apparatus — one nowadays prefers, where possible — e.g. with program texts! — structural redundancy, whereby the check extends over the original manuscript as well. (The flawless punching, in whatever, of monotonous numerical material, of tables, remains a problem for which I know no palatable solution. The moral seems to me to be that this ought to be avoided.
+
+Worse is what I should like to designate as the tradition of parallel processing and the tyranny of the 80 columns.
+
+Parallel processing implies an a priori knowledge of the size of a quantity of information to be processed. By letting, e.g., integers occur as constituents in a text with a recursively defined syntax, no upper bound has been imposed on these integers. In the punched-card world, however, it is customary to fix the size of a unit of information — e.g. an integer — by ad-hoc conventions (e.g. the field of columns 7 through 12).
+
+To begin with, we note that the sparing of the separators is no unmixed gain: for there stands over against this that one must always make the maximum number of positions available. (Think of the sequence number of program cards, when, upon program modification, one wishes to have the possibility of interleaving cards!) Worse is that through the field layout of the card one must content oneself with all manner of upper bounds; upper bounds that on the one hand misjudge the capability of the sequential automaton (see my lecture, sorry), and on the other hand soon become a nuisance, because, on account of the limited card size, they have to be set rather — sometimes very — sharply.
+
+These objections weigh very heavily with me: I do not rule out that the sharpest edges can be filed off by re-education; I also know, however, that I do not feel called upon to undertake this, and so, for lack of further data, I rely on observation elsewhere. This observation comprises:
+
+EWD139 - 2
+
+- the observation that in all "card oriented programming systems", e.g., the manual that tells how some or other "control card" must be punched always explicitly states the necessary position on the card;
+- that — for the sake of uniform processing in the punch room? — all information that must be punched onto the cards must be specified position-consciously, even in those cases — program texts — where this carries not the least information. (Zonneveld must now write down his programs on paper with pre-printed columns. He complained bitterly; never in his life had he fussed so much; and all that because the punch room cannot punch characters "one after another"! I see no reason to suppose that we could obviate these objections, and shudder, in modesty, in advance.) In summary: since Alan Turing we know that we must restrict ourselves to countably many possible situations, but the punched card is an invitation to restrict oneself to a priori enumerable cases.
+
+As regards the tyranny, I need not enter at length into the contortions into which one can be invited to twist oneself. ("If someone has never been married, one can use the field, normally reserved for number of children (2 decimals), for further wrist specification, etc.") I mention only that this tyranny imposes serious restrictions on one of the most effective ways of increasing the readability of programs: indentation to represent the structure of the program. (This is so effective that I prefer the Flexowriter to the teleprinter, perhaps even more on account of the possibility of tabulation than on account of the second alphabet. It would not surprise me if we, without regretting the Flexowriter, were to suggest to our users that they restrict themselves to lower-case letters!)
+
+My final objection against the punched card is one of fundamental unclarity in the manner in which I am supposed to attach meaning to the card itself. I admit that this consideration looks like a variant of the vulgar opening gambit. "If someone drops a tray of cards, etc." (One can, I hope, teach one's people not to make a habit of that. Besides: whoever is so stupid as to let a hundred metres of paper tape get into a tangle is also not having a happy day!)
+
+EWD139 - 3
+
+Identification is, ultimately, always a recursive process. If we come across an arbitrary punched tape, we likewise do not know what it means. We can run it through the Flexowriter, and if a program is then typed out we still do not know whether it is perhaps a tape with measurement data. There is but one solution to this problem: at the front of every tape — in punching or with felt-tip pen — to identify the tape in a metalanguage intelligible to the people around our installation. And when this tape then, by way of the wastepaper basket and the gutter, ends up with the BVD, then that turns out to be locally sufficient, identification insufficient. So we must put at the front of every tape, in a meta-metalanguage, "THE", etc. etc..
+
+To breed an identification, sufficient for local use, at the front of a tape is difficult, but, I hope, feasible. On every card this is not feasible. (At the MC we were obliged to institute that anyone who came across an unwritten tape destroyed it. This was very salutary. The consequence is that, out of group self-discipline, we instruct our people to throw away as meaningless every non-blank punched card they came across. This is no cheap joke: it is a feeling of distaste driven to its extreme, of which I know with head and heart that it is more than justified.)
+
+Here I will leave it at that. If people come to tell me that they have rightly made use of punched cards, then that communication alters my opinion about punched cards less than my opinion about the man.
+
+I conclude then that this man has been sufficiently inventive or orderly to make healthy use of an essentially unhealthy device. As a plea for the medium — I cannot do otherwise — such a communication is without any effect.
+
+Transcribed by Frank Steggink
+
+Revised Tue, 6 Jan 2004.

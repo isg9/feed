@@ -46,7 +46,7 @@ Om een situatie te onderzoeken, rangschikt de bankier zijn klanten in volgorde v
 
 "vrij bedrag:= kasvoorraad; i:= 1;
 
-L:  if claim[i] < vrij bedrag then
+L:  if claim[i] < vrij bedrag then
 
 begin vrij bedrag:= vrij bedrag + lening[i];
 
@@ -61,6 +61,71 @@ else
 veilig:= false"
 
 De bankier controleert dus of hij "door verstandig te wachten al zijn geld weer terugziet."
+
+Transcribed by Frank Steggink
+
+Revised Tue, 6 Jan 2004.
+
+
+---
+
+## English translation
+
+### An algorithm for the prevention of the deadly embrace
+
+EWD108 - 1
+
+An algorithm for the prevention of the deadly embrace.
+
+A banker is willing to lend money to clients -in whole guilders- on the following -benevolent- conditions.
+
+1) The client must be able to guarantee that, if he gains the disposal of the requested money, the project for which the loan is taken out will be completed within finite time, after which the client will return all the borrowed money to the banker.
+
+2) The client must specify in advance an upper bound on what he will ever need to be able to have on loan simultaneously for the benefit of this project.
+
+3) If the client -in observance of 2)- comes to ask for a supplementary loan, he may not complain when he is told by the banker "At the moment I cannot place the requested amount at your disposal, but I guarantee you that this will indeed be the case within finite time."
+
+4) It is permitted -indeed it is even encouraged!- that the client, when he sees during the transaction that the initial (see 2.) respectively the last-mentioned upper bound will no longer be reached, notifies the banker of the reduction of the upper bound.
+
+The questions are: (assuming the banker operates with a capital of A guilders)
+
+a) under what conditions can he accept a client who presents himself?
+
+b) what is the algorithm for deciding to pay out or, respectively, not to pay out, in such a way that the banker on the one hand will never postpone a payment that he could safely have made, and on the other hand never makes a payment when he can no longer guarantee under all circumstances that he will be able to meet his future obligations.
+
+The answer to the first question is that the banker can accept every client whose (initial) upper bound does not exceed his total capital A.
+
+In order to decide whether he can proceed to payment upon a request, he surveys the situation that would arise if he were to proceed to payment. If this situation is "safe", then he pays out; if it is not safe, then he refuses the payment. To describe the algorithm that establishes whether a situation is safe, we introduce the following terms.
+
+For each client the banker keeps track of two amounts:
+
+1) loan (initially = 0)
+
+2) claim (initially = initial upper bound)
+
+At every moment, for each client, "loan + claim = upper bound" holds.
+
+The initial capital A diminished by the sum of the loans we call the "cash reserve".
+
+In order to examine a situation, the banker arranges his clients in order of non-decreasing claim, thus claim[i] < claim[i + 1]. Subsequently he executes:
+
+"vrij bedrag:= kasvoorraad; i:= 1;
+
+L:  if claim[i] < vrij bedrag then
+
+begin vrij bedrag:= vrij bedrag + lening[i];
+
+if vrij bedrag < A then begin i:= i + 1; goto L end
+
+else veilig:= true
+
+end
+
+else
+
+veilig:= false"
+
+The banker thus checks whether he "sees all his money again by waiting prudently."
 
 Transcribed by Frank Steggink
 

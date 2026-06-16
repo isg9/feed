@@ -22,3 +22,24 @@ Wacht U voor zulke managers, want ze houden vol tot hun laatste snik: op hun man
 
 transcribed by Jukka Ketelaars
 revised Sun, 17 Jun 2007
+
+---
+
+## English translation
+
+### Fourth address, autumn 1975
+
+30 September 1975
+EWD 518
+
+Fourth address, autumn 1975.
+We still have a bone to pick with the managers; a sour bone at that.
+
+A year or so ago I gave a lecture at a very large English "software house". The fittings of their auditorium had just been renovated and the honour fell to me of being the first speaker permitted to make use of the grandiose new facilities. Those grandiose facilities consisted, among other things, of the fact that the excellent boards had, by order of the interior decorator, been removed as "old-fashioned", and that I had to make do with a so-called "overhead projector". Now those are abominations! In order not to be completely blinded, you have to put on your sunglasses, and for the sake of the contrast the lighting of the hall is dimmed. The result is that in the first rows you can still see something of your audience seated there, but from the fourth row onwards the shadows vanish into the darkness. I nevertheless began in good spirits, for I knew that my lecture, which I had already delivered once before, was excellent: I toyed with a couple of small little problems, for which in an orderly fashion all the same I developed all sorts of different solutions. The lecture was for me, however, a torment, for I saw that I was not reaching my audience: I was stared at impassively and felt as though I were addressing marionettes made of putty or chewing gum. With the courage of despair I struggled my way through my material and was utterly astonished when, as the lights were turned up, a thunderous applause rose from the hall. What had happened? My audience had consisted half of fellow programmers and half of managers; the programmers, who sat at the back of the hall, had enjoyed the controlled inventiveness; from the point of view of the managers, who had sat at the front, my lecture had been a total failure. They perhaps even found me seditious: by demonstrating in my innocence as clear as day how much surprising inventiveness programming can entail, I had demonstrated just as clear as day that they still could not "manage" the activity and that "programmer performance" is just as unpredictable as any activity of high intellectual calibre. During the discussion I took fright when I noticed how fervently I was hated in the front rows.....
+
+Managers feel the continuity of large organizations is best safeguarded if they can work with mediocre people without imagination, and as long as the work does not demand much imagination, all of that goes well and they can create the working conditions in which many can make themselves useful. In their conceit, however, they think that everything can be organized in that way; there are even managers who, regardless of the nature of the collective task, consciously and openly bar brilliant employees "as they can be expected to disturb the organization". Oh yes... Every project with great technical and logical difficulties is doomed to fail when these difficulties are underestimated, and it is in this underestimation that the software managers stubbornly persist: they persist in the fiction that it is all organizable routine work. Like true charlatans they cloak their incompetence with a smokescreen of fancy terms, build up a quasi-religion with terms such as "system engineering", "system life cycles" and what have you; the term "structured programming", which I used in 1968 in an attempt to lay bare the intellectual content of the discipline, is shamelessly stolen by Harlan D. Mills of IBM, when he launches the "Chief Programmer Team" as a new religion for software management, a religion in which once again the intellectual content of the discipline is denied....
+
+Beware of such managers, for they hold out until their last gasp: in their own way they safeguard the continuity of the organization, until the organization collapses. And like the rainmakers who, despite the persistent drought, keep believing in their own miraculous gifts, they go on undeterred to offer the Philosopher's Stone.
+
+transcribed by Jukka Ketelaars
+revised Sun, 17 Jun 2007

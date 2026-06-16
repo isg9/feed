@@ -60,3 +60,61 @@ Overigens ben ik van oordeel, dat er op Hilversum 4 minder moet worden gezeverd.
 transcribed by Carl Ludwigson
 
 revised Mon, 5 Nov 2007
+
+---
+
+## English translation
+
+### Eighth address to my students, spring 1976
+
+Since Minister van Kemenade has framed his policy memorandum in a kind of
+Dutch that I would not even dare to read aloud to my dogs, I do not know exactly what he intends with secondary
+education, but much good it is not. While secondary education has not yet recovered from
+the introduction of the Mammoth Act, it is now to start experimenting with the comprehensive middle school.
+While the Mammoth Act, through the choice of subject packages, has made secondary education come to resemble vocational training,
+we are now getting the middle school, where, in the name of the dissemination of knowledge, the good
+pupil learns nothing whatsoever any more. While England, which with the introduction of the so-called "comprehensive
+school" has preceded us in this matter, wishes it had never embarked upon it, because it has proven to be a grandiose
+failure, the blind fanatic van Kemenade is not to be restrained. Well, blind? Not
+entirely: he probably knows that it has failed in England, for he has already made known his wish to
+establish the experimental middle schools there, where for the pupils in the
+vicinity no alternative is available. This, as he calls it, "to give the experiment a fair
+chance". The risk that parents would withdraw their dissatisfied children from the middle school
+the minister apparently wishes to reduce as far as possible. So much for the minister's scientific
+honesty.
+
+What the minister has in mind for university education is very clear: destruction.
+They have been busy with that since 1968; back then they called it democratization, but that was such a vile
+euphemism as politicians are wont to employ. From the missives of the Ministry of E. and S. it becomes
+ever clearer that nowadays the E. stands for "Educational programs". The essential difference between
+academic education and higher vocational education the minister no longer clearly holds before his eyes. In this, moreover, the
+minister does not stand alone.
+
+Higher vocational education trains its pupils for particular professions; scientific
+education introduces its students into particular scientific disciplines, an activity which
+need bear only an incidental relation to the later field of scientific activity.
+To stay close to home: if I am rightly informed, all your professors of Computing Science at
+the THE are by origin theoretical physicists. And why not? In your student years your most important
+task is to learn to use your brains, to make high standards of quality your own, and to develop a good
+scientific taste. And for him who has succeeded in that, it does not matter very much later
+what exactly he studied at the time.
+
+But there is a strenuous effort under way to blur these boundaries. Teacher-training colleges and
+schools for social work —clearly vocational training—are called pedagogical and social
+academies, their pupils are wrongly called students. And as if this veiling use of language were
+not damaging enough already, one is now attempting also to force scientific education into the straitjacket of
+vocational training. The rallying cry for this is "integration of tertiary education" and, if
+it is up to the minister, within ten years the difference between the TH's and the HTS's will have disappeared.
+The reprogramming, which is to cut back the curriculum to four years, is to that end clearly a
+first step. The E. having become the E. of "Educational programs", the S. is completely forgotten. Could we have
+expected anything else? Ever since the so-called "gamma scientists", such as economists, psychologists,
+sociologists, pedagogues and the like, in a moment of thoughtlessness were admitted to the campus,
+they have, together with the architects, always formed the academic rabble. And this
+minister judges science by the caricature which he himself has both witnessed and
+practised.
+
+Incidentally, I am of the opinion that on Hilversum 4 there ought to be less drivel.
+
+transcribed by Carl Ludwigson
+
+revised Mon, 5 Nov 2007

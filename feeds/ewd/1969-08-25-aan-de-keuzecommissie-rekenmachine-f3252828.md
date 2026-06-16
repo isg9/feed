@@ -30,3 +30,32 @@ transcribed by Bart Vreugdenhil
 
 revised
 26-Dec-2011
+
+---
+
+## English translation
+
+### To the computer selection committee
+
+I am becoming more and more convinced that one of the most effective ways to deal a sensitive blow to a country's scientific level and economy must be the large-scale import of the currently most prevalent American hardware and the accompanying, baroque software: for from that moment on a good part of the (scarcely) available professional potential is absorbed by the thankless task of continuing to find its way in this ever-changing monstrosity, a kind of “internal brain drain.” (Some months ago I heard the rumour that the next Russian machine series was to be a faithful copy of the 360 series: if that is true I regard it as one of the American triumphs in the cold war!) All this is often made still worse by the circumstance that the receiving country is not rich enough to accept the inefficiency of the software offered with peace of mind, but (usually wrongly!) thinks it can indeed permit itself to start tinkering with it!
+
+And yet, the quality of the tools with which people try to achieve their results finds its direct reflection in the scope and intellectual level of their preoccupations. Thus it is above all this "degrading influence" of obsolete apparatus on the intellectual level of work and workers that makes the visiting of computing centres immediately behind the iron curtain so depressing: having to make do with means that have by now been demonstrably so inadequate struck me as nothing short of degrading to human dignity. Mutatis mutandis the same holds with regard to people who grow up in, and have to make do with, what has by now begun to be referred to as “a pure FORTRAN environment”: at a certain point they can no longer mentally grasp programming problems except as translated into —and thereby misdrawn!— the idiosyncrasies of their everyday tools. When you talk with such people, a world of incomprehension opens up before you.....
+
+If all the machines on the market were equally awkwardly usable and would therefore not differ much from one another in their normative (but no less pernicious for that) influence on their users —i.e. would in that respect be similar machines— then no selection criterion can be derived from that quality aspect, and one can try to let the choice be guided by the customary, rather economically tinged considerations. Now, however, that after our study of the market it begins to appear ever more convincingly that the B6500 stands head and shoulders above the rest in design and, through its synthesis of hardware and software, promises to be a machine that in terms of manageability is incomparably much better than all the others, now the influence of the machine on its environment suddenly becomes one of the most relevant selection criteria.
+
+Under the given circumstances it is our duty 1) to leave no means untried to verify our impression of the B6500 2) if the said investigation turns out positively, to leave no (proper) means untried to obtain such a machine for the THE.
+
+I am aware that all this is not without its problems. One clear difficulty is the fact that Burroughs is not yet commercially strongly represented in this country. If, however, we come to the conclusion that this is only a pity for the Netherlands, then we shall have to help Burroughs and do everything in our power —e.g. by providing the occasion!— for this representation to become stronger. Serious interest on our part will probably make such a strengthening sufficiently interesting for Burroughs.
+
+A second difficulty is that conservative pressure will be exerted both from outside and from within the THE: the introduction of a B6500 will, as a disruptive element, by no means be appreciated by everyone. From sister institutions, which may interpret such a step as criticism of their conventional choice, little support is to be expected. Internally too there are levelling forces, people who in this respect would rather push the THE back from its forward position to a normal third-rate institute in which they themselves feel more at home or, as they will put it, where "we prepare the students more realistically for their future task".
+
+Thirdly, we are faced with the difficulty that the traditional choice is par excellence the choice of the incompetent coward. (Illustrative in this regard is the story of the consultancy firm that had to issue an advice concerning machine choice. When this became a non-IBM advice, the request for advice turned out to be a formality, because de facto the choice had already fallen on IBM, and with the motivation “We have so far had IBM equipment and have had so much misery with it that we do not at all dare to embark on products of another firm.”) He who confines himself to the traditional market knows —or at least: ought to know— what sort of misery he is bringing into the house, but however badly things go afterwards, he knows himself covered vis-à-vis "management"! The all-too-often employed, barely disguised fallacy of compatibility appeals unequivocally to the security of mediocrity.
+
+It is, however, the function of the University —par excellence the function of the University, I may well say— not to come scrambling along behind development in a society but instead, in pioneering fashion, to anticipate and steer this development. The view that this university duty would not extend to “the computing centre, which after all only has to render services” is a gross misconception.
+
+E.W.Dijkstra
+
+transcribed by Bart Vreugdenhil
+
+revised
+26-Dec-2011

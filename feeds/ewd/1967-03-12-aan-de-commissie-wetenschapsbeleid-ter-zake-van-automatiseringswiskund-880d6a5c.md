@@ -76,3 +76,78 @@ Ik heb organisatieleer als aanverwante discipline genoemd: er zijn allerlei verb
 
 transcribed by Carl Ludwigson
 revised Thu, 4 Nov 2010
+
+---
+
+## English translation
+
+### To the Committee on Science Policy concerning Automation Mathematics at the THE
+
+To the Committee on Science Policy concerning Automation Mathematics at the THE.
+
+The aim of this note is to explore to what extent there is, in the field of automation mathematics, a task lying ahead for the Subdepartment, what this task would encompass, and what it would entail if the Subdepartment took this task upon itself.
+
+Briefly summarized, the right to exist of automation mathematics rests upon:
+
+the observation that, in the conception, realization and use of logical mechanisms, the naive human capacity for comprehension has become the most pressing bottleneck;
+
+the observation that the craft, leaning upon ingenuity and accuracy, has reached its ceiling, as it proves inadequate;
+
+the conviction that relief can only come, and indeed will come, from something that will look like a mathematical discipline (which in what follows we shall designate as "automation mathematics");
+
+the (not least economic) importance of automation mathematics.
+
+If we contemplate a course of study, then the need for automation mathematicians must be more closely specified. We note here:
+
+that the need for the most highly qualified is the most distinctive, that is to say, for the leader who can survey a project without losing himself in the details and yet knows that his project will have to be built up out of "details";
+
+that the need for automation mathematicians who do not reach the highest conceivable level, although less striking, is certainly just as extensive, for every large project will only be capable of being realized provided that the leadership can with confidence delegate subtasks to people who at least have an understanding of the discipline.
+
+Herewith a condition is satisfied which must be imposed on every course of study. I mention this explicitly because I personally (and perhaps I am not alone!) often catch myself in the inclination to confine myself in my thoughts to the top 10 percent.
+
+As regards the magnitude of the need, it is a safe assumption that it will exceed our productive capacity. This is based on:
+
+the consideration that (in spite of the previous paragraph) what is at issue here is, after all, still the training of fairly highly qualified people, something for which, by the nature of the case, the possibilities are limited;
+
+the consideration that their future field of work, which must encompass (varied) automation projects, will be very considerable. (To confine oneself to e.g. computers and standard software would be a far too narrow basis: in view of the uncertain future of the Dutch computer industry, that might moreover well end up as "working for the brain drain". I mention this explicitly on account of the one-sidedness of my own industrial contacts.)
+
+In the drawing up of a study programme, it seems to me, three aspects must be involved:
+
+what sort of skills and knowledge do we expect of the automation mathematician (that is to say, desirability);
+
+to what extent can the teachers desired for this be found (with us, or else elsewhere) (that is to say, feasibility);
+
+what are the organizational repercussions (e.g. can a uniform candidate examination still be maintained?).
+
+At the present stage of this exploration I must, it seems to me, in the first place try to create as much clarity as possible regarding the desiderata.
+
+As the first requirement for the automation mathematician I should like to name: a businesslike capacity for abstraction. I put this first because I cannot (without, by simplifying, doing an injustice to anything or anyone) accommodate this as a characteristic aspect of the related disciplines.
+
+The concepts which the average creative mathematician introduces are as a rule indeed sharply defined; he is, however, often insufficiently aware that a concept has a right to exist only by grace of its (logical) manageability; his aim is often too little sharply posed for him to be able to ask himself how much the concept helps him. Hence I do not wish to give the customary mathematical capacity for abstraction the predicate "businesslike". Moreover, mathematical training seems to me more directed at learning to handle concepts that have proved their usefulness than at introducing new concepts, at consciously evaluating their manageability and their effectiveness.
+
+Switching technique and programming are indeed practised on a businesslike basis (albeit that this businesslike character is predominantly only a one-sided cost-consciousness) but as a rule by people with an insufficiently developed capacity for abstraction. They create, in a fairly intuitive manner, complicated mechanisms, without introducing the concepts by means of which they could analyse the total task and in terms of which they could justify their mechanisms. All this is only too well explicable historically (the "engineer's mentality" in the narrow sense of the word, the "we-men-of-practice" also plays a part here). Moreover it appears that, as a rule, they cannot define the behaviour of their creations; they constantly confuse "how it works" and "what it does".
+
+Organization theory is steeped in psychological and sociological influences and has thereby, among other things, also become the art of arriving nonetheless at a usable conclusion by means of vague "concepts". There are in that corner indeed pages [strivings] towards greater exactness, but these strike me as one-sidedly quantitative, whereby the object of this quantification remains just as vague as before.
+
+Secondly, he must have a clear affinity for discrete, finite problems and skilfully handle the necessary proof techniques. Where this, in the first instance, concerns traditionally mathematical activities, I must note that I believe the [mathematician's] power of imagination develops one-sidedly spatially: by "drawing a time-axis" the irreversibility of time is insufficiently represented. The power of imagination of the automation mathematician should encompass a fairly operational appreciation of causality. (Observation: my figures of speech are often merely a means of soundly involving time in my thinking; they are a proper, necessary piece of thinking-apparatus and not merely a means of presentation.)
+
+Of the automation mathematician it will, for example, be demanded that, with knowledge of the matter and in close contact with the interested parties, he forge intuitively formulated automation tasks into well-defined projects, with a clear distinction between requirements and desiderata; he must be able to analyse these projects structurally and preferably, at an early stage, gain a responsible insight into the logical and quantitative bottlenecks, vulnerability, possibilities of expansion, etc.
+
+For the timely isolation of quantitative bottlenecks, besides general "tool knowledge", a stochastic schooling is indispensable. (With the disagreement of colleague Benders, I assign to stochastics a considerably more central role than to optimization methods.)
+
+For the analysis of vulnerability and possibilities of expansion it seems to me that, besides the "tool knowledge" mentioned in the previous paragraph, a schooling in practical logic is indispensable. Often the interested parties (who likewise are not clairvoyant) will be able to give only timid forecasts about the magnitude and direction of expansion; under those circumstances it is vital that the automation mathematician, at his first design, can give a survey of later possibilities and impossibilities. (Especially for larger projects, the requirement that the growth process should not be too painful will have to leave deep traces in the first design.
+
+In short: the automation mathematician will have to be able to conceive, construct and verify complex systems while taking into account all conceivable flexibility requirements (some of which he will himself have to put forward!). For the construction he will have to be familiar with the possibilities of automating the construction process itself; for the verification he will have to be familiar with the proof techniques suitable for this purpose. A developed feeling for the factors on which the manageability of these proofs can critically depend is, in conception and construction, an indispensable guiding thread. I have every reason to expect that, in the very near future, this will resolve itself into a logically coherent discipline, teachable, examinable, usable, and fairly imperishable.
+
+The "tool knowledge" encompasses familiarity with hardware (in its usage aspects), programming languages and their implementation possibilities. What is at issue here is encyclopaedic knowledge of a fairly perishable nature: its extent must be strictly guarded, with currency as the guideline herein.
+
+Furthermore he will have to be familiar with coding techniques, syntaxes over finite alphabets, structures of manageable context-dependence of meaning, etc. Less businesslike mathematicians too have contributed abundantly to this field, so that there must be imperishable material in plenty. Extent must therefore be guarded, with relevance as the guideline therein. (In this corner one will have to guard seriously against the programme being needlessly embellished in order to give it a respectable appearance; instead of excessive syntax classifications I should rather like to see less specific stuff such as combinatorics and algebra. That is much safer.)
+
+A further word about "practical logic". It is a prosaic requirement that the automation mathematician write down, interpret and manipulate logical formulae as the most ordinary thing in the world. A side-track into computability is not out of place; Turing and Gödel may not constitute the main course. With regard to the eternal confusion between the designation of an object and the object itself, the logician could possibly act in a clarifying manner.
+
+I have named organization theory as a related discipline: there are all sorts of connections between the work of the automation mathematician and what organization theory could be (but scarcely seems to be). His product is an organization, the mechanism with which he makes it is an organization, finally that into which it functioningly intervenes is an organization. For that reason I spoke a whole morning with colleague Hulsof in order to depict to him the background of my interest, so that I might gain an idea of the extent to which automation mathematics could profit from organization theory. For the time being I have the impression that organization theory will be able to profit more from automation mathematics than the other way around.
+
+27 February 1967
+
+transcribed by Carl Ludwigson
+revised Thu, 4 Nov 2010

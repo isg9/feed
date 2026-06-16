@@ -38,3 +38,26 @@ De vierde zender is bestreden met de argumentatie, dat hij alleen zou appelleren
 
 transcribed by Jukka Ketelaars
 revised Sun, 17 Jun 2007
+
+---
+
+## English translation
+
+### Sixth address, autumn 1975
+
+12 October 1975
+EWD 522
+
+Sixth address, autumn 1975.
+Once socialism was a noble movement, driven by a sincere concern with the bitter poverty in which many lived and died. But the struggle against poverty has degenerated into a struggle against wealth; one levels incomes like a man possessed, speaks of skimming off excess profits while the business community can scarcely keep itself afloat, the government shamelessly slaughters the hen that was supposed to lay the golden eggs, and the Labour Party will go down in history as the Party of Unemployment.
+
+But the struggle —"our struggle", as our Joop would say!— must be fought on all fronts: from the material plane it must be shifted to the cultural one. This too has noble roots in a distant past: it began as a struggle against the cultural impoverishment in which many lived and died. But this struggle too degenerated, years ago, into the combating of cultural wealth and the intellectual elite: it is already more than forty years ago that H.G.Wells predicted that the new class struggle would be the combating of the capable!
+
+It has fallen quiet around the Foundation "Nederland Muziek" [The Netherlands Music], which a few years ago, under the leadership of Rudy Kousbroek and Theo Olof, campaigned for a fourth radio station with consistently good music and no drivel, an initiative that garnered so much support that even minister Van Doorn —and that says something!— could not ignore it. Given the high quality and enormous variety of what is on offer on the international gramophone-record market, the realization of such a pure music station is, from a technical point of view, a triviality.
+
+But then came the difficulties. First it was to be put on medium wave, which, as everyone knows, is not worth listening to. This was clearly too absurd; now the fourth station is allowed on the FM waves, but, if I am correctly informed, only during the day until five o'clock in the afternoon. By the time people come home from work and might want to enjoy some music, it has to be over! And above all you must not think that, if the fourth station is on the air during the day, you can then count on decent music, oh no, for with music alone the broadcasting associations cannot show their distinctive face! So once again exactly what was explicitly not the intention: drivel..... It has fallen quiet around the Foundation "Nederland Muziek"; I think it has turned away from the intrigue, retching.
+
+The fourth station has been opposed with the argument that it would appeal only to an already musically developed minority, which would thereby develop itself musically still further, thus fostering the detestable formation of an elite. Revolting as the argument is, it was probably the most sincere one. Revealing, in any case, is the specious reasoning with which the broadcasting associations have kept the music station off the airwaves in the evening: it would offer their own programmes too much competition, and an appeal to the sacred cow "listener density" was enough to demonstrate that such a thing was inadmissible. As a layman in the world of broadcasting, one might remark that if a reliable music station generates such enormous competition, they could increase their own listener density by broadcasting good music instead of letting prattlers contribute to the pollution of the airwaves. But then they defend the pitiful quality of their programmes with the remark that, with an eye to their membership numbers, they cannot afford the luxury of good programmes, which would repel the public. Something here is not right in the logic... It is evidently a misconception to believe that radio programmes are broadcast for the listener; the listener is merely used. The relationship between Higher Education and Students might well show similarities to this.
+
+transcribed by Jukka Ketelaars
+revised Sun, 17 Jun 2007

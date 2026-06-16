@@ -60,3 +60,60 @@ Overigens ben ik van oordeel, dat er op Hilversum 4 minder moet worden gezeverd.
 transcribed by Carl Ludwigson
 
 revised Tue, 16 Oct 2007
+
+---
+
+## English translation
+
+### Second address to my students, spring 1976
+
+For the manufacturer of, say, Purgatorium Toilet Soap, it is not so difficult to deduce from
+the sales figures how many bars of Purgatorium Toilet Soap are used per month by the Dutch
+people. If, however, one also wishes to find out by what percentage of the Dutch people these
+bars of soap are used up, then one reaches for the device of the survey. Surveyors, male and
+female, are loosed upon humanity with the question "Do you use Purgatorium Toilet Soap?" and
+then it is just a matter of tallying! Apart from the nuisance to the citizenry, no serious
+objection can be raised against this method.
+
+It becomes more dubious when, superficially viewed, factual information is asked for, while on
+closer inspection the formulation of the question is unclear or poorly applicable. Thus over the
+past years the Dutch professors, whose professional responsibility, as is well known, extends
+over teaching and research, have been plagued by survey forms on which they were supposed to
+fill in what percentage of their time they spent on research, and what percentage of their time
+they spent on teaching. In the filling-in, the problem immediately arises that one does a great
+many things of which one scarcely knows whether one should regard them as research or teaching:
+often it is both at the same time. Added to this is the fact that one knows confoundedly well
+that one hour of the day is not the same as another! The objections to the uncertainty about how
+to fill in this form are waved away with the remark that the form is filled in by so many that
+the differences in the interpretation of the categories will be averaged out. I have always
+found that a very dubious remark. That one can average by adding and dividing, a child knows;
+that, with dubious source data, of which no one actually knows what they represent, the average
+should suddenly be a relevant datum is something I can only with difficulty bring myself to
+believe. Seeking the Truth by averaging all the Lies can be justified only by the dogma that the
+Middle Way is always Golden....
+
+The whole survey craze becomes truly abject when the surveyors go on to ask for opinions: "Are
+you for or against ....?" and then just fill in: abortion, NATO, nuclear energy, democratization,
+and so forth. The sort of matters that are then put up for discussion here are always of such a
+kind that anyone with a well-considered judgement can never summarize it in one bit of
+information. From this sort of survey, however, the suggestion of the opposite emanates.
+Furthermore, the fact that equal weight will be assigned to every answer suggests that to every
+answer equal weight is also due, and that everyone, by the mere fact of being surveyed, is
+entitled to his opinion, however immature. If —and this seems to be becoming ever more
+customary— refusal to cooperate with the survey is represented as morally reprehensible, then
+from the whole procedure there emanates a pressure to come forward with an opinion and to assume
+a judgement for oneself.
+
+This is the same pressure that emanates from all the happenings in which secondary-school pupils
+and students are urged to "discuss" subjects of which they have insufficient understanding. Here
+the underlying dogma is that this is not in the least necessary; some will perhaps even defend
+the view that knowledge of the matter can only cloud the purity of the intuitive judgement.
+
+Opinion surveys and the said happenings constitute a serious threat to one of the most essential
+academic freedoms, namely the right to refrain from an opinion and to suspend one's judgement.
+
+Incidentally, I am of the opinion that there should be less drivel on Hilversum 4.
+
+transcribed by Carl Ludwigson
+
+revised Tue, 16 Oct 2007

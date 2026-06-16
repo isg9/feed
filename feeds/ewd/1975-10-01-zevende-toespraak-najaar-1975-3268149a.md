@@ -41,3 +41,24 @@ lullig genoeg?".
 
 transcribed by Jukka Ketelaars
 revised Sun, 17 Jun 2007
+
+---
+
+## English translation
+
+### Seventh address, autumn 1975
+
+12 October 1975
+EWD 523
+
+Seventh address, autumn 1975.
+Last week I ended with the suggestion that the murky relationship between broadcasting associations and listeners might well show similarities to the apparently equally murkily conceived relationship between faculties, respectively departments, and students. To make do with an unsubstantiated insinuation is the style of cheap journalism; I shall therefore substantiate it, even though that substantiation will not make me any more popular with those to whom the imputation does not sit well.
+
+In the mid-sixties —I had by then been an ordinary professor for a number of years— the government, more emphatically than before, began to relate the means made available to higher education to student numbers. This was for me occasion to warn earnestly against the psychological effect to be expected from this, namely that we, unconsciously influenced by it, would come to measure the entire importance of our total activities by student numbers, and that, unwillingly, in our value judgement our educational activity —and indeed a fairly vulgar aspect of it— would usurp the primacy. Thus it came to pass. Would you like an example? The two semesters together extend over roughly half the year; I remember very well how, at the beginning of my professorship, the other half of the year was the highpoint of the cycle, namely when everyone, unhindered by students and undistracted by the regular duty of lecturing, was enthusiastically busy with his own work. The exciting months of the year fell pre-eminently outside the semesters. And how is it now? Outside the semesters and the examination periods the TH falls asleep; in the summer vacation, when in those days the scientific life of the subdepartment used to concentrate, it is now so deserted that last year, for the first time, the mathematics lounge was closed for three weeks: a poignant symptom of decay!
+
+As soon as it had been lost from sight that the importance of a department depends on the level of its work and therefore declines with increasing student numbers, things went rapidly downhill. Scientifically dubious departments such as industrial engineering and architecture made their entry and grew alarmingly. But even departments that were originally scientifically bona fide did not remain untouched. Feeling themselves likewise obliged to grow, they too threw open the floodgates to the general watering-down of education, out of fear that, by maintaining the scientific level, they would not reach their quorum. I am not exaggerating; on the contrary: I speak from bitter experience. When, in my educational activities, I wished to maintain the level and continued to impose at examinations the demands which the subject simply makes, this was not received with gratitude. It was put to me that I cared too little for what was called "the interest of the subdepartment". Do you sense the parallel with the broadcasting associations, which have likewise become an autonomous goal with an "interest" of their own?
+
+Like a broadcasting association, the subdepartment courts the favour of the people. In the basic instruction it provides for the other departments, it yields to the pressure to replace the imparting of insight by the imparting of knowledge: if I am correctly informed, the basic instruction in computing science, which once was about programming, is being bent into a kind of driving lesson on the computer. It is as if a lecture series on good use of language were replaced by a Schoevers-style typing course. The training of our own mathematical engineers must suffer for it too: as if it were a matter of routine work, he is presented as a kind of broker in mathematical methods, who himself need think nothing up. Whoever, in the present order, tries to give a graduation specialization substance gets hurled at his head the reproach that he confines himself "elitistically to the happy few". Education and broadcasting evidently share their greatest worry: "Is our programme really crummy enough?".
+
+transcribed by Jukka Ketelaars
+revised Sun, 17 Jun 2007

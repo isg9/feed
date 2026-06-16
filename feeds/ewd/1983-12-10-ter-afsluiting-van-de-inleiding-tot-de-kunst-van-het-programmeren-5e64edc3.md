@@ -63,3 +63,60 @@ transcribed by Bart Vreugdenhil
 
 revised
 30-Dec-2011
+
+---
+
+## English translation
+
+### In closing of the "Introduction to the Art of Programming"
+
+In closing, not only of the season, but of the whole series, we bring "The equality test for cyclic lists", a still fairly recent composition by Yossie Shiloach. The original composition is written for amateur ensembles and for that reason contains scarcely any passages that demand much refinement of performer or listener, and in its original form the piece is therefore not entirely satisfying. That it has nonetheless so quickly come to belong to the classical repertoire we owe to the concert arrangement by Wim Feijen and Netty van Gasteren: they have done for Shiloach's Algorithm what Maurice Ravel did for Modest Petrovich Mussorgsky's Pictures at an Exhibition. I now bring you a performance of Shiloach's Algorithm in the version of Feijen and van Gasteren, supplemented with my own cadenzas.
+
+*            *
+
+*
+
+Well, that was then 17 years of "Introduction to the Art of Programming": 17 eventful years. (They are still moving, we may well say.) A retrospect be granted me.
+
+How eventful those years have been becomes immediately clear if we look at the changes of name. Whereas we began 17 years ago with the Art of programming, 8 years later we spoke of A discipline of programming, and another 8 years later The science of programming acquired citizenship. This progression is, even for the layman, an unmistakable symptom that in those years much must have happened.
+
+The Art of Programming: the name was no joke, it reflects very clearly the time in which it arose. Thus a year later there appeared Vol. I of the book by Donald E. Knuth that would receive the name The Art of Computer Programming. The choice of name was prompted by a mixture of modesty and ambition.
+
+The modesty consisted in this, that by speaking of the art we indicated that the scientific discipline did not yet exist. (And even 8 years later, when all that had come to lie quite differently, we very deliberately chose "A Discipline": note the indefinite article!)
+
+The ambition consisted in this, that we wished most clearly to raise the subject above the then prevailing level of ad-hoccery. The use of the term art seemed clearly to put that ambition into words, the more so as it was clear that the desired development would have to receive its first impulses from aesthetic considerations.
+
+Looking back, I must acknowledge that I, as far as I can remember, at the time underestimated the role of those aesthetic considerations. I was indeed very much aware that it was pointless to develop an extensive formal system and to make ourselves master of the attendant manipulative skills before we had very carefully chosen what we actually wished to formalize and at what kind of programs we actually wished to aim. We knew a few things by then: we knew that the goto-statement was a source of misery, and even partly understood why; we knew that recursion could be a splendid piece of tooling. But it was still very much groping; hence the aesthetic compass. Anticipating a little, I may illustrate how much, even six years later —and we are then in 1973— aesthetics was directive. The generalization of the if-then-else-clause to the alternative construct with the so-called guarded commands arose out of the desire not to disturb, in the expression for the maximum of two numbers, the symmetry between those two numbers. At the moment when I saw that my manner of maintaining symmetry implied the introduction of nondeterminism, I at first scarcely dwelt on it: my first reaction to the introduction of nondeterminism was one of a resigned "well, that is apparently how it must be". How great the step then heedlessly taken had been I realized only much later, when the earlier-mentioned Knuth characterized it as "a giant leap".
+
+What I, by primarily appreciating aesthetic considerations as a provisional guideline, then underestimated is how elegance would come to occupy an ever more central place in our considerations as time went on. Later I have sung in every key that in computing science mathematical elegance ought not to be regarded as a luxury, but as a hard necessity. In 1967 I certainly did not yet see that with the clarity with which we are now imbued with it.
+
+Alas, the chosen designation was not so clear as we had hoped: besides giving rise to scornful remarks, it has, I fear, contributed to the misunderstanding that the subject was unlearnable, that the examination was after all a lottery and that it therefore made little sense to prepare for it. It needs no argument that the examination did indeed degenerate into a lottery for students who drew these incorrect conclusions and acted on them, but then a lottery with nothing but blanks. The examination has by this come into disrepute, but every time we checked it the marks for "the art" turned out to correlate so splendidly with other recognizedly selective examinations that we have not worried and have laid aside, as a compliment, the reproach that the examination for "the art" was an intelligence test. And that was then probably a bit naive; entirely justified, but a bit naive. It goes, however, somewhat far for me to ascribe the misunderstandings solely to the chosen designation. For the Netherlands we were probably also a bit early: it was the time when, as a leading Dutch mathematician, you could without loss of face still declare with pride that you "of course knew nothing about computers".
+
+Internationally seen, we were not too early. In 1968 the "software crisis" came into the open at the famous NATO Conference at Garmisch-Partenkirchen. That same year a substantial part of the IFIP Working Group 2.1 resigned. For the resigning members the political breaking-point was the IFIP ratification of ALGOL 68, a ratification they found misplaced. Of more importance is the core of their motivation, namely that they did not see how ALGOL 68 contributed to the hardest aspect of the programmer's task, namely the creating of confidence in the correctness of his programs. Only a year later, in 1969, —and here the vision of the then president of IFIP, Heinz Zemanek, probably played the decisive role— a new IFIP Working Group was founded: WG 2.3, with as its charter "Programming Methodology". Meanwhile "Notes on Structured Programming" had come into circulation via the informal circuit and, thanks to the copying machines just becoming popular, was soon widely spread.
+
+[Wholly by the way. At present we curse the copying machines as the apparatus without which the administrative paralysis of university democratization could not have come to pass, and it is not misplaced to accord Xerox Corporation its rightful share in the worldwide deterioration of the academic enterprise. At the same time, however, we ought to acknowledge that the copying machine plays an enormous role in the development of science: a good idea no longer remains secret, and that is an inestimable gain.]
+
+At the beginning of the seventies the course got its first set of lecture notes: "An Introduction to the Art of Programming". I still regularly come across references to it, but cannot ascertain whether these were made possible by the informal circuit, or rather by the fact that The Indian Computer Society reprinted and distributed it in a probably gigantic edition. The course probably began to exert its real influence only in 1973, when it inspired Niklaus Wirth of Zürich to the publication of his Systematic Programming. In 1976 there appeared A Discipline of Programming; 5 years later there appeared from David Gries the clearly thereby inspired The Science of Programming, and the founding of the Elsevier journal The Science of Computer Programming was a fact.
+
+Meanwhile colleague Martin Rem, when he returned from CalTech, had taken over the course. Under his careful guidance the promising adolescent has come to maturity. Mind you: mature does not mean finished, it means mature. The course had had its time as a child prodigy; the seriousness of life announced itself. Formal techniques, both in problem analysis and in the construction of solutions, came to play an ever larger role. The formal manipulations have been streamlined and systematized, and the vocabulary that describes recognizable patterns in problems has developed. In the years that Martin Rem developed the course, the instruction grew, thanks to people such as Wim Feijen, without lapsing into routine, into a solid tradition.
+
+In short: a flourishing activity in the prime of its life, an activity in which the ideal of Von Humboldt, namely the intertwining of teaching and scientific development, has fully come into its own. Thanks to what we in our optimism still call the 2-phase structure, although it is seriously to be questioned whether that 2nd phase can ever be realized, this course now ceases to exist. This does not make for cheerfulness. But we can try to console ourselves and to descry some bright spots. (That is, after all, not yet forbidden by law.)
+
+We can in any case look back gratefully on the past 17 years, grateful that the course has been able to come to maturity, grateful to all the instructors who have contributed to its perfection and dissemination, and grateful to all those students and others who attended the course not as a sponge but as a whetstone.
+
+We may also be grateful for what we ourselves have learned from it. It has taught us that such a thing as programming methodology indeed exists; it has also furnished us the proof that this subject is teachable —which does not mean that everyone can learn it, but that is so with every teachable subject—. It has also heightened our appreciation of formal techniques: we have learned from experience that the widespread superstition that formal treatments would necessarily be tedious and long-winded is, to put it cautiously, not justified. If our experiences are transferable to mathematics in general —and I see no reasons why that should not be the case— a methodological vista has thereby been shown to make one's mouth water. The really, after all, surprising speed with which the influence of this course has propagated itself over the face of the earth is the umpteenth justification for the expectation that in the coming decades computing science will have at least as profound an influence on the practice of mathematics in general as in the past physics has had on analysis. And that is an exciting thought!
+
+And as a last consolation for those who find it a pity that this course ceases to exist in the prime of its life, a reminder of the well-known advice to leave the party while it is still enjoyable.
+
+On behalf of all those concerned I thank you for your attention.
+
+Plataanstraat 5
+
+5671 AL NUENEN
+
+The Netherlands
+7 December 1983
+
+prof.dr. Edsger W. Dijkstra
+
+Burroughs Research Fellow

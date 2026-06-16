@@ -42,7 +42,7 @@ elke regel van links naar rechts. Het zijn de routines van het type CHAR� waar
 de eigenschappen van de diverse hardware ponser/bladschrijvers hun neerslag vinden.
 Over deze eigenschappen worden twee veronderstellingen gemaakt
 
-a)         We veronderstellen dat het hardware apparaat beschikt over enige geheugenelementen,
+a)         We veronderstellen dat het hardware apparaat beschikt over enige geheugenelementen,
 waarvan de beginwaarde (het begin van) het paginabeeld mede kunnen bepalen,
 dat aan een band ontleend wordt. Wij noemen heersende case, wagenpositie etc. Hieraan
 beantwoordt, dat elke routine van het type CHAR, voordat hij over een paginabeeld
@@ -59,7 +59,7 @@ van CHAR opgegeven
 de band ingelegd wordt met de eerste heptade die door CHAR via HEP
 gelezen gaat worden in het leesstation van het apparaat in kwestie.
 
-b)        we veronderstellen de door de hardware van de ponser/bladschrijver gegeven code
+b)        we veronderstellen de door de hardware van de ponser/bladschrijver gegeven code
 zo ingewikkeld, dat in het algemeen geen natuurlijke synchronisatie tussen pagina—
 en bandbeeld bestaat, maw. dat als het verslag van CHAR tot een bepaald punt op
 de pagina gevorderd is, het plotseling doorlezen van de band via HEP op een in
@@ -91,30 +91,30 @@ van een band gelezen wordt, tussentijdse wisselingen tussen de drie interpretati
 zijn toegestaan, zonder dat het SYM aanroepende programma hier enige
 zorg mee heeft. Dit impliceert
 
-1)      dat in een ALGOL tussen te voegen teksten van standaardprocedures een soort
+1)      dat in een ALGOL tussen te voegen teksten van standaardprocedures een soort
 binaire banden zouden kunnen zijn, die SYM via symhep zou kunnen lezen
 
-2)      dat een programma, dat in teleprintercode wordt aangeboden, van een omvattend
+2)      dat een programma, dat in teleprintercode wordt aangeboden, van een omvattend
 blok kan worden voorzien door er een stukje flexowritertekst voor- en achteraan te
 plakken.
 
 Evenzo laten wij voor NUM vier verschillende manieren open, waarin hij aan
 een band numerieke waarden ontleent
 
-1)       numerieke waarden, gedefinieerd op een rij basic symbols. NUM zal dan via
+1)       numerieke waarden, gedefinieerd op een rij basic symbols. NUM zal dan via
 SYM de band aftasten, wij noemen dit interpretatieproces “numsym”. (Bij activiteit
 van numsym doet het niet ter zake of SYM via symcharf� symchart of symhep werkt.)
 
-2)       numerieke waarden gedefinieerd op een flexowriterpaginabeeld; NUM zal dan via
+2)       numerieke waarden gedefinieerd op een flexowriterpaginabeeld; NUM zal dan via
 CHARF de band aftasten, wij noemen dit interpretatieproces “numcharf”. (NB. Hierbij
 kunnen paginabeelden verwerkt worden, die niet als representatie van basic
 symbols beschouwd kunnen worden, bv. octale getallen met onderstreepte cijfers
 of zo.)
 
-3)       numerieke waarden gedefinieerd op een teleprinterpagina; NUM zal dan via
+3)       numerieke waarden gedefinieerd op een teleprinterpagina; NUM zal dan via
 CHART de band aftasten, wij noemen dit interpretatieproces “numchart”.
 
-4)       numerieke waarden, zonder tussenkomst van basic symbols of paginabeeld�
+4)       numerieke waarden, zonder tussenkomst van basic symbols of paginabeeld�
 direct gedefinieerd op een bandbeeld; NUM zal dan via HEP de band aftasten, dit
 interpretatieproces noemen we “numhep”. (Op deze wijze zouden binaire voorstellingen
 direct van een band gehaald kunnen worden.)
@@ -126,10 +126,10 @@ Behalve dat gemengde toegankelijkheid van een van de paginabeelden of het
 bandbeeld elkaar uitsluiten, proberen we zo liberaal mogelijk te zijn. In het
 bijzonder:
 
-a)       Alternering tussen SYM en CHARF (CHART resp. HEP) is definieerbaar mits
+a)       Alternering tussen SYM en CHARF (CHART resp. HEP) is definieerbaar mits
 SYM werkt volgens symcharf (symchart resp. symhep).
 
-b)       Alternering tussen NUM on CHARF (CHART resp. HEP) is definieerbaar
+b)       Alternering tussen NUM on CHARF (CHART resp. HEP) is definieerbaar
 
 1)
 als NUM werkt volgens numcharf (numchart resp. numhep)
@@ -137,7 +137,7 @@ als NUM werkt volgens numcharf (numchart resp. numhep)
 2)
 als NUM werkt volgens numsym en SYM voldoet aan voorwaarde a).
 
-c)       Alternering tussen NUM en SYM is definieerbaar
+c)       Alternering tussen NUM en SYM is definieerbaar
 
 1)
 als NUM werkt volgens numsym (aan de werkwijze van SYM is dan geen
@@ -181,10 +181,10 @@ dat ik voor een eindige ponsband heb gekozen: een (in de toekomst) oneindige
 halfrij “heptaden�� die voor een zeker moment niet en na dat moment louter de
 karakteristieke waarde “–1” bevat en aflevert. Voor dit model pleite
 
-1)       dat de oneindigheid de mathematische hanteerbaarheid van HEP alleen maar
+1)       dat de oneindigheid de mathematische hanteerbaarheid van HEP alleen maar
 ten goede kan komen
 
-2)       dat een mogelijk relevant aspect van de werkelijkheid (nl. einde band)
+2)       dat een mogelijk relevant aspect van de werkelijkheid (nl. einde band)
 hierin zijn representatie vindt.
 
 (Ik ben me bewust, dat andere mogelijk relevante aspecten van de werkelijkheid
@@ -297,11 +297,11 @@ Rechtstreeks HEPpen is niet verenigbaar met de actualiteit van CHARF
 of CHART� De vraag is, hoe het systeem reageert wanneer men deze (en dergelijke)
 regels probeert te schenden. In het bijzonder:
 
-1)  actualisering van CHARF terwijl basint ≠ 0 is
+1)  actualisering van CHARF terwijl basint ≠ 0 is
 
-2)  actualisering van CHART terwijl hasint ≠ 0 is
+2)  actualisering van CHART terwijl hasint ≠ 0 is
 
-3)  rechtstreeks HEPpen terwijl basint = 2 of = 3 is.
+3)  rechtstreeks HEPpen terwijl basint = 2 of = 3 is.
 
 Als basint ≠ 0 is, betekent dit heel expliciet: dat we ons tot nader order tot
 een bepaalde bandinterpretatie verplcith hebben, Je kunt zeggen: dan nog een keertje
@@ -478,6 +478,482 @@ eerst een “mark” komt, zo ja, dan is daarmee deze mark gepasseerd. In de div
 codes moet dit realiseerbaar zijn, zonder NUM meer statusvariabelen te geven.
 (Als we HEP niet met de terugduwfaciliteit uitrusten kost dit ons een heptade per
 getal, maar daarover zou ik niet willen vallen).
+
+transcribed
+by Martin van der Burgt
+
+revised 20-Nov-2013
+
+---
+
+## English translation
+
+### Sequential interpretation of punched tape
+
+This report deals with the structure and mutual coherence of four procedures (or procedure types):
+
+integer procedure HEP
+
+for the scanning of punched tape
+
+integer procedure type CHAR
+
+for the scanning of a page image
+
+integer procedure SYM
+
+for the scanning of a sequence of basic
+symbols
+
+real procedure NUM
+
+for the scanning of a sequence of numerical
+values.
+
+Of the type CHAR we consider two, say CHARF and CHART for the scanning
+of a page image of flexowriter and teleprinter respectively; the extension to more than
+two different CHARs is obvious. We pass over the fact that the
+page-imaging capacity of the teleprinter happens to be almost entirely contained in that
+of the flexowriter, and we therefore regard their respective page-imaging capacities
+as utterly different.
+
+When a routine of the type CHAR is given a tape of the apparatus concerned to process,
+then upon repeated invocation it will deliver a sequence of values that gives a unique report
+about the page image belonging to this tape, namely line by line,
+each line from left to right. It is in the routines of the type CHAR that
+the properties of the various hardware punchers/page-writers find their imprint.
+Concerning these properties two assumptions are made
+
+a)         We assume that the hardware apparatus disposes of some memory elements,
+whose initial value can co-determine the (beginning of the) page image
+that is derived from a tape. We mean prevailing case, carriage position etc. To this
+corresponds the fact that every routine of the type CHAR, before it can begin to give a report
+about a page image, must be actualized (initialized), whereby
+these mechanical memory elements are assigned an initial value specified at the actualization.
+After actualization CHAR reports the page image that arises
+when
+
+1)
+the apparatus would be brought into the state as specified at the actualization
+of CHAR
+
+2)
+the tape is inserted, with the first heptad that is to be
+read by CHAR via HEP, into the reading station of the apparatus in question.
+
+b)        we assume the code given by the hardware of the puncher/page-writer
+so complicated that in general no natural synchronization between page
+and tape image exists, i.e. that when the report of CHAR has progressed to a certain point on
+the page, the sudden reading-on of the tape via HEP hooks in at a moment that is in
+general undefined.
+
+While the use of CHARF and CHART —through the complexity of the apparatus
+and through nothing else!— is subject to some restrictive rules, for the rest we aim at
+the greatest possible generality. (If an implementor sees no employment for some of the possibilities
+to be mentioned below and omits them, then that is his affair: I
+include them in the picture in order thereby to keep open the road to later addition.)
+
+The routine SYM can derive a sequence of basic symbols from a tape in three ways
+
+1)
+a sequence of basic symbols defined on a flexowriter page image; SYM will then
+scan the tape via CHARF, this interpretation process we call “symcharf”.
+
+2)
+a sequence of basic symbols defined on a teleprinter page image; SYM will then
+scan the tape via CHART, this interpretation process we call “symchart”.
+
+3)
+a sequence of basic symbols defined directly on the tape image, without the intervention
+of a page image; SYM will then scan the tape via HEP, this interpretation process
+we call “symhep”.
+
+In particular we shall require that if a series of basic symbols is read
+from a tape via SYM, intermediate switches between the three interpretation processes
+are permitted, without the program invoking SYM having any
+concern about this. This implies
+
+1)      that the texts of standard procedures to be inserted in an ALGOL could be a sort of
+binary tapes, which SYM could read via symhep
+
+2)      that a program offered in teleprinter code can be provided with an enclosing
+block by pasting a piece of flexowriter text at the front and the back of it.
+
+Likewise we leave open for NUM four different ways in which it derives numerical
+values from a tape
+
+1)       numerical values, defined on a sequence of basic symbols. NUM will then scan the tape via
+SYM, we call this interpretation process “numsym”. (During the activity
+of numsym it does not matter whether SYM works via symcharf, symchart or symhep.)
+
+2)       numerical values defined on a flexowriter page image; NUM will then scan the tape via
+CHARF, we call this interpretation process “numcharf”. (NB. Hereby
+page images can be processed that cannot be regarded as a representation of basic
+symbols, e.g. octal numbers with underlined digits
+or the like.)
+
+3)       numerical values defined on a teleprinter page; NUM will then scan the tape via
+CHART, we call this interpretation process “numchart”.
+
+4)       numerical values, without the intervention of basic symbols or page image,
+defined directly on a tape image; NUM will then scan the tape via HEP, this
+interpretation process we call “numhep”. (In this way binary representations
+could be fetched directly from a tape.)
+
+Again a program must be able to invoke NUM many times, regardless of the
+switches between these four manners of number construction.
+
+Apart from the fact that mixed accessibilities of one of the page images or the
+tape image exclude one another, we try to be as liberal as possible. In
+particular:
+
+a)       Alternation between SYM and CHARF (CHART resp. HEP) is definable provided
+SYM works according to symcharf (symchart resp. symhep).
+
+b)       Alternation between NUM and CHARF (CHART resp. HEP) is definable
+
+1)
+if NUM works according to numcharf (numchart resp. numhep)
+
+2)
+if NUM works according to numsym and SYM satisfies condition a).
+
+c)       Alternation between NUM and SYM is definable
+
+1)
+if NUM works according to numsym (no restriction is then imposed on the
+way of working of SYM)
+
+2)
+if NUM works according to numcharf (numchart resp. numhep) and SYM works
+according to symcharf (symchart resp. symhep}.
+
+We observe that three mutually exclusive basic interpretations can be in
+progress; which of the three is in force we record in the value of an
+integer status variable “basint” added to the information stream.
+
+basint = 1 the information is defined on a tape image that is not interpreted
+as a carrier of a page image (symhep, numhep and in general HEP
+permitted, CHARF and CHART not applicable)
+
+basint = 2 CHARF current, i.e. the tape image functions only as a carrier of
+a flexowriter page, only CHARF applicable (and HEP only
+from within CHARF).
+
+basint = 3 CHART current, i.e. the tape image functions only as a carrier of
+a teleprinter page, only CHART applicable (and HEP only
+from within CHART).
+
+The status integer basint knows yet a fourth value
+
+basint = 0 none of the three named interpretations is in force; in particular,
+if in this state information must come from the tape that can alternatively
+be defined on a teleprinter page, a flexowriter page, or directly on a tape image,
+then the heading of the piece of tape then to be read will have to make clear
+whether basint must acquire the value 1, 2 or 3.
+
+The routine HEP.
+
+After this has been initialized —i.e. the tape has been inserted— the integer
+procedure HEP gives per invocation the next n-ad of the tape. To “END OF TAPE” it reacts
+by delivering, until the next initialization, the value “–1”. The routine HEP
+computes, upon repeated invocation, a function defined on the mathematical model
+that I have chosen for a finite punched tape: an (in the future) infinite
+half-sequence of “heptads” that before a certain moment does not, and after that moment merely does, contain and deliver the
+characteristic value “–1”. In favour of this model speak
+
+1)       that the infinity can only benefit the mathematical manageability of HEP
+
+2)       that a possibly relevant aspect of reality (namely end of tape)
+finds its representation herein.
+
+(I am aware that other possibly relevant aspects of reality
+have fallen under the table. The width of the paper one might wish to use
+for the determination of the choice between alternative codes; the colour of the paper or
+the factory number of the flexowriter on which a tape was punched one might perhaps wish to
+know for diagnostic purposes upon the occurrence of reading or punching errors!)
+
+For the time being I see no necessity to be able to give HEP “a pushback”. Should
+this necessity arise, then a sensible choice must be made between the
+almost equivalent possibilities that will still come up for discussion in connection with CHAR.
+
+The routines of the type CHAR.
+
+This section deals only with CHARF, because I am insufficiently
+acquainted with the teleprinter and, on account of unfamiliarity with standard practices in
+telex traffic, I scarcely consider myself competent to make recommendations here.
+
+The routine CHARF that I have in mind relates to an MC-flexowriter
+without variable spacing, without backspace, with fixed setting of the line
+feed and fixed spacing of the tabulator stops.
+
+Initialization of CHARF takes place under specification of two parameters, the boolean
+“lower case” and the integer “carriage position”, which at the beginning of the line is
+set to 0. Thereafter CHARF delivers per invocation the report of the page image, namely
+per position on the page. (Each “escaping” keystroke is reported fourfold
+if it is case-independent (i.e. the space) and eightfold if it is case-dependent,
+namely underlined or not and struck through or not). Within the value range
+of CHARF, NLCR —i.e. transition to a new line— is also comprised, TABs
+are translated into an equivalent number of spaces, spaces and TABs at the end
+of the line are, on account of their invisibility, not passed on.
+
+We can (see above) e.g. define basic symbols either on a Flexowriter page
+or on a teleprinter page, and we have required of e.g. a routine
+such as SYM that it can, behind the scenes, switch from the one code to the other.
+
+These transitions must be steered by the tape. Of every routine of
+type CHAR I imagine that there is a characteristic (self-terminating) punching
+(or punch combination) which entails that herewith the prevailing interpretation is, until
+further notice, finished. For the procedure CHARF I imagined using for this purpose the
+stop code in the meaning “END OF CODE”.
+
+Because for routines that work in terms of CHARF I most certainly want to permit
+that they read non-self-terminating units of the page, CHARF will indeed be able to have a pushback
+of a single value.
+
+For the routine CHARF the following role looms up.
+
+The state “CHARF current” —i.e. basint = 2— can only be brought about
+by the invocation of an initialization procedure, whereby the status variables of
+CHARF (namely “prevailing case” and “carriage position”) are specified. By the initialization procedure
+the pushback is set to “empty”.
+
+The giving of a pushback could be done in two ways
+
+1)
+by the parameterless command “at the next invocation, repeat first once more the last
+delivered value”
+
+2)
+by the parameter-bearing command “at the next invocation, give first the
+value specified herewith”.
+
+Because the second method is somewhat more flexible —and the first is moreover poorly
+defined immediately after initialization— I prefer the second version.
+
+If a pushback is given to CHARF at a moment when CHARF is not
+current, this action has no effect.
+
+If a pushback is given to CHARF while a not-yet-returned
+pushback was hanging, then the latter pushback overwrites the former.
+
+A side effect of CHARF will have to be to terminate, in consequence of the encountering
+of the stop code, the state “basint = 2” (i.e. CHARF’s currency).
+More precisely: just as CHARF does not pass on invisible spaces at the end of the line,
+CHARF will also not report invisible NLCLs when finally
+a stop code is found on the tape. The occurrence of the stop code is passed on to the
+invoking program by CHARF returning with the value “–1”,
+now in the meaning “END OF CODE”. If CHARF is invoked during
+“basint = 2” and it returns with the value “–1”, then this has “basint := 0”
+as a side effect. (This holds also if this –1 comes from the pushback; herewith therefore
+a way is given to let CHARF, should it be current, terminate its
+currency.) If CHARF is invoked during “basint ≠ 2”, then
+the control likewise returns with CHARF = –1, but this time without side effect.
+
+In the case of non-currency of CHARF, the giving of a pushback has no (side)
+effect, nor does the invocation of CHARF.
+
+With this definition of the falling-away of the currency I have achieved the following:
+if SYM reads from the flexowriter page a non-terminating symbol, followed
+by a basic symbol that occupies 1 position, followed by a stop code, then
+SYM has, upon delivering the first symbol, already seen the next position. CHARF
+has perhaps already seen the stop code, but not yet passed it on, so that it has not yet terminated its
+currency. Thus the last position description can still
+be pushed back into CHARF.
+
+If CHARF, on account of passing on the stop code, has brought about for basint the transition from 2
+to 0, then (if the stop code has come via the tape) the
+synchronization with HEP is defined: after this an invocation of HEP delivers the first
+heptad that follows upon the stop code. (And this is actually the only moment at which
+I would want to define synchronization between CHAR and thereafter HEP explicitly.
+More extensive synchronization rules soon acquire something contrived, and moreover: heaven
+knows what crazy apparatus we shall have to take into the system tomorrow!)
+
+Influencing of basint.
+
+Direct HEPping is not compatible with the currency of CHARF
+or CHART. The question is how the system reacts when one tries to violate these (and similar)
+rules. In particular:
+
+1)  actualization of CHARF while basint ≠ 0
+
+2)  actualization of CHART while basint ≠ 0
+
+3)  direct HEPping while basint = 2 or = 3.
+
+If basint ≠ 0, this means quite explicitly: that we have until further notice
+committed ourselves to a certain tape interpretation. One can say: initializing
+CHARF or CHART then once more is evidently misplaced (and attach to that the consequence of
+a lethal program error); one can also say: the redefinition of
+the tape interpretation is then evidently that “further notice” and it will be all right.
+Out of opportunistic considerations I incline to the latter; to arguments that it
+is worth the trouble to treat this as a lethal program error I stand open.
+
+Direct HEPping while basint = 2 or = 3 is stranger, because we have indeed
+taken the standpoint that, in the case of currency of a CHAR, the synchronization
+with HEP is in general undefined. To brand this as a lethal program error
+is, however, too excessive for me. For that the primitive HEP is too fundamental to me.
+Direct HEPping does indeed mean that any CHAR interpretation
+is no longer valid. I therefore propose to let HEP have as side effect
+
+“if basint ≠ 1 then basint := 0” .
+
+(if HEP is invoked with basint = 2 from within CHARF, then CHARF itself can, before being left
+with “basint := 2”, undo this side effect again.)
+
+The initialization of CHARF and CHART are the only way to get basint = 2 or
+= 3; further the programmer will be allowed to set basint = 0 or basint = 1.
+
+The choice between symhep, symcharf and symchart
+
+The choice between symhep, symcharf and symchart depends on the prevailing value
+of basint. In other words, whoever knows that his SYM will have to work via symcharf can achieve this
+by initializing CHARF before the first invocation of SYM; likewise
+he can a priori dictate interpretation according to symchart or symhep via basint. In this way
+it is possible to read flexowriter tapes via SYM without these
+identifying themselves as such in their heading. If, however, we do not want to impose the choice a priori
+but to let it depend on the tape, then we can do this by
+
+1) setting the variable basint to 0 before the first invocation of SYM.
+
+2) requiring punching conventions, so that at the beginning of the tape it is to be seen with which
+value of basint reading must, until further notice, proceed. SYM can then itself, if necessary,
+actualize CHARF or CHART. (For the flexowriter heading I would want to propose
+that after skipping blanks, erases (and stop codes?), first an NLCR or a case definition;
+for teleprinter tapes after skipping blanks first a CR, an NL or a case definition;
+the CHARF or CHART initialization inserted by SYM will, for the unknown
+parameter, make a standard choice, e.g. beginning of the line, lower case or
+lettershift.)
+
+In order to arrive at a normalization of these headings I make an appeal to all interested parties.
+I then expect that everyone will instruct his punching room in such a way that
+the tapes punched there —especially ALGOL programs and data tapes— begin in conformity
+with that convention, even though he has no need of this for his own operation. At the same time
+I expect of every limited implementation of one's own operation (say “flexowriter tapes
+only”) that it accepts those flexowriter tapes with normalized heading.
+
+Initialization of SYM.
+
+As regards the choice of interpretation process, the status of SYM is thus regulated
+by basint. We are still saddled with the fact that SYM too (precisely SYM!) must be able to have a pushback of a
+single value. If we define the giving of a pushback by
+overwriting of any pushback still hanging (as with CHAR) then we can
+initialize SYM in this respect by giving a pushback and invoking SYM
+once.
+
+Initialization of NUM.
+
+The manner of interpretation of SYM is fully determined by basint; this does not hold
+for NUM: for if basint e.g. points to CHARF as current, then we have
+still the choice between numcharf and numsym via symcharf. NUM
+therefore has yet a boolean status variable, which we call “numint” and which
+indicates whether numsym is current. If numint is true, then basint determines only the
+choice between symcharf, symchart and symhep; if numint is false, then basint determines
+also the choice between numcharf, numchart and numhep. The boolean “numint” shall be
+settable in both directions.
+
+I propose to let the third conceivable state (numint undefined)
+lapse and, in all doubtful cases, to set numint true. (At the beginning of a
+new tape.) This is a choice that gives a certain preference to the manner of interpretation numsym.
+
+For: let —under continued currency of CHARF— NUM have worked for a while via
+numsym, and let us now wish to indicate on the Flexowriter page that
+from now on, until further notice, NUM must work via numcharf. The fact that numint
+must become false must be reported by the tape, with which NUM has contact only via SYM.
+This can be done in various ways; I mention
+
+1) by agreeing that the occurrence of certain number separators will be interpreted by NUM
+as “go over to numint = false”
+
+2) by introducing an extra basic symbol with this meaning
+
+3) by reporting everything that is not interpretable as a basic symbol as “nonsense”
+and giving that the same meaning.
+
+(I am coming more and more to feel for the first possibility.)
+
+In all cases we can ensure that a tape is not going to be read via numsym
+by indicating this in the heading. The result is that NUM reads tapes
+via numsym, unless otherwise stated. This seems in accordance with what we wish.
+
+The processing of “END OF TAPE”.
+
+So far we have spoken only of how HEP reacts to end of tape.
+There we agreed that the occurrence of END OF TAPE may indeed belong to the
+semantic information, and HEP is not equipped with automatic requesting
+of a follow-on tape. Now we must decide this for the following levels (CHAR, SYM and NUM).
+
+At the level of CHAR too I would not yet want to build in automatic follow-on-tape requesting.
+Stronger still: I found it precarious to let the code continuity assumed by CHAR
+extend over physically separated pieces of tape, and I therefore propose
+to let CHARF —when it detects “END OF TAPE” via HEP— react to this detection
+as to the stop code and to report on “END OF CODE” (and then
+to carry out basint := 0). The program invoking CHAR can then inspect via HEP
+whether there is yet more tape, if not, decide whether it wants to see more etc.
+
+The consequence of this is the requirement that if we want to be able to read with SYM
+in various codes, then in any case at the beginning of every physical tape there stands
+the code-identifying heading. If this condition is satisfied, then we can assemble a
+long tape from a number of partial pieces by pasting; when all
+partial pieces end with the stop code, then this pasting process can even proceed without paying attention
+to whether code switches occur at those splices.
+
+All this I feel as a strong indication to adorn SYM indeed with automatic requesting
+of a follow-on tape. (Under the motto: it need not penetrate to the SYMming program
+that those logically now unconditionally permitted splices have perhaps
+not de facto been carried out). And I even imagine, at this level,
+no longer attaching any semantic meaning to the physical end of tape (and then also
+consistently, so not e.g. reporting it once more). That a program that picks basic
+symbols from a tape is then guaranteed insensitive to the code used
+and to the physical number of tapes seems to me a greater good than the loss of
+the possibility to write with SYM a program that counts the number of basic symbols
+on a tape.
+
+It is up to SYM to request a new tape, namely when during inspection
+(basint = 0) it appears that HEP delivers the value –1. The requesting of a new
+tape shall have as side effect that numint = true is set.
+
+A few more remarks about the synchronization.
+
+We assume that NUM, via numsym, picks the numbers as non-self-terminating units
+out of the basic symbol stream. (E.g. the sign of the next number can be used as
+separator.) If only NUM were used, this could be realized in two
+ways.
+
+1) the over-read basic symbol is pushed back into SYM
+
+2) the over-read basic symbol is stored in NUM.
+
+As soon as we NUM and SYM alternately, this does make a difference. I believe that
+everyone prefers method 1).
+
+If, however, SYM is defined in terms of CHARF, then now also an alternation
+between NUM and CHARF is defined. Let it be noted that after NUM the CHARFing
+scans the page image, beginning after the over-read basic symbol!
+
+Whoever wants to scan the tape sequentially “without skipping” will, after NUM, have to do SYM
+once first and only then CHARF. An open question is whether SYM
+must retain its pushback upon direct CHARFing, CHARTing or HEPping. I am inclined to have to answer this
+question in the negative; otherwise, namely, after CHARF, repeated SYMming
+has nothing more to do with scanning in succession, and that might well become “a trouble
+shooter’s nightmare”.
+
+The last number.
+
+If the task “count the basic symbols on this tape” seems to us somewhat far-fetched, programs
+that must process an unknown number of numbers are quite familiar. The trick “put
+the count at the front” we all know, and we all know how annoying this
+can be.
+
+I could imagine that beside NUM we introduce a boolean procedure NUMMARK
+and define this pair together on an arbitrary sequence of numerical
+values and so-called “marks” (whereby a mark functions as a number separator).
+
+The boolean procedure NUMMARK gives an answer to the question whether, upon reading on,
+a “mark” comes first; if so, then this mark is thereby passed. In the various
+codes this must be realizable without giving NUM more status variables.
+(If we do not equip HEP with the pushback facility, this costs us one heptad per
+number, but over that I would not want to make a fuss).
 
 transcribed
 by Martin van der Burgt

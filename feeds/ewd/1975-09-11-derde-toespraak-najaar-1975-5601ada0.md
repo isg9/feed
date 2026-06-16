@@ -26,3 +26,28 @@ En nou heb ik het nog niet eens over "geprogrammeerde instructie" gehad!
 
 transcribed by Jukka Ketelaars
 revised Sun, 17 Jun 2007
+
+---
+
+## English translation
+
+### Third address, autumn 1975
+
+28 September 1975
+EWD 516
+
+Third address, autumn 1975.
+The increasing dissemination of the mechanical image of man I named last week as the principal cause of the rise of charlatanry; charlatanry in all ranks and at all levels, we may well add in the modern jargon. Today I wish to point out to you a few specific consequences of this mechanical image of man, consequences with which we, that is to say you and I, in this institute of scientific education —and this with as much emphasis on the adjective as on the noun!— have to do at every turn.
+
+To begin with, there are the educational practices that are inspired by a mechanical image of the student. The student is a number, a registration number to be precise. This is what is drilled into you on the first day: without a registration number you are nothing, you do not even exist as a student. Thereafter you may take part in the process which the psychologists, since they have called it "knowledge transfer", think they understand. You are now a sponge with on average predictable absorptive properties: by means of multiple choice examinations and other forms for imbeciles your objectively measured absorptive capacity then becomes fodder for statisticians. I had thought there were more important matters than what the sponge has soaked up, e.g. whether you have enjoyed a lecture, whether you have experienced it as an enriching experience that will stay with you all your life. But the mechanical student has no life, let alone a spiritual richness, and that the multiple choice questions pass over such imponderables does not trouble the modern organizer of education.
+
+And then there are the educational practices that are evoked by a mechanical image of the teacher. There was a time when professors gave lectures and students took dictation. Then came the syllabus, the lecture notes handed out in advance. There was initially nothing wrong with that: the notes were handed out on the assumption that the student could read, and gave the teacher more time, and therewith more freedom to play around his subject. But the mechanical image of the teacher has assigned the lecture notes handed out in advance a different role, namely the role of the zigzag-folded book in a barrel organ: the teacher had to stick to his text! All that uncontrollable, unpredictable initiative, that had better come to an end! If professors were to change their lectures every year, how on earth can we then meaningfully compare statistically the examination results of successive years?
+
+The next blow is that the lecture notes are no longer drawn up by the responsible teacher himself, but by a committee set up for the purpose. I deliberately use the word "drawn up"; the word "written" I no longer wish to use, because that still presupposes a "writer".... A text with which all committee members can agree is never offensive, never intellectually stimulating, and vision is replaced by a colourless mixture of worn-out prejudices.
+
+The managers always employ an extremely mechanical image of man, for without it the ground beneath their activity would sink away. The disquieting thing is that they always bring their influence to bear, in the name of "management visibility" —this has become an autonomous goal!—, to replace everything that may surprise through originality with predictable drivel. The ever more stifling centralism, practised on a national scale by the Department of Education and Science and pursued on a local scale by university and college councils, fits entirely into this picture. It is the garrotte for the intellectual and the artist.
+
+And now I have not yet even spoken of "programmed instruction"!
+
+transcribed by Jukka Ketelaars
+revised Sun, 17 Jun 2007

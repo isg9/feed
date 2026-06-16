@@ -74,3 +74,42 @@ Het is al met al wel griezelig, dat een dergelijk gebreveteerd warhoofd, dat tot
 transcribed by Carl Ludwigson
 
 revised Thu, 15 Nov 2007
+
+
+---
+
+## English translation
+
+### Sixth address to my students, autumn 1976
+
+Anyone who leafs through journals and here and there attempts to read an article cannot fail to be struck by the enormous spread in quality. Some articles are superbly written, others are unintelligible, not because the reader is insufficiently versed in the subject, but simply because the article has been put together sloppily and is wretchedly composed. I must confess to you that getting stuck in an article in the conviction that it is not I who am too stupid, but the writer who has been too careless, is an experience that always makes me furious. In such a case the author may count himself lucky if he escapes my wrath with the epithet "Oaf," for usually he is called something rather worse.
+
+If matters are already often sad with officially published articles, they are many times worse with the manuscripts that are submitted. By the nature of the case, I too am involved in this sifting process, and what one gets to lay eyes on in the course of that work really borders on the incredible. For a long time I did not understand how this could be. After all, those authors have also had articles by others before their eyes, have themselves also experienced how greatly the effectiveness of an article can be undone by slovenliness! How is it then possible that they themselves still dare to produce such rubbish?
+
+I can only think of the following explanation. In the first place I must assume that they have not been taught how one ought to submit a well-prepared manuscript. In the second place I must assume that they have also not found it necessary to teach this to themselves: one gets the anxious feeling, then, that great numbers of school-leavers would even find it unreasonable to expect of them that they should be able to do something for which they have not been explicitly trained. I call that feeling "anxious" because such an attitude is nothing more or less than an aspect of barbarism.
+
+The barbaric belief among school-leavers that they need not be able to do anything for which they have not been explicitly trained has its complement in the equally barbaric belief of the pedagogues that one can, possibly by means of a specially adapted course, teach everyone everything, right up to a "sense of social responsibility"! Every reasonable person knows that this is nonsense; barbaric nonsense even.
+
+Yet this superstition in the gospel of salvation of the special course gnaws its way through our entire educational establishment, for at the Ministry it is a fetish. It is the driving force behind all "formation work," behind all attempts to replace real education with formation work, behind all attempts, such as you can observe here at the THE, to give the Studium Generale more weight.
+
+The Studium Generale has, ever since its birth in 1945, always been a very difficult article. It was set up with the best intentions in the world. We had just witnessed, in Nazi Germany, that a technologically highly developed society offers no guarantee of a civilized society. And it is against the background of that traumatic experience that the Studium Generale was introduced, in a desperate attempt to train not only capable intellectuals, but also civilized intellectuals. In short: a noble undertaking, but also rather naive. For who really believes that "being civilized" can be taught by means of a special course?
+
+If you examine it carefully you must conclude that the optimists who promoted this kind of course had, in their own way, already fallen victim to the barbarism that they still wished to combat in others.
+
+Seventh address to my students, autumn 1976.
+
+I have the gladdening announcement for you that His Excellency Minister van Kemenade, still before the fall of the cabinet, has shown his backside through an incautious choice of words on his part. He is so immoderately talkative that everyone has of course dared to hope for something of the sort, but you never know whether some guardian angel or other, out of a misconceived solidarity with the Roman Catholic section of the population, might not feel called upon to preserve His Excellency Minister van Kemenade from all too flagrant blunders. To my pleasure and satisfaction I can inform you that in this case even the guild of guardian angels has understood the hopelessness of its otherwise noble calling: they calmly let him commit his blunder. The only wing they still stretched out for him was that they saw to it that the blunder of His Excellency Minister van Kemenade did not reach the national press and penetrated only as far as the Utrechts Nieuwsblad. The blunder is, however, no less for all that: the backside is now illuminatingly bare.
+
+In Utrecht is established the IOWO, which, I believe, stands for Institute for Research into Mathematics Education, until recently under the directorate of Prof. Freudenthal, who has lately been succeeded by Prof. van der Blij. By virtue of the mandate of this institute you may safely suppose that the staff of this institute is interested to a high —and, to some tastes, even: unhealthy— degree in the processes of teaching and learning. But they do not merely waffle there: in any case it is certain that there the dominant note is set not by pedagogues, but by mathematicians, who at least know what they are talking about. This crew proves that a mathematician, in spite of extensive and varied teaching experience, need not necessarily degenerate into a waffling windbag. As regards the scientific unassailability of their educational conclusions, you may by all means, as far as I am concerned, place a little question mark, provided you bear in mind that they are many times better founded than the ministerial decisions that are dictated by political prejudice.
+
+In an interview with His Excellency Minister van Kemenade about the middle school, His Excellency was confronted by the interviewer with critical remarks about the middle-school idea on the part of the IOWO. His Excellency —and this was the moment that the backside came so bare that he later even had to offer his apologies to the gentlemen of the IOWO— reacted in a condescendingly dismissive manner, with the remark that commentary from such "technocrats" could conveniently be ignored.
+
+Here you see His Excellency in all his naked pettiness. Confronted with opposition supported by competence, he can think of nothing better to do than to cast suspicion on his opponents. That in itself is already base. Worse still is that for that casting of suspicion he reaches for the cheapest means: he lapses into the catch-phrase-mongering that always goes down well with the rabble, by using the term "technocrats" to put competence an sich in a bad light.
+
+The most revealing thing of all, however, is that His Excellency believed he had done something clever with that choice of words. We can only observe that he belongs mentally to that same rabble and that to this day he has understood nothing of the essential role of science in our culture.
+
+All in all it is rather frightening that such a certified muddlehead, who until a few years ago calmly went on certifying new muddleheads in Nijmegen(?), is now Minister of Education and Sciences. It is high time that the guild of guardian angels also began to extend its cares to the victims of the minister's glaring anti-intellectualism: they will have their hands full with it.
+
+transcribed by Carl Ludwigson
+
+revised Thu, 15 Nov 2007

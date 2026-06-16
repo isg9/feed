@@ -154,3 +154,156 @@ In geval van blokverlating onderzoekt men, of hierdoor SW onder de heersende waa
 transcribed by Sam Samshuijzen
 
 revised Fri, 6 May 2005
+
+---
+
+## English translation
+
+### On stack administration. II
+
+EWD 70
+
+On stack administration. II
+
+0. Introduction.
+
+I had initially hoped that we would obtain a more or less complete survey of the possibilities that come into consideration and that we would at the same time obtain the criteria with the help of which we could choose between these possibilities. This, however, is not going so smoothly, my patience is running somewhat thin and I should rather like to see, for once, a proposal that at any rate works and is not too crazy. I therefore hope now to attain the deepening of our insight in another way, namely by critical consideration of a concrete proposal. The remainder of this note is devoted to such a proposal.
+
+My first concern is three fundamental problems, to wit:
+
+a) abrupt block shift
+
+b) stack shift
+
+c) page release for so-called large arrays.
+
+In addition to these, a practical problem then also comes up for discussion, namely the optimization of the save and restore procedure in the case of the so-called "simple implicit subroutine".
+
+Concerning the stack shift, the following: apart from the little lists of the reference points (the displays) we need not include in the stack any absolute addresses that refer to points in the stack; these latter we can always store relative to the beginning of the stack bottom. (Whether we shall always do so is another matter: assuming that stack shifts are things that belong to the rarities, we shall perhaps obtain a faster system if, where possible, we work with physical addresses.)
+
+From the above it follows that it is important that in the stack the reference lists can be found; it is here that we make the distinction between a procedure (i.e. a new list) and a complicated implicit subroutine (i.e. falling back on an old list). The simple implicit subroutine we can here, I think, leave out of consideration, since it is after all executed deaf.
+
+I shall now propose stack images to be added upon activation of a procedure, respectively of a complicated parameter.
+
+1. Call of a procedure.
+
+The intention is that the following mechanism is used both for the formal and for the nonformal procedure, both for the type procedure and the non-type procedure. The intention is to follow this mechanism blindly in the case of the type procedure call as a self-contained statement. (The type procedure will deliver its value in the F-register; on return SW will point to the stack top in the sense of Voorhoeve, i.e. to the first free place in core store. Ignoring this result is then quite simple indeed!)
+
+I assume that for the formal places two words suffice to us and that the invariant representation of the return address likewise suffices with two words. (These assumptions are probably not correct, but that is not essential in this connection.) On the following page the proposed stack image is given.
+
+Note 1. The "center point" is thus held by a status variable "d", which in the framework of this introduction gets the value d = d[i]; the value on the call side - here denoted
+
+M[d – 3 – 2 * nf]
+M[d – 3 – 2 * nf]
+┑
+
+│ formal places of the 1st parameter
+
+┙
+
+⋮
+
+⋮
+
+M[d – 5]
+M[d – 4]
+┑
+
+│ formal places of the nf-th parameter
+
+┙
+
+M[d – 3]
+M[d – 2]
+┑
+
+│ invariant return address
+
+┙
+
+M[d – 1]
+= nf
+
+M[d]
+= d[i – 1]
+
+M[d + 1]
+= L[i] (=d + 3)
+
+M[d + 2]
+= bn[i]
+
+M[d + 3]
+= 0-th reference point
+
+⋮
+
+⋮
+
+with d[i – 1] - is saved here. The index i distinguishes in this description the prevailing activations of procedures and complicated parameters. NB. The index i plays a role only in this description; in the working system it is not kept track of, we thus do not introduce a dynamic depth counter. By "bn[i]" is meant the prevailing block height as introduced in EWD69; L[i] is the prevailing value of L already laid down in the stack.
+
+Note 2. The stacking of "nf" is, strictly speaking, superfluous, but I nevertheless wanted to do it:
+
+a)
+it makes a dynamic check on the correctness of the number of parameters passed possible
+
+b)
+it makes it - if desired - possible to include (in the library) procedures with a variable number of parameters.
+
+c)
+the return mechanism no longer needs to be given by the procedure the datum of how many formal places may be forgotten.
+
+2. Call of a complicated parameter.
+
+This generates at the top of the stack
+
+M[d – 3]
+M[d – 2]
+┑
+
+│ invariant return address
+
+┙
+
+M[d – 1]
+= negative value-address indication
+
+M[d]
+= d[i – 1]
+
+M[d + 1]
+= L[i] (= L[j] with j < i)
+
+This stack image corresponds to the call of the implicit subroutine. The implicit subroutine is simpler than the full-fledged procedure inasmuch as no parameters are passed to it; it is more complicated because (namely if the actual parameter is an indexed variable) its call can also occur as the "left-hand side" of the assignment statement.
+
+For this last complication there are several solutions. The stack image given above corresponds to the technique in which the object program of the body makes its need known with the help of "Take formal address" or "Take formal value". Which of these two calls is given must then be stored in the stack.
+
+An alternative is that the object program merely says "Go formal" and that the implicit subroutine delivers, besides its primitive result, the indication "address" respectively "value". The object program can then insert on the call side of the implicit subroutine
+
+a) as left-hand side "if value alarm"
+
+b) as right-hand side "if address, take value"
+
+A third possibility is to always deliver "value" and "address" and to select the desired one on the call side. Here, however, you always do too much. (This is moreover nasty if the value is still undefined; I should not like to be punished by a parity error.)
+
+The images mentioned above are suggested on the assumption that the sign of M[d – 1] would always be descriptive of the situation procedure respectively implicit subroutine. (This implies that a procedure without parameters must be given nf = +0 from the call side; the distinction between "value" respectively "address" can then be made by –0 and –1.)
+
+In both cases we could do without the indication in M[d – 1]; the distinction between the two stack images we can also make by testing whether a new reference list has been introduced, i.e. whether M[d + 1] = d + 3 or not.
+
+3. Simple implicit subroutine.
+
+In this case only the return address need be included in the stack. The distinction between value and address does not exist, it is namely always value. (The single variable identifier as actual parameter gives, namely, no occasion to an implicit subroutine; it must be a genuine expression. Here the fact that the indexing in the actual parameter makes the implicit subroutine complicated by definition is a piece of luck!)
+
+4. Stack shift.
+
+During the simple implicit subroutine no interruption can occur and thus also no need for shift can arise. In all other cases the prevailing value of the status variable "d" gives us the clue how we are to proceed further. The reference lists we can find unfailingly and thus we can update the shift. The stacked L-values and the chained d-values we can likewise find unfailingly and here too we can afford ourselves the luxury of physical addresses. Thanks to the convention of the stacked nf we can also find all formal places unambiguously. If we choose a good layout for this, we can perhaps here too afford ourselves the luxury of physical addresses. (It is questionable whether that does not yield us further misery. We must not make the mistake of the B5000!)
+
+5. Page release.
+
+Just as d hooks onto the youngest link of the dynamic chain, so we can introduce a status quantity e (likewise per program) that hooks onto the youngest storage function of a large array; storage functions of large arrays we chain in the usual manner.
+
+In the case of block exit one examines whether SW has hereby sunk below the prevailing value of e: if so, then one descends the chain, scanning thereby all passed storage functions for pages to be released. With this one continues until e has sunk below SW.
+
+transcribed by Sam Samshuijzen
+
+revised Fri, 6 May 2005

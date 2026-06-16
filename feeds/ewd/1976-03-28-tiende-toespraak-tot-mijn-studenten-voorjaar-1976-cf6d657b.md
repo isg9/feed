@@ -58,3 +58,27 @@ Overigens ben ik van mening, dat er op Hilversum 4 minder moet worden gezeverd.
 transcribed by Carl Ludwigson
 
 revised Mon, 5 Nov 2007
+
+---
+
+## English translation
+
+### Tenth address to my students, spring 1976
+
+The plant and animal kingdoms know very stupid parasites, which so exhaust their victim that it does not survive. Compared with these, mankind is clearly superior: our blackmailers, extortionists and mafiosi are not in the habit of slaughtering the hen with the golden eggs. Of course it does sometimes get out of hand, and now and then their stranglehold is lethal to the victim, but among mafiosi that is indeed regarded as a policy error.
+
+After years of hesitation, casino games may at last be coming. While at first there were religious objections against the devil's picture-book, in the end the permission was delayed by the fear that, along with the games of chance, one would also be playing into the mafia's hand. I found that a touch hypocritical of a regime that already consorts so closely with the trade unions. For the manner in which our government has lost its head over these organizations does not lie about it!
+
+It is worth pausing over the fact that in our democracy, in which all adults have the right to vote, the trade unions have wangled it that the extortion instrument of the strike threat is legally permitted. Not satisfied with this, the excess profits —nice Germanisms!— are presently to be skimmed off by way of the VAD. What is to be done with that money? It must go into a pot. And who manages that pot? The trade unions, of course. I draw attention to the fact that this was discussed in parliament as if it were the most natural thing in the world. Well, I ask you.. I do know, though, why they are doing this now. There are no excess profits at all; most companies are glad if they can keep out of the red. So everyone thinks "Ah, what are they on about! Nothing will ever go into that pot, so it can do no harm at all to give the trade unions control over it." But it is a matter of principle.
+
+That for the time being not much will go into that pot, the trade unions are quite aware of too, and their power must therefore be extended in another way. It is, of course, a thorn in their side that they do not enjoy so much sympathy that everyone is a member and hands over his membership dues to the trade union monthly. But something can be done about that as well. Company downsizings are the order of the day, and why would people join the trade union if among the union members the dismissals fall just as hard? You know what? Let us make it a rule that, when dismissals have to be carried out, the dismissals fall first among the non-members of the trade union. Here too this is seriously discussed as if it were the most natural thing in the world!
+
+But this would mean that even the many employees who cherish no sympathy at all for the trade unions, and who perhaps even find that their power is already far too great, are in fact left with no choice any longer: for the sake of wife and child they then have, after all, to surrender monthly a part of their wages to what they may consider to be extremely dubious organizations. These are the purest mafia methods.
+
+There is indeed a little sputtering against these proposals, not because they are utterly wrong in principle, but because pragmatists in politics do nevertheless wonder whether such a concentration of power in our country would really be desirable. So they sputter a bit. But our trade-union leaders do not lose any sleep over it! Oh no! Any possible objections were recently waved away by them with the remark that, just like the political parties, they too had after all to take their rank and file into account, conveniently passing over the fact that the right to vote for a different party is firmly anchored in our constitution. With the trade unions, which are busy trying to merge, this freedom of choice will be illusory. The mafia never tolerates competitors!
+
+For the rest, I am of the opinion that on Hilversum 4 there ought to be less drivel.
+
+transcribed by Carl Ludwigson
+
+revised Mon, 5 Nov 2007

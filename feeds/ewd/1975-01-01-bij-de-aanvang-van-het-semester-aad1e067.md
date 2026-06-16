@@ -24,3 +24,26 @@ Dit is een heel ernstige zaak en ik wil —verplicht als ik geacht word tot Uw m
 transcribed by Jukka Ketelaars
 
 revised Wed, 13 Jun 2007
+
+---
+
+## English translation
+
+### At the start of the semester
+
+EWD 471
+
+At the start of the semester.
+Asked about my feelings concerning the present cabinet, I would suppress such terms as "riffraff" and "rabble" that well up in me, but I would nevertheless have to say "uncivilized, very uncivilized". The newspaper has printed in full the speech which the premier of us all delivered a few weeks ago in Amsterdam; this text ought to serve as the basis for a compulsory Dutch examination at all secondary schools: whoever marks the greatest number of errors of language and style has won. Why am I telling you this? Well, because it is difficult to bring up the next generation in a country where wretched use of language is no longer an impediment to becoming premier, but where it almost seems as if wretched use of language is rather a precondition for attaining renown and honor. And that, while I am supposed to teach you a branch of mathematics for which exceptionally good use of language is a requirement.
+
+As if our task were not thereby already burdened gravely enough, the government moreover intervenes violently in the University order itself, fortified therein by the conviction that the welfare of "The Great Unwashed" cannot be better served than by the abolition of soap. To you, who have no longer experienced the war years in your own flesh, I must recommend for reading L. de Jong's work on the Netherlands in those harsh times: there you will find an excellent description of the personal situations of conflict that are at present being caused by the WUB, a law which, with some justification, can unfortunately be characterized as an occupation measure.
+
+Most distressing of all, however, is that in this authority-abiding Netherlands we are now saddled with a government that puts so much ideology into its policy, and for the first time I begin to acquire some feeling for the pressure to which intellectuals on the other side of the iron curtain are exposed. That is a frightening observation.
+
+Whoever lets it be noticed that he does not subscribe to the ideology of the present government makes himself, namely, suspect. Whoever feels an analogy between the replacement of "the chair" of former days by "the department" of today and the replacement of marriage by the commune, and doubts whether these replacements are improvements, makes himself a suspect dissident, and everyone knows what happens to dissidents: they are kept out and banished. That I am not conjuring up phantoms is evident from the advertisements that are placed for vacancies for scientific University posts. In these advertisements, only too often, "the willingness to cooperate" is demanded, without flinching or blushing, as the most self-evident matter. That the new functionary should not work against things is a reasonable wish, but if he thinks he can better fulfill his scientific duty as a soloist, this is apparently already experienced as conflicting with the sacred ideal. I have also seen in more than one advertisement that the new functionary was required to subscribe to the objectives (!) of the WUB. In short: he may not be a dissident, he may not fear what already comes out in such an advertisement, namely, that the so-called democratization undermines Democracy.
+
+This is a very serious matter, and so I do not wish —obliged as I am held to contribute to your social formation— to begin my lecture without having pointed this out to you.
+
+transcribed by Jukka Ketelaars
+
+revised Wed, 13 Jun 2007

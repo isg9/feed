@@ -20,3 +20,22 @@ Ik heb er al vaker de aandacht op gevestigd, hoe de uitvinding van "the average 
 
 transcribed by F. Koenders
 revised Thu, 13 Nov 2008
+
+---
+
+## English translation
+
+### Third address to my students, spring 1977
+
+I still remember well how, some thirty years ago, my friends and I observed the rise of the paperback and the pocketbook with a certain concern. We were not without fear that the Book, by becoming cheaper, would as an object be devalued within our culture. We were afraid that the transition from the precious treasure, which one inherited from one's forebears and bequeathed to one's children, to the throwaway article, which after a single reading was as good as loose-leaf, would also impair the reverence for the content.
+
+On the one hand, our fear has proved unjustified: I, and many with me, now have loose-leaf masterpieces standing on our shelves, which we still take from the cabinet with the reverence owed to their content. On the other hand, we have not been frightened enough, for we did not foresee that the now technically enabled bestseller-business would crowd out literature. We have now reached the stage in which the quality of a book is measured not by its content, but by its print run. Not only are publishers prepared to try to make a book worse, if they thereby believe they will reach a larger public; the editors of scholarly journals, too, are beginning to exert themselves to ensure that, above all, the articles remain readable for as large a fraction of the subscribers as possible.
+
+It really is not only the editorial board of "Informatie" —the disgrace-sheet of Dutch Informatics— that grovels in the dust in a little box, apologizing to the reader for having included an article by an American author untranslated. It evidently does not enter the minds of this editorial board that bowing so deeply to The New Illiteracy is downright an insult to their readership. Were the phenomenon confined to the aforementioned editorial board, I would not waste a word on it. But, as I said, the phenomenon is, alas, to be seen everywhere. The United Kingdom too, the United States of America too, have their "New Illiteracy".
+
+You notice it in small things. As you may know, a book of mine appeared at the beginning of last year. Now, the writing of a book is something quite exciting, for it is very difficult to estimate in advance how it will go down and what kind of effect it will have. Gradually reactions to it begin to come in, and to anyone who asks about them I could give an answer. During my last visit in the USA, the question about the fate of my book was always formulated as a question about "the sales figures". And then the astonished faces, when you have to answer that you are not aware of those..... The most frequently heard criticism is that the book, because I presuppose in my readers a certain degree of "mathematical sophistication", is written for only a small public. In short: I am reproached for not having written a bestseller! And that the book convincingly demonstrates that such a degree of mathematical rigour in the treatment is required by the very problematics of the subject — well, that is then conveniently passed over. Whatever is too difficult for "the average programmer" is evidently of no value whatsoever.
+
+I have already on several occasions drawn attention to how the invention of "the average programmer" threatens to paralyze Anglo-Saxon Computing Science. But I now know that the phenomenon is beginning to take on much broader and more menacing forms, and that the whole Anglo-Saxon scientific publishing world threatens to get bogged down in precisely the same way through what has become, for editors, the norm of "the average reader" or, worse still, "the innocent reader". When I first appeared in Eindhoven before a hall of three hundred second-year students, I was given the warning to avoid the words "unless" and "provided that", because otherwise my audience would become confused. In the meantime I have learned that The New Illiteracy is a worldwide phenomenon. And this in part thanks to the pocketbook.
+
+transcribed by F. Koenders
+revised Thu, 13 Nov 2008

@@ -55,3 +55,30 @@ Overigens ben ik van mening, dat er op Hilversum 4 minder moet worden gezeverd.
 transcribed by Carl Ludwigson
 
 revised Mon, 5 Nov 2007
+
+
+---
+
+## English translation
+
+### Sixth address to my students, spring 1976
+
+"Our ways of evaluating policy options, and our ways of implementing policy
+choices, cannot rise above our way of talking about what is at stake and what is
+to be done."
+
+Laurence Tribe, Corinne S. Schelling and John Voss.
+
+The above quotation is close to my heart, and I therefore find it a fine quotation, one that I must cite regularly: let them hear it from someone else too. When, in my enthusiasm, I showed it to one of my friends, he reacted with "Well, that strikes me as a truism," a reaction that did not surprise me, for it came from one of my friends.... The curious thing is that all sorts of people, even people in positions of responsibility, are not only unaware of this truth, but do not even perceive it when their attention is drawn to it.
+
+In recent years I have had rather a lot to do with official documents such as development plans, advisory reports to the minister, grant applications etc., documents with as a rule one or more highly learned authors, documents whose Dutch was so rickety that with the best will in the world you cannot make out what is now precisely meant. When such documents came to me for assessment, I made criticisms of them, for I do not wish to accept nonsense as sense, and worse, the proliferation of such drivel has a polluting effect. This was held seriously against me: one of my colleagues even informed me in writing that, in his view, it was entirely unreasonable on my part to demand of Dutch professors that they be able to handle their language decently.
+
+They have probably become the victims of a misconception that red educational reformers are sometimes inclined to propagate, namely the misconception that adequate use of language is nothing other than a luxury that the better classes can permit themselves and with which those better classes at the same time shield themselves off from the rabble. Those red educational reformers had of course to do something too, when you consider that the so-called "reasoning sums" had to be removed from the curriculum of the primary school because they were too difficult for the pupils of the teacher-training college. But it remains a misconception: adequate use of language is, whenever something has to be talked about, always an indispensable piece of tooling. I have seen million-guilder projects fail, seen them fail predictably, and have even predicted the failure on the grounds of the clumsy use of language in which they were set up. My warning of the debacle was an extremely frustrating occupation, for the people to whom I spoke could not be convinced that it is impossible to sharpen the point of a pencil with a blunt axe. That simply does not work with a blunt axe, it does not even work with ten blunt axes. If you try the latter, the debacle only becomes more expensive still.
+
+It is possible, but unfortunately improbable, that by the time you have graduated the meeting craze will have burnt itself out. You would therefore do well to prepare yourself mentally for the prospect that later on you too will have to sit on committees. In this connection I wish to warn you most earnestly against one of the types of chairman: that is the so-called "gluer". As soon as a difference of insight arises within the bosom of his committee, the gluer will come up with a compromise on which everyone can agree. If the difference of insight is really there, this means that the compromise the gluer has brewed up is so vague and sloppy a formulation that it is of no further use to you either. Beware of the gluers, for they institutionalize the drivel. The most poignant thing is that the bona fide gluer sincerely believes that he is doing the cause a good service.
+
+Incidentally, I am of the opinion that there should be less drivel on Hilversum 4.
+
+transcribed by Carl Ludwigson
+
+revised Mon, 5 Nov 2007

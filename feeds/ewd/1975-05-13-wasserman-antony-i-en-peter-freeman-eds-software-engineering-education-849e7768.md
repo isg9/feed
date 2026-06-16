@@ -25,3 +25,26 @@ Transcribed by Bart Vreugdenhil
 
 Revised
 15-Sep-2012
+
+---
+
+## English translation
+
+### WASSERMAN, Antony I. and Peter FREEMAN (Eds.). Software Engineering Education. Needs and Objectives. Proceedings of an Interface Workshop. New York/Heidelberg/Berlin. Springer-Verlag, 1976.
+
+WASSERMAN, Anthony I. and Peter FREEMAN (Eds.). Software Engineering Education. Needs and Objectives. Proceedings of an Interface Workshop. New York/Heidelberg/Berlin. Springer-Verlag, 1976 . 159 pp., price DM 24,—.
+
+For their reporting the editors have chosen the reports of Naur and Randell, respectively Buxton and Randell, of the NATO Conferences on Software Engineering (1968 and 1969 respectively), and they seem to have faithfully followed their examples, so long as one does not read their text too closely: for the resemblance is only superficial. Whereas the models concerned conferences that lasted a week, this time it was a matter of an “Interface Workshop” of only one day. An even more important difference is that, while the NATO conferences were an international affair, here it concerned a Workshop with purely American participants, who confined themselves entirely to conditions in the U.S.A. .
+
+The consequence is a report in which the European computer scientist with an educational responsibility regarding “Software Engineering” will find little inspiration. For the reader with a broader interest, however, and especially for the reader who is interested in the relation between the American universities and American industry, the text is exceedingly absorbing, albeit not cheering.
+
+Thus the report —especially in the discussions reproduced— casts a harsh light on the scarcely conceivable backwardness of the programming practice as it apparently still prevails among many commercial machine users. In my innocence I had thought that by now the insight had become common property that one should postpone the coding until one has arrived at a satisfactory design (and that, as a rule, three quarters of the total time is bound up with this design). The scales did indeed fall from my eyes when I read the statement of R. Brown (Hughes Aircraft): “Because prior to that nobody had ever done designing in the group. Design—a structured chart and HIPO for each module, without writing any code, had never been done before. We had never come anywhere close to having a design before writing code. We now do that on some projects.”, a quotation from which I can only conclude that until recently they had programmed like headless chickens. Whoever thinks that they have meanwhile seen the light at Hughes Aircraft is deceived, for a little later the working method “Think before you begin.” turns out not to be accepted by the managers: “..they don’t do it, and they don’t really understand it or accept it at the managerial level.”
+
+The university speakers almost all subscribe to the view that the academic education ought to prepare the student for, and make him familiar with, the industrial working climate; of them only professor William McKeeman objects to what he calls “Obedience training”. The strongest opposition to this conception of the universities’ task came ... from industry, by the mouth of Robert D. Merrell (Burroughs Corporation): “With regard to education, there seems to be a theme in making sure that all of our curricula include a very heavy dose of realism. This is something that I really would not like to see, because one of the things that is delightful about young people coming into industry is that they are so naive that they will try anything. And I really enjoy that. [...] I really hate to see you corrupt them with all that realism. Let them be idealistic. Let them go and do great things.” I fear that on that occasion Merrell remained a voice crying in the wilderness.
+
+prof.dr.Edsger W. Dijkstra
+
+Transcribed by Bart Vreugdenhil
+
+Revised
+15-Sep-2012

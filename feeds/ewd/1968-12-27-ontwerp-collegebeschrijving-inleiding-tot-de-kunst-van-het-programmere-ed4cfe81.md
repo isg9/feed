@@ -25,3 +25,27 @@ E.W.Dijkstra
 transcribed by F. Koenders
 
 revised Thu, 13 Nov 2008
+
+---
+
+## English translation
+
+### Draft Course Description "Introduction to the art of programming"
+
+Draft Course Description "Introduction to the art of programming."
+
+It is the aim of this course that the student become familiar with an aspect of the programmer's task, namely that he learns, for given problems, to conceive a computational process and to write an algorithm that can invoke this computational process, hand in hand. The course is not a training in the use of specific programming languages or machines; on the contrary: it aims to acquaint the student with an arsenal of concepts that may enable him to structure computational process and algorithm in a manner that will remain recognizable, regardless of the specific tool that he comes to play upon later on. I wish to instill in him a sense of style, which in the making of "large programs" is decisive for whether the task can be brought to a successful conclusion at all, and which in the case of "small programs" leads more quickly to a better program.
+
+I have now (spring 1969) given this course twice. I expect that the problems specific to large programs (which have indeed been touched upon in the past) will, in the coming years, recede more into the background —and perhaps become the subject of a separate course— and that this course, in order to attain a higher "degree of familiarity," will treat more small examples and will be provided with more exercise material.
+
+To avoid misunderstanding: this course is not in the first place about computing machines, nor about programs, but about the activity of programming. To prevent false expectations: I can give no recipes that can compensate for a lack of inventiveness, I can only try to acquaint the student with an ideal of logical manageability.
+
+As prior knowledge I expect no more than the general course "Algorithms" from the fourth semester.
+
+Finally: for whom is this course intended? I would say, for all those who expect that they will later have to deal with automatic computing machines. (Deep in my heart I hope for more, for the actual, unspoken subject of this course is something like "How do you tame complexity?" and that this happens to be focused on the programmer's task is merely a consequence of my past!)
+
+E.W.Dijkstra
+
+transcribed by F. Koenders
+
+revised Thu, 13 Nov 2008

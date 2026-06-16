@@ -86,3 +86,88 @@ EWD.
 transcribed by Sam Samshuijzen
 
 revised Sun, 14 Jan 2007
+
+---
+
+## English translation
+
+### First exploration concerning the death of programs
+
+EWD 163
+
+First exploration concerning the death of programs.
+
+1. The processes that are executed by the CM's are immortal. This little report therefore clearly deals with a PM-matter.
+
+2. A PM has an immortal outermost block, the PM-block. This is never left; it is in this block that the input and output streams belong; likewise the status integer "runnumber" belongs here. The PM resides in this block when standard tape is being awaited. (This state, also recorded in a status variable for the tape reader selection, could also be recorded in "runnumber = 0".) As soon as a presumed standard tape is found, the runnumber is filled in; if it turns out to be an algol program then, on the basis of the punch requirement stated outside the program, acceptability is tested; if so, then the PM enters an inner block, in which the globals for the translator are declared, the translator is called as a procedure, and when we return from it (and the program was correctly translated) then we call the program. If we return from this entirely legitimately, then the standard text of the PM performs the block exit of the entered block, and we are back at the level of the PM-block. The program's own information (segments, sanctifications etc.) of the algol program has hereby been disposed of; the PM now need do no more than restore the input and output streams to their sober state. If something is still in an input stream (or is still coming in), then "skip until end of tape" must be done (including "no further interest", see the tape reader CM); if an unfinished document is in a punch stream, this must be completed and hooked on; if an unfinished form is still in the printer stream (here there is a toilet-roll convention: I assume that one is in it, if the printer has been used at all) it is marked as the last one and "number of final documents nfd" is incremented by one. (To be taken up with Coen shortly.)
+
+After all streams have been finished off, the PM sets its requirements to 0 (including repercussions for suspect punches), sets the runnumber to 0 and goes and waits for standard tape.
+
+This is how I imagined the natural death of a program. In connection with suspended animation and the violent death (see below) there is still rather more to come.
+
+3. The operator has the possibility (for what purpose heaven only knows) of declaring a program to be in suspended animation. It must then sit waiting on a low flame, until it is awakened again, via the console.
+
+The making suspended-animate is a command, directed at a program in a PM; if there is no one in it (runnumber = 0) then the command seems to me Non Applicable. Likewise if the program that is in this PM is already in suspended animation. Probably for a program present we shall also have the boolean "dying"; in that case dying may as well take place too, and I thought that the command to suspended animation should then also be NA.
+The complication with suspended animation is that the program preferably places that low flame at an innocent point. We had thought along the lines of "not in a red section". If a program is white and executable, then the command to suspended animation can be realized immediately: one books it as waiting on a semaphore occurring in every PM for this purpose. Otherwise we must only book the request for suspended animation (again a state in which the command "fall into suspended animation" could be treated as NA).
+
+This blocking of suspended animation must be omitted if the PM is red (it must work on further) and is not nicely codable if the PM is already waiting on another semaphore. The deferred suspended-animateness must become effective at the whitening V-operation and the completed P-operation. (Remark by Piet: the suspended animation need only become effective when you are about to actually grant control to a white process. This holds regardless of the reason for deferral and could give occasion for more compact coding.)
+
+The wake operation is now easy. If the suspended animation has been requested but not yet realized, it suffices to remove the note. If the request is not pending, then the suspended animation must have been realized (otherwise NA) and the message interpreter can perform a V-operation on the semaphore serving this purpose. (Note well that it seems safe to introduce, for the suspended animation, a specific semaphore per PM!)
+
+4. The violent death comes from another AM (either from a CM, which discovers that a puncher is broken, or via the message interpreter of the operator, perhaps also from the PM itself, which discovers that it "cannot possibly continue". I do not yet see this so directly; keep it open if possible.)
+The great problem of the violent death is that we must terminate this program, i.e. must put an end to it, so that it nevertheless remains well-behaved. A first requirement is that it in any case proceeds far enough (if necessary) that the state "suspended animation" too may be entered. This gives us a new criterion for establishing where redness begins and where redness must cease: outside redness the PM must be left in a manageable state. After we shall presently have shown what we envisage by that handling, we must, in this light, once more thoroughly inspect the pieces of PM-program in which redness occurs and which we have meanwhile made.
+
+There is a communication device that throws a bit of a spanner in the works here, and that is the drum. I would rather not murder a program while it is still waiting on a semaphore, in particular not when it has requested a segment from the segment controller. If we can agree that dying does not begin as long as the PM is still waiting on a semaphore, then we can play this as follows (N.B. The requesting of a segment from the segment controller goes outside all redness: it can be done in redness, it can be done in whiteness). At the order to the segment controller the PM can set a boolean "Request Segment" true.
+
+The structure in the PM then becomes
+
+AS := true
+
+request of segment
+
+V(SCS)
+
+AS := false; P(own segment semaphore)
+
+The last two statements stand on one line, in order to agree very emphatically that they happen one after the other in deafness. Now we agree that the initialization of the suicide rites cannot take place if AS. Herewith we achieve that the requested pages are there before they are perhaps destroyed. (I wrote pages, I meant segments.)
+
+By the look of it, we can already do a great deal with 1 variable "killvar". Tentatively I would like to give it the following values with the following meanings (The coding of X "runnumber = 0" suggested on page 0 can then lapse.)
+
+killvar = 0
+The PM is empty
+
+killvar = 1
+The PM is busy with a program that is completely alive
+
+killvar = 2
+There is a request for suspended animation
+
+killvar = 3
+The program is in suspended animation (hangs on the semaphore killsem)
+
+killvar = 4
+There is a request for suicide
+
+killvar = 5
+The program has proceeded to the suicide rites.
+
+(Whether the boolean AS should also be coded into this here, e.g. by killvar = 8, is still an open question for me.)
+
+I now take the standpoint that the agent which gives the suicide command reports this via the console teleprinter, but that we do not give the PM (or rather: the program contained in it) the opportunity to write yet a farewell letter to friends and acquaintances, hence no reporting about the status in which the program found itself when the suicide rites were proceeded to. (At most we still introduce
+
+killvar = 6
+The program has proceeded to the suicide rites on its own initiative, as opposed to killvar = 5. On the last printer form a cry can then still appear "I have terminated myself", or else "I have been kicked off".)
+
+I hoped that the transition to the suicide rites could be effectuated by tampering with the status of the interrupted program in such a way that, roughly with the mechanism of the General Goto, control jumps to the point in the PM-block where the PM goes to finish off the streams. This is not enough, for on account of the SIS two program segments can be sanctified - and the general goto desanctifies only one of them; if the murder takes place when an array segment has been sanctifyingly requested, then we are saddled with that as well. (The murder is indeed deferred until this segment has arrived.) I can imagine that all this requires, at the sanctifying request of array segments, an extra note, and that the transition to the suicide rites happens as little as possible through the coordinator and as much as possible through the PM itself. The clearing away of a piece of SIS (desanctification and so on) is namely an action that, in the case of the dynamic error, will happen under the auspices of the PM itself.
+
+5. The dynamic error.
+
+After ample considerations we have come to the conclusion that the reaction to a dynamic error is a pure PM-matter. I imagine that this will only be able to occur during killvar = 1 (in red pieces I do not at all want to be able to do such gruesome things). The PM will then have to break down the stack as far as the first Working Space Pointer; if the error occurs in an SIS, then it must discover this by stack inspection; if an array segment is still sanctified, then the error-detecting mechanism knows this, and that array segment can be desanctified. Once the stack has been reduced to the first level at which SE1 can be called, then that will have to happen in order to be able to simulate a call of the procedure ALARM. With the jump towards it the last program page is desanctified, ALARM can inspect the stack below it as much as it wants and can finally jump to the point in the PM-block where we end up after program termination.
+
+The microscopy of the fiddling with the status down in the HAM-room and the steering towards an interposed system entry is a little game that does rather captivate me; I myself do not possess the knowledge to see directly how this is to be done; I did think that it was possible and should be glad to help think about it.
+
+EWD.
+
+transcribed by Sam Samshuijzen
+
+revised Sun, 14 Jan 2007

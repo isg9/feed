@@ -99,3 +99,101 @@ Wat we niet checken is: delen door 0, feitelijke assignment in type procedure, u
 transcribed by Sam Samshuijzen
 
 revised Sun, 16 Jan 2005
+
+---
+
+## English translation
+
+### Error checking
+
+EWD 111
+
+8 December 1964
+
+Error checking
+
+Today attention has chiefly been devoted to the manner of reporting back.
+
+The translator numbers the non-empty lines of the program text. As a by-product it gives, via the output, the line number of the line in which they occur for a number of labels. Procedure declarations are nice too.
+
+Rem. 1 The translator will here print out identifiers in 1 alphabet.
+
+Rem. 2. The output can indicate whether it is a label or a procedure identifier;
+
+it can even try to indicate something of the block structure. If the text is so bad,
+
+that we take it for a lower bound on labels, then this printout will become rather cryptic!
+
+Problem: in the dynamic location determination we also encounter MCPs. In the minimal case we say that every library procedure stands on 1 line. An alternative is to deliberately divide every MCP across a number of lines; the tidy thing is to mention, in the report-back, the name of the MCP as well. (This could well lead to our giving every MCP a name.)
+
+Static checking.
+
+The translation will consist of a number of passes (in fact I hope of not too many). We shall try, upon the detection of an error, at least to finish the pass in which this error is detected, with the intention of finding more errors of the same alloy. (Whether that is always possible is very much the question: is not execution "the last pass"?)
+
+As regards error checking I see only 2 passes necessarily occurring:
+
+1) analysis of delimiter structure and construction of the name list
+
+2) type checking etc., i.e. everything for which you must have seen the declaration.
+
+Rem. 3 If, in the pass in which the line numbers are handed out, I already check as well, then those error messages will come through all right; this does no harm.
+
+Rem. 4 An advantage of Cor's line numbering is that it is unique, also in those cases in which the syntactic structure macroscopically does not check out.!
+
+I imagine that the translator, in a left to right pass in which the line separations in the source text are still recognizable, definitively distributes the eventual program over the segments. At that moment the translator can therefore make a list of invariant beginning addresses (program addresses), in the order of ascending line number.
+
+(I assume that for the successive program segments successive SVs can be used, so that we need not chain them.) At the dynamic location reporting this list can be consulted.
+
+Static error reporting will consist of:
+
+1) short description of the error made. (Because we have a drum and a high speed printer, we should not be too stingy with this, so not "error 7")
+
+2) line number.
+
+Dynamic error reporting will consist of:
+
+1) short description of the kind of error (see above)
+
+2) location.
+
+Roughly this task comes down to the following:
+
+you give a line number (derived from an invariant address). By inspection of the stack you find the nature of the level (namely inner block, parameter or fictitious block). This nature you report; if it is an inner block, you go down the dynamic chain until you find a fictitious block (or the outside). Then you have in the stack a return address and you then go on to analyse that. Since parameters have no inner blocks there are
+
+therefore three possibilities:
+
+1) parameter situation
+
+2) block (i.e. outermost or inner block of a procedure)
+
+3) fictitious block.
+
+Rem. When we have found the fictitious block, the invariant starting address of the procedure which we wished to leave stands in the stack. A little list is sufficient to supply the procedure identifier along with it.
+
+Post mortem.
+
+If we take the standpoint that a uniform post mortem reaction (e.g. always everything) is unrealistic, then this can be steered as follows. At the front of the tape (program heading) there is an entry which indicates the nature of the post mortem dump. The notations possible here are extended by 1, which means "if a dynamic error occurs, then ask via keyboard". This gives every possible flexibility without burden if you have no need of it. (You can extend this with e.g. "The empty post mortem notation in the heading means nothing".)
+
+Furthermore we have to dump anonymous quantities, scalars and arrays.
+
+re 1) the anonymous quantities are somewhat difficult, because we do not find the interpretation in the stack. The dumper can print out integers and where possible (sign consistency) superfluously print pairs as floating point number too. The interpretation of this rubbish is in any case reserved for specialists (one may think for instance of the interchange of primaries!)
+
+re 2) the scalars have two difficulties
+
+2a) for the scalars of an explicit program you must, if you have any decency, throw in the identifiers along with them —reduced, then, to one alphabet. A little task for the translator and the drum!
+
+2b) for the hand-coded MCPs you do not have a name list just like that. The alternative which we devised for the anonymous quantities could well be indicated here (for the format can vary here.)
+
+re 3) arrays can be so large. What we are to do with arrays in MCPs is even less clear, but at this moment we do not wish to think too much about that.
+
+Static checks will comprise: delimiter structure, identifier matching, correct use (subscripts etc) and type checking. Identifier matching comprises establishing an unambiguous correspondence between use and declaration, catching of multiple declaration within a block, multiple formals, complete specification, control of the value list etc.
+
+Dynamic checks comprise: actual formal correspondence (including counting the number of parameters) array declaration (lower bound not greater than the upper bound) subscript values within bounds, formal arrays test on number of subscripts, formal left hand side consistency by multiple assignment, complex ~real barrier, sqrt, ln, to the power
+
+integer division, input output control, integer overflow
+
+What we do not check is: division by 0, actual assignment in a type procedure, undefined variable (great preference, at least in the beginning, for the uniform reaction) non-terminating recursion (but that is caught via the stack control) and the blind loop
+
+transcribed by Sam Samshuijzen
+
+revised Sun, 16 Jan 2005

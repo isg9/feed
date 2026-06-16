@@ -51,3 +51,41 @@ USA
 transcribed by F. Koenders
 
 revised Thu, 13 Nov 2008
+
+---
+
+## English translation
+
+### How unimportant it is whether submarines can swim
+
+How important it is whether submarines can swim
+
+It is now again a year or so ago that the editors of a somewhat vague journal requested me for a contribution on the question whether computers could think. I had no inclination for that, and I explained my refusal with the remark that I considered the suggested subject just as unimportant as the equally burning question whether submarines could swim. (I had reckoned without my host: the editor —a sociologist— wrote back to me that he found that last question also very interesting!)
+
+The question whether computers can think is calamitous, for whoever immerses himself in it is, in the shortest possible time, on a one-way journey towards philosophy. The question is, moreover, superfluous in the sense that we can immerse ourselves in computers —their possibilities, their limitations and their influence on culture— without having to choose what we should, would, or could understand by "thinking".
+
+The mystical nonsense, varying from electronic brains to Frankenstein's monsters, with which the popular tongue and the popular press have surrounded computers I need not detail, for it is sufficiently well known. Much more important is the phenomenon of the abundance and the tenacity of this nonsense, for as a symptom this phenomenon is explicable in only one way: it tells us that computers, on their appearance, were a radical novelty that could not be adequately understood in terms of phenomena and concepts already familiar to us. Comparisons with things of earlier times all limped, analogies with what we knew turned out time and again to be too superficial not to be misleading.
+
+The radical novelty had two aspects. The best known of these was the unimaginable speed: computers first calculated a thousand times faster than had previously been possible, then a million, and finally a billion times faster. The problem is that such speed ratios, though easy to write down, are in a very real sense unimaginable, and that it is very hard to imagine how unimaginable something unimaginable is.
+
+A single factor of ten already makes the difference between day and night; once, to convince a woman friend of that, I asked her how many children she had —I knew that there were six of them, and she understood what I meant. And a baby that learns to crawl a thousand times as fast overtakes jet fighters! For completeness's sake I mention that likewise the capacity for information storage —in anthropomorphic terminology also called "memory size"— has, in the course of the years, increased unimaginably. In short: with such drastic quantitative differences all analogies fail.
+
+The other aspect of the radical novelty came at first somewhat less to the fore, but its repercussions are no less for that. To get this aspect across the footlights I must allow myself some poetic licence —or rather mathematical abstraction— and I hope that the reader will grant me that. I wish to refer to "formulae" that are built up out of "symbols" from a finite "alphabet". That "alphabet" is not limited to the 26 letters; we may add to it the punctuation marks, all sorts of brackets and mathematical symbols, and the digits 0 to 9 as well. The advantage of this poetic licence is that it enables us to catch an algebraic expression such as (a+b)/c, a program fragment such as x:=x+1, and a decimal number such as 729 all three under the same heading of "formula".
+
+The figure of speech just sketched enables me to indicate the second nouveauté: with computers a universe has been created in which nothing else happens than that, according to strict rules, new formulae are derived from formulae already present. This universe is theoretically of deep significance because everything that is derivable can be derived in this way; the electronic version is of great practical significance because it works so fast that even the result of long derivations can be ready within a foreseeable time.
+
+Such a formal universe is, as a novelty, radical precisely because it runs diametrically counter to all our previously built-up intuitions. Because, e.g., all formulae are built up out of the symbols of a finite alphabet, there does not exist such a thing as continuous change. We could try to speak of "small" changes —e.g. the alteration of but a single symbol—, but again our intuition leaves us in the lurch, in that there exists no metric according to which "small" changes also have "small" effects.
+
+The most salient property of the formal universe is, however, that nothing else than formula manipulation takes place in it; even the smallest fraction of a verbal argument is thereby excluded. In so far as we identify "understanding" and "insight" with verbal reasoning, understanding and insight are thus excluded from the formal universe. A small example may elucidate this: if, in the context of a larger argument, we must establish that 812 is a multiple of 7, then that is not something we try to "understand" or to "see", but something we establish by quickly carrying out a little long division, by —in our figure of speech— manipulating a few formulae.
+
+Our traditional arguments are mixed, that is, partly formal and partly verbal, and verbal reasoning has been spoon-fed to us so much that the total banishment of the verbal component strikes many at first sight as undesirable, if not impossible. Closer analysis teaches, however, that it is always the verbal component that is vague, incomprehensible and ambiguous. Traditionally mathematics has confined itself to pushing back the verbal component a little, by partial formalization, for reasonings otherwise too subtle; the formal universe, as embodied by computers, is a challenge and a spur to go much further in this, ultimately until the verbal component is completely banished. This challenge has not gone unanswered, and the result is that in the area of mathematical methodology a silent revolution is taking place in which complete formalization becomes ever more attractive.
+
+How "important" is all this? Whoever, to begin with, sees science as an activity in which only a negligible fraction of the population actively participates, and then sees science as a fragmented whole in which the mathematical subculture has manoeuvred itself into a kind of intellectual ghetto, will at best mutter "well, well, very interesting" and pass with a shrug to the order of the day.
+
+One can also, to begin with, regard science as one of the most important pillars of our culture and then —one would not be the first!— argue that of every scientific discipline the intellectual standing and weight are determined by its mathematical content. In that view a radical change of course in mathematics would in the long run leave its traces in the overwhelming majority of our intellectual life.
+
+I hold to such a radical change of course. As yet the Concise Oxford Dictionary defines mathematics as "abstract science of space, number, and quantity"; when the aforesaid silent revolution has been accomplished, "art and science of effective reasoning" will be a more adequate definition of mathematics. I shall no longer be there to see it, but if things go a little well, in a hundred years the question whether computers can think will be no more than a historical curiosity from the twentieth century.
+
+Nuenen, 15 July 1989
+
+prof. dr. Edsger W. Dijkstra

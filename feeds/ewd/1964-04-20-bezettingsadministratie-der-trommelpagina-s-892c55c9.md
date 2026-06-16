@@ -39,9 +39,9 @@ s(a) = rem(513 * a, 1024).
 
 Ook s voldoet primair aan de ongelijkheid 0 ≤ s ≤ 1023; we moeten ons even afvragen welke s-waarden niet voorkomen; dit zijn
 
-s(1022) = 1022           en
+s(1022) = 1022           en
 
-s(1023) = 511   .
+s(1023) = 511   .
 
 Deze nonexistente bladzijden laten we vrolijk meehobbelen, we zullen ze (zijnde nondisponibel) als permanent bezet noteren.
 
@@ -102,7 +102,112 @@ normeer A (het aantal slagen komt in B);
 j := B
 end
 
-De gekozen pagina is nu gegeven door de eindwaarden van i en j (door s = 26 * i + j), waarmee het gestelde doel bereikt is.
+De gekozen pagina is nu gegeven door de eindwaarden van i en j (door s = 26 * i + j), waarmee het gestelde doel bereikt is.
+
+transcribed by Gerrit Jan Veltink
+revised Sun, 28 Mar 2010
+
+---
+
+## English translation
+
+### Occupancy administration of the drum pages
+
+20 May 1964
+
+Occupancy administration of the drum pages.
+
+To each drum page we assign two constants, namely a and s: these are one-to-one functions. The constant a "numbers" the drum pages in order of ascending start address, the constant s "numbers" the drum pages in the sequence in which the start words of the pages pass the heads.
+
+For the time being we take the position that the entire drum is available for pages. (This will not be the case, but we can accommodate that by declaring a number of drum pages permanently occupied, after which we can calmly use them for other purposes.)
+
+As a function of a, the start address is given by
+
+beginadres(a) = 513 * a ;
+
+between successive drum pages there is thus an unused word. Furthermore
+
+0 ≤ a ≤ 1021,
+
+for a = 1022 and a = 1023 there is no more room on the drum. The last three words on the drum are likewise not used.
+
+Now we note that 513 * 513 = 1 mod(1024); all addresses = mod(1024) are accessible at the same time. From this it follows that increasing s by 1 amounts to increasing a by 513, reduced mod(1024).
+
+If we assign to the page with a = 0 the code s = 0, then we find
+
+a(s) = rem(513 * s, 1024).
+
+Conversely we find that increasing a by 1 increases s by 513 (modulo 1024),
+so
+
+s(a) = rem(513 * a, 1024).
+
+Here too s primarily satisfies the inequality 0 ≤ s ≤ 1023; we must briefly ask ourselves which s-values do not occur; these are
+
+s(1022) = 1022           and
+
+s(1023) = 511   .
+
+These nonexistent pages we cheerfully let bounce along; we shall note them (being nondisposable) as permanently occupied.
+
+Furthermore, s as a function of the start address is most clearly given by
+
+s(beginadres) = rem(beginadres, 1024);
+
+all functions considered so far can therefore be computed immediately by shifting clean over 9 places, a single addition and a collation with 1023.
+
+To these pages we shall assign bits from a boolean array TBB[0:39, 0:25]; (the abbreviation TBB comes from Trommel Bezettings Bits [Drum Occupancy Bits]). The bits of this array we shall map onto the bits d[25] up to and including d[0] of the words of the word array TBW[0:39], 40 words, to be stored in memory in 40 consecutive memory locations in order of increasing subscript. Of these 40 words the sign bit d[26] is permanently equal to 1.
+
+For the bits of TBB it holds that
+
+a) TBB[i,j] is mapped onto bit d(25 - j) of word TBW[i]
+
+b) TBB[i,j] is assigned to the drum page with s = 26 * i + j
+
+c) TBB[i,j] = 1 means that the page is occupied
+= 0 means that the page is free.
+
+The bits TBB[19,17] (i.e. s = 511), TBB[39,8] (i.e. s: 1022) and TBB[39, 10], TBB[39, 11]...TBB[39, 25] (i.e. s = 1024, 1025, ..., 1039) are, on account of nonexistence, permanently = 1, as are the TBB's that correspond to portions of the drum which are destined for other purposes.
+
+(In the following, the constant B25 = 2↑25 = 33554432.)
+
+We shall use the TBB's in three ways.
+
+a) To release an occupied drum page with s = 26 * i + j.
+
+In a register we place B25 * 2↑(-j) and with a subtractive output instruction we execute
+
+TBW[i]:= TBW[i] - B25 * 2↑(-j).
+
+b) To occupy a free drum page with s = 26 * i + j; this proceeds analogously with an additive output instruction:
+
+TBW[i]:= TBW[i] + B25 * 2↑(-j).
+
+The path from start address to s goes by a simple collation; to isolate the i and the j from s does cost us a division. The sign digits of the words TBW have been carefully chosen = 1, so that the preference for the minus zero does not play tricks on us. If we carry out this release and occupation additively, then we must indeed be certain that the page was beforehand noted as occupied, respectively free: otherwise overflow would after all spoil the whole thing hopelessly!
+
+c) To search for a suitable free drum page. For when we dump, we are free in the choice of the drum page. If there is still a start instruction present in the start magazine of the drum transports, then we can investigate at which value value of s it has run out. If we increase (reduced modulo 1024) this s by the "safety margin" that Electrologica must supply us, so that the next start instruction is still fetched without loss of a revolution, then we have the ideal s, were it not that we still have to investigate whether the corresponding drum page is indeed free. (If there is only 1 start instruction left in the start magazine of the drum, then in connection with the minimum duration of the search program that now follows we may, out of caution, still increase s by some constant or other, extra that is to say. If the start magazine is empty, then every s is equally good, for then we have completely lost sight of the position of the drum.) We now use the array TBB to search for the first free drum page (with "s ≥ s ideal", everything modulo 1024). To this end we split s ideal into
+
+s ideaal = 26 * i + j
+
+and, with these values of i and j as initial values, execute the following program.
+
+A:= TBW[i];
+shift A clean over j places to the left;
+if A ≠ 0 then
+begin normalize A (the number of strokes ends up in B);
+j:= j + B
+end
+else
+begin i0:= i;
+next word: modhoog(i, 40);
+A:= TBW[i];
+if A = 0 then begin if i = 10 then goto drum full else goto next word
+end;
+normalize A (the number of strokes ends up in B);
+j := B
+end
+
+The chosen page is now given by the final values of i and j (by s = 26 * i + j), whereby the stated goal is achieved.
 
 transcribed by Gerrit Jan Veltink
 revised Sun, 28 Mar 2010

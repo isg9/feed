@@ -35,3 +35,38 @@ E.W. Dijkstra
 Transcribed by Frank Steggink
 
 Revised Tue, 6 Jan 2004.
+
+
+---
+
+## English translation
+
+### Very brief report on the visit to the symposium on Multi Access Computers, 2–4 November 1965 at the NPL
+
+EWD137 - 0
+
+Very brief report on the visit to the symposium on Multi Access Computers
+
+2 - 4 November 1965 at the NPL.
+
+The symposium was very badly organized. One was there by personal invitation (about 75 men); the invitation to participate was also an invitation to contribute, phrased in such terms that they could hardly say "No" if someone answered that he did indeed have something to say. The resulting overloading can readily be imagined. Because not a single speaker had been invited to indicate his subject in a few lines, there were lectures that fell entirely outside the programme or had been placed in the wrong spot in the programme. Furthermore, the participants were scattered across all sorts of hotels, so that little came of the "informal contacts", a thing for which, precisely because of the overloading, there was such a great need.
+
+G. Seegmueller from Munich gave a description of the "control system" they have developed for the TR4. At the time I had not been able to understand an English translation of a German publication on this, but his lecture on it was extremely clear. (Probably owing to the fitting omission of details.) With it they had achieved the goal they had set themselves -something about which, with fitting pride, he made no bones-; nor did he leave any doubt that he had grown tired of looking at it. He rightly received hearty applause.
+
+The contributions from The Mathematical Laboratory, Cambridge, were really rather sad. The ideas that Wilkes put forward were precisely the sort of things that we have all tried at one time or another, but have let drop again because, on closer inspection, they were not clear enough. You can sum them up as measures that, microscopically viewed, make accelerations possible, but under conditions that, macroscopically, have unpleasant consequences. And the work of the software group is depressing (It is a lousy machine but we make the best of it.), all the more so because from what they would like to do (but cannot) it appears that they do have a consistent "philosophy". I find this very regrettable, because they have a couple of very good people, saddled with a historically explicable legacy.
+
+There was a great deal from America; they had taken care to invite people from very different projects. Some contributions could be of no concern to me whatsoever, such as extensive analyses of "scheduling techniques", but then applied to machine configurations of which everyone had by now become convinced that they were highly unsuited to serving many consoles simultaneously. This did give an accurate historical picture; they did it with this equipment, and it was of course instructive to see into what contortions these people have had to twist themselves. A very great deal of time has been spent on these problems, which in my opinion are no longer current. There were a number of other contributions from America that were very refreshing. There was the report of a man who, by way of a research contract, had been allowed to investigate to what extent the flow of information in a large hospital lends itself to automation, and who now had a pilot installation ($ 800,000.-- in hardware) in operation. The dominant tone among the Americans was set by people from project MAC (MIT) and General Electric, who, in consultation with MIT (and BELL, if I understood it correctly), supplies the equipment. This time the advertising slogans (that multiaccess computing means a revolution etc.) were spared us -I would almost say: on the contrary, with the exception of Perlis-; there were much nicer things to observe. Making software is no longer a matter of making do with a God-given machine; fortunately people are becoming more and more convinced that the specifications of the hardware must come from the man who has to make the software, or at least that one must think sensibly together about the division of labour. And in this respect multi access computing has shaken a great deal awake.
+
+EWD137 - 1
+
+Within this short span I have barely been able to obtain a complete impression of the GE machine on which they are going to play this. They had devoted much attention to the interrupt system, and I was assured by Dennis -and I have no reason to doubt him- that it was consistent. The addressing technique was clearly grafted onto my dear friend, the B5000. If General Electric does see a chance of making a commercial success of this, it would be nice if they were to transfer some of it back to Burroughs, who took the first bite there. Whether everything they have done is good, I do not know; unfortunately I am not entirely at ease about it.
+
+There was furthermore an article handed out by two people who were not present; it was very briefly presented by Dennis, about the "file organisation" of the new version of project MAC. I have not yet had time to study this so thoroughly that I see through all its implications; I do intend to do this in the short term. My first reaction was one of great enthusiasm, because I got the impression that they had made exactly what I have for a couple of months been trying to construct: a watertight identification system for objects of mixed lifetime. How watertight their system is became, on closer inspection, somewhat less convincing. I shall study their account and, whatever the outcome may be, I am in any case very grateful for this confrontation. If their solution is satisfactory, then I too am done with the problem; if their solution is not, then that is an incentive to really plunge into it. Their whole system is built around this, and in this I see a confirmation of my suspicion that this problem is highly vital. As a by-product I might perhaps come to fathom what no administrator has yet understood about his own activities.
+
+My contribution was received with great enthusiasm.
+
+E.W. Dijkstra
+
+Transcribed by Frank Steggink
+
+Revised Tue, 6 Jan 2004.

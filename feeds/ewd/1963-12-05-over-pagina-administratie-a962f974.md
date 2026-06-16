@@ -71,3 +71,73 @@ Tenslotte is KIE de aangewezen plaats om "look back" informatie in op te slaan, 
 transcribed by Sam Samshuijzen
 
 revised Thu, 3 Mar 2005
+
+---
+
+## English translation
+
+### On page administration
+
+EWD 71
+
+On page administration
+
+The idea is to introduce in every program, for every drum page occurring in this program, a so-called TPV (= drum page variable). The TPV's go into the stack of the corresponding program. I see at least two classes:
+
+a) instruction pages
+
+b) array pages
+
+The TPV's for the instruction pages of a program are local variables of the outermost block; they are initialized by the translator/reader.
+
+The TPV's of large arrays are, higher up in the stack, initialized by the array declaration and removed by block exit.
+
+The purpose of the TPV's is to be able to obtain a quick answer to the question "Kaatje, are you upstairs?". We could accomplish this by maintaining in core a complete —fully laid-out— table of contents of the drum(s), but with a thousand pages per drum this costs us, if we do not wish to lapse into a merciless shuffling, at least 3% of core per drum, even if you do not use this drum space.
+
+Now that we house the TPV's among the local variables of the programs, we have achieved that in core no more TPV's need be retained than there are drum pages in which interest may possibly exist.
+
+A consequence of this is that the internal formulation of the object program is fairly insensitive to which drum pages are actually occupied by this program: for this is no longer spread throughout the entire program, but (one single time) in the TPV's. For the housekeeping on the drum I assume that this offers advantages; it does mean, however, that the manner in which library procedures must be able to refer to one another fills me with some concern (with "later concern", to be precise).
+
+Besides the TPV's, housed in the programs, we also have the "table of contents of core". This contains one element per core page; we can set the size of the core-page table right away to maximal use of core. (If we do not use part of that table of contents, then this means that we turn out not to need part of core store, but in that case we evidently had it to spare and could let it hang loose.) The relative price of this table is the size of an element/size of a core page. This is again an argument for pages that are not too small. Elements of this table of contents I call KIE (Core Table-of-contents Elements).
+
+We will now investigate what must be retained in a TPV and a KIE. The tendency will be to keep the size of a TPV small —for of these we can after all have so many. In a TPV we must in the first place retain whether a copy resides in core. I propose:
+
+TPV ≥ +0 means: page present in core
+
+TPV ≤ –0 means: page not present in core.
+
+In the case TPV ≥ +0 we must therefore indicate where this page does in fact reside. We can specify: the start address in core or the address of the corresponding KIE (these are derivable from one another). I think that the KIE address is the most convenient, for we probably need the KIE anyway. (I leave open for now whether we should perhaps include in the KIE the core address of the page; this would then be redundant, but might well save us shuffling in a welcome manner. As soon as we do this, we are moreover freed from powers of two as the imposed length of a KIE.)
+
+In the case TPV ≤ –0 we must further distinguish between "drum page reserved" and "no drum page yet reserved". The latter we can after all encounter with a TPV belonging to a large array. In the first case we can let the TPV contain the start address on the drum; the second case we can e.g. characterize by TPV = –0.
+
+A reference to a drum page with TPV ≤ –0 now proceeds differently. In both cases a core page must be chosen. If TPV ≠ –0, then there is a —now well-defined— transport obligation from drum to core; if TPV = –0, then we must request a new drum page from the "free drum-page list", take note of this "occupation" and not actually transport. (This transport is superfluous and perhaps even harmful: why would one e.g. needlessly require that the parity of long-unused drum pages be sound?)
+
+Note. The assignment of the drum page can also be postponed until a dump must actually take place.
+
+We now turn to the KIE. If we make available only one word for a TPV, then this means that in the TPV we have no more room to store the drum address once the page resides in core. In other words: then we have the obligation to maintain the drum address in the corresponding KIE.
+
+What exactly we shall maintain in a KIE I do not yet know quite precisely; for the KIE's will also be extensively played upon by the coordinator. With the naked eye I see three states for a core page: assigned, switching, and outlawed.
+
+A core page becomes outlawed as soon as there is no longer any interest in its contents. This occurs at block exit, if this block contains large arrays. At this block exit the TPV's that thereby come above the stack top must be scanned. If we find a TPV = –0, then we need do nothing; if we find a TPV < 0, then we must add the drum page mentioned in the TPV to the list of free ones; if we find a TPV > 0, then that is a KIE address. The drum page mentioned in this KIE shall be added to the list of free ones, and in the corresponding KIE we must now note "outlawed". For the instruction pages this occurs upon definitive termination of the program.
+
+The "switching" process we must probably indicate separately in the KIE: as soon as a core page has been allotted a new role and this assignment implies drum transports, the coordinator may not touch this core page: the coordinator may assign this core page another role only when the transport is completed. (The coordinator must have the same respect for pages serving as buffer space for autonomous transports to and from the communication apparatus.)
+
+What must reside in the KIE of an assigned core page is somewhat more surveyable.
+
+Firstly, the corresponding start address on the drum must be retained in the KIE— for we have after all assumed that in the TPV of a present page there would no longer be room for that. Secondly, the KIE must contain a reference to the TPV just as the TPV contains a reference to the KIE. (For we are engaged in a kind of double-entry bookkeeping.)
+
+When the coordinator seeks (or must make) a free core page, then I assume that it considers core store in its totality, i.e. carries out an inspection in the KIE table (see also below, under the "look back" information). When the coordinator has then chosen which core page is now to change role, then the reference to this KIE must be removed from the TPV initially belonging to it. On the basis of the convention in the previous paragraph the coordinator does this by, besides making the TPV negative, also filling in the drum address there again. (This suggests choosing, as the KIE component mentioned in the previous paragraph, simply: the TPV value in the absence [of the page].)
+
+It is for a moment a question how we intend to make this reference to the TPV. One possibility is "physical address". This then gives us the obligation, upon stack displacement, to run through the KIE list to see which addresses must thereby be updated. Another possibility is to localize the TPV in the KIE with respect to the stack bottom. Against the latter I see no objection. (Modification of KIE's only occurs upon page switching anyway.) It does mean, however, that in the KIE we must state to which program the KIE belongs.
+
+(We step here for a moment outside the field of view of each individual program. I assume that the coordinator knows all programs under treatment by a number that remains reserved for this program until it leaves the machine. I posit moreover that it —also for other reasons— will be able to find the stack bottom for a given number.)
+
+Further we shall, in a KIE corresponding to an assigned core page, have to note that this core page does not belong to a stack. (Stack pages are our fourth group: they too must be treated with respect, because in principle they remain in core and can be displaced only with care.)
+
+Further we shall have to note in a KIE whether the contents of the core page happen to be identical with those of the corresponding drum page. For this holds for all instruction pages; it can also hold for number pages. (A relatively long constant array never needs to be written back.) This complicates the assignment to the element of a large array. That, I fear, will not be such a trivial operation anyway, and the setting of a "written" bit can, I think, be thrown in as well.
+
+Finally, the KIE is the designated place to store "look back" information, i.e. to keep a record of interest shown. Should we ever proceed to introduce a concept such as "rigidity", then the KIE is also the designated place for this. For want of anything better I imagine, provisionally, that we shall note a Naur-like interest number in the KIE. (This form of "look back" follows the history of core pages; as soon as a page goes back to the drum we lose sight of it entirely. We might be tempted then to maintain some interest number or other in the TPV. Experiments have shown —insofar as experiments can show this— that this is not profitable: for the strategy then becomes influenced by an event too long ago to still be relevant.)
+
+transcribed by Sam Samshuijzen
+
+revised Thu, 3 Mar 2005

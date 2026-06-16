@@ -27,3 +27,29 @@ Na U gewaarschuwd te hebben, geen slachtoffer van academisch bedrog te worden, g
 
 transcribed by Jukka Ketelaars
 revised Wed, 13 Jun 2007
+
+---
+
+## English translation
+
+### Fourth address to my students
+
+8 March 1977
+EWD 483
+
+Fourth address to my students.
+
+Shortly after the Second World War, when you did not yet exist, my physics teacher drew our attention to the fact that we had had the Stone Age, then the Bronze Age, then the Iron Age, and after that, in the Netherlands at least, the Golden Age, but that the 20th century would go down in history as the Age of Incompetence (after which he proceeded to the order of the day). More than a quarter of a century later, I should like to add a modest scoop on top of that: it will be recorded in history as the Age of Fraud. What is at issue here is the widespread phenomenon that the whitewashers extenuatingly designate as "wishful thinking", but which to uncoated eyes is nothing other than plain, vulgar deceit, namely the deceit that consists in this, that the desire to do something is thoughtlessly replaced by the belief, and thereafter the pretension, of being able to do so as well.
+
+We all know them: the economists whose expertise has not prevented the recession, the marketing experts on whose advice products were put into production that we now cannot get rid of even at any price, the psychologists and pedagogues who with the "mammoth" flattened secondary education and reduced the final-examination diploma to a worthless scrap of paper, the sociologists who so expertly supervise the degeneration in the governing of the municipality of Amsterdam, etc. We all know them, the quacks cloaking themselves in pseudo-scientificness.
+
+This large-scale deceit is unfortunately now so widespread that all manner of young people no longer know any better than that this is how things should be. They regard it as the most ordinary course of affairs when a bunch of dilettantes, instead of governing, aimlessly yank at the helm of the ship of state and then moreover present this panicky activity as our glorious voyage to the socialist promised land; they regard it as the most ordinary matter in the world when science policy is entrusted at the ministerial level to a washed-out student and at the local level to a motley crew that, in university or polytechnic council, stages its ideological tournaments upon verbal hobbyhorses.
+
+With all that obtrusive charlatanry around us, it seems to many ever more difficult still to make a distinction between the many quacks and the occasional professional, between the slogan-mongering peddled with much propaganda and the genuine, and therefore modest, competence. Many have given up the courage to make this unpopular distinction and react with "Ah, it's all one and the same pot of slop." and, for convenience's sake, tar everyone who has something to say with the same brush as the windbags. The corruption institutionalized by the so-called "soft sciences" has scattered the seed of disillusion in science, from which the anti-intellectualism that has by now spread everywhere has sprouted. This is alarming, for now, along with the indeed filthy bathwater, a truly clean and indispensable child is being thrown out.
+
+For the child is indispensable! Long is the list of organizations which, after having embarked upon something for which the competence was lacking, have either gone bust, or else have managed to save their skin by, thanks to chicanery, saddling society with their inferior product. Thus sometimes firms save their existence, sometimes governments, sometimes universities too think they can save their hide this way: degree programs, for which the scientific discipline that ought to underpin them is as yet lacking and which ultimately deliver up the students with an empty head, are a poignant symptom of this.
+
+Having warned you not to become a victim of academic fraud, we proceed to the order of the day.
+
+transcribed by Jukka Ketelaars
+revised Wed, 13 Jun 2007

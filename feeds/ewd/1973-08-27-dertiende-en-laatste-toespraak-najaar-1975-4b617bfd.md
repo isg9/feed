@@ -30,3 +30,33 @@ Na aldus voor het laatst tot Uw maatschappelijke vorming te hebben bijgedragen, 
 
 transcribed by Jukka Ketelaars
 revised Sun, 17 Jun 2007
+
+
+---
+
+## English translation
+
+### Thirteenth and last address, autumn 1975
+
+4 December 1975
+EWD 541
+
+Thirteenth and last address, autumn 1975.
+At the beginning of this semester I explained to you why I still lecture; now that we have arrived at the end of the semester, I should like to explain to you why every week I have held my opening-of-the-day.
+
+I still lived through the time when the Second Chamber adopted the amendment to the Act on higher education, whereby the latter's task was extended with, in the first place, the demonstration of the coherence of the sciences, and, in the second place, the fostering of a sense of social responsibility. Whoever reads up on the proceedings of the Second Chamber from that period will see that —to pile up a few strong terms for once— these two crackbrained extensions were the misbegotten product of a sordid piece of horse-trading not fit for the dogs.
+
+Against that background it is almost pathetic to see how young people, who in those days did not yet read the newspaper, now accept these passages as their gospel and try to wield them as a moral yardstick. Pathetic, and also disquieting, for it means that every law, however rotten, runs the danger of beginning to lead a life of its own as Law with a capital L. Of the older people who have now embraced them, one can only remark, with a shrug of the shoulders, that they really ought to know better.
+
+The provisions are, if you think about it for a moment, of course insane! As regards that demonstration of the coherence of the sciences, there ought at the very least to have stood beside it the proviso "insofar as present". Far worse is that this article suggests the desirability of such a coherence, a desirability beside which I, and many with me, place a very large question mark. For whoever delves into the question from which scientific disciplines derive their viability encounters there isolability: if the coherence and the mutual interactions are too strong, the interface between the disciplines has been chosen clumsily.
+
+But higher education pays the toll: advertisements for vacant chairs suggest that, for the new professor, his willingness to collaborate is at least as important as his professional competence, and whoever still wants to get something off the ground at this Institute of Technology would do well to dress it up as an inter-departmental project, for otherwise it does not sit so comfortably from an ideological point of view.
+
+The second extension, that of cultivating a sense of social responsibility, is if possible even worse. Not that I would have any objection to a sense of responsibility —in whatever form— on the contrary, but you cannot saddle a scientific institution with that duty of cultivation without thereby charging that same institution with overstepping the bounds of its competence. One of the golden rules from my parental home is still "Do not talk about things you know nothing about!"; for people and institutions with a certified competence the prohibition of this overstepping of bounds holds with all the more force.
+
+And lo, under cover of an article of law that I thoroughly abhor, I can now, every week, give all those who had it coming a taste of their own medicine. And that this medicine may now and then turn out a little differently from what they foresaw and intended, well.... You understand that the temptation was irresistible.
+
+Having thus contributed for the last time to your social formation, I proceed to the order of the day.
+
+transcribed by Jukka Ketelaars
+revised Sun, 17 Jun 2007

@@ -8,7 +8,7 @@ guid: https://www.cs.utexas.edu/~EWD/ewd00xx/EWD82.PDF
 
 # Een ponsbandorganisatie voor de X8
 
-EWD082     X-8 nr. 38.
+EWD082     X-8 nr. 38.
 
 Een ponsbandorganisatie van de X8.
 
@@ -30,7 +30,7 @@ Een volgende complicatie is het gemengde gebruik, dat men maken wil van het phys
 
 Er zijn programma's, waarin einde band een essentieel onderdeel van de inkomende informatie stroom is, bv. een programma, dat een willekeurige band reproduceert. (Het is in dit licht jammer, dat de ponser niet beschikt over een door de X8 bestuurbaar afsnijertje!)
 
-In andere organisaties wil men liever aan einde band geen betekenis toekennen. Als een programma vraagt om een heel lange band, die vb. uit twee stukken is opgebouwd, dan is het natuurlijk prettig, dat de EL 1000 zorgvuldig gemaakte plakjes slikt, maar het zou jammer zijn, als dit de operateur ook inderdaad tot plakken zou verplichten. Als de operateur om een of andere reden prefereert om zo'n band in twee stukken in te leggen, zou dit moeten mogen zonder dat daarbij een extra last plicht tot plakken wil geven, evenmin wil men de operateur de plicht tot knippen -dwz. het verbod tot plakken- opleggen, althans in het merendeel der gevallen, waarin hierdoor geen onduidelijkheden kunnen ontstaan. (Het is duidelijk, dat men achteraan een band, waarop "einde band" een essentieel onderdeel van de informatie is, niet straffeloos een andere band mag aanplakken.)
+In andere organisaties wil men liever aan einde band geen betekenis toekennen. Als een programma vraagt om een heel lange band, die vb. uit twee stukken is opgebouwd, dan is het natuurlijk prettig, dat de EL 1000 zorgvuldig gemaakte plakjes slikt, maar het zou jammer zijn, als dit de operateur ook inderdaad tot plakken zou verplichten. Als de operateur om een of andere reden prefereert om zo'n band in twee stukken in te leggen, zou dit moeten mogen zonder dat daarbij een extra last plicht tot plakken wil geven, evenmin wil men de operateur de plicht tot knippen -dwz. het verbod tot plakken- opleggen, althans in het merendeel der gevallen, waarin hierdoor geen onduidelijkheden kunnen ontstaan. (Het is duidelijk, dat men achteraan een band, waarop "einde band" een essentieel onderdeel van de informatie is, niet straffeloos een andere band mag aanplakken.)
 
 Het idee van de standaardband en "de open bek".
 
@@ -79,7 +79,7 @@ Het concept van de bandvariabele.
 
 Als een band "synchroon met het physisch leesproces" verwerkt wordt, zoals bij ARMAC en X1, dan fungeert de ligging van de band in de lezer als geheugenelement. Tegen de tijd, dat we het bandbeeld in het geheugen hebben opgeslagen, moeten we dit "heptadewijzertje", dat het sequentieel aftasten van het bandbeeld bestiert, in het geheugen opnemen. Dit heptadewijzer is een belangrijke constituent van de zg. bandvariabele.
 
-Voorts bevat een bandvariabele het gegeven, of het physisch leesproces al beeindigd is of niet. Zo nee, dan bevat hij een verwijzing naar de physische lezer, de lezeradministratie bevat op zijn beurt een verwijzing naar de bandvariabele. De koppeling "bandvariabele - lezer", die bestaan blijft, totdat de X8 voor deze lezer het signaal "einde band" gevonden heeft, wordt dus wederzijds geboekt. Zodra het signaal "einde band" tot de X8 doordringt, wordt deze koppeling verbroken. De bandvariabele heeft er dan geen weet meer van, via welke lezer deze band is binnengekomen, de lezer zelf gaat over in toestand 0 met de startopdracht voor de enkele heptade in het startmagazijn. (Dankzij het symbolisch afwerken van eventuele startopdrachten in het magazijn, zodra einde band gesignaleerd is, is het mogelijk om te zorgen, dat dit de enige startopdracht in het magazijn is.)
+Voorts bevat een bandvariabele het gegeven, of het physisch leesproces al beeindigd is of niet. Zo nee, dan bevat hij een verwijzing naar de physische lezer, de lezeradministratie bevat op zijn beurt een verwijzing naar de bandvariabele. De koppeling "bandvariabele - lezer", die bestaan blijft, totdat de X8 voor deze lezer het signaal "einde band" gevonden heeft, wordt dus wederzijds geboekt. Zodra het signaal "einde band" tot de X8 doordringt, wordt deze koppeling verbroken. De bandvariabele heeft er dan geen weet meer van, via welke lezer deze band is binnengekomen, de lezer zelf gaat over in toestand 0 met de startopdracht voor de enkele heptade in het startmagazijn. (Dankzij het symbolisch afwerken van eventuele startopdrachten in het magazijn, zodra einde band gesignaleerd is, is het mogelijk om te zorgen, dat dit de enige startopdracht in het magazijn is.)
 
 Een bandvariabele maakt altijd deel uit van een programma (uitgezonderd misschien bij de allereerste analyse van het metakarakter voorop een standaardband). Tijdens vertaling is de bandvariabele een grootheid van de vertaler, aan het einde van de vertaling fungeert de dan heersende waarade van de bandvariabele als initialisering van de eigen-bandvariabele van het vertaalde programma. Dit overhevelen van bandvariabele van vertaler naar vertaald programma dient met enige zorg te geschieden: omdat de bandlezer het leesproces nog niet voltooid hoeft te hebben, bergt een bandvariabele dus een mogelijke synchronisatiebeperking in zich. Het is deze synchronisatiebeperking, die ook van vertaler naar vertaald programma overgegeven moet worden.
 
@@ -129,6 +129,138 @@ We sullen nu proberen om een arrangement uit te werken, waarbij assemblage- en v
 Ook bij output via ponsband willen we bufferen en we stellen ons voor, dat er normaliter pas een ponser voor een band gereserveerd wordt, als het volledige bandbeeld in het geheugen is opgebouwd. Hiermee hopen we drie dingen te bereiken.
 
 Ten eerste zal hierdoor een programma een bandponser zo kort mogelijk aansluitend bezetten. Ten tweede is nu de lengte van de band bekend, voordat het ponsproces begint. Als de coordinator ingelicht wordt, wanneer er een nieuwe rol in een van de ponsers is ingelegd (en wanneer de operateur wat bescheiden met run out omgaat) dan kan de coordinator bijhouden, hoeveel papier er nog op de rol behoortte[sic] zitten. Er kan dus voor gezord worden, dat niet halverwege de band het papier plotseling op is. Ten derde kan men dit bandbeeld twee maal opbouwen, nl. eerst om te ponsen, en later om te controleren. Dit controleproces willen wij beschouwen als een van de standaardhandelingen, die geactiveerd kan worden, door een band met een passend metakarakter in een open bek te leggen. Dit extra metakarakter zal het ponsproces er ongevraagd vooraan toevoegen, als het zijn werk gedaan heeft, kan de operateur het afscheuren. Het succesvol beeindigen van het controleproces kan de geheugenruimte van het bandbeeld vrijgeven.
+
+transcribed by David J. Brantley
+
+latest revision Sat, 29 May 2004
+
+---
+
+## English translation
+
+### A punched-tape organization for the X8
+
+EWD082     X-8 no. 38.
+
+A punched-tape organization of the X8.
+
+Motto: "He who does not honour the small,
+
+is not worthy of the great."
+
+Introduction.
+
+In this report the main emphasis will fall on the reading of punched tape. Why the punching need raise fewer large questions will become clear in the course of this.
+
+The tape-reading instruction of the X8 is fully code-independent; every configuration of holes or no holes penetrates to the machine and in a certain sense "there is no problem", namely in the sense that we can program the processing of these tapes as we wish. Conversely, this does impose upon us the duty to choose, out of the welter of possibilities, what we want. A large part of this report concerns itself with this choice (and the motivation thereof).
+
+The guiding principle is that things must be made as easy as possible for the user. This means among other things that when a user wishes to read successive numbers from a punched tape, he then wishes to incorporate an internally fitting identification of numerical values into his process, without his having to be aware of the conventions according to which these numbers stand on the tape. This situation is entirely analogous to his attitude towards variables of type integer or real: for him these characterize values; how is none of his concern; the internal representation need not even be unique. With such a manner of tape reading all kinds of "irrelevantia" must therefore have disappeared under the table before the numerical value penetrates to the program.
+
+The complication here, however, is that we cannot a priori decree what is irrelevant to the programmer. Punched tapes, after all, lead an independent existence outside the machine; they may come from automatic measuring apparatus, they may have to be made for tape-controlled machinery. What we are therefore aiming at is an organization which on the one hand serves convenience, but which on the other hand, if desired, gives the programmer the full control he needs in order to be able to use punched tape as a "general purpose medium".
+
+A further complication is the mixed use one wishes to make of the physical "end of tape". "End of tape" is detectable by the X8; the consequences that ought to be attached to it can, however, differ considerably from case to case.
+
+There are programs in which end of tape is an essential part of the incoming information stream, e.g. a program that reproduces an arbitrary tape. (In this light it is a pity that the punch does not have a little cutter controllable by the X8!)
+
+In other organizations one would rather attach no meaning to end of tape. If a program asks for a very long tape that is, for example, built up out of two pieces, then it is of course pleasant that the EL 1000 swallows carefully made splices, but it would be a pity if this also actually obliged the operator to splice. If the operator for one reason or another prefers to load such a tape in two pieces, this ought to be permitted without thereby wanting to impose an extra burden of an obligation to splice; nor does one wish to impose upon the operator the obligation to cut -i.e. the prohibition against splicing- at least in the majority of cases, in which no ambiguities can arise from it. (It is clear that one may not, with impunity, splice another tape onto the back of a tape on which "end of tape" is an essential part of the information.)
+
+The idea of the standard tape and "the open mouth".
+
+We start from the assumption that the majority of ALGOL programs are such that, if they ask for numerical material,
+
+- they need not react to "end of tape"
+- this material can be supplied in advance.
+
+The (operationally) normal case shall be that this tape with numerical material is then spliced onto the back of the program text (or, as the case may be, punched immediately after it). We call such a tape with material to be processed "the own tape" of this program.
+
+Here the beginning of the tape -namely the program text- indicates how the rest -namely the numerical material- is to be processed. We wish to extend this idea a step further and agree that at the front of the text a recognizable standard cry, say algol, occurs. This is a metacharacter which implies that the punchings following it are to be interpreted as the text[sic] of an ALGOL program. This interpretation (translation, followed by execution) is a standard processing; the metacharacter algol has been introduced onto the tape because I do see room for extensions of the number of standard processings. All these standard processings will be activatable via an associated metacharacter.
+
+A tape which subjects itself to such a standard processing we call a standard tape. The aim we are striving for is to force the overwhelming majority of operator actions into the straitjacket of "processing of a standard tape."
+
+To this end we introduce the concept of the "tape reader with the open mouth". The intention is that, for the processing of a standard tape, the operator need do no more than load such a standard tape into a tape reader and press the green button. The state in which a tape reader thus reacts in the standard manner to a standard tape we call "with open mouth".
+
+The intention is that all tapes, once loaded, are in principle read in at full speed -i.e. regardless of the pace of actual processing. If the reader runs faster than the actual processing, then the rest can be dumped onto the drum. As soon as "end of tape" has been signalled, the reader is released and remains behind with its mouth open.
+
+N.B. We do not require that "end of tape" be signalled before the actual processing begins. If there is congestion in the store, then the coordinator must be able to choose and to be able to prefer "reader occupancy" over "store occupancy".
+
+There are already some snags to this, because tape readers will not be used exclusively for the standard processing of standard tapes. (There also exists non-standard processing of what otherwise deceptively looks like a standard tape!)
+
+The price that we have to pay for the easy processing of standard tapes consists of some extra hocus-pocus for the non-standard reading. One must namely make a safe little lock-gate for the case in which the operator, in good faith, loads a standard tape into a reader at precisely the same moment that the X8 decides to start using this reader for another purpose.
+
+In broad outline a single-tape reader can find itself in three states:
+
+state 0: free
+
+state 1: requested for non-standard work
+
+state 2: occupied
+
+In state 0 there hangs a rather symbolic start instruction for 1 single heptade, which is given only in order to let the loading of a new tape and the pressing of the green button penetrate to the X8. (I assume that the heptade itself will perhaps be ignored.)
+
+In state 1 the X8 has decided that the tape reader is going to be used for non-standard work; this has been reported via the teleprinter. The tape reader will not run on before the operator has answered this report that there is no wrong tape lying in the tape reader.
+
+In state 2 the tape reader has been definitively engaged for a well-defined (standard or not) task.
+
+If now an interrupt occurs from a tape reader that finds itself in state 0, then this tape is read on as a standard tape. In deafness, as a reaction to the symbolic heptade, the transition to state 2 takes place (and it is noted that we are now doing standard-tape reading). The following interrupts take place by definition in state 2.
+
+If a (first) interrupt occurs in state 1, then until further notice no more tape is read. The operator has namely loaded a standard tape during the period in which the X8 has already allocated the reader for another purpose, but the operator has not yet answered that he has taken note of this decision. The operator notices this among other things from the fact that of the tape, which he expects will shoot inward, only 1 heptade is read.
+
+The operator's answer -implying that there is no unrequested tape lying in the reader- effects the transition from state 1 to state 2, a complete specification of what must then in fact happen, and finally the filling of the start magazine of the reader in question. If the tape is already loaded, then it starts running; the operator may also give the answer in advance, while the reader is empty, after which the tape starts running as soon as it has been loaded.
+
+The concept of the tape variable.
+
+If a tape is processed "synchronously with the physical reading process", as with ARMAC and X1, then the position of the tape in the reader functions as a memory element. By the time we have stored the tape image in the store, we must incorporate into the store this "little heptade pointer", which governs the sequential scanning of the tape image. This heptade pointer is an important constituent of the so-called tape variable.
+
+Furthermore a tape variable contains the datum of whether the physical reading process has already terminated or not. If not, then it contains a reference to the physical reader; the reader administration in its turn contains a reference to the tape variable. The coupling "tape variable - reader", which remains in existence until the X8 has found the signal "end of tape" for this reader, is thus booked mutually. As soon as the signal "end of tape" penetrates to the X8, this coupling is broken. The tape variable then no longer has any knowledge of via which reader this tape came in; the reader itself passes into state 0 with the start instruction for the single heptade in the start magazine. (Thanks to the symbolic dispatching of any start instructions in the magazine as soon as end of tape has been signalled, it is possible to ensure that this is the only start instruction in the magazine.)
+
+A tape variable always forms part of a program (except perhaps in the very first analysis of the metacharacter at the front of a standard tape). During translation the tape variable is a quantity of the translator; at the end of the translation the then prevailing value of the tape variable functions as the initialization of the own-tape variable of the translated program. This transfer of the tape variable from translator to translated program must be done with some care: because the tape reader need not yet have completed the reading process, a tape variable therefore harbours within itself a possible synchronization restriction. It is this synchronization restriction that must also be handed over from translator to translated program.
+
+Streamlined reading and the role of metacharacters.
+
+When we have more than 1 program sitting simultaneously in the machine, then we have, as is known, to ensure that the one program cannot be so faulty that thereby the other program is disturbed. This guarantee implies restrictions with respect to the structure of the individual programs. I have always taken the standpoint that every user who cannot accept these restrictions because he wants to program in machine code must then just run the machine in uniprogramming.
+
+An analogous situation we encounter when we wish to feed in two programs, which otherwise have nothing to do with one another, one after the other on one and the same tape. The processing system then has the duty to establish where the text of the second program begins. The composer of the first program must then not have the possibility of making such an error that the correct establishing of the position of this caesura is no longer a reliable operation. In order to be able safely to feed two programs one after the other[sic] on the same tape, the first program must observe certain rules of the game, entirely analogous to the situation signalled above. By the nature of the matter we shall strive to make these restrictions as little jarring as possible.
+
+In order not to complicate life needlessly, I assume in the following that a program can make contact with the own tape only in two ways:
+
+- read next punching
+- read next number.
+
+In case a) the programmer has access to every bit of the fed-in tape and he can react to this at his own discretion. A program that reads the punchings as such from the own tape is like the program in machine code; it is not permitted to splice onto the back of the own tape of this program the text of an independent following program. (Whoever would want to behave nastily then writes an ALGOL program whose only effect is that the following ALGOL program is skipped over by hand!)
+
+A program which, in its contact with the own tape, however, restricts itself to "read next number" can be kept under the thumb by the system. I regard "read next number" here as a new primitive and not as a subroutine built up with "read next punching" in the sense that use of "read next number" would a fortiori imply use of "read next punching". To this we attach two consequences.
+
+We regard "read next number" as a not further specified process which, on each activation, distils a next numerical value from the tape (or gives an alarm). In the processing program it is for example not to be ascertained how these numbers are given on the tape. They may be punched via a flexowriter in decimals; for all I care they may also (by an earlier ALGOL program) have been punched binarily. About the number of possibilities I do not wish to commit myself now. In any case, this tape contains what we formerly called check combinations, what we now perhaps call "syntactic structure".
+
+The second consequence is that we can make this syntactic structure such that also the extent of the quantity of information can be established unambiguously -and indeed outside the sphere of influence of the programmer. A program which, in its contact with the own tape, restricts itself to those forms in which this end-establishment can thus take place, reads its own tape "in streamlined fashion".
+
+If the own tape is intended for streamlined reading and has been made on the flexowriter, then this syntactic structure consists, besides the internal structure of the numbers, of conventions for number separation, probably by means of well-defined separators. I imagine having such a tape closed off by a kind of "superseparator", say the metacharacter enddata. The streamlined reading must then be a heavily checking process which among other things must under no circumstances let the metacharacter enddata pass by unnoticed. If the detection process for the end of the own tape is thus shielded against errors of the programmer, then the own tape may be followed[sic] by a new, independent tape.
+
+All this suggests letting the translator statically divide the programs into three categories
+
+- programs in which no own tape is read
+- programs in which the own tape is read only in streamlined fashion
+- programs in which the own tape is read (only) in non-streamlined fashion.
+
+Only programs from categories I and II permit a following program spliced onto the back (i.e. as we hope, almost all of them).
+
+Remark 1. The establishing of which category a program falls into must take place statically. For if we await dynamically whether and, if so, how a program makes contact with the own tape, then we would come out deceived as soon as a program from category III wrongly terminates its activity before contact with the own tape has been made.
+
+Remark 2. With reference to the brackets around "only" in the description of III. Perhaps I shall remove these, and not permit a tape to be read partly in streamlined and partly in non-streamlined fashion. This mixed reading namely limps very much on two thoughts. I foresee that attempts to define the semantics at the transition under all circumstances give rise to a mess that gives no user the confidence of not having made mistakes. I would rather extend the possibilities of streamlined reading somewhat.
+
+Buffering.
+
+When a tape is read whose actual processing speed lies considerably lower than that of the reading process, then, if there is still sufficient room on the drum, the tape reader must be able to run on and the tape image must be built up in the store.
+
+If we say -reckoning a bit generously- that we read octads, of which we can pack 3 in a word, then we store 1500 octads in a page of 512 words. A complete roll -300 metres at 400 punchings per metre- contains 120,000 punchings and thus fills 80 pages, 8 percent of the drum. This is in every respect acceptable and we may expect that the reader will therefore indeed almost always run on at full speed. Owing to the speed of the clean shift instruction this packing can also, it seems to me, be done very fast; at the idea of storing tapes unpacked on the drum I still recoil a little. (If the price of the packing turns out disappointing, we can always still consider, when a tape threatens to take up too much room, only then proceeding to pack the rest.)
+
+How all this is going to be organized is not yet so clear. We have carried out some exploration of the following arrangement. On the basis of the consideration that a read process running ahead is going to imply that the processing program is going to fetch the continuation of the tape image via the drum, we thought that we would get a simpler organization if we agreed that the information transport from packing program to processing program would always run via the drum. The expected simplification did not work out; on the contrary, it was not even quite worked out completely and already it was very[sic] complicated.
+
+We shall now try to work out an arrangement in which the assembly and processing processes communicate via a kind of cyclic buffer, in which the elements are "page descriptors", and shall see whether we can play this regardless of whether the pages themselves still find themselves in the cores. The intention is that if tape-image pages are transported to and from the drum, they distinguish themselves in nothing from other pages that are subjected to the autonomous drum transport. Perhaps fashionably[sic], because we have not yet worked this out, we expect much of this.
+
+With output via punched tape too we wish to buffer, and we imagine that normally a punch is only reserved for a tape when the complete tape image has been built up in the store. With this we hope to achieve three things.
+
+In the first place a program will thereby occupy a tape punch for as short a continuous time as possible. In the second place the length of the tape is now known before the punching process begins. If the coordinator is informed when a new roll has been loaded into one of the punches (and when the operator deals somewhat modestly with run out), then the coordinator can keep track of how much paper ought still to be on the roll. It can thus be ensured that the paper does not suddenly run out halfway through the tape. In the third place one can build up this tape image twice, namely first to punch, and later to check. This checking process we wish to regard as one of the standard actions which can be activated by laying a tape with a fitting metacharacter into an open mouth. This extra metacharacter the punching process will add at the front unrequested; when it has done its work, the operator can tear it off. The successful termination of the checking process can release the store space of the tape image.
 
 transcribed by David J. Brantley
 

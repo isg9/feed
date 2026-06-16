@@ -42,3 +42,44 @@ tot de orde van de dag.
 
 transcribed by Jukka Ketelaars
 revised Wed, 13 Jun 2007
+
+---
+
+## English translation
+
+### Third address to my students
+
+2 March 1975
+EWD 481
+
+Third address to my students.
+In the course of my recent reflections on the restructuring of university education, I conceived the idea of introducing, as the most important reform, a three-year course for the training of state secretaries; a quarter of the graduates (to be selected, in the nature of things, by lot) would be allowed to study one more year to become a minister.
+
+Such a brilliant notion does not, of course, simply fall out of the sky: your humble servant has done no more than bring about the synthesis of all manner of thoughts contributed by others, to whom he owes his deepest gratitude. But if you give it a moment's thought, it is clear: on the one hand it is becoming ever clearer that those who currently make up our government have not been well trained for their task; on the other hand the call for a university education whose pattern of training is more clearly attuned to the needs of society grows ever louder.
+
+For years Dutch tertiary education has hobbled — stumbled, we may well say — on two minds. On the one hand there was higher vocational education — the HBO to those in the know —: that was a sound affair, which, without scientific pretension, trained its pupils for clearly defined positions, for which it was well known what one had to know. On the other hand there was so-called scientific education — also called WO —, but that functioned far less clearly. It claimed that it centred its training programmes not on recognized professions but on scientific disciplines; it claimed in particular that it would equip its students with the intellectual baggage that might be needed for positions in the future, positions which now, as such, have not yet been recognized at all. Instead of training its students for a clearly defined profession, it pretended to teach its students to use their brains and to learn to think. On a small scale such an aberration may still be tolerated, but since for most positions it is entirely undesirable that those who fill them use their brains, on a large scale this leads to disasters.
+
+Just imagine for a moment what a calamitous predicament we would be in
+were state secretary Klein to use his brains! He might decree something original for once, and out of sheer fright we would not know where
+we stood! As it is, we at least know where we are at. To prevent
+the irresponsible excesses of the WO — last week we could
+still read about it plainly in the newspaper — he is going through the
+university with the hard broom, and there will be a structure act, a framework act, an enabling act, or whatever
+it may be called, in which the WO, to prevent further misunderstanding, is classified under
+the HBO. State secretary Klein is, fortunately, sufficiently lacking in
+originality that one could have seen this coming. Now the HBO has fortunately
+been able to take its measures sufficiently far in advance and to
+ensure that, in the new constellation too, training will be given only for positions
+that already exist now. After all, employment is the only reliable compass.
+
+In academic education there may perhaps still be a handful
+who have not quite been able to keep pace with the tempo of progress, a handful who still cherish the illusion that intellectual leadership ought to emanate from the academy, rather than that the academy, attuning itself to
+the needs of society, dutifully — as is proper — comes running along behind the
+facts. I fear that that handful, too stupid to perceive that the time
+for the New Order has come, will go sulking into illegality.
+
+Having thus contributed to your contemporary formation, I proceed
+to the order of the day.
+
+transcribed by Jukka Ketelaars
+revised Wed, 13 Jun 2007

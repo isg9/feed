@@ -25,3 +25,27 @@ E.W. Dijkstra.
 transcribed by Andreas Jonsson
 
 revised Sat, 16 Oct 2004
+
+---
+
+## English translation
+
+### Report on a visit to MIT
+
+MIT is very clearly an elite institute with most of the advantages and disadvantages that come with it. Disadvantages are certainly isolationism and the danger of inbreeding. Advantages are that, with 7000 students (half of them graduates), they have 900 faculty members and the level is clearly high. Striking is the mutual respect; the colleagues recommended their working climate with "the kids are really bright". The students knew whom they had before them and often spoke with great respect of their teachers. (They did complain that professors were often so inaccessible! Where have we heard that before?)
+
+I gave eight lectures there for a constant audience of 100 people, and the lectures were a great success. My effort was each time rewarded with spontaneous applause; the last six lectures were recorded on videotape, they were played back during my stay, a further showing was requested, and there was even a request from outside for a copy of the tapes. It is not the case that American students spontaneously interrupt, although I had generally asked them to: I clearly had to provide opportunity for questions and comment. Then it did come. The kind of reflections to which I exposed them was apparently entirely new to them, and I set off many "mutual discussions", which more than once ended in my favour.
+
+At all the American institutes I have experienced, the computing institute was separate from computer science. At MIT that separation had been introduced only recently; the general opinion was that they had waited too long with it here. In Pittsburgh Computer Science was a separate Department, mainly on the grounds of the reasoning that when you place computer science within another department, that other department cannot muster sufficient understanding and competent supervision. At MIT it was housed under the Department of Electrical Engineering, and that situation was clearly not ideal. It had grown up under Robert Fano, who, when information theory ran into a dead end, had switched over to this. Fano is very evidently a great man, but insufficiently competent in the matter. The group was therefore not a whole; you had four fairly separate activities. No one was happy under this, and from various sides the need for "technically strong leadership" was expressed. Fano was already withdrawing somewhat.
+
+Clear was the absence in America of a strong tradition of applied mathematics: the theorists there were too pure, the practitioners there were too pragmatic. That is probably the reason my story went down so well: I had something to tell both extremes. (I might also have fallen between two stools, it now occurs to me.)
+
+In Princeton I gave a lecture which did not go very well. Beforehand I had lunched with my host, who is a rather tiresome and dull young man, and I was no longer in the mood. In Yorktown Heights it went nicely; there was a large delegation from Poughkeepsie there, which was certainly to be noticed in the discussion. In Waterloo (Ontario) it went pleasantly, but by then more on account of my routine than because the audience was very inspiring; Waterloo I found, although there were two very nice young men, on the whole depressing. The last week in Pittsburgh was, although I was by then beginning to long greatly for home, pleasant. I cannot have much respect for Perlis as a computer scientist; as a driving force and inspirer he is excellent. I had heard this years ago already, and it was nice to see it confirmed. To the pressure to extend my stay by a week so that I might (on a little island off the coast of California) help broaden the outlook of twenty "top designers" from Burroughs, Pasadena, I resisted, although it would surely have been very pleasant and in any case financially very attractive. I wanted to go home.
+
+18 April 1969.
+
+E.W. Dijkstra.
+
+transcribed by Andreas Jonsson
+
+revised Sat, 16 Oct 2004

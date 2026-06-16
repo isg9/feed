@@ -58,3 +58,60 @@ overigens van oordeel ben, dat er op Hilversum 4 minder moet worden gezeverd.
 transcribed by Carl Ludwigson
 
 revised Mon, 5 Nov 2007
+
+---
+
+## English translation
+
+### Thirteenth and last address to my students, spring 1976
+
+Since in the fifth year I give no lectures, this will be the last time that I address you,
+and I therefore want to try, from the perspective of your later professional practice, to cast a
+backward glance over our teaching.
+
+Within the curriculum for the mathematical engineer, computing science finds itself in a particularly
+favourable position: none of the other specializations, after all, is so clearly on the one hand a
+mathematical matter and on the other hand an engineering matter. For the synthesis of these two
+components the computing scientists have relatively the most possibilities, and I endorse with my whole
+heart C.A.R. Hoare's pronouncement that in no engineering discipline does the successful pursuit of
+academic ideals bear such rich fruit as in "software engineering". Here is indeed a terrain that is so
+inspiring, because the overlap of what is theoretically sound and practically meaningful lends itself,
+provided one applies oneself to it with care, to being so splendidly extended.
+
+Yet we are struck by the reproach that we do not adequately prepare our students for practice, a
+reproach of which it is worth the trouble to analyse what it amounts to. We develop and demonstrate
+formal methods, and not only that, we even propagate that they be used in practice, a practice that is
+approached intuitively by the average programmer.
+
+Now the transition from craft to scientific discipline always gives difficulties: the old guild
+brethren feel threatened by it and tend to resist the development. Some anti-intellectualist counter-gas
+we must therefore accept as normal.
+
+In computing science, however, things lie considerably more complicated there owing to external
+circumstances that have nothing to do with the science. As programmers we know from experience, and can
+even, on the basis of simple analogies, convincingly demonstrate, that a necessary condition for good
+and efficient programs is formed by the availability of a simple programming language whose syntax and
+semantics are rigorously and non-operationally defined without any reference to computer or compiler.
+Without such a tool, it remains a matter of muddling along.
+
+The complicating circumstance, however, is that the International Business Machines, the computer
+manufacturer that occupies such a strongly dominant position on the market, has not the slightest
+commercial interest in the spread of the use of well-defined programming languages. On the contrary,
+even! With a well-defined programming language IBM would, firstly, have the duty to implement it
+correctly, and, secondly, run the risk that a competitor would do it better. In the absence of a sharp
+definition, however, the concept of "correctness of an implementation" is empty, and IBM can get away
+with this, because —again on account of the absence of a sharp definition and the dominant position of
+its products— the IBM implementation is accepted by the common rabble as the so-called "de facto
+standard". And from that moment on, by definition, whatever IBM does is well done, and the competition
+may pant breathlessly after it, by definition two years behind. You understand that it is in IBM's every
+interest to maintain this opaque state of affairs. You understand why IBM has fought the spread of so
+well-defined a programming language as ALGOL 60 with fire and sword, and you may have a guess as to the
+quarter from which comes the slander to which Niklaus Wirth is exposed, now that his brainchild PASCAL
+is nonetheless spreading.
+
+Having thus prepared you for practice, I give expression once more to the fact that I am, for the
+rest, of the opinion that on Hilversum 4 there ought to be less drivel.
+
+transcribed by Carl Ludwigson
+
+revised Mon, 5 Nov 2007

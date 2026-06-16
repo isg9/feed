@@ -51,3 +51,53 @@ E.W.Dijkstra
 transcribed by Maria C. Dijkstra-Debets
 
 revised Thu, 10 Mar 2005
+
+---
+
+## English translation
+
+### Report of a visit to the Arbeitstagung fuer Automatentheorie at Hanover.
+
+EWD 131
+
+Report of a visit to the Arbeitstagung fuer Automatentheorie at Hanover.
+
+The primary aim of the trip was to find out to what extent German automata theory (the subject is, to my knowledge, not pursued in the Netherlands) seems relevant to us; the secondary aim was, by means of a carefully prepared lecture, to do a bit of advertising for the Netherlands. Both undertakings appear to have succeeded. In passing we picked up some "background information" about the nature of the people and the activities at the various German centres, background information that was not unwelcome to me.
+
+The programme was overloaded in a manner I would not have held possible; lectures from a quarter to nine in the morning until half past six in the evening with an hour and a half at midday, and both sessions interrupted only by a quarter-hour break. There were, by estimate, eighty participants in a lecture hall with a capacity of seventy; it was striking how little truancy there was.
+
+In the lectures three main subjects could be distinguished,
+
+1) design of logical circuits
+
+2) castrated Turing machines
+
+3) linguistic miscellanea.
+
+The lectures in the first category had the advantage that the speakers had, at any rate, thrown themselves upon a clearly defined class of problems, namely the optimization of logical circuits, a problem for which in general no tractable algorithm exists. In practice, then, one solves these problems by "guided intuition"; the speakers exerted themselves to lay bare various aspects of the "guideline". Partly because one may wish to optimize in various respects (such as the material required and the switching time), a lively discussion now and then arose among the interested parties, which to the ears of an outsider like myself seemed meaningful. This part of automata theory I regard, after this acquaintance, as not relevant to me; it is not our problem, I found it too unattractive to feel called upon to make it my problem, and I did not get the impression that the techniques presented, while in development, will turn out, outside the original statement of the problem, to be the ideal tool.
+
+The lectures in the second category had the drawback that neither beforehand nor afterwards did I have any idea what these investigations were good for (to which it must be added that, for some accounts, "investigations" is a rather large word). I have not been able to escape the impression that Turing's work was too grand: in the thirties he created a subject that was thereby finished. By imposing or not imposing all manner of restrictions on the Turing machine, one creates a horde of what strikes me as misshapen monstrosities, upon which a cult of classification has come to luxuriant flower.
+
+The linguistic miscellanea —which we did not attend any further— covered —remarkably enough!— investigations into German; furthermore accounts in the wake of Chomsky. Since Floyd proved that the question whether a syntax admits ambiguous constructions is in general undecidable, for me this matter is settled; apart from this important theorem I have found nothing further in it for which I could warm up. A number of open doors have been kicked in; the further preoccupation with preferably pathological syntaxes has, on me at any rate, chiefly made the impression of a malignant tumour.
+
+Outside this framework fell four of the lectures on the second day.
+
+I had the privilege of being allowed to appear that day as the first speaker; the hall was not yet stuffy and I could rejoice in a captivated audience. I spoke on "Cooperating Sequential Processes, a form of Non-Deterministic Machines". The last part of the title had been added specially with this public in mind.
+
+The last morning lecture was by a certain Frank, professor at a Pedagogische Hogeschool [Teacher Training College] at Berlin. Filled with the gloomiest forebodings I stayed away from it; Habermann did listen to him and was particularly agreeably struck by the speaker's sense of reality.
+
+The afternoon was opened by a certain Goehring on learning processes. This was the prototype of the empty lecture; I was on the point of joining in the discussion, but at the eleventh hour it dawned on me that this Goehring was the prize pupil of our colleague Haendler, the organizer of the whole event. So as not to spoil the pleasant atmosphere I kept my mouth shut, which I still regard as a not-to-be-underestimated feat of self-control.
+
+The last lecture we heard was by Petri. Unfortunately, in preparing it he had insufficiently realized how little one can tell in an hour if only one's approach is unusual enough, so that he did not get much further than his introduction. The quintessence of his argument was that he did not wish to regard automata and finite, discrete physical systems as different; onto this he grafted a system of axioms (in which there were at any rate accounted for the constancy of the speed of light, the local reversibility of physical processes, and the impossibility of realizing an arbitrarily fine subdivision of a time interval), evidently with the intention of delimiting the possibilities of physically realizable automata. The carefulness of his presentation, the extensive knowledge that underlay it, and the originality made it so that I could only wholeheartedly agree with him when he reacted with "Das tut mir leid" to the remark that his time had elapsed.
+
+Whether renewed or not, the acquaintance with Petri (Bonn), Felsch (Kiel) and Becvar (Liberec, CSR) reconciled us with much. And, as will by now no doubt have shimmered through, there was indeed a thing or two to be reconciled with. In the past we have been able to observe how the Tongue of Canaan developed into a technique for speaking for hours on end without thereby saying anything. The jargon and formulary of set theory and group theory are heading hard in the same direction.........
+
+It was depressing to witness how meekly this public accepted this masquerade. We could at least still draw comfort from the consideration that ignorance protects most Dutch mathematicians from the temptation to give their formulae, by means of Gothic capital letters, an even more impressive appearance.
+
+E.W.Dijkstra
+
+25 October 1965
+
+transcribed by Maria C. Dijkstra-Debets
+
+revised Thu, 10 Mar 2005

@@ -96,3 +96,98 @@ transcribed by Bart Vreugdenhil
 
 revised
 08-Jan-2012
+
+---
+
+## English translation
+
+### Higher order addressing
+
+Higher order addressing.
+
+If one wishes to translate program components or library procedures independently, this implies the introduction of local terminologies (after all: without local terminologies the translations would not be independent!).
+
+Whoever wishes to knit together such independently translated pieces obliges himself to introduce an interlocal terminology, in which every global object in the whole knitwork is uniquely named.
+
+In order to avoid that texts get extensively reworked during this knitting-together, one introduces little tables, which each transfer a local terminology into the interlocal one. By this we achieve the following
+
+1) the knit-together decisions (embedding decisions) are localized in the tables, which is important for modification, e.g.
+
+2) if one and the same text occurs in several knittings (think of library procedures), then we need only introduce the little table in multiple copies.
+
+3) if the depth of addressing is to be found not in the program text but in the entry of the little tables, then we have a flexible means of acceleration (if needed).
+
+4) every local terminology can be a closed addressing; with some precautions we can keep the interlocal terminology (largely) closed as well.
+
+Your first idea is to equip every translated piece with a catalogue, from which, during knitting-together, the local little table can be composed. (This will, “name-technically”, amount to contraction!) A program built up from five independently translated pieces then contains six tables: one for each local terminology (that is already five) and one for the interlocal terminology (in which we can, e.g., keep a unique record of where every object is located).
+
+We do well to realize that with the introduction of these six tables we have already set to implementing! In the program it is the five local terminologies that have a clearly separate identity: what we ask for is some translation mechanism or other from local to interlocal name (or such).
+
+For the time being I want to try to regard the five local tables and the one interlocal one as alike as possible, and indeed for the following reasons:
+
+1) if our knitwork consists of a single independently translated piece —supposing that to be conceivable— then local and interlocal terminology may coincide.
+
+2) if by “interlocal terminology” we think of the nomenclature for segments, then we should not be alarmed if some entries of the interlocal table refer onward to a universe shared with other programs: I am thinking then of the procedure library.
+
+3) I do not see why, e.g., the presence/absence administration of a segment that is named in only one local terminology could not be conducted in the corresponding local table. This might be more efficient.
+
+As long as one restricts oneself to translation and linking problems, however, one makes things very easy for oneself. The point is, namely, that at every moment that a (new) interlocal terminology must be introduced “every segment is already there”. You can line those segments up in a row and then number them. The population to be identified is known at the moment that the identifiers must be introduced. Whoever restricts himself to this constellation risks failing to notice that every mechanism, according to which we can add objects to an already existing (and internally identified) population or take them away from it, implies behind the scenes an algorithm for the assignment of the new identifier.
+
+To distinguish between what we have discussed and what now follows, I call what we have had static (local and interlocal) addresses and what now follows dynamic (interlocal and interlocal) addresses. I shall also speak of “static context” and “dynamic context”.
+
+With the dynamic local addresses we have to ensure that within one and the same program the same dynamic address can point to different variables in different incarnations. This means that per incarnation we introduce a little table for the local dynamic terminology. There are, I thought, a number of reasons to let static and dynamic local addresses refer to separate tables. There is a very prosaic reason: if we want to house them in one table, then you want, I thought, to have the dynamic addresses separate —say at the high end— and that sorting process complicates your translation process a bit. There is a second reason and it is more practical: if you always want to house the matter in one table, then at every procedure call you must copy that constant piece of the static context that arose at assembly. And if you search you can, I thought, also find a formulation that feels more fundamental, namely that both tables, each in its own right, are meant to make the system equal to a quite different kind of combinatorial variation, namely different names for the same thing, versus the same name for something else.
+
+The interpretation of local addresses thus now requires knowledge of two tables, the static and the dynamic. On account of different procedure incarnations we must permit the combination of one and the same static context with many dynamic contexts. Must one, conversely, also permit the combination of one and the same dynamic context with different static contexts?
+
+I have examined the case in which this was not permitted, i.e. in which every dynamic context would always, during its life, be combined with a fixed static context. When I was done with that analysis, however, I asked myself what then remained of the ideal of “independent translation of parts”: the whole thing then namely strongly resembles the situation in which every procedure, combining the dynamic context namely with the static local terminology, must be translated in its entirety. And since I am accustomed, if so desired, to regard a program as a procedure, every program would have to be translated in its entirety. With the restriction “only one static context per dynamic one” it seems a bit of the baby is thrown out with the bathwater.
+
+In what follows I imagine that we know no separate pages, that for segments we on the one hand accept a maximal length, on the other hand do not balk at little segments. Some such play of memory is what we have in mind; let us try to make do with it!
+
+In that case it is obvious to consider introducing, alongside the static interlocal table, also a dynamic interlocal table. The alternative is to have only one interlocal table: what is referenced via the static local tables then comes to lie at the bottom, while on top of that the dynamic table can grow and shrink stack-fashion (stapelsgewijze is of course good Dutch!). That does rather mean that “linking” must be completed before execution begins! I therefore assume that we have a separate dynamic interlocal table for the unique identity of the dynamic segments.
+
+I imagine that on block entry a segment is introduced for the local scalars. The processing of the array declaration may be that (in this segment) the parameters are set up which convert subscript values into dynamic interlocal addresses, and that as many segments are introduced as are needed for this array. (N.B. If we operate the dynamic interlocal table stack-fashion, then for a large array we can hand out consecutive interlocal segment numbers; we then compute upon the dynamic-interlocal address. An interlocal segment number then really becomes a number!) As far as the system is concerned, segments for local scalars and for local arrays are cut to practically the same pattern, and that is hopeful.
+
+Now the difficult article of the procedure call. At this stage I must restrict myself to a first reconnaissance. We are faced with:
+
+1) the passing of parameters, including return information
+
+2) the jumping to another point and possibly a redefinition of the static context
+
+3) the creation of a new initialized dynamic context and the transition onto it.
+
+The passing of the parameters evidently falls to the charge of the calling sequence. In the dynamic context prevailing there let there occur a parameter segment, in which the calling sequence fills in the data per 1 (perhaps with the exception of the return information).
+
+The characterization of the procedure contained the data per 2 (for the jump) and a characterization of the dynamic context from which the bottom of the dynamic context to be created is to be initialized.
+
+A subroutine jump can now be executed with as parameters
+
+a1) the procedure characterization (see previous paragraph)
+
+a2) the name of the parameter segment (I imagine that this is already the interlocal name, but of that I am not entirely sure)
+
+The subroutine jump stores (e.g. at a fixed place of the parameter segment) the return information (at any rate return place and static context; dynamic context may come a little later) and the jump to the first instruction of the procedure is executed, while the dynamic context of the calling sequence still prevails! Under the control of this text a new dynamic context can now be created. (If for this creation the length of the dynamic table is needed, and this is a function of the block height and of the internal nesting of blocks, then we can, I thought, assume these data to be known at the beginning of the procedure at execution.) I assume that the data a1 and a2 are still available. From a1 comes the datum from which dynamic context the newly prepared one is to be filled (the procedure text can supply the block height). Next —and this is really the transition of the parameter segment from actual parameter segment in the calling sequence to formal parameter segment of the procedure— the procedure itself will initialize an element (the next one, I assume) of the dynamic table under preparation for the parameter segment. Because datum a2 is still assumed known and the procedure itself knows the own name of the formal parameter segment, all data for this are at our disposal. Finally the procedure can extend the dynamic context under construction with a segment for its own locals, and the dynamic context under construction must become the prevailing one.
+
+This whole piece of initialization and introduction of the new dynamic context can thus be commanded by the procedure itself. I can imagine that the uninitialized new dynamic context immediately already becomes “the prevailing one”. Initialization and introduction of a new segment then by definition pertain to the prevailing dynamic context, and that does seem pleasant. You are then stuck for a while with “forbidden dynamic addresses” (undefined ones).
+
+Rem.1. For separately translated procedure components, the static context for “externals” of the component, which refer e.g. to locals of the whole procedure, may contain as entry a dynamic address, which by definition refers to the dynamic context prevailing at that moment! A dynamic address is, statically (at text construction, but also at knitting-together), very well manipulable. This gives an important piece of freedom, e.g. for procedures from the library to which you want to give “own’s”, addressed in the bottom of the stack of the calling program.
+
+Rem.2. That the parameter segment changes its dynamic name on call seems to me extremely healthy.
+
+Rem.3. That a dynamic context is no longer (as in my first design) fixedly coupled to one static context seems to me an improvement. For this makes it possible to convert static and dynamic context independently, i.e. after the static context has been converted the procedure text itself can begin with the creation of a new own dynamic context. In my first design that had to be much more contrived.
+
+Rem.4. The return information I imagine to contain
+
+1) dynamic context (pointer)
+
+2) static context (pointer)
+
+3) local return address (in terms of 2.)
+
+N.V. PHILIPS’ COMPUTER INDUSTRIE
+
+APELDOORN
+
+transcribed by Bart Vreugdenhil
+
+revised
+08-Jan-2012

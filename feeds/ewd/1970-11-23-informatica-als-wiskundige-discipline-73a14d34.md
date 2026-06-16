@@ -20,3 +20,22 @@ transcribed by Bart Vreugdenhil
 
 revised
 29-Nov-2011
+
+---
+
+## English translation
+
+### Computing science as a mathematical discipline
+
+In what follows I have set down my vision of the discipline “computing science”, a vision that is strongly codeterminative both for my views on the teaching activities to be desired and for my views on the research activities to be desired.
+
+It is a field of work that has become topical through the advent of powerful computers and an awakening technology for making machines that will be built up out of a quantity of active elements an order of magnitude greater than what we are now accustomed to. The areas which, for brevity’s sake, I designate as “machine use” and “machine design” throw up enormous problems, which are aptly characterized by “scaling up”, provided that we keep ever before our eyes that this scaling up is unimaginably great and that we likewise realize that when two things differ in some respect by a factor, this difference, as the factor grows larger, is experienced less as a gradual and more as an essential difference.
+
+The sober observation is that in the past decade we have already had to deal with such a scaling up that both machine design and machine use have confronted us with a challenge against which our present intellectual capacities are barely, or even no longer at all, equal. The problems of getting a design, be it hardware or software, free of logical errors are beginning to become formidable; already now a clear discrepancy manifests itself between what we are able to think out and what is asked of us (and therefore attempted by us) to think out. One need only watch the present development with half an eye to become convinced that this discrepancy will only become very much more painful. That is why I regard it as the principal task of the discipline of computing science as an intellectual discipline to set every sail so that we become better equal to this intellectual challenge.
+
+How we could ever achieve the conceptual clarity in what, without that clarity, becomes an uncontrolled chaos, would be unimaginable, were it not that there exists an age-old tradition of people who have set themselves as their principal task to attain, in a particular domain, precisely the greatest possible clarity through an apt use of their power of abstraction. These people have for centuries been called “mathematicians”, and it is for that reason that I can see computing science only as a new branch of mathematics, with the emphasis on “new” and on “mathematics”. The work of the computing scientist is the controlled design of “mechanisms”. When someone says “that is hardly mathematics”, he means thereby that a large part of the “bags of tricks” currently in vogue are only of limited use here; he means that mathematicians have traditionally concerned themselves only incidentally with the study of “mechanisms”. That is true, but I cannot imagine it otherwise than that this tradition grew up in the past because in that past these problems were so little topical; I do not see why that should have to remain so, indeed I find that it ought not to remain so, and if it is up to me it will not remain so either. Whoever says “computing science is hardly mathematics” says, to my feeling —and with that I can then agree— “it is not one of the traditional branches of mathematics”. So much for the emphasis on the little word “new”. The emphasis on the word “mathematics” comes about because I experience the manner of working of the competent computing scientist as the manner in which the mathematician works: the same demands are made on his capacity for abstraction and for concept formation, on rigor and elegance and —last but not least— the subject is in essence the abstract mechanism. I have here at my side none other than Marvin Minsky —if you can cite a famous man with approval, you do not contest his authority!— who, in discussing the relation between (hardware) machine and manual, argues somewhere that the manual is not a (possibly incorrect) description of the given machine, but that the manual describes the conceptual machine in terms of which the user thinks, while the associated machine is nothing other than an (acceptable, we hope) implementation of this conceptual machine.
+
+transcribed by Bart Vreugdenhil
+
+revised
+29-Nov-2011

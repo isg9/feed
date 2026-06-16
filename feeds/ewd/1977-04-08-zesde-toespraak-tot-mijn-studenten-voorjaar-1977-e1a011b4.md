@@ -24,3 +24,26 @@ Maar kunnen we anders verwachten in een wereld, waarin het "automatic airtraffic
 
 transcribed by F. Koenders
 revised Thu, 13 Nov 2008
+
+---
+
+## English translation
+
+### Sixth address to my students, spring 1977
+
+Recently I went through the flights PA 811 from Los Angeles to Sydney and PA 812 from Sydney to Los Angeles. Those flights, which are operated with an ordinary Boeing 747 Jumbo Jet, are no joke. Each lasts three-quarters of a day. At both intermediate landings, at Honolulu and at Paga-Pago, the crew is refreshed; the passengers who go through the entire flight, however, arrive at their final destination fairly wilted. I do not think you can hold this against PANAM: everyone knows that being transported through the air is a misery, and that, therefore, being transported through the air for a long time is a long misery. Whoever is so stupid as to let himself be seduced into such distant journeys thereby forfeits the right to complain about the discomfort that results from it.
+
+PANAM nonetheless felt it had to come up with something. They found this in the form of a direct flight from Sydney to San Francisco. Because they can now fly along a geodesic and both intermediate landings have been eliminated, the travel time has been reduced to a good half a day. Splendid, you would say! The new possibility is accordingly advertised in elated terms.
+
+There is, however, a catch lurking in the grass: the distance is greater than the operating range of an ordinary Boeing 747 Jumbo Jet. They therefore do not fly it with an ordinary Jumbo, but with a Boeing 747-C, a shortened version that can fly farther than the normal one.
+
+So far there is not a speck of trouble in the air. There is just one problem: the aerodynamic properties of the shortened version differ rather a lot from those of the standard Jumbo, and that is of course annoying, because it means that you have to retrain your pilots extensively and that they would have to be aware at every moment whether they are flying a standard Jumbo or a shortened model.
+
+Thank God, technology stops at nothing: Boeing has fitted the control organs of the shortened version with the necessary conversion apparatus. The pilot flies as though he were operating a normal Jumbo; from this the conversion apparatus computes how a normal Jumbo would have reacted to these commands, then computes which commands must be sent to the engines and flaps of the shortened version, so that the shortened version simulates the behaviour of the normal Jumbo. That of course costs a tidy dollar, but you do not have to pay it that often, for there are of course not so many shortened Jumbos because, owing to the shortage of space on our globe, the distance between California and Australia does not have to be bridged that often. And just consider what it saves you on training costs for your pilot pool!
+
+Yet I object to this seriously. Every experienced computer scientist knows the validity in his field of Murphy's Law "Anything that can go wrong, will go wrong.". It is bad enough that aircraft have to be so godforsakenly complicated because otherwise they will not go up into the air at all, let alone come back down to the ground in one piece. The age-old "Simplex Veri Sigillum" has, through automatic information processing, acquired a new, ominous dimension: ever since we can compute at the speed of light, the gates have been thrown wide open for the possibility of blundering at the speed of light. I have no objection at all to contraptions, provided they are used with the appropriate suspicion. And do not let yourself be fooled: only the greatest possible suspicion is appropriate. You can only believe otherwise as long as you have not looked into the kitchen.
+
+But can we expect otherwise in a world in which the "automatic airtraffic control system" is repaired in binary code by a young man who has been employed on the spot for six weeks? For your reassurance I can inform you that this story does not concern a civil airport: only in special circumstances does civilian traffic have to make use of military airports.
+
+transcribed by F. Koenders
+revised Thu, 13 Nov 2008

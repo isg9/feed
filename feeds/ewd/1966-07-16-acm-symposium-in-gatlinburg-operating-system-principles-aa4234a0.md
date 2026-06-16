@@ -29,3 +29,31 @@ Ik kreeg de prijs voor de beste voordracht, de grappigste uitnodiging was om na 
 
 transcribed by Angelo van der Sijpt
 revised Mon, 22 Jan 2007
+
+---
+
+## English translation
+
+### ACM Symposium in Gatlinburg “Operating System Principles”
+
+EWD 214
+
+ACM Symposium in Gatlinburg "Operating Systems Principles".
+The symposium was disappointing, because it dealt bitterly little with "principles" and more with "multi-access systems" in particular than with "operating systems" in general. The "invited comments" were on the whole better than the official contributions.
+
+There were about 160 people, from Sweden (1), from Germany (1), from the Netherlands (3), from France (2), from England (about 10) and from the USA. There were 17 contributions (14 from the USA, 2 from England, and mine).
+
+From gossip I picked up a great deal. The great difficulty for the American computer industry is the exploitation of intellect; they do far too little research. It was Management Science and the Business Schools that were blamed for this. The only computer industry that does research worth mentioning is IBM, namely at Yorktown Heights. Until recently this was a reservation, into which good people were drawn away from the competition, which was a status symbol for IBM, and which had not the slightest influence on the "Company Policy", because that was made in Poughkeepsie. Recently the internal status of Yorktown Heights has been changed into a "Research Division", to the detriment of the working climate. ("We must now write silly reports for management morons.") General Electric lives in a kind of symbiosis with MIT, but that is not very satisfying for GE, which sees no chance of prying the people loose from the campus. ("You cannot do this kind of work under the management of a man who has been taught how to make washing machines. The best these guys can do is to optimize a steady state solution for a production process; directors fail to see that in our field we just have no steady states...")
+
+The "discussions from the floor" were generally wretched; more than half was commercial hollow drivel, which indeed every piece of research must repel. The "IBMerese" especially was very bad.
+
+Project MULTICS (GE and MIT together) is a chapter apart. I recall how depressed I came back from Hungary, seeing how ruinous it is for the level of thought when you try nonetheless to use unreliable, obsolete equipment. MULTICS was depressing the other way around. It strikes you most as a hodgepodge of ill-considered "gadgets, gimmicks and contraptions", introduced more because they saw that they could make them than because they knew how they were to use them. And now they groan under it, which also leads to narrowings of consciousness. The absolute absence of any influence of mathematical thinking was striking; this last I feel to be yet another symptom of a deep-rooted American distrust of the intellectual.
+
+For the IBM360 people generally had no good word. The EL X8 made a great impression, especially on the people from MIT, who thought that the possibility "to attach a new command to an active chain" was the privilege of the GE645. Later it turned out that Burroughs's future machine would be able to do it as well.
+
+People from "The Mathematical Laboratory, Cambridge" had particularly little appreciation for the activities in the field of Computer Education by their Department of Electrical Engineering (or something like that). "They have an IBM machine, their instruction is of similar quality." Where had we heard such sounds before?
+
+I received the prize for the best lecture; the most amusing invitation was to come along to Palo Alto immediately afterwards to let my critical eye pass over the design for Burroughs's next machine.
+
+transcribed by Angelo van der Sijpt
+revised Mon, 22 Jan 2007

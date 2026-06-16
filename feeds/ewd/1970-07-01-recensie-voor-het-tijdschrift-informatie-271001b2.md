@@ -32,3 +32,34 @@ transcribed by Bart Vreugdenhil
 
 revised
 30-Dec-2011
+
+---
+
+## English translation
+
+### Review for the journal “Informatie”
+
+2 June 1970
+
+EWD288a
+
+Review for the journal “Informatie”
+
+Logica en model by Doede Nauta, W. de Haan, Bussum, 1970 (from the series “Het modelbegrip in de wetenschappen” under the editorship of Kees Bertels and Doede Nauta, in which “Inleiding tot het modelbegrip” by Bertels and Nauta had previously appeared).
+
+The book is printed on rather thick paper (2.5 cm for not even 300 pages) and, as is not unusual for novels, is cut along the opening edge in such a way that the individual gatherings are distinctly perceptible in the profile, which makes looking something up in it needlessly clumsy. For the rest the finishing on the publisher's part is neat, provided one does not stumble over different representations of the digit “1” —even within one and the same line!— and the absence of any distinction between the representation of the digit “0” and that of the lower-case “o”.
+
+About the use the author has made of the printed text as a medium, Your reviewer is not unreservedly delighted. On the one hand, lavish use has been made of typographical resources such as boldface and italics (with Your reviewer experiencing the use of italic print as rather annoying, because he has not discovered which function was to be assigned to it), on the other hand one encounters, without any (e.g. typographical) warning, passages such as “....., then You must be a grammatically fully constructed sentence.”, which bears a misleadingly strong resemblance to a (be it somewhat strange) conclusion regarding the reader! A little later the author writes himself “As already noted, we shall not maintain the notation-with-quotation-marks consistently.”; whether the reader is served by this inconsistency —which, by the way, is curiously not unusual among logicians— Your reviewer ventures to doubt. It is like programming without making a distinction between “the address A” and “the content of the memory cell with address A”, in the naive confidence that the “intelligent machine” will each time know well enough what is meant!
+
+About the writer's choice of words Your reviewer does not wish to pass judgement, for this may be locally accepted jargon (”instance” as the evident translation of the English “instance” in the meaning of “example” or “specimen” was, for instance, new to him), the sentence construction does here and there raise question marks: when we read “Therefore in this book we shall often identify logical axiom systems with the logical languages ‘T0’ that they constitute”, the question does arise, who now constitutes whom!
+
+The benevolence with which Your reviewer took this book in hand was able to maintain itself without much trouble, until on p. 67 a blow was dealt to it from which it could no longer recover. After referring to the difficulties the Greeks experienced in fitting the immeasurable number into their frame of thought, the author cheerfully continues (harking back to the decimal fraction introduced a little earlier): “Now that one has found an algebraic representation system for the immeasurable numbers —namely the infinitely continuing aperiodic decimal expansion— there is, however, no longer any reason to discriminate against these numbers as compared with other numbers: they are in no respect more 'mysterious' than negative numbers or fractions, which at first also had to overcome representation thresholds.” How the writer, who surely must know that neither he nor anyone else can use the decimal expansion for the representation of an immeasurable number, so light-heartedly waves away this representation threshold (not to say “takes it so nimbly”) is a complete riddle to Your reviewer. From this point on the book unrolls further as “a self-inflicted pain”, culminating in an index in which “model” is included subdivided into 21 sub-headings (alphabetically from and including the “abstract model” up to and including the “countermodel”). In passing the book seems to be the umpteenth confirmation of the fear that the placing of set theory at the centre, which so many reformers of mathematics teaching bring as a message of salvation, on closer inspection amounts to pretentious humbug.
+
+In short, the book was not written for Your reviewer; he does wonder, though, for whom it was then.
+
+Prof.dr. E.W. Dijkstra
+
+transcribed by Bart Vreugdenhil
+
+revised
+30-Dec-2011

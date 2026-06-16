@@ -90,3 +90,92 @@ Eindhoven, 6 december 1965.
 transcribed by Sam Samshuijzen
 
 revised Wed, 19 Jul 2006
+
+---
+
+## English translation
+
+### Global description of the floating-point arithmetic of the EL X8
+
+EWD 145
+
+Global description of the floating-point arithmetic of the EL X8.
+
+By "global" it is meant that this description shall enable the reader to determine for himself what the result of a certain operation is, if he knows the operands. It is not asserted that this description is also the description of the manner in which the arithmetic circuits of the EL X8 construct this result.
+
+Representable numbers.
+
+The floating-point arithmetic operates on numbers of the form
+
+m × 2↑e
+
+where m (for mantissa) satisfies 0 ≤ abs (m) ≤ 2↑40 − 1
+
+and e (for exponent) satisfies 0 ≤ abs (e) ≤ 2↑11 − 1 = 2047.
+
+Remark 1. For e, 12 bits are available, for m, 41; in both cases the value 0 can be represented in two ways, namely +0 and −0.
+
+Remark 2. So not only e but also m takes on purely integer values.
+
+Rounding.
+
+Addition, subtraction, multiplication and division can all deliver a result that, regardless of the upper bound of abs(e), is not exactly representable, because the distance between the most and least significant bit of abs(m) would have to be more than 39.
+
+(With addition and subtraction this can arise because the mantissas must be shifted relative to one another; with multiplication the distance between the most and least significant bit of the exact product is in general 79 or 78; with division, which usually does not come out even, this distance is infinite.)
+
+In all these cases exact rounding is applied, and in the doubtful case, away from zero.
+
+The doubtful case occurs when the distance between the most and least significant bit of the exact result is 40; in other words, if the exact m = 2↑40 + 1, this is rounded to 2↑40 + 2, so that halving to 2↑39 + 1 is possible.
+
+In this way the possibly rounded m and the exact e (in which all halvings have been neatly accounted for) are determined. Of this exact e we do not, for the time being, assume that it satisfies abs(e) ≤ 2047.
+
+Remark 3. By the convention that the doubtful case is rounded away from zero, it is guaranteed that (−a)× b = − (a × b).
+
+Subsequently the exact e and the (possibly rounded) m are subjected to normalization.
+
+Normalization tries to make the absolute value of e as small as is possible without loss of digits. (Every increase of e must be compensated by a halving of m,
+
+which is only possible without loss of digits if m is first even; every decrease of e must be compensated by a doubling of m, which is only possible without "loss of digits at the head" if abs(m) < 2↑39.)
+
+Remark 4. This process can terminate because abs(e) = 0; in that case e = +0 is delivered.
+
+If m = ± 0, shifting can be done without limit and without loss of digits: in the hardware there is an m = ± 0 detection, which short-circuits this case and immediately sets e = + 0.
+
+After it has thus been attempted to make abs(e) as small as possible, it is checked whether abs(e) is small enough.
+
+If e ≥ 2048, then the answer delivered is e = 2047 and m = ± (2↑40 − 1), and indeed with the sign of the original m.
+
+If e ≤ − 2048, then (repeatedly)
+1) e is increased by 1
+2) m is halved with truncation, if abs(m) > 1;
+
+if abs(m) = 1, m remains unchanged.
+
+In other words: in case of overflow the largest number with the correct sign is delivered; in case of underflow an attempt is made, by shifting out, to bring the exponent within bounds after all. The least that thereby remains is &plusmn; 2↑(−2047).
+
+Underflow therefore cannot generate m = 0.
+
+Remark 5. Subtraction of a number "m × 2↑e" is realized by adding "−m × 2↑e".
+
+Remark 6. Overflow can occur with +, −, × and ∕ .
+Underflow cannot occur with + and ×.
+
+Remark 7. Additive operations yield zero only if the answer is exactly = 0; this answer is m = +0 only when the operands of the effective addition (see remark 5) are both = +0.
+
+Remark 8. Multiplication yields exactly zero as answer only when at least one factor = 0. The sign of the product zero follows the normal sign rule for products.
+
+Remark 9. For division the following holds:
+dividend ≠ 0, divisor ≠ 0→ quotient ≠ 0
+dividend = ± 0, divisor is ≠ 0 → quotient = ± 0 (with observance of the normal sign rules).
+
+The situation for divisor = ± 0 is currently the subject of serious discussion.
+
+It is expected:
+dividend ≠ 0, divisor ± 0 → ± (2↑40 −1) × 2↑2047 with observance of the normal sign rule.
+dividend = ± divisor = ± 0 → a well-defined answer with observance of the sign rule.
+
+Eindhoven, 6 December 1965.
+
+transcribed by Sam Samshuijzen
+
+revised Wed, 19 Jul 2006

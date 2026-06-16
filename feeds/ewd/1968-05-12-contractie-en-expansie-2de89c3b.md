@@ -97,3 +97,99 @@ transcribed by Bart Vreugdenhil
 
 revised
 29-Dec-2011
+
+---
+
+## English translation
+
+### Contraction and expansion
+
+Summary. Two operations, baptized “contraction” and “expansion” respectively, are distinguished. They are studied in their connection with assembly, address arithmetic, store layout and protection. All of this seems to indicate that the notion of “address space” and its meaningfulness are candidates for renewed critical examination. NB. If associative stores become available on a large scale, this investigation loses a considerable part of its relevance.
+
+1. Open and closed addressing.
+
+I speak of a closed addressing when the objects of a set are identified by consecutively ascending numbers, say beginning at zero. A closed addressing lends itself to implementation by a little table stored at consecutive store locations: the address arithmetic —i.e. the transition from identifying number to ~physical address— implies addition of identifying number and ~physical starting address of the little table.
+
+I speak of an open addressing when the objects of a set are identified by (nonnegative) numbers, where the maximal number is (much) larger than the number of objects in the set. In principle an open addressing can be implemented in the same way as a closed one, namely if we accept the holes in the table for what they are. I shall, however, begin to speak of an open addressing when we can no longer afford this and we must look around for other techniques (hashed addressing, associative stores, name lists that have to be scanned etc.) Note. The openness of an addressing is thus a gradual notion: it can be just so slightly open that we can still regard it as closed.
+
+The point of departure of this investigation is the observation that an appeal to open addressing is often so costly that one looks for ways to reduce the number of times this has to happen. It is here that the operations contraction and expansion play a role.
+
+2. The operations “contraction” and “expansion”.
+
+The operations “contraction” and “expansion” are each other's inverse.
+
+Given a large set of objects, of which I assume for the sake of simplicity that they are identified within it by a closed addressing. Let us call this for the moment “the global addressing”. If within a certain context only a relatively small selection of these objects is referred to, then the global addressing as applied to this selection is an open addressing. We speak of contraction when the selected objects are renumbered contiguously for the benefit of the said context; this “local addressing” thus introduced is then closed as applied to this selection. The local addressing is an exploitation of the knowledge that the context in question takes place within a contracted universe.
+
+Given a context that operates upon elements of a set via a closed addressing, we then speak of expansion when we come to regard the said set as part of a larger set and thereby the elements as elements of a larger set. The transition from the local addressing to a global one is a disregard of the knowledge that the said context takes place within the contracted universe.
+
+(I shall, in a somewhat wider connection still, speak of expansion, namely when our objects are quantities of information, for each of which a contiguous piece of store must be made available. The transition from identifying by number to identifying by starting address I shall likewise call expansion.)
+
+3. The organization of a subroutine library.
+
+In this section I describe a subroutine organization which will strike the connoisseurs as a further automation of the subroutine organization of the EDSAC 1 (1949). The choice has fallen on this because it seems the simplest example with which we can illustrate how expansion and contraction function.
+
+We consider a subroutine library with a very large number of subroutines. I assume that the routines in the library are identified by catalogue number CN and that catalogue numbers in the total library form a closed addressing.
+
+Subroutine texts as a rule refer to themselves and to a few other subroutines in the library. One could do this in terms of catalogue numbers; instead, for the benefit of the formulation of the routine, contraction is performed and the subroutine text refers, in a closed local terminology, to itself and to those few others. (In the EDSAC organization the local names were called “code letters”; with the ARMAC and the X1 they lived on for years as “sluitletters” [closing letters].) With each subroutine there belongs a so-called “expansion table”, which translates the local terminology into catalogue numbers; the expansion table thus contains a little row of CN-values.
+
+In this way a subroutine text can itself be formulated in a manner that is independent of the library of which it forms a part (i.e. independent of the size of the library and the catalogue numbers used within it). The local terminology needs no greater discriminating power than is required for the distinction between the subroutines to which it actually refers. If for one reason or another a reorganization of the library, with a change of the catalogue numbers, is desired, then the resulting obligation to update is confined to the well-isolated expansion tables. Finally, the expansion table presents the external references on a little serving tray.
+
+Now the problem of assembly; for this to be a problem I assume that the library is far too large to bivouac permanently in the working store; furthermore I assume that only a small fraction of the library is incorporated into a program.
+
+Now if the needed texts and the corresponding expansion tables have entered the store unchanged, what mechanisms do we then still need?
+
+In order to be able to interpret the prevailing local terminology at all times, I assume there is present a dedicated register, containing the starting address of the current expansion table. There, however, we find in the first instance the catalogue number, whereas one must, in order to be able to call a subroutine, know the starting addresses of text and expansion table. Since input these data are known; because, however, only a small portion of the library has been incorporated into the working store, precisely the catalogue number forms for this an extremely open addressing.
+
+The answer to this is contraction. For the routines incorporated into the program one introduces a closed addressing; let us call these the “selection numbers” SN. The task of the assembly program now comprises
+
+1) the assigning of selection numbers to routines to be incorporated
+
+2) the updating of expansion tables to be incorporated, so that each entry (also) contains the assigned selection number
+
+3) the filling in of the so-called “selection table”; this is an expansion table for the whole program for the transition from selection number to the starting addresses.
+
+Assembly thus presents itself here as contraction; because that is a tedious operation it is worth the trouble to do this once per program. Subroutine texts have remained unchanged, the expansion tables have been extended per entry.
+
+4. Reduction of depth of indirect addressing.
+
+The transition from the local terminology of a subroutine text to physical address now costs the consulting of an expansion table twice
+
+a) the consulting of the expansion table of the prevailing subroutine yields a selection number SN
+
+b) consulting, with this SN-value, the selection table of the program yields a physical address.
+
+If this twofold expansion is deemed too time-consuming, two ways stand open to us for expediting it, namely the short-circuiting of the first, respectively the second expansion!
+
+Method A. One has the assembly program rewrite the subroutine texts by replacing the local terminology with SN's. The expansion tables then no longer have to be consulted during execution: under control of the SN-value supplied by the program text the address can be found at once in the selection table.
+
+Method B. The expansion tables of the subroutines are extended, so that each entry now also contains the starting addresses, whereby the frequent consulting of the selection table lapses.
+
+Method A, which goes most in the direction of classical assembly, has as its greatest advantages
+
+1) the dedicated register that refers to the beginning of the prevailing expansion table can lapse (including the recovery procedures associated with it).
+
+2) of each subroutine the starting address occurs only once in the administration (namely in the selection table), which does facilitate revision of such an address.
+
+The disadvantage of method A, however, is that the program text no longer stands in the store unchanged but in a form which depends on the larger whole of which this text now forms a part. And the longer I think about it, the heavier I come to find that price.
+
+The point is that expansion obscures structure and therefore one would preferably keep the result of the expansion operation as volatile as possible. If one nevertheless feels called upon to let a result of expansion persist, then this is less harmful when this persistence remains confined to the tables than when the expansion result diffuses down to your lowest level, the program text.
+
+Let me name a couple of examples of this..
+
+Method A calls for something like a “linkage editor”, which with method B practically lapses.
+
+Method A makes it impossible to let different programs make use of the same subroutine text.
+
+If one wants to speed up the one remaining expansion, then with method A this calls for a piece of very fast store as long as the selection table (and if there is none —the selection table grows through combination!— for a small associative store that keeps the most relevant starting addresses); with method B a little fast store large enough for one expansion table will suffice.
+
+20 June 1968
+E.W.Dijkstra
+
+N.V. PHILIPS’ COMPUTER INDUSTRIE
+
+APELDOORN
+
+transcribed by Bart Vreugdenhil
+
+revised
+29-Dec-2011

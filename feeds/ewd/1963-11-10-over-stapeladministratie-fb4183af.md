@@ -79,3 +79,81 @@ E.W.Dijkstra
 transcribed by Sam Samshuijzen
 
 revised Fri, 6 May 2005
+
+---
+
+## English translation
+
+### On stack administration
+
+EWD 69
+
+4 November 1963
+
+On stack administration
+
+1. Inner blocks, procedure blocks and block height.
+
+The concept of a block is purely lexicographic. The entire program is by definition a block; within a block one or more other blocks can be defined. Besides the ALGOL blocks we further introduce:
+
+a) a procedure declaration is by definition a block
+
+b) a for-statement is by definition a block.
+
+We now distinguish two kinds of blocks:
+
+a) procedure blocks
+
+b) all remaining blocks; these we call "inner blocks".
+
+Note. For the time being we leave aside whether we regard the procedure body as an inner block of the procedure block.
+
+The blocks thus introduced have the property that every block, with the exception of the program block, is defined within another block. We now introduce the concept "block height", i.e. the program block is given block height 0. Every other block is given a block height 1 greater than that of the lexicographically immediately enclosing block.
+
+2. Inner-top height and display.
+
+To every procedure block we assign a so-called "inner-top height". The inner-top height too is a purely lexicographic concept: the inner-top height is 1 more than the maximum block height in the interior of the procedure block without it lying within an inner procedure block contained therein. (Alternative definition: it is 1 more than the maximum block height occurring in the interior after removal of all procedure declarations occurring within it.)
+
+Inner blocks have the property that one can enter them only from the immediately enclosing block, this in contrast to procedure blocks.
+
+Upon entry of a procedure block, and only then, we shall introduce a new display. We choose the length of this display equal to the inner-top height, i.e. large enough to guarantee that we have within it the room to be able to handle (see below) the inner blocks of this procedure.
+
+The remark, namely, is that the technique of the MC1 translator for entering and leaving an inner block really is quite efficient. The MC1 translator works with a fixed display. Upon entry you need only fill in a new element in the display and increment the stack pointer; upon departure you need only decrement the stack pointer (and ignore the display element, but that does not cost much effort.)
+
+If, however, as in the MC1 translator, we have a single display, then we are obliged at every turn to perform the operation UDD (Up Date Display). The claim is that merely introducing a new display upon entry of the procedure block is sufficient to be rid of all UDD operations - i.e. to be able to condense them into a switching of L.
+
+3. The working-space pointer WW.
+
+Between statements the stack pointer SW within a block always returns to the same resting point; we call this the working-space pointer WW: it points to the first stack location for the anonymous intermediate results.
+
+Normally one need not concern oneself with the WW value of a block. During the execution of a statement the SW is, after all, incremented by as much as it is decremented, and the SW automatically returns to its resting point. We have, however, also the so-called "sudden block exit": within a block there may stand a "goto L", where "L" is a global label. If by this we return into a block which we have temporarily left via a procedure of type, i.e. in the middle of a statement, then in the destination block we have as a rule still a few anonymous intermediate results to forget, in other words: SW must be reset to the value of WW belonging to the activation of the destination block.
+
+Let us confine our thoughts for a moment to inner blocks. If we are in an inner block B of height n, then we have come into it via the most closely lexicographically enclosing procedure block at height m ( m < n ). Upon entry into that procedure block A we have introduced a new display in the stack, of which the lowest m elements have been copied from another display (see below), where the m + 1st element has been derived from the SW and of which the remaining elements correspond to the inner blocks of A. The idea is, during the execution of inner block B, to localize the local quantities of this block with respect to element n of this display and to let element n + 1 be equal to the corresponding value of WW. If we enter an inner block of B, then element n + 1 functions unchanged as the reference point for the local quantities of this block and element n + 2 then holds the (inner) WW. This is the reason why the inner-top height has been chosen 1 greater than the maximum occurring inner-block height.
+
+4. Entering and leaving inner blocks.
+
+Upon entering an inner block at height n and upon leaving we must know the value of n: upon entry in order to know where (namely at location n + 1 of the display) we fill in the new WW, upon departure because we must then reset the SW, i.e. must make it equal to element n of the prevailing display.
+
+In the program text the prevailing block height, which is a lexicographically determined quantity, is if desired statically known, and we can create the mechanisms "inner block in" and "inner block out" in such a way that they receive a parameter from the program, i.e. "inner block in of height n" and "inner block out of height n".
+
+An alternative solution is to have the system keep track of the prevailing block height "somewhere" —more on which presently—: "Inner block in" and "Inner block out" then receive no parameter from the program, but themselves consult and modify the prevailing block height to be found "somewhere". This latter is a technique which appeals to me somewhat more, although at the moment I can think of only vague arguments in its favour. It is the general argument that in your program you need not state what the processing system can derive from the structure. (In precisely the same way as we do not indicate the value of the stack pointer explicitly, but let it be carried along by the stacking instructions.) The text of the program is shortened by these techniques. a collateral advantage is that the contents of the stack, by accommodating the prevailing block height in it, become more expressive. (This is for the time being still vague too: it might well be desirable that we keep in the stack an administration of such a kind that the stack contents are at every desired moment "externally interpretable". I am thinking of stack shifts by the coordinator and post mortem dumps.)
+
+If we wish to remember the prevailing block height, then the question arises: where?
+
+In the MC1 translator we did this in a fixed location: there the prevailing block height was a state variable present in a single copy and bound to a location. This would be impractical for us in connection with multiprogramming, because we would then have to save the prevailing block height upon switching of program. If we introduce the prevailing block height as a global variable of a program, i.e. at the bottom of the stack of that program, then we have circumvented the multiprogramming difficulty, but with respect to uniprogramming we are still exactly in the situation that we have with the MC1 translator: saving and restoring upon procedure calls and returns. My provisional suggestion is to store the prevailing block height with the prevailing display, i.e. as ML[–1]. This suggestion is provisional, because I must still check whether we do not run into difficulties on account of the parameter situation not yet brought into the picture.
+
+The prevailing block height can then be kept track of upon entering and leaving inner blocks; upon entry into a procedure, where we introduce a new display, the block height of the procedure must be known (namely in order to know how many locations in the new display must be copied); on that occasion the initialization of the new prevailing block number can also be taken care of.
+
+I conclude this short note by signalling the following possible complications:
+
+1) upon block exit we must, if "large arrays" had been introduced in this block, again release the drum pages occupied by these arrays.
+
+2) upon "sudden block exit" a whole lot of blocks can disappear from the stack; again it holds that decrementing SW is not sufficient, because by this large arrays too may have to be disposed of.
+
+3) in the parameter situation we are now in a quite different position: we then work under control of a prevailing L, but the block-height datum ML[–1] stored therewith has at that moment no meaning. This might come back to bite us when we consider what we must do when the stack has to be shifted.
+
+E.W.Dijkstra
+
+transcribed by Sam Samshuijzen
+
+revised Fri, 6 May 2005

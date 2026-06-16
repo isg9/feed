@@ -50,3 +50,52 @@ E.W.Dijkstra
 
 transcribed by Angelo van der Sijpt
 revised Thu, 7 Feb 2008
+
+---
+
+## English translation
+
+### Draft preface [graduation specialization Fundamental Programming]
+
+EWD 252a
+
+Draft preface.
+
+This brochure has been compiled to assist You in the choice of a graduation specialization, in determining a preference for a graduation professor, and in the composition of (chiefly) Your graduation programme insofar as this concerns elective subjects and internships. The most informative manner seemed to be to have each professor of the Subdivision of Mathematics write his own contribution, while an editor would have to furnish the brochure with an introduction and would have to bring it about that the various contributions are sufficiently homogeneous in style and pretension to make a comparison somewhat possible for You. And it is this editorial task that I have gladly taken upon myself, because I fully realize how difficult this choice (between alternatives in fact still unknown to You!) must often be for You.
+
+We can give You only information, insofar as it appears relevant to us so that You may gain a somewhat clearer insight into what You are choosing between. In order to forestall disappointment I wish to state at the outset that it is very much the question whether the choice will thereby become easier for You: to the degree that the alternatives must more clearly form a picture of who You are and what You want. Thus, for example, the one student will choose an elective subject because it seems easier to him, reckoning that he thereby hastens his graduation, while another student will choose an elective subject precisely because it seems difficult to him, reckoning that if he does not, during his student years, familiarize himself with the matter in question, it will probably never happen later on. Thus the one student will choose an elective subject because it connects to his graduation specialization, but another will choose an elective subject precisely because it has so little to do with his graduation specialization. In short, with the reverse side of the coin, with the "Know Thyself", this brochure cannot, by its very nature, help You.
+
+Nor can You expect this brochure to give You all the information You would like to have, because we cannot foresee on the basis of which criteria You prefer to choose. It is perhaps useful in this connection to point out that I do not derive from my editorship the freedom to make (editorial) changes in the contributions of my colleagues on my own authority: their contributions, as published, are from beginning to end written by themselves, and for their own text they bear the full responsibility, so that You may, should You wish, likewise take into Your choice the manner in which they write about their work, e.g. whether they depict it as easy or rather as difficult.
+
+A question that You must put to Yourself in the choice of a graduation specialization is "How much, for me, depends on the choice?", and my inclination is, without having heard Your answer, to say "Less than You think." For I get the impression that many students take the choice rather heavily, as if this choice would be decisive for the professional activity for the rest of their lives, an impression that is reinforced by the interest in "future prospects". Given the particularly rapid and drastic shift in the demands that society places upon its technicians, I must here sound a serious warning: I expect of the majority of our mathematical engineers that they will, in the course of their lives, end up in professional activities in which their graduation specialization of yore is no longer to be recognized. Stronger still, I hope that many a mathematical engineer will make himself useful in that capacity in a field of work that at present seems not, or scarcely, foreseen! Seen over the long term, what a student has done precisely could therefore well be less important than that he has done something and has learned to do that well.
+
+E.W.Dijkstra
+
+Draft "On the graduation specialization "Fundamental Programming"."
+
+Fundamental programming concerns itself, as the name says, with programming, whether as an activity, or as an object of study. Programming is the art of setting up and elaborating something large and complicated so orderly that one (as a person or as a group) retains one's intellectual grip on one's creation, that one tames unstructured multiplicity and manages to avoid as effectively as possible its bastard Chaos.
+
+Which knowledge and which skills are required for this? In short I would say: rather little specific knowledge, but all the more skill and self-knowledge. From the rest of the mathematical curriculum I can scarcely choose subjects of which I can say "These are indispensable.", an inability which is most closely connected with the fact that modern computers, regarded as mathematical machines, rightly and with honour bear their name "general purpose equipment".
+
+The connection with the rest of the mathematical curriculum is threefold.
+
+In the first place via a large field of application. He who makes a program for some application or other must not only be able to program, he must also know the total task that the machine is intended for in that application. And every time that (as is often the case) this task definition is a weighing of possibilities versus desiderata, insight into the field of application is, to put it mildly, a bonus. It is via the application that, for example, knowledge of linear algebra, differential equations, statistics and numerical mathematics may prove of great use.
+
+In the second place—and here the mathematical experience functions as general formation with respect to programming itself, regardless of the application—because a good program is built up out of components in much the same way as a mathematical theory out of theorems. It is for this reason that I expect of graduating students that they, through experience gained earlier, have a well-developed feeling for the logical coherence of mathematical theories: this experience is to be carried over in the building up of programs (I think here, for example, of group theory.)
+
+In the third place because of the programmer, who must prove the correctness of his program, familiarity with (mainly discrete) proof techniques is demanded, besides which, alongside the discrete-logical aspects, some stochastic notion, so that he may have an eye for the quantitative aspects of the behaviour of (the machine working under the control of) his program. If, faced with a choice that is to be taken on such quantitative grounds, he can deftly make a responsible estimate, then that is a bonus.
+
+All of this implies that with graduating students I can be rather liberal as regards which material they have chosen from the rest of the curriculum; against this stands, however, that they must then stand considerably above that material.
+
+Which skills are required? From the analogy between a program on the one hand and a theory on the other it follows that one must be rather creative and must possess a "businesslike" capacity for abstraction. (By the addition "businesslike" I mean that one must not only be able to introduce new concepts, but must therein have a wide-open eye for their manageability and their usefulness.)
+
+Next, the subject places high demands on one's capacity for clean (yet, if desired, vivid) use of language: one needs this for the (frequent!) introduction of new concepts, one needs this because programming is often a group activity, in which in discussions the relevant concepts still have to be found, one needs this finally as an antidote, for the unmasking of the advertising slogans of which this subject is, alas, full.
+
+Lastly, the programmer must have a highly developed organ for completeness, accuracy and tidiness, in short a love of detail. He who, as a programmer, thinks he can look down upon these humble virtues, has chosen the wrong subject.
+
+Finally, a single paragraph about the future prospects. I could dispose of this with an appeal to "The computer is here to stay" by a simple "Splendid, of course!", were it not that nowadays I would indeed think three times before I would choose the subject "Software engineering". (At the end of my own student years I did indeed think more than three times, but I had it easier, for the subject did not yet exist, and in my youthful naivety I did not foresee how amateurism and conflict of interests would later muddy this trade.) The point is, namely, that the intellectual level that is in fact necessary for this work is in general heavily underestimated, as a result of which most programmers, armed with too primitive thinking aids, struggle with problems that considerably exceed their capacities. Their product is correspondingly so, their only consolation is that they themselves do not realize it and that their chief (still) thinks that it simply cannot be done any better. The social consequences of the present practice of computer use are, however, becoming so unacceptable that a change in this must (and also will) come about. For the weak brother this means that the subject will grow even further over his head; for the gifted one this means that he runs a fair chance of having to work, for God knows how many years yet, in an atmosphere that can already now be disqualified as backward: an army of run-to-seed bookkeepers will, out of self-preservation, see themselves compelled to put their foot in his way!
+
+E.W.Dijkstra
+
+transcribed by Angelo van der Sijpt
+revised Thu, 7 Feb 2008

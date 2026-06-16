@@ -24,3 +24,26 @@ Het is gebruikelijk te denken, dat met Galileo Galilei het Westen zich aan de ho
 
 transcribed by Jukka Ketelaars
 revised Sun, 17 Jun 2007
+
+---
+
+## English translation
+
+### Eleventh address, autumn 1975
+
+24 November 1975
+EWD 534
+
+Eleventh address, autumn 1975.
+The southern boundary of our campus, once an invitation to braking trials and known by the nickname of "the Professors' Racetrack", has since become a four-lane road and is now, in honour of our first Rector Magnificus, known as the Dorgelolaan. A fine avenue. At right angles to it lies the Posthumuspad. A fine path. It is only disquieting that the little sign at its start goes unseen by so many, the little sign that reads "Dead End". Our third rector was so cunning a politician that, so it is said, in time a maze will be named after him.
+
+But back to Posthumus. To him we owe it that the narrow technological basis of our Institute of Technology was broadened with cultural acquisitions such as educational research, that we got business administration, and that we were finally saddled with architecture. And I can give you the assurance that, had it been up to him, the eighth medical faculty would not have ended up in Maastricht. In his pleas he could wax lyrical about what he called "the human sciences", and he did not fail to contrast them with cool engineering, deriving from that supposed contrast the necessity for compensation. Like so many of his generation, he had drunk the poison of Frederik van Eeden and had become the victim of the superstition that "heart" and "head" were irreconcilable, that "emotion" and "reason" tolerated each other ill. In that cheap view the exact sciences are presented as something inhuman, with, in the nature of the case, mathematics as the pinnacle of inhumanity, and Professor Sickbock is not a caricature but reality.
+
+Many before me have combated this superstition. Dorothy L. Sayers —herself, undoubtedly, a victim of this incomprehension around her— argues repeatedly against the notion that anyone who is very clever must be emotionally underdeveloped. And Eric Temple Bell writes in 1937: "...a mathematician can be as human as anybody else — sometimes distressingly more so.". I can only confirm Bell's observation: in my life I have had the privilege of meeting a number of exceptionally clever colleagues, and without exception these were highly sensitive people, whose lives possessed a nuanced fullness of which even the man of letters C. P. Snow, who claims to know "the scientists", evidently — to judge by his writings — has not the faintest notion.
+
+I even feel authorized to go considerably further. Mathematics is not an atrophied offshoot of a dehumanized society. On the contrary: it is the field par excellence where our greatest intellectual and artistic gifts come to synthesis, and a flourishing mathematical life is one of the clearest symptoms of a living culture. When Archimedes was stabbed to death by a Roman soldier, this was the first portent of the Roman decline, which a few centuries later would be sung by the short-sighted Cicero, when he prides himself that his glorious Rome tolerates no more mathematics than is needed for measuring and counting. It need cause no surprise that the Roman sterility finally became destructive and set the library of Alexandria ablaze. The dark Middle Ages set in when the last Greek mathematician Hypatia is lynched by the Christians, and the Arab world lapses into backwardness when in the seventh century the library of Alexandria is destroyed for a second time, but now definitively, this time by the Muslims, on the grounds that the texts, if they are irreconcilable with the Koran, are wrong, and otherwise superfluous.
+
+It is customary to think that with Galileo Galilei the West wrested itself free from the stranglehold of mysticism, but, with all those so-called "human sciences", are we really so sure of that?
+
+transcribed by Jukka Ketelaars
+revised Sun, 17 Jun 2007

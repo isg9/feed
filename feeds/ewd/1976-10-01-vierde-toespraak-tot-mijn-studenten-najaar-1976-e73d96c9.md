@@ -25,3 +25,27 @@ De vraag welk wetenschappelijk doel je nastreeft, en de vraag hoe je het resulta
 transcribed by Carl Ludwigson
 
 revised Thu, 15 Nov 2007
+
+---
+
+## English translation
+
+### Fourth address to my students, autumn 1976
+
+Last week I touched briefly on the (whether or not) "casual user"; he has a little brother, called "the average programmer." Let me use this week to explain to you why their influence is so pernicious. First I want to give you two examples.
+
+When recently one of my pupils took his doctorate on an exploration of what programming might come to mean for machines in which many components can be at work simultaneously, the choice of this subject provoked opposition, among others from people at the computing centre. Their objection was that they could not explain to their customers the relevance of this research. I, for my part, however, doubt whether one does well to accept the limited imagination of the average machine user as the ultimate boundary of one's scientific explorations.
+
+The second example concerns my own work over the past five years, in which programming has emerged, with much greater clarity than before, as an activity that necessarily has a pronounced mathematical bent. This too provokes opposition, along the lines of "Well, but you'll never in your life sell this to the average programmer." That may perhaps be so, but ought I to have let myself be prevented, by the limited comprehension of the average programmer, from arriving at this insight and developing this methodology?
+
+This kind of objection comes from people who, in the choice of their own work, evidently let themselves be guided much more strongly by considerations of the salability of the result. I take exception to this here, not because it would be morally bad, but because it is unwise.
+
+Understand me well: concerns about salability are not immoral. A researcher whose results are paid no heed is just as ineffective as the writer whose poems no one reads. That the writer also sets himself the aim of reaching his public, everyone deems reasonable; for the man of science it is no different.
+
+However: the technique of scientific thought owes its matchless effectiveness to what is nowadays designated as "the successful separation of concerns," to the isolation of the preoccupations. Instead of tackling a problem in its full undiluted complexity, the experienced researcher isolates all the aspects that he can investigate independently of the rest, and with those various aspects he occupies himself in turn, with one after the other. This technique is so much the hallmark of successful scientific research that the discovery of an isolable aspect that can be studied in independence is often the most essential contribution, because thereby the research comes within the range of the possible.
+
+The question of which scientific goal you pursue, and the question of how you will bring the result, once attained, to market are by their nature two different questions. They are two different preoccupations, and nothing is gained by mixing them — on the contrary. Care for the presentation should not come first; care for the presentation should be justified by the quality of the product to be offered. If this priority is forgotten —and in computing science it is often forgotten, because there the scientific tradition is not yet so firmly anchored— then "the casual user" and "the average programmer" become just as paralysing as "the modal student" is for scientific education, as soon as that one is accepted as the norm. Our friend Van Kemenade will therefore not deter me from caring not a fig for his "modal student."
+
+transcribed by Carl Ludwigson
+
+revised Thu, 15 November 2007

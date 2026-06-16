@@ -119,3 +119,122 @@ NB. De tentaminandi wordt verzocht hun papier slechts eenzijdig te beschrijven.
 transcribed by Sam Samshuijzen
 
 revised Mon, 15 Jan 2007
+
+
+---
+
+## English translation
+
+### Examination "Co-operating Sequential Processes"
+
+EWD 190
+
+Examination "Co-operating Sequential Processes."
+At a large round table the places are numbered cyclically from 0 to 39; the members of a company of 40 persons are likewise numbered from 0 to 39, and each may sit at the table only at his own place — that is, the place that bears his own number.
+
+Their behaviour pattern consists of a non-terminating cyclic succession of:
+
+living (out of doors);
+
+having drinks (indoors, but not at the table);
+
+eating (indoors, at the table);
+
+and, for the gentlemen only,
+
+cigars (indoors, not at the table).
+
+Their behaviours must be synchronized in such a way that
+
+1) never are three cyclically consecutive places at the table occupied simultaneously, and
+
+2) no lady rises from the table unless there is at least 1 other lady in the room.
+
+For the ladies (who, qualitate qua, do not smoke a cigar after dinner) rising from the table and
+leaving the room are one and the same action. Any persons who, in order to take their place at the table, must wait (on account of rule 1) for lady A to rise from the table, who (on account of rule 2) must wait with rising until, say, lady B enters, have, with respect to taking their place at the table, priority over lady B.
+
+There are at least two ladies in the company, which is initialized with everyone living out of
+doors.
+
+The solution assumes (I) the following to be declared in the enclosing universe:
+
+1)
+the boolean
+procedure dame(u); value u; integer u; this has the value "true" if person no. u is a lady, the value "false"
+if person no. u is a gentleman.
+
+2)
+the integer procedure mod40(u); value u; integer u; this has the value of u, reduced modulo 40.
+
+Given is a solution of the following structure.
+
+begin semaphore mutex, damutex; semaphore array persem [0:39];
+boolean array honger [0:39]; integer array eettal [0:39];
+integer damnr, k;
+procedure test(u); value u; integer u;
+begin if honger[u] then
+begin if eettal[mod40(u-1)] < 2 and
+eettal[u] < 2 and
+eettal[mod40(u+1)] < 2 then
+begin eettal[mod40[u-1)] := eettal[mod40(u-1)] + 1;
+eettal[u] := eettal[u] + 1;
+eettal[mod40(u+1)] := eettal[mod40(u+1)] + 1;
+honger[u] := false ; V(persem[u])
+end
+end
+end
+
+procedure staop(u); value u; integer u;
+begin eettal[mod40(u-1)] := eettal[mod40(u-1)] - 1;
+eettal[u] := eettal[u] - 1;
+eettal[mod40(u+1)] := eettal[mod40(u+1)] - 1;
+test(mod40(u-2)); test(mod40(u-1));
+test(mod40(u+1)); test(mod40(u+2))
+end
+for k := 0 step 1 until 39 do
+begin honger[k] := false; eettal[k] := 0; persem[k] := 0 end;
+mutex := 1; damutex := 1; damnr := -1; k := 0;
+
+parbegin
+person 0 : begin..... ..... ..... .....end;
+⋮
+person39 : begin..... ..... ..... .....end
+parend
+end
+
+where the structure of person h is as follows:
+
+person h:
+begin Lh: living;
+if dame(h) then
+begin P(damutex); k := k + 1;
+if damnr ≥ 0 then
+begin P(mutex); staop(damnr); V(mutex);
+V(persem[damnr]); damnr := -1
+end;
+V(damutex)
+end;
+having drinks;
+P(mutex); honger[h] := true; test(h); V(mutex); P(persem[h]);
+eating;
+if dame(h) then
+begin P(damutex); k := k - 1;
+if k = 0 then
+begin damnr := h; V(damutex); P(persem[h]) end
+else
+begin P(mutex); staop(h); V(mutex); V(damutex) end
+end
+else
+begin P(mutex); staop(h); V(mutex);
+smoking a cigar
+end;
+goto Lh
+end
+
+Problem. Prove that the given solution satisfies all the specifications.
+
+N.B. The examinees are requested to write on one side of their paper only.
+
+transcribed by Sam Samshuijzen
+
+revised Mon, 15 Jan 2007

@@ -43,3 +43,45 @@ E.W.Dijkstra
 Transcribed by David J. Brantley
 
 Last revision Thu, 19 Feb 2004.
+
+---
+
+## English translation
+
+### Trip report on the visit of E.W.Dijkstra to IFIP W.G.2.3 at Warwick, England
+
+EWD308 - 0
+
+Trip report on the visit of E.W.Dijkstra to IFIP W.G.2.3 at Warwick, England.
+
+The scene of the action is Warwick University, an institution all of whose buildings have been tiled on the outside with a white W.C. tile (to combat the qualification "red brick university"?). Afterwards this turned out to be a joke on the part of the architect: all the buildings are now fenced off with a rustic wooden palisade and signs reading "Danger, falling tiles", and at all entrances and exits there are little wooden gates....
+
+Counting observers, there were a good twenty men present; the financially more difficult situation was clearly noticeable in the poor turnout of the Americans: two of them had made the crossing, a third was in England this year.
+
+The level of the lectures and the discussions that followed was nearly always exceptionally high; moreover they generally connected well with my own field of interest, so that I do not regret having gone there.
+
+On Monday morning Hoare from Belfast described an experiment he had carried out. The experiment consisted of the description of a program complicated in two respects, made by a friend of his. It concerned the making of "school time tables". Such a program is complicated in two respects: firstly the problem statement is vague and messy and the algorithm influenced by heuristic considerations (of dubious effectiveness), secondly it was "tightly coded", because it lay at the edge of the capacity of the machine involved. Besides being an illustration of his own ideas it was —and this is what made it so fascinating to me— a confirmation of many ideas from my "Notes on Structured Programming", but then applied to a problem that is an order of magnitude messier and larger than the little examples I usually play with. On the one hand this was very encouraging to me, on the other hand it means that if I ever want to find an example in which these ideas are not applicable, I shall probably have to try one yet another order of magnitude larger. A disturbing thought! The first part of the morning was somewhat spoiled, because at the beginning people did not quite grasp where he was heading, as a result of which the discussion slid off a few times into the specific problem of timetable-making.
+
+On Monday afternoon Lehman (IBM, Yorktown Heights) took the floor. He had two very different subjects. The first was a relativizing reflection on correctness proofs, the second a reflection on some quantitative aspects of the history of OS360, from which it appeared that, while the number of modules grows linearly (as a function of the release number), the fraction of modules that do not remain constant per modification grows exponentially! This process ends in the near future, when the height of unmanageability has been reached. What then?
+
+On Tuesday morning Ross (formerly MIT, now Softech) spoke about a program model that underlies AED-0. He was clearer than ever, and more convincing than ever too, although he did not remove my reservation towards AED —in spite of the unmistakable successes. They reduce programming to the repeated playing of the same kind of little games and their success must be attributed to the circumstance that by now they know this kind of little game very well and thus restrict themselves to those tasks that lend themselves to this kind of little game. I emphatically call them "little games" because it is, after all, a risky bit of puzzling. His spatial/temporal power of imagination is astonishing: where normal mathematicians accept "a drawing" as a means of communication, Ross accepts a film. That he cannot talk without covering blackboards at high speed with changing pictures is of course alarming. This circumstance
+
+EWD308 - 1
+
+contributes not a little to the unreadability of his writings. As a person he is exceptionally fascinating, he is unmistakably a virtuoso, and with the qualification "a van der Poel at a high level" I would be doing him an injustice.
+
+On Tuesday afternoon Dahl (Oslo) spoke prompted by the implementation of SIMULA 67. To my taste he became very finicky, he is hypnotized by syntactic concerns. After an hour and a half the audience was asleep. He thinks very much in terms of little mechanisms and for someone who is interested in the "transferability" of this kind of reflection it was still rather fascinating, albeit in a different way than the speaker intended. After the coffee break, when we had no fixed program, things went quite unexpectedly but pleasantly. I asked the assembled people their opinion about the three ways of "data structuring": ALGOL68, PASCAL and something that I myself am considering starting to think about. The reactions were exceptionally encouraging, it was for me a clear incentive to continue along the path I had taken. We had Paul (Munich), who as chairman of W.G.2.1 is entitled to be present ex officio, in our company; his working group struggles hopelessly on with ALGOL 68. "I triggered all his frustrations" and we laughed a great deal. Importantly, on the basis of what I had touched upon Strachey (Oxford) offered to talk the next day, if there was still time, about the work that Dana Scott had done with him.
+
+On Wednesday morning the first half was devoted to housekeeping matters, after that Strachey spoke. It was a kind of lecture that I would accept from no one except Strachey; I was very grateful, it is the kind of work into which I shall never throw myself, for in that way I am nowhere near clever enough, I gladly leave it to heads better equipped in this respect. At the same time I am very glad that it is being done, at last a pure mathematician who hits upon a more fruitful idea than the classification of castrated Turing machines!
+
+And with that the meeting was closed; everyone regretted[sic] that it had not, as originally intended, lasted a day longer, but Warwick University turned out to be closing down entirely on account of Easter.
+
+For informal conversations in the evening the facility was not entirely sufficient, it was too noisy in the large common room. I had a nice conversation with Hoare, who had written a piece that lay very much in line with the graduation work of Bomhof and Feijen. To his piece clung exactly the same limitation that I had by now also discovered in the piece of B. and F.: we saw simultaneously how this limitation had to be removed. This happened on one of the first evenings and in itself already justified the whole trip in my eyes. As a consequence of this I know what I am going to tell in Munich this summer.
+
+For the rest I talked with a great many people about a great many things, slept quite enough and did not drink too much.
+
+E.W.Dijkstra
+
+Transcribed by David J. Brantley
+
+Last revision Thu, 19 Feb 2004.

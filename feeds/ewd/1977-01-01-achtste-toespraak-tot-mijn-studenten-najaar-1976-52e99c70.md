@@ -105,3 +105,71 @@ Ik heb een beetje van die onzin geciteerd omdat U zonder dat zou kunnen denken, 
 transcribed by Carl Ludwigson
 
 revised Thu, 15 Nov 2007
+
+---
+
+## English translation
+
+### Eighth address to my students, autumn 1976
+
+An idea is scientifically the more fruitful the more effectively it sets matters in order in the conceptual chaos which the multiplicity of phenomena evokes. Saint Nicholas, for instance, is no fruitful scientific idea, for He evokes more problems than he solves. I therefore no longer believe in Saint Nicholas.
+
+Nowadays I do believe again in the Devil, and that on good scientific grounds. For years I did not, but I have come round to it again, when I saw that I could regard the Devil as the Creator of socialism and of the soft sciences. This is a scientific discovery of importance, for it explains a great deal.
+
+I was made to think of the Devil again when last Wednesday, after supper, I let the dogs out. At the corner of the Kuilen a strange little man came marching out of the Broek. He wore leather gloves and with his clenched fists he gesticulated rhythmically, but also somewhat jerkily and convulsively. He struck me as a cross between a drum-major and a terrorist-in-training.
+
+The larger of the two dogs, who was running loose, darted off with dark barking at the strange walker, who hurriedly went over from marching to nonchalant walking, let his fists slacken and let his arms swing along his body as if nothing had been the matter. But both the dogs and I had seen the armed force he had a moment before been leading dissolve into Nothingness. Seeing that he had accomplished his work to satisfaction, my dog gave another three threatening barks in the neighbourhood of the man's trousers, by way of a warning not to bring the troop on stage again as soon as he had taken to his heels. Contented, he returned to me, wagging his tail at me and now and then still looking back threateningly at his vanquished foe.
+
+I ought of course to have given the dog a dressing-down, for such a thing really will not do: people could get a heart attack when such a barking great hulk comes storming at them. But I could not bring myself to that scolding, for I myself found him such an ominous little man that I too, as a dog, should certainly have barkingly destroyed his pose. And so I was left behind with the two dogs and the riddle of which fantastic dream had been disturbed.
+
+While we walked on and I exchanged with the dogs some further thoughts about what we had just been through, our marching commander took on, ever more clearly, the shape of a creepy little fanatic. The imaginary troop, which at first could still have been a brass band, took on ever more clearly the forms of an armed gang, of a fear-inspiring salvation-army that, whipped up by the man with the little leather fists, would with fire and sword found a, in his opinion, better world. Suddenly I understood that we had come upon a man who was clearly bewitched: the man with the little leather fists was possessed by the Devil!
+
+I had never before been through such a thing so close at hand, but it is —well: you understand: it is now nearly a week later and I am still talking about it— an experience that does not leave you cold. Suddenly I understood the witch's balance, and understood how he who was found too light upon it ended up at the stake. I think that for the bewitched there will probably come balances and stakes again. If I am asked, I shall say that, for all I care, they may begin with the soft-scientists.
+
+### Ninth address to my students, autumn 1976.
+
+Last week I voiced my doubts about the so-called "soft sciences" or what in English is so tellingly designated by "the soft sciences". As informaticians we ought not only to be aware of this movement, we ought even to be on our guard against it, responsible as this movement is for the spiritual rotting process that is taking place on the seamy side of informatics. One asks oneself in all sincerity how this can have come about; it is not impossible that it was the merely verbal resemblance that, in confused heads, made the idea take hold that "software" would be a self-evident field of work for the "soft sciences". Make no mistake: in spite of the name, "software engineering" is a "hard science" par excellence!
+
+Let me confine myself to a single symptom of the rotting process I have signalled: "Software metrics", written by Tom Gilb and published in 1976 by "Studentlitteratur ab." in Lund, Sweden. Bearing in mind that good wine needs no bush, we first quote some braggadocio from the back cover:
+
+"Software metrics is shown to be simple and straightforward, as well as resulting in a consistent money and time saving. This is the immediate future of the computing profession. This is the key to control over large software projects. This is the turning point where programming and software system design moves from individual art to an engineering profession. There can be no question about where we are going. The only question is, are you going with us?"
+
+The rhetorical question with which this quotation ends is a fine specimen of blackmail, worth remembering as such.
+
+Full of hope we open the book. At the beginning we already stumble on the expression "to measure all the critical factors"; a page further it is about "measuring all critical software concepts". The expression "to measure a concept" is of course abominable; for a moment we can still regard it as careless word-use, when he begins his first chapter with the analogy of the measurement of a physical quantity. On reading on, however, we must come to the conclusion that the author has not understood one jot of the idea of the measurement of a physical quantity. He passes over the fact that a physical quantity —be it potential difference, force or inertial mass— can, in the first place, only be introduced by grace of experimentally verifiable properties, and, in the second place, must be so well defined that it can be established a priori whether a proposed measuring procedure will be adequate or not. But Mr. Gilb does not define his "concepts": he gives only a procedure for arriving at a numerical value. To give you an idea of what Mr. Gilb calls a definition, I quote:
+
+"Definition: Logical complexity is a measure of the degree of decision-making logic in the system."
+
+It is clear that this concept of "logical complexity" possesses few experimentally verifiable properties. It is also clear that this definition can hardly justify, nor refute, the proposed measuring procedure. For your information, the "absolute logical complexity" of a program is the total number of IF-statements, the "relative complexity" you get by dividing this number by the total number of statements. Four-and-twenty pages later you are confided that:
+
+"Structural complexity [is] a measure of the degree of simplicity of relationships between subsystems."
+
+The procedure for arriving at a number I shall spare you.
+
+I have above named only two of his roughly four dozen "metrics". One by one they are of even baser alloy than the so-called "Intelligence Quotient", of which many psychologists, and alas still many more laymen, think that it "measures" intelligence. All of them are based on the misconception that also underpins all idiotic questionnaires, namely that the quotient of two large numbers must surely be meaningful, because individual deviations or inaccuracies will then have been averaged out. The averaging of nonsense in order to arrive at the highest wisdom.
+
+But beware! Managers of large software projects are great advocates of "conversational program development", in which no programmer writes any more but operates a directly connected keyboard. The reason is that the system can then, in passing, keep for each programmer the so-called "programmer quality metrics", numbers on which promotion decisions can later be founded. And please do not think that I am here painting a 1984 bogey: I am describing the reality of today, in e.g. MIT. A perhaps reassuring thought is that this scandalous practice in MIT seems to be confined to its.... Alfred P. Sloan School of Management.
+
+### Tenth address to my students, autumn 1976.
+
+Management science is, alas, not the only soft science against which I must warn you as future informaticians; psychology is another.
+
+The discovery that programming was so difficult that collectively we really could not do it fell in the sixties. It was just in the time that FORTRAN, COBOL and ALGOL 60 found general acceptance, programming languages each of which had been designed precisely to make programming easier than it had been before. This discovery was a cold shower, the more so because most of us still remembered the prehistory of programming and were rightly imbued with what an enormous improvement these programming languages were.
+
+The conclusion that in the whole process man might well be a relatively weak link forced itself inescapably upon us. It is therefore not surprising that at the IFIP Congress in 1965 in New York Peter Naur speaks about "The place of programming in a world of problems, tools and people.", that Stanley Gill speaks about "The changing basis of programming." and I speak about "Programming considered as a human activity." I quote from these articles:
+
+"For good or bad, the characteristics of the programming language will shape the thinking of people and their conception of problems."
+
+"Another practical problem, which is now beginning to loom very large indeed and offers little prospect of a satisfactory solution, is that of checking the correctness of a large program."
+
+"In the design of programming languages one can let oneself be guided primarily by considering 'what machines can do'. [...] it seems just as important to take into consideration 'what Man can think'."
+
+It is, after the foregoing, understandable that we then looked at what psychologists had to offer us. That was, alas, next to nothing; the work of mathematicians such as Hadamard and Polya was more relevant. The problem with the psychologists was that the majority had remained stuck in the study of rat behaviour and could shed hardly any light on the question how a human head solves a very difficult problem. This incapacity is historically well explicable: the bulk of psychologists have never seen a very difficult problem, let alone solved one. We might with equal chance of success have asked a deaf man to tune our piano. The misery is that nowadays the deaf man —unasked!— is trying to do precisely that.
+
+For the IFIP Congress 1977 in Toronto a paper has been submitted under the title "Computer Programming as Cognitive Process.". The author comes from the Educational Research department of an unnamed foreign university. You need not know what a "cognitive process" is; the author probably does not know that very precisely himself either, for on page 3 he speaks of "programming languages as cognitive processes". I quote from the summary:
+
+"It is argued that the evolution of computer languages reflects some of the general characteristics of human cognitive potential."
+
+Well, since programming languages have been designed for people by people, this does not seem a staggering conclusion; the author needs five pages for it, and, as if there were no theory of computable functions, he arrives at the profound pronouncement that matters such as iteration and recursion "are psychological rather than computational necessities", and he observes "In some narrow sense, our programming capability transcends human computational power." Beautifully put, but what does it mean? Thus the article rambles on, until at the end he predicts, among other things, "the development of languages which approach the flexibility and power of natural languages", a prediction that sounds fine, so long as you do not try to ask yourself what, in fact, is being predicted.
+
+I have quoted a little of that nonsense because without it you might think that I exaggerate. I really do not. Just read a few articles from the "Journal of Man-Machine Studies": then you will see that, after a deaf man has tuned the piano, other deaf men will not hear how out of tune it is.

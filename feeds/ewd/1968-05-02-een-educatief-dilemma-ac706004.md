@@ -26,3 +26,28 @@ Edsger W.Dijkstra
 transcribed by Joost Gabriels
 
 revised Fri, 4 Mar 2005
+
+---
+
+## English translation
+
+### An educational dilemma
+
+For convenience I assume that in the future too a large machine will form the heart of the Computing Centre; for brevity I shall call this machine "the production machine". It will serve many, sometimes justifiably demanding, people, among whom, we hope, the majority of our doctoral candidates, graduating students and trainees, in so far as they are able to use the production machine. We are, I think, all agreed that, in view of what they can carry forth, they represent an important group.
+The choice of the production machine is, for him who has set himself the task of running a computing centre professionally, of great interest; for those who will be dependent on the production machine for their work, the choice is of merely derived [interest].
+If we leave aside the customary elements such as blackmail, intimidation and bribery, then it would not surprise me if the choice of the production machine should furthermore —and that not even so very unjustly!— fall upon it on account of its production capacity. If this safeguarding of production is the first concern, then I cannot imagine anything other than that the production machine becomes a safe choice, not too far from the beaten track, in short a machine of today, of which you know what you have in it. (Sic.) In the sense that "the tried and tested method" is no longer interesting, we must assert that the safe choice, the most commonplace machine, is dull today, will be behind the times tomorrow, and backward the day after.
+
+The dilemma, however, is how "Kurzfristig" [short-term] we, as an institution of higher education, may permit ourselves to be. For from many quarters pressure is exerted upon us to be so to a fairly strong degree. This pressure comes, in the first place, from the management of our internal production unit (see above); it comes, in the second place, from our students —especially the less gifted ones— who feel safer when they are delivered with a present-day usefulness; it comes, in the third place, from the business world, which, under the obligation to keep its head above water today, is often not disinclined to draw a wild bill of exchange on the day of tomorrow; the pressure comes, finally, from our own bosom as well: the further into the future, the more slippery the ice, and whoever tries to look further than the nose of his colleagues is on average long runs a fair chance of incurring the reproach that he walks about with his nose in the air. The curse is that the very same economic interest, which everywhere seems to dictate short-sightedness, only underscores the importance of the right far-sightedness.
+In the light of the consideration that it is specifically the task of higher education to step in where the rest of society falls short, to furnish, with the greatest expertise and faith in its own insights, the precious counterweight —however thankless this task and however pretentious this objective may at any moment appear!— even the endeavour to make the heart of the computing centre a production unit like any other must be called into question. If it is —and such seems to me to be the case— impossible to rise far above that, then we ought to consider to what extent we can, in the rest of our educational activities, remain faithful to this calling.
+To prevent misunderstanding: I am not speaking here of the single computer specialist, who, provided he is "weltfremd" [unworldly], may give free rein to his unbridled lust for perfection; I am speaking here of the average user whom we intend to deliver. For this presses in two respects: in the first place, the normal computer user is arch-conservative (the story goes of Grace M. Hopper that, to symbolise this, she had a clock installed in her room that runs backwards!); in the second place, the computer manufacturer, who likewise would rather not burn his fingers, only too gladly (and not entirely unjustly) appeals to the backwardness of his customers, who would not know how to appreciate anything better anyway.
+If, viewed superficially, our educational task with respect to programming is, in the first place, to make our students familiar with our own production facility, on closer inspection it might well be just the reverse. It might well be precisely our duty to guard against what we teach being influenced by what the THE has, for production reasons, acquired today. It might well be precisely our duty so to arrange our instruction that our students, when they come to the real use of our production facility, experience it as "a making-do with the possibilities of the present". And it might well be precisely our duty to make such instruction materially possible.
+
+We perhaps burden our students with prejudices under which, should they so wish, they can suffer their whole life long. But, make sense of it or not, our academics are the heirs of our culture, and would we not be falling lamentably short if we withheld from them the chance to take this burden upon themselves?
+
+30 September 1968
+
+Edsger W. Dijkstra
+
+transcribed by Joost Gabriels
+
+revised Fri, 4 Mar 2005

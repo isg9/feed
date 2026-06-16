@@ -24,3 +24,26 @@ Zo is de maatschappij het slachtoffer geworden van een uit zijn voegen geperst o
 
 transcribed by F. Koenders
 revised Thu, 13 Nov 2008
+
+---
+
+## English translation
+
+### First address to my students, spring 1977
+
+When a system operates under the influence of a tidal motion, the prevention of resonance phenomena demands extra care if the natural reaction time of the system is of the same order of magnitude as half the period of the tide. In our education the latter circumstance has occurred; with our government, however, the requisite extra care has been lacking.
+
+From the second half of the twenties, when the crisis began to take shape, until the end of the Second World War the times were not cheering. A relatively low birth rate was the consequence of this. Thereafter we had a quarter-century of postwar optimism with a fairly high birth rate. In education, the meeting place of successive generations, a quantitative conflict then arises: a great host of pupils and students presents itself, for whom the teachers have to be recruited from a small generation.
+
+It would have been sensible to try to bridge the discrepancy by adjustment on both sides. By, on the one hand, admitting a somewhat larger fraction of the old generation to the teaching corps through a slightly more tolerant appointment policy, and by, on the other hand, admitting a smaller fraction of the young generation to the lecture benches through stricter student selection, teacher numbers and student numbers could have been reconciled with one another. For the loss of quality among the teachers, the gain in quality among the students would have offered compensation.
+
+But the government willed otherwise. Instead of a smaller fraction, it has driven precisely a larger fraction of the youth onto the lecture benches. Instead of strengthening the selection norms, it has let secondary education become diluted and has adapted the final examination to this by repeated hollowing-out. That in the course of this process ripe and green —above all green!— have come to stand before classroom and lecture hall, needs no arguing. Our education has become a travesty in all its layers; it threatens to lose its legitimacy, populated as it is becoming by semi-illiterates. This last term may perhaps seem to you exaggerated; to me it does not, since one can no longer require of academics that they express themselves decently in word and in writing.
+
+The foregoing sounds gloomy, but that comes about because the previous semester was concluded with an examination period, which means that this semester begins just after I have seen the written work. I do not wish to acquit myself of complicity in the decay, for I still passed about 30 percent, whereas it would have been no more than 10 percent had I done only what my heart prompted me. Now I too have collaborated in the fact that, one of these days, yet another set of young people who cannot yet write decent Dutch will be adorned with an academic title. But what is such a title then still worth?
+
+From the fact that all manner of faculties cannot yet get rid of the majority of their graduates at any price, the labor market now gets the blame, but that seems to me very short-sighted, for it concerns lads whom no sensible person wants to have in his employ, not even if money were thrown in besides, for they only make rubble, which someone else must then clear away again. We are being presented with the bill in its full extent: the academic world derives its right to exist from its striving toward perfection; a temporizing university runs aground on the rocks.
+
+Thus society has become the victim of an educational system pressed out of its joints. It is well to know that our government has willed it so.
+
+transcribed by F. Koenders
+revised Thu, 13 Nov 2008

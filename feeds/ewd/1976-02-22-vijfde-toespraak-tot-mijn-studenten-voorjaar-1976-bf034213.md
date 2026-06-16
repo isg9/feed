@@ -59,3 +59,60 @@ Overigens ben ik van oordeel, dat er op Hilversum 4 minder moet worden gezeverd.
 transcribed by Carl Ludwigson
 
 revised Tue, 16 Oct 2007
+
+---
+
+## English translation
+
+### Fifth address to my students, spring 1976
+
+Today I must ask for Your attention to the so-called "Buxton index", introduced by colleague John
+Buxton at Warwick University. When, as an employee of a consultancy firm, he had to deal with
+an enormous range of persons and organizations, he realized what the most significant
+criterion was according to which he could plot these persons and organizations on a linear scale.
+It is the length of the period in the future over which something or someone makes plans;
+measured in years, this measure has since been called the Buxton index.
+
+Those differences are indeed enormous. The true Christian has, for his moral life, an
+infinitely large Buxton index; the classical marriage is entered into with a Buxton index of about
+fifty; scientific research is pursued with a Buxton index of about ten
+—not because the researcher would not wish to look further into the future, but because
+the distant image of the future becomes too vague— schoolchildren often have a Buxton index that is not much
+larger than the number of years that separate them from their final examination, and the little grocer's shop
+on the corner has a Buxton index of three-quarters.
+
+It is, however, not the breadth of the spectrum that makes the Buxton index so significant. It
+is significant for a wholly different reason. Cooperation between persons and institutes with a
+drastically differing Buxton index is, namely, not only ineffective, but ends in a quarrel,
+because the partners begin to make moral reproaches to each other. The one with the longest Buxton index reproaches
+the other with short-sightedness; the one with the shortest Buxton index reproaches the other with every possible
+form of dereliction of duty, because he takes no interest in the urgent needs of today. The
+importance of the Buxton index is that it draws these differences of disposition out of the plane of the moral
+condemnations and thereby makes them discussable. It is a technique by which a non-
+functioning cooperation can be ended without reproaches and without an attempt to answer an unreal question of guilt.
+
+Many people estimate Buxton indices too large, and for them it is a surprise to hear that
+the majority of the large industries, world concerns included, operate with a Buxton index of
+around six, with only the oil concerns coming clearly higher.
+
+It is also fascinating to observe the Buxton indices of governments. In the United States
+of America, for example, it is very clear how an approaching presidential election causes the Buxton index to
+contract with respect to all sorts of policy. This contraction has a cause so well known
+that everyone is aware of the contraction, whereby the detrimental consequences remain limited.
+Less well known, and thereby more dangerous, is the fact that in so-called "difficult times" governments
+display the tendency to begin working with a smaller Buxton index. The reason is clear: to govern
+is and remains to look ahead. But in difficult times one has a need for a sharper image of
+the future possibilities; without an essential strengthening of the prognostic means, one meets
+the need for a sharper image by looking less far ahead.
+
+Higher education has always been a field that requires an exceptionally high Buxton index:
+it takes at least five years before one has a new course of study on its feet, and it then takes
+yet another five years before such a new course of study yields its first graduates.
+It is therefore not surprising that, with this cabinet of a clearly contracting Buxton index,
+higher education becomes the one who foots the bill.
+
+Incidentally, I am of the opinion that on Hilversum 4 there ought to be less drivel.
+
+transcribed by Carl Ludwigson
+
+revised Tue, 16 Oct 2007
