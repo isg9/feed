@@ -159,6 +159,10 @@ name = "faultlore"
 url  = "https://tratt.net/laurie/blog/blog.rss"
 name = "tratt"
 
+[[feeds]]
+url  = "https://daniel.haxx.se/blog/feed/"
+name = "danielstenberg"
+
 # Sort order for `hrb list` / `hrb feed`. "desc" = newest first.
 ordering = "desc"
 

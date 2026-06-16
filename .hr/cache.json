@@ -7,14 +7,14 @@
     },
     "anthropic-news": {
       "last_modified": "Thu 11 Jun 2026 12:17:47 GMT",
-      "fetched_at": "2026-06-16T01:00:48.966923Z"
+      "fetched_at": "2026-06-16T01:42:14.974182Z"
     },
     "anthropic-research": {
       "last_modified": "Mon 15 Jun 2026 11:19:21 GMT",
-      "fetched_at": "2026-06-16T01:00:49.017746Z"
+      "fetched_at": "2026-06-16T01:42:15.030836Z"
     },
     "antirez": {
-      "fetched_at": "2026-06-16T01:00:54.785416Z"
+      "fetched_at": "2026-06-16T01:42:22.834237Z"
     },
     "babysteps": {
       "etag": "W/\"6a28001f-6a7fdf\"",
@@ -45,6 +45,11 @@
       "last_modified": "Sun, 07 Jun 2026 02:08:34 GMT",
       "fetched_at": "2026-06-15T23:49:32.279214Z"
     },
+    "danielstenberg": {
+      "etag": "\"b527c2b982e2896e118b1d649cd297a1-gzip\"",
+      "last_modified": "Mon, 15 Jun 2026 07:28:29 GMT",
+      "fetched_at": "2026-06-16T01:42:25.123372Z"
+    },
     "danluu": {
       "etag": "W/\"6a29c21c-5fc9c8\"",
       "last_modified": "Wed, 10 Jun 2026 19:59:24 GMT",
@@ -54,9 +59,9 @@
       "fetched_at": "2026-06-07T18:28:15.345402Z"
     },
     "faultlore": {
-      "etag": "W/\"69194a5f-2000\"",
-      "last_modified": "Sun, 16 Nov 2025 03:51:59 GMT",
-      "fetched_at": "2026-06-16T01:00:57.287002Z"
+      "etag": "W/\"69194a5e-2000\"",
+      "last_modified": "Sun, 16 Nov 2025 03:51:58 GMT",
+      "fetched_at": "2026-06-16T01:42:24.769267Z"
     },
     "graydon": {
       "last_modified": "Sat, 14 Mar 2026 22:57:31 GMT",
@@ -65,7 +70,7 @@
     "gregg": {
       "etag": "\"2349d-64a310a7bc380-gzip\"",
       "last_modified": "Sat, 07 Feb 2026 00:32:30 GMT",
-      "fetched_at": "2026-06-16T01:00:51.698144Z"
+      "fetched_at": "2026-06-16T01:42:19.008675Z"
     },
     "gustedt": {
       "last_modified": "Wed, 03 Jun 2026 18:53:48 GMT",
@@ -87,8 +92,8 @@
       "fetched_at": "2026-06-15T23:49:23.209852Z"
     },
     "lwn": {
-      "etag": "\"dae57f64df6934ca673791320177b195cd3c3ddc0a2a931211bde66adc14aba6\"",
-      "fetched_at": "2026-06-15T23:49:29.514668Z"
+      "etag": "\"3d6c94c17aa98544568d6d08e00d7b94051b270bb9386d2d242af3aad14d854c\"",
+      "fetched_at": "2026-06-16T01:42:19.724034Z"
     },
     "marabos": {
       "etag": "\"66361365-29be\"",
@@ -96,9 +101,9 @@
       "fetched_at": "2026-06-15T23:49:25.711504Z"
     },
     "matklad": {
-      "etag": "W/\"6a2f5446-1f437\"",
-      "last_modified": "Mon, 15 Jun 2026 01:24:22 GMT",
-      "fetched_at": "2026-06-15T23:49:20.047526Z"
+      "etag": "W/\"6a30a5f0-1f437\"",
+      "last_modified": "Tue, 16 Jun 2026 01:25:04 GMT",
+      "fetched_at": "2026-06-16T01:42:12.74695Z"
     },
     "mcyoung": {
       "etag": "W/\"ec5cfb53efa36e1858ad4352c0ec8dbc\"",
@@ -165,17 +170,17 @@
       "fetched_at": "2026-06-15T23:49:27.890337Z"
     },
     "yandex": {
-      "fetched_at": "2026-06-16T01:00:52.949549Z"
+      "fetched_at": "2026-06-16T01:42:20.41474Z"
     },
     "yosefk": {
-      "etag": "\"691a2-65453a06ad1f8\"",
-      "last_modified": "Tue, 16 Jun 2026 00:00:10 GMT",
-      "fetched_at": "2026-06-16T01:00:56.768525Z"
+      "etag": "\"691a2-6545477032d72\"",
+      "last_modified": "Tue, 16 Jun 2026 01:00:10 GMT",
+      "fetched_at": "2026-06-16T01:42:24.500166Z"
     },
     "zeloof": {
       "etag": "\"cd749babf4d7b9b21a2103d2cb706a33-gzip\"",
       "last_modified": "Fri, 06 Sep 2024 04:46:54 GMT",
-      "fetched_at": "2026-06-16T01:00:54.172007Z"
+      "fetched_at": "2026-06-16T01:42:21.816076Z"
     },
     "zig-devlog": {
       "etag": "W/\"6a309323-14a06\"",
