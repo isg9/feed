@@ -8,7 +8,7 @@
     "andrejbauer": {
       "etag": "\"ca7b-65012892ad25f-gzip\"",
       "last_modified": "Wed, 22 Apr 2026 20:40:01 GMT",
-      "fetched_at": "2026-06-16T15:56:10.263446Z"
+      "fetched_at": "2026-06-17T09:36:10.892398Z"
     },
     "andrewkelley": {
       "etag": "W/\"d95403b13a9eba9af9bf84f972b777fa\"",
@@ -17,14 +17,14 @@
     },
     "anthropic-news": {
       "last_modified": "Thu 11 Jun 2026 12:17:47 GMT",
-      "fetched_at": "2026-06-16T15:55:55.41737Z"
+      "fetched_at": "2026-06-17T09:35:52.693696Z"
     },
     "anthropic-research": {
       "last_modified": "Mon 15 Jun 2026 11:19:21 GMT",
-      "fetched_at": "2026-06-16T02:19:05.966957Z"
+      "fetched_at": "2026-06-17T09:35:55.114917Z"
     },
     "antirez": {
-      "fetched_at": "2026-06-16T15:56:06.56058Z"
+      "fetched_at": "2026-06-17T09:36:05.711676Z"
     },
     "babysteps": {
       "etag": "W/\"6a28001f-6a7fdf\"",
@@ -56,9 +56,9 @@
       "fetched_at": "2026-06-15T23:49:32.279214Z"
     },
     "complexity": {
-      "etag": "W/\"46f2da1f40140f92a1af0f3fffc0e393b69e3625e63ee8ab85520e49bc656ace\"",
-      "last_modified": "Tue, 16 Jun 2026 14:34:15 GMT",
-      "fetched_at": "2026-06-16T15:54:45.742836Z"
+      "etag": "W/\"8085bd51dcacd1ddd59d9a557729842ba4042cda60d2135a6e955a4415ce3235\"",
+      "last_modified": "Tue, 16 Jun 2026 16:48:29 GMT",
+      "fetched_at": "2026-06-17T09:36:11.490908Z"
     },
     "danielstenberg": {
       "etag": "\"b527c2b982e2896e118b1d649cd297a1-gzip\"",
@@ -79,8 +79,8 @@
       "fetched_at": "2026-06-16T02:19:15.081901Z"
     },
     "gilkalai": {
-      "last_modified": "Tue, 16 Jun 2026 13:21:47 GMT",
-      "fetched_at": "2026-06-16T15:54:46.462611Z"
+      "last_modified": "Wed, 17 Jun 2026 05:44:27 GMT",
+      "fetched_at": "2026-06-17T09:36:12.181335Z"
     },
     "graydon": {
       "last_modified": "Sat, 14 Mar 2026 22:57:31 GMT",
@@ -89,7 +89,7 @@
     "gregg": {
       "etag": "\"2349d-64a310a7bc380-gzip\"",
       "last_modified": "Sat, 07 Feb 2026 00:32:30 GMT",
-      "fetched_at": "2026-06-16T15:56:02.271791Z"
+      "fetched_at": "2026-06-17T09:36:00.557161Z"
     },
     "gustedt": {
       "last_modified": "Sat, 23 May 2026 22:48:50 GMT",
@@ -116,8 +116,8 @@
       "fetched_at": "2026-06-15T23:49:23.209852Z"
     },
     "lwn": {
-      "etag": "\"e257854ea29cbdaf97f77e9902f65bd5e9409adbda6386b47ddaad3defee3b72\"",
-      "fetched_at": "2026-06-16T15:54:34.45311Z"
+      "etag": "\"06ef077cd75265b52eab37e1d0cc7b7f0dc4e4dcfc3764f519284a6bd618c57b\"",
+      "fetched_at": "2026-06-17T09:36:01.774351Z"
     },
     "marabos": {
       "etag": "\"66361365-29be\"",
@@ -125,9 +125,9 @@
       "fetched_at": "2026-06-15T23:49:25.711504Z"
     },
     "matklad": {
-      "etag": "W/\"6a30a5f0-1f437\"",
-      "last_modified": "Tue, 16 Jun 2026 01:25:04 GMT",
-      "fetched_at": "2026-06-16T01:42:12.74695Z"
+      "etag": "W/\"6a31f694-1f437\"",
+      "last_modified": "Wed, 17 Jun 2026 01:21:24 GMT",
+      "fetched_at": "2026-06-17T09:35:48.674877Z"
     },
     "mcyoung": {
       "etag": "W/\"ec5cfb53efa36e1858ad4352c0ec8dbc\"",
@@ -138,8 +138,8 @@
       "fetched_at": "2026-06-16T15:54:34.014333Z"
     },
     "modular": {
-      "last_modified": "Sat, 13 Jun 2026 19:10:18 GMT",
-      "fetched_at": "2026-06-15T23:49:23.922617Z"
+      "last_modified": "Tue, 16 Jun 2026 17:48:10 GMT",
+      "fetched_at": "2026-06-17T09:35:52.342625Z"
     },
     "nullprogram": {
       "etag": "W/\"6a21fdeb-2bd4b\"",
@@ -170,8 +170,8 @@
       "fetched_at": "2026-06-15T23:49:29.158829Z"
     },
     "terrytao": {
-      "last_modified": "Tue, 16 Jun 2026 15:28:19 GMT",
-      "fetched_at": "2026-06-16T15:54:46.845252Z"
+      "last_modified": "Wed, 17 Jun 2026 04:53:21 GMT",
+      "fetched_at": "2026-06-17T09:36:12.651506Z"
     },
     "thephd": {
       "etag": "W/\"6a2efb6e-81029\"",
@@ -198,22 +198,22 @@
       "fetched_at": "2026-06-15T23:49:27.890337Z"
     },
     "yandex": {
-      "fetched_at": "2026-06-16T15:56:04.623942Z"
+      "fetched_at": "2026-06-17T09:36:03.413686Z"
     },
     "yosefk": {
-      "etag": "\"691a2-654603313b4f1\"",
-      "last_modified": "Tue, 16 Jun 2026 15:00:10 GMT",
-      "fetched_at": "2026-06-16T15:54:42.121862Z"
+      "etag": "\"691a2-6546e72dd4bc7\"",
+      "last_modified": "Wed, 17 Jun 2026 08:00:10 GMT",
+      "fetched_at": "2026-06-17T09:36:08.763455Z"
     },
     "zeloof": {
       "etag": "\"cd749babf4d7b9b21a2103d2cb706a33-gzip\"",
       "last_modified": "Fri, 06 Sep 2024 04:46:54 GMT",
-      "fetched_at": "2026-06-16T15:56:05.837861Z"
+      "fetched_at": "2026-06-17T09:36:04.854208Z"
     },
     "zig-devlog": {
-      "etag": "W/\"6a309323-14a06\"",
-      "last_modified": "Tue, 16 Jun 2026 00:04:51 GMT",
-      "fetched_at": "2026-06-16T01:00:49.264241Z"
+      "etag": "W/\"6a31a366-14a06\"",
+      "last_modified": "Tue, 16 Jun 2026 19:26:30 GMT",
+      "fetched_at": "2026-06-17T09:35:55.511618Z"
     }
   }
 }
