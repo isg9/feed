@@ -15,39 +15,7 @@ The Chemical Basis of Morphogenesis
          Philosophical Transactions of the Royal Society of London. Series B, Biological Sciences, Vol.
          237, No. 641. (Aug. 14, 1952), pp. 37-72.
 
-Stable URL:
-http://links.jstor.org/sici?sici=0080-4622%2819520814%29237%3A641%3C37%3ATCBOM%3E2.0.CO%3B2-I
-
-Philosophical Transactions of the Royal Society of London. Series
-B, Biological Sciences is currently published by The Royal
-Society.
-
-Your use of the JSTOR archive indicates your acceptance of JSTOR's
-Terms and Conditions of Use, available at
-http://www.jstor.org/about/terms.html. JSTOR's Terms and
-Conditions of Use provides, in part, that unless you have obtained
-prior permission, you may not download an entire issue of a
-journal or multiple copies of articles, and you may use content in
-the JSTOR archive only for your personal, non-commercial use.
-
-Please contact the publisher regarding any further use of this
-work. Publisher contact information may be obtained at
-http://www.jstor.org/journals/rsl.html.
-
-Each copy of any part of a JSTOR transmission must contain the
-same copyright notice that appears on the screen or printed page
-of such transmission.
-
-JSTOR is an independent not-for-profit organization dedicated to
-and preserving a digital archive of scholarly journals. For more
-information regarding JSTOR, please contact support@jstor.org.
-
-                                                                                                          http://www.jstor.org
-                                                                                                      Sat May 5 15:11:04 2007
-
-                THE CHEMICAL BASIS OF MOKPHOGENESIS
-
-                     BY A. M. TURING, F.R.S. University qf Manchester
+                     BY A. M. TURING, F.R.S. University of Manchester
                        (Received 9 November 195 1-Revised       15 March 1952)
 
 It is suggested that a system of chemical substances, called
@@ -169,8 +137,6 @@ not in question, the genes themselves may be eliminated from the
 discussion. Likewise any other catalysts obtained secondarily
 through the agency of
 
-                      CHEMICAL BASIS O F MORPHOGENESIS                                          39
-
 the genes may equally be ignored, if there is no question of their
 concentrations varying. There may, however, be some other
 morphogens, of the nature of evocators, which cannot be altogether
@@ -280,8 +246,6 @@ rate proportional to [C], i.e. to [A] [GI. If the amount of C is
 always small compared with the amount of G one can say that the
 presence of the catalyst and its amount merely alter the mass
 action constant
-
-                      CHEMICAL BASIS O F MORPHOGENESIS
 
 for the reaction A+ B, for the whole proceeds at a rate
 proportional to [ A ] .This situation does not, however, hold
@@ -403,8 +367,6 @@ to diffusion from the first cell to the second at the rate 0.06
 for the first morpho- gen and 0.18 for the second. I n sum the
 effect is a flow from the second cell to the first at the
 
-                     CHEMICAL BASIS O F MORPHOGENESIS                                        43
-
 rates 0.12, 0.04 for the two morphogens respectively. This flow
 tends to accentuate the already existing differences between the
 two cells. More generally, if
@@ -520,8 +482,6 @@ instability. The difficulty lies in the fact that there are
 species in which the proportions of left-handed and right-handed
 types are very unequal. I t will be as well to describe first an
 argument which appears to show that this should not happen.
-
-                     CHEMICAL BASIS O F MORPHOGENESIS                                        45
 
 The argument is very general, and might be applied to a very wide
 class of theories of inorphogenesis. An entity may be described as
@@ -729,8 +689,6 @@ s= 1 N Y, = k t - 2 (C, ewi+D, efiit)exp [-X s= 1 -1. 2nirs
 Here A,, B,, C,, D, are still related by (6.10), but otherwise are
 arbitrary complex numbers; p, and 81are the roots of (6.8).
 
-                      CHEMICAL BASIS O F MORPHOGENESIS                                          49
-
 The expression (6.1 1) gives the general solution of the equations
 (6.1) when one: assumes that departures from homogeneity are
 sufficiently small that the functions f(X, Y) and g(X, Y) can
@@ -844,8 +802,6 @@ k approach the forms
                                                                                 iot]) .
                                                                                              (8.2)
 
-                     CHEMICAL BASIS O F MORPHOGENESIS
-
 The real part ofp,,, has been represented by I,standing for
 'instability', and in the oscillatory case its imaginary part is
 w. By the use of the 2% operation (real part of), two terms have
@@ -940,8 +896,6 @@ in + this case is - -%Uwhich is negative. Their common sign is
 therefore negative. If, however, the roots are complex their real
 parts are both equal to -&- $U, which is negative.
 
-                     CHEMICAL BASIS O F MORPHOGENESIS                                                   53
-
 If the radius p of the ring be chosen so that for some integer so,
 t=U= ($1 ! 7iSo sin2-fl , there will be stationary waves with so
 lobes and a wave-length which is also equal to the chemical
@@ -982,7 +936,6 @@ to travelling waves are
 
                                Pl = Q,        p -a
                               a =-           a,, = 3,      a,, = - 1,
-                                                   7
                               aZ1= -2,       a,, = x,      a2, = 0,
                               a31 = 3,       aS2=-4,       a,, = 0 ,
 
@@ -1002,7 +955,6 @@ is 1. This means that there are travelling waves with unit
 added to a,,, a,, and a,,, the instability will become I in place
 of zero.
 
-54 A. M. TURING O N THE (f') Oscillatory case with extreme short
 wave-length. This means that there is metabolic oscillation with
 neighbouring cells nearly 180" out of phase. I t can be achieved
 with three morphogens and the following chemical data:
@@ -1062,8 +1014,6 @@ long wave-length.) This occurs if either
 
 The condition for instability in either case is that either bc>ad
 or a + d > 0.
-
-                      CHEMICAL BASIS O F MORPHOGENESIS                                        55
 
 (6) (Oscillating case with extreme long wave-length, i.e.
 synchronized oscillations.) This occurs if d-a 4J(ptv') bc<O and
@@ -1153,8 +1103,6 @@ There are two commonly occurring cases in which one can simplify
 this expression consider- ably without great loss of accuracy. If
 the system is in a distinctly stable state, then q(t),
 
-                     CHEMICAL BASIS O F MORPHOGENESIS                                         57
-
 which is near to p(t), will be distinctly negative, and exp will
 be small unless w is near to t. But then L,(w) and L2(w)may be
 replaced by Ll(t) and L2(t)in the integral, and also q(z) may be
@@ -1207,7 +1155,6 @@ although the exponents p,-,, p,,, pso+,may themselves vary
 appreciably in time, the differencesp,, -p,,-l and p,, -p,,+ are
 constant. I t certainly can happen that
 
-58 A. M. TURING ON T H E one of these differences is zero or
 nearly zero, and there is then 'neck and neck' competition. The
 weakest competition occurs when$,,-, =p,,+,. I n this case
 
@@ -1260,8 +1207,6 @@ to zero as the instability (p,) tends to zero. If, however, k is
 negative the growth becomes something even faster than
 exponential, and, ifthe equation dzl/dt = 6,zl -kzg held
 universally, it would result in the amplitude becoming
-
-                     CHEMICAL BASIS O F MORPHOGENESIS                                      59
 
 infinite in a finite time. This phenomenon may be called
 'catastrophic instability'. In the case of two-dimensional systems
@@ -1318,7 +1263,6 @@ function
 
                                       exp [-4(x2+y2)]
 
-60 A. M. TURING ON T H E was used and h was about 0.7. In the
 figure the set of points wheref(x, y) is positive is shown black.
 The outlines of the black patches are somewhat less irregular than
 they should be due to an inadequacy in the computation procedure.
@@ -1356,8 +1300,6 @@ concentrations. This will not lead to any real confusion. The
 diffusion constant for X will be assumed to be 5 x 10- cm2s-l and
 that for Y to be 2.5 x crn2s-l. With cells of diameter 0.01 cni
 this means that X flows between neighbouring cells at the
-
-                       CHEMICAL BASIS O F MORPHOGENESIS                                             61
 
 rate 5 x l o p 4 of the difference of X-content of the two cells
 per second. I n other words, if there is nothing altering the
@@ -1446,8 +1388,6 @@ of A might have similar effects, but the change would have to be
 rather great. I t is preferable to assume that A is a 'fuel
 substance' (e.g. glucose) whose concentration does
 
-                     CHEMICAL BASIS O F MORPHOGENESIS                                         63
-
 not change. The concentration of C, together with its combined
 form C', will be supposed the same in all cells, but it changes
 with the passage of time. Two different varieties of the problem
@@ -1490,7 +1430,6 @@ strong that the final pattern is four-lobed. How often this
 happens is not known, but the pattern, when it occurs, is shown in
 the last 8-2
 
-64 A. M. TURING ON T H E two columns of the table. In this case
 the disturbances were supposed removed for some time before
 recording, so as to give a perfectly regular pattern. The
 remaining column refers to a second variety, one with 'slow
@@ -1542,8 +1481,6 @@ the commonest, and this is confirmed by the values p,,. The
 four-lobed pattern is evidently the closest com- petitor. The
 closeness of the competition may be judged from the differencep,
 -p, = 0.0084,
-
-                      CHEMICAL BASIS O F MORPHOGENESIS                                           65
 
 which suggests that the three-lobed component takes about 120 S.U.
 or about 33 h to gain an advantage of a neper (i.e. about 2.7 :1)
@@ -1648,8 +1585,6 @@ pattern in two dimensions produced by this type of process is
 shown in figure 2 for comparison with 'dappling'. If dappled
 patterns are to be explained in this way they must be laid down in
 a latent form when the foetus is only
-
-                     CHEMICAL BASIS OF MORPHOGENESIS                                        67
 
 a few inches long. Later the distances would be greater than the
 morphogens could travel by diffusion. ( b ) This case is similar
@@ -1768,8 +1703,6 @@ both these quantities will have to be given some new
 interpretation more appropriate to woodruff than to the ring.
 Another important example of a structure with polygonal
 
-                      CHEMICAL BASIS O F MORPHOGENESIS
-
 symmetry is provided by young root fibres just breaking out from
 the parent root. Initially these are almost homogeneous in
 cross-section, but eventually a ring of fairly evenlly spaced
@@ -1861,8 +1794,6 @@ both of them are surface harmonics of the same degree no, viz.
 that which makes the greater of the roots qno, qi,, have the
 greatest value.
 
-                      CHEMICAL BASIS O F MORPHOGENESIS                                       71
-
 I t is probable that the forms of various nearly spherical
 structures, such as radiolarian skeletons, are closely related to
 these spherical harmonic patterns. The most important application
@@ -1916,7 +1847,6 @@ interest as giving the first appearance of a pattern, but they are
 the exception rather than the rule. Most of an organism, most
 of'the time, is developing
 
-72 A. M. T U R I N G O N T H E CHEMICAL BASIS O F MORPHOGENESIS
 from one pattern into another, rather than from homogeneity into a
 pattern. One would like to be able to follow this more general
 process mathematically also. The difficulties are, however, such

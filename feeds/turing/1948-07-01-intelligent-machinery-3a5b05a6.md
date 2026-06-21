@@ -36,8 +36,8 @@ are:
 rivals in intellectual power. This occurs as much amongst intellectual
 people as amongst others: they have more to lose. Those who admit the
 possibility all agree that its realization would be very disagreeable. The
-same situation arises in connection with the possibility of ou being
-superseded by some other animal species, This is almost as disagreeable
+same situation arises in connection with the possibility of us being
+superseded by some other animal species. This is almost as disagreeable
 and its theoretical possibility is indisputable.
 (b) A religious belief that any attempt to construct such machines is a
 sort of Promethean irreverence.
@@ -48,15 +48,6 @@ tive, jobs. This attitude is very well expressed by Dorothy Sayers (The
 Mind of the Maker p. 46) ‘... which imagines that God, having created
 his Universe, has now screwed the cap on His pen, put His feet on the
 
-3
-107]
-
-[1]
-
-[2]
-
-PROLOGUE
-
 mantelpiece and left the work to get on with itself.’ This, however, rather
 comes into St Augustine’s category of figures of speech or enigmatic
 sayings framed from things which do not exist at all. We simply do not
@@ -66,7 +57,7 @@ vast machine and has left it working until it runs down from lack of fuel.
 This is another of those obscure analogies, since we have no experience of
 machines that produce variety of their own accord; the nature of a machine
 is to ‘do the same thing over and over again so long as it keeps going’.
-(d) Recently the theorem of Gédel and related results (Gédel 1931,
+(d) Recently the theorem of Gödel and related results (Gödel 1931,
 Church 1936, Turing 1937) have shown that if one tries to use machines
 for such purposes as determining the truth or falsity of mathematical
 theorems and one is not willing to tolerate an occasional wrong result,
@@ -92,30 +83,25 @@ present. These arguments cannot be wholly ignored, because the idea of
 
 The objection (c) in its crudest form is refuted at once by the actual
 existence of machinery (ENIAC etc.) which can go on through immense
-numbers (e.g. 106000 about for ACE) of operations without repetition,
+numbers (e.g. 10^60000 about for ACE) of operations without repetition,
 assuming no breakdown. The more subtle forms of this objection will be
 considered at length on pages 18-22.
 
-The argument from Gédel’s and other theorems (objection d) rests
+The argument from Gödel’s and other theorems (objection d) rests
 essentially on the condition that the machine must not make mistakes. But
 this is not a requirement for intelligence. It is related that the infant Gauss
 was asked at school to do the addition 15+18+21+ ... +54 (or something
 of the kind) and that he immediately wrote down 483, presumably having
-calculated it as (15+54)(54—12)/2.3. One can imagine circumstances
+calculated it as (15+54)(54−12)/2.3. One can imagine circumstances
 where a foolish master told the child that he ought instead to have added 18
 to 15 obtaining 33, then added 21, etc. From some points of view this would
 be a ‘mistake’, in spite of the obvious intelligence involved. One can also
 
-4
-[108]
-
-TURING
-
 imagine a situation where the children were given a number of additions to
 do, of which the first 5 were all arithmetic progressions, but the 6th was say
-234+344+45+4+ ... +100+1124+122+...+199. Gauss might have given
+23+34+45+ ... +100+112+122+...+199. Gauss might have given
 the answer to this as if it were an arithmetic progression, not having noticed
-that the 9th term was 112 instead of I11. This would be a definite mistake,
+that the 9th term was 112 instead of 111. This would be a definite mistake,
 which the less intelligent children would not have been likely to make.
 
 The view (d) that intelligence in machinery is merely a reflection of that of
@@ -161,14 +147,6 @@ A Brain (probably) Continuous Controlling, but is very
 
 similar to much discrete machinery
 
-109]
-
-[3]
-
-4]
-
-PROLOGUE
-
 The ENIAC, ACE, etc. Discrete Controlling
 A Differential Analyser Continuous Controlling.
 
@@ -185,7 +163,7 @@ the number of states (configurations) it can have. This number may be
 infinite (but enumerable) in which case we say that the machine has infinite
 memory (or storage) capacity. If the machine has a finite number N of
 possible states then we say that it has a memory capacity of (or equivalent
-to) logzN binary digits. According to this definition we have the following
+to) log₂N binary digits. According to this definition we have the following
 table of capacities, very roughly
 
 Brunsviga 90
@@ -218,12 +196,6 @@ principle be designed to do, when we are willing to allow it both unlimited
 time and unlimited storage capacity.
 Universal logical computing machines. It is possible to describe LCMs in a
 very standard way, and to put the description into a form which can be
-
-6
-
-[110]
-
-TURING
 
 ‘understood’ (i.e., applied by) a special machine. In particular it is possible
 to design a ‘universal machine’ which is an Lc such that if the standard
@@ -262,39 +234,24 @@ In practice however one can assign finite bounds to the numbers that one
 will deal with. For instance we can assign a bound to the number of steps
 that we will admit in a calculation performed with a real machine in the
 following sort of way. Suppose that the storage system depends on charging
-condensers of capacity C=1 yf, and that we use two states of charging,
-E=100 volts and ~E=— 100 volts. When we wish to use the information
+condensers of capacity C=1 μf, and that we use two states of charging,
+E=100 volts and −E=−100 volts. When we wish to use the information
 carried by the condenser we have to observe its voltage. Owing to thermal
 agitation the voltage observed will always be slightly wrong, and the proba-
-bility of an error between V and V—dYV volts is
+bility of an error between V and V−dV volts is
 
-2kT
-—— €
+> (2kT/πC) · e^(−½V²C/kT) · V dV
 
-—4V2C/kT
-rei VdV
-
-where k is Boltzmann’s constant. Taking the values suggested we find that.
-
-the probability of reading the sign of the voltage wrong is about 1071'2*10°°,
-If then a job took more than 1010'’ steps we should be virtually certain of
-
-7
-
-111]
-
-[5]
-
-[6]
-
-PROLOGUE
+where k is Boltzmann’s constant. Taking the values suggested we find that
+the probability of reading the sign of the voltage wrong is about 10^(−1.2×10^16).
+If then a job took more than 10^(10^17) steps we should be virtually certain of
 
 getting the wrong answer, and we may therefore restrict ourselves to jobs
 with fewer steps. Even a bound of this order might have useful simplifying
 effects. More practical bounds are obtained by assuming that a light wave
 must travel at least 1 cm between steps (this would only be false with a very
 small machine), and that we could not wait more than 100 years for an
-answer. This would give a limit of 1020 steps. The storage capacity will
+answer. This would give a limit of 10^20 steps. The storage capacity will
 probably have a rather similar bound, so that we could use sequences of
 20 decimal digits for describing the position in which a given piece of data
 was to be found, and this would be a really valuable possibility.
@@ -336,11 +293,6 @@ blocks 1, 2,.... We should then have to store n, and in theory it would be
 of indefinite size. This sort of process can be extended in all sorts of ways,
 but we shall always be left with a positive integer which is of indefinite size
 
-8
-(112]
-
-TURING
-
 and which needs to be stored somewhere, and there seems to be no way out
 of the difficulty but to introduce a ‘tape’. But once this has been done, and
 since we are only trying to prove a theoretical result, one might as well,
@@ -378,7 +330,7 @@ purpose (though the universal machines are in a sense an exception). We
 might instead consider what happens when we make up a machine in a
 comparatively unsystematic way from some kind of standard components.
 We could consider some particular machine of this nature and find out what
-sort of things it is likely to do. Machines which are largely raridom in their
+sort of things it is likely to do. Machines which are largely random in their
 construction in this way will be called ‘Unorganized Machines’. This does
 not pretend to be an accurate term. It is conceivable that the same
 machine might be regarded by one man as organized and by another as
@@ -389,14 +341,6 @@ machine is made up from a rather large number WN of similar units. Each unit
 has two input terminals, and has an output terminal which can be connected
 to the input terminals of (0 or more) other units. We may imagine that for
 each integer r, 1<r<N two numbers i(r) and j(r) are chosen at random
-
-9
-
-1113]
-
-[7]
-
-PROLOGUE
 
 from 1... N and that we connect the inputs of unit r to the outputs of units
 
@@ -409,19 +353,27 @@ which the input leads come are to be taken at the previous moment, multiplied
 together and the result subtracted from 1. An unorganized machine of this
 character is shown in the diagram below.
 
-r i(r) ji) ) 2)
-J 3 2
-2 3 5
-3 4 5
-4 3 4
+```
+r    i(r)   j(r)
+1     3      2
+2     3      5
+3     4      5
+4     3      4
+5     2      5
+```
 
-A sequence of six possible consecutive conditions for the whole machine is:
+*(In the diagram the five units are connected so that unit r takes its inputs from units i(r) and j(r) as tabulated above.)*
 
-| 1100 1 0
-2 1 1101 0
-3 OoO1i1i1t1ii1
-4 01010 1
-5 1010 1 0
+A sequence of six possible consecutive conditions for the whole machine is (rows are the five units, columns the six successive moments):
+
+```
+unit \ moment   1  2  3  4  5  6
+   1            1  1  0  0  1  0
+   2            1  1  1  0  1  0
+   3            0  1  1  1  1  1
+   4            0  1  0  1  0  1
+   5            1  0  1  0  1  0
+```
 
 The behaviour of a machine with so few units is naturally very trivial.
 However, machines of this character can behave in a very complicated manner
@@ -431,32 +383,18 @@ of 5 units. The motion of an A-type machine with N units is of course even-
 tually periodic, as in any determined machine with finite memory capacity.
 The period cannot exceed 2” moments, nor can the length of time before the
 periodic motion begins. In the example above the period is 2 moments and
-there are 3 moments before the periodic motion begins. 2% is 32.
+there are 3 moments before the periodic motion begins. 2⁵ is 32.
 
 The A-type unorganized machines are of interest as being about the simplest
 model of a nervous system with a random arrangement of neurons. It would
 therefore be of very great interest to find out something about their behaviour.
 A second type of unorganized machine will now be described, not because it is
 
-10
-1114]
-
-TURING
-
 of any great intrinsic importance, but because it will be useful later for
-illustrative purposes. Let us denote the circuit
-
-by
-
-WY
-[J
-Y
-
-as an abbreviation. Then for each A-type unorganized machine we can
-construct another machine by replacing each connection —-—~>——— in it by
-
-+I >. The resulting machines will be called B-type unorganized
-machines, It may be said that the B-type machines are all A-type. To this I
+illustrative purposes. Let us denote the circuit *(diagram omitted)* by *(diagram omitted)* as an abbreviation. Then for each A-type unorganized machine we can
+construct another machine by replacing each connection *(diagram omitted)* in it by
+*(diagram omitted)*. The resulting machines will be called B-type unorganized
+machines. It may be said that the B-type machines are all A-type. To this I
 would reply that the above definitions if correctly (but drily!) set out would
 take the form of describing the probability of an a- (or B-) type machine
 belonging to a given set; it is not merely a definition of which are the A-type
@@ -464,13 +402,12 @@ machines and which are the B-type machines, If one chooses an A-type
 machine, with a given number of units, at random, it will be extremely
 unlikely that one will get a B-type machine.
 
-It is easily seen that the connection ——+{_}——> can have three
+It is easily seen that the connection *(diagram omitted)* can have three
 conditions. It may (i) pass all signals through with interchange of 0 and 1,
 or (ii) it may convert all signals into 1, or again (iii) it may act as in (i) and
 (ii) in alternate moments. (Alternative (iii) has two sub-cases.) Which of
 these cases applies depends on the initial conditions. There is a delay of two
-
-moments in going through t—>{_}——-> .
+moments in going through *(diagram omitted)*.
 
 INTERFERENCE WITH MACHINERY. MODIFIABLE AND
 
@@ -489,13 +426,7 @@ be described as ‘screwdriver interference’, At the other end of the scale is
 to the machine, which alters its behaviour, In view of the properties of the
 universal machine we do not need to consider the difference between these
 
-11
-
-[115]
-
-PROLOGUE
-
-~ two kinds of machine as being so very radical after all. Paper interference
+two kinds of machine as being so very radical after all. Paper interference
 when applied to the universal machine can be as useful as screwdriver
 interference.
 
@@ -545,11 +476,6 @@ servo-mechanisms, Here we are chiefly interested in the nervous system. We
 could produce fairly accurate electrical models to copy the behaviour of
 nerves, but there seems very little point in doing so. It would be rather like
 
-12
-[116]
-
-TURING
-
 putting a lot of work into cars which walked on legs instead of continuing to
 use wheels. The electrical circuits which are used in electronic computing
 machinery seem to have the essential properties of nerves. They are able to
@@ -597,14 +523,6 @@ restricted to branches where diagrams are not much used. Of the above
 possible fields the learning of languages would be the most impressive, since —
 it is the most human of these activities, This field seems however to depend
 rather too much on sense organs and locomotion to be feasible.
-
-13
-
-117]
-
-[8]
-
-PROLOGUE
 
 The field of cryptography will perhaps be the most rewarding. There is a
 remarkably close parallel between the problems of the physicist and those
@@ -659,15 +577,10 @@ ORGANIZING UNORGANIZED MACHINERY
 Many unorganized machines have configurations such that if once that
 configuration is reached, and if the interference thereafter is appropriately
 
-14
-[118]
-
-TURING
-
 restricted, the machine behaves as one organized for some definite purpose.
 For instance, the B-type machine shown below was chosen at random.
 
-__ OUT
+*(diagram omitted — a B-type machine with an OUT terminal and connections numbered 1–7)*
 
 If the connections numbered 1, 3, 6, 4, are in condition (ii) initially and
 connections 2, 5, 7 are in condition (i), then the machine may be considered
@@ -684,14 +597,8 @@ outside the main argument. )
 
 With these B-type machines the possibility of interference which could
 set in appropriate initial conditions has not been arranged for. It is however
-not difficult to think of appropriate methods by which this could be done,
-For instance instead of the connection
-
-one might use
-
-1119]
-
-PROLOGUE
+not difficult to think of appropriate methods by which this could be done.
+For instance instead of the connection *(diagram omitted)* one might use *(diagram omitted)*.
 
 Here A, B are interfering inputs, normally giving the signal ‘1’. By supplying
 appropriate other signals at A, B we can get the connection into condition
@@ -742,11 +649,6 @@ mind.
 
 This picture of the cortex as an unorganized machine is very satisfactory
 
-16
-[120]
-
-TURING
-
 from the point of view of evolution and genetics. It clearly would not require
 any very complex system of genes to produce something like the A- or B-type
 unorganized machine. In fact this should be much easier than the production
@@ -791,19 +693,10 @@ the machine described by the character. It is intended that pain stimuli
 occur when the machine’s behaviour is wrong, pleasure stimuli when it
 is particularly right. With appropriate stimuli on these lines, judiciously
 operated by the ‘teacher’, one may hope that the ‘character’ will converge
-towards the one desired, i.e., that wrong behaviour will tend to become rare. |
+towards the one desired, i.e., that wrong behaviour will tend to become rare.
 
 I have investigated a particular type of pleasure—pain system, which I will
 now describe.
-
-17
-[121]
-
-[9]
-
-[10]
-
-PROLOGUE
 
 THE P-TYPE UNORGANIZED MACHINE
 
@@ -822,10 +715,9 @@ entries showing the behaviour of the machine in each situation. Each entry
 has to say something both about the next situation and about what action
 the machine has to take. The action part may be either
 
-(i) To do some externally visible act Ay or Az... Ax
+(i) To do some externally visible act A₁ or A₂...A_K
 
-(ii) To set one of the memory units M; ... Mg either into the ‘1’ condition
-
+(ii) To set one of the memory units M₁...M_R either into the ‘1’ condition
 or into the ‘0’ condition.
 
 The next situation is always the remainder either of 2s or of 2s+1 on
@@ -841,14 +733,14 @@ applies may be determined by either
 In each situation it is determined which of these applies when the machine is
 made, i.e., interference cannot alter which of the three cases applies. Also in
 cases (a) and (b) interference can have no effect. In case (c) the entry in the
-character table may be either U (‘uncertain’), or TO (tentative 0), Tl, DO
+character table may be either U (‘uncertain’), or T0 (tentative 0), T1, D0
 (definite 0) or D1. When the entry in the character for the current situation
 is U then the alternative is chosen at random, and the entry in the character
-is changed to TO or T1 according as 0 or 1 was chosen. If the character entry
-was TO or DO then the alternative is 0 and if it is T1 or D1 then the alternative
-is |. The changes in character include the above mentioned change from U to
-TO or Tl, and a change of every T to D when a pleasure stimulus occurs,
-changes of TO and T1 to U when a pain stimulus occurs.
+is changed to T0 or T1 according as 0 or 1 was chosen. If the character entry
+was T0 or D0 then the alternative is 0 and if it is T1 or D1 then the alternative
+is 1. The changes in character include the above mentioned change from U to
+T0 or T1, and a change of every T to D when a pleasure stimulus occurs,
+changes of T0 and T1 to U when a pain stimulus occurs.
 
 We may imagine the memory units essentially as ‘trigger circuits’ or
 switches. The sense stimuli are means by which the teacher communicates
@@ -858,22 +750,19 @@ carries either the signal 0 or 1.
 
 A small p-type machine is described in the table below
 
-1 P A
-2P B Mil=1
-3 PB
-4 S! A MI=0
-5 MI C
-
-18
-1122]
-
-TURING
+```
+1   P    A
+2   P    B    M1=1
+3   P    B
+4   S1   A    M1=0
+5   M1   C
+```
 
 In this machine there is only one memory unit M1 and one sense line S1. Its
 behaviour can be described by giving the successive situations together with
 the actions of the teacher: the latter consist of the values of S1 and the rewards
 and punishments. At any moment the ‘character’ consists of the above table
-with each ‘P’ replaced by either U, TO, DO or D1. In working out the behaviour
+with each ‘P’ replaced by either U, T0, D0 or D1. In working out the behaviour
 of the machine it is convenient first of all to make up a sequence of random
 digits for use when the U cases occur. Underneath these we may write the
 sequence of situations, and have other rows for the corresponding entries
@@ -882,18 +771,15 @@ values stored in the memory units may be kept on another sheet. The T
 entries may be made in pencil and the D entries in ink. A bit of the behaviour
 of the machine is given below:
 
-Random sequence 0o01l110010011011000
-
-Situations 31313131244432~.
-
-Alternative given by UTTTTTUUS SS UT
-00000 111 0
-
-Visible action BABABABABAAABB
-
-Rew. & Pun. P
-
-Changes in S1 1 0
+```
+Random sequence       0 0 1 1 1 0 0 1 0 0 1 1 0 1 1 0 0 0
+Situations            3 1 3 1 3 1 3 1 2 4 4 4 3 2 . .
+Alternative given by  U T T T T T U U  S S S  U T
+                      0 0 0 0 0        1 1 1      0
+Visible action        B A B A B A B A B A A A B B
+Rew. & Pun.                           P
+Changes in S1         1                           0
+```
 
 It will be noticed that the machine very soon got into a repetitive cycle. This
 became externally visible through the repetitive BABAB.... By means of
@@ -908,7 +794,7 @@ organizing becomes quite feasible. Such a memory could be provided in the
 form of a tape, and the externally visible operations could include movement
 to right and left along the tape, and altering the symbol on the tape to 0 or
 to 1. The sense lines could include one from the symbol on the tape. Alterna-
-tively, if the memory were to be finite, e.g., not more than 232 binary digits,
+tively, if the memory were to be finite, e.g., not more than 2^32 binary digits,
 we could use a dialling system. (Dialling systems can also be used with an
 infinite memory, but this is not of much practical interest.) I have succeeded
 in organizing such a (paper) machine into a universal machine.
@@ -917,22 +803,15 @@ The details of the machine involved were as follows. There was a circular
 memory consisting of 64 squares of which at any moment one was in the
 machine (‘scanned’) and motion to right or left were among the ‘visible
 actions’. Changing the symbol on the square was another ‘visible action’,
-and the symbol was connected to one of the sense lines S1. The even-numbered |
+and the symbol was connected to one of the sense lines S1. The even-numbered
 squares also had another function, they controlled the dialling of information
-to or from the main memory. This main memory consisted of 232 binary
-
-19
-
-[123]
-
-PROLOGUE
-
-digits. At any moment one of these digits was connected to the sense line 82.
+to or from the main memory. This main memory consisted of 2^32 binary
+digits. At any moment one of these digits was connected to the sense line S2.
 The digit of the main memory concerned was that indicated by the 32 even
 positioned digits of the circular memory. Another two of the ‘visible actions’
 were printing 0 or 1 in this square of the main memory. There were also
-three ordinary memory units and three sense units $3, $4, S5. Also six other
-_ externally visible actions A,B,C,D,E,F.
+three ordinary memory units and three sense units S3, S4, S5. Also six other
+externally visible actions A,B,C,D,E,F.
 
 This p-type machine with external memory has, it must be admitted,
 considerably more ‘organization’ than say the A-type unorganized machine.
@@ -952,8 +831,8 @@ A similar investigation, with less use of punishment, enables one to find the
 situations which are affected by the sense lines; the data about the situations
 involving the memory units can also be found but with more difficulty. At
 this stage the character has been reconstructed. There are no occurrences of
-TO, Tl, DO, D1. The next stage is to think up some way of replacing the Os
-of the character by DO, D1 in such a way as to give the desired modification.
+T0, T1, D0, D1. The next stage is to think up some way of replacing the 0s
+of the character by D0, D1 in such a way as to give the desired modification.
 This will normally be possible with the suggested number of situations
 (1000), memory units, etc. The final stage is the conversion of the character
 into the chosen one. This may be done simply by allowing the machine to
@@ -967,7 +846,7 @@ The form of universal machine actually produced in this process was as
 follows. Each instruction consisted of 128 digits, which we may regard as
 forming four sets of 32, each of which describes one place in the main memory.
 These places may be called P,Q,R,S. The meaning of the instruction is that
-if p is the digit at P and qg that at Q then | —pq is to be transferred to position
+if p is the digit at P and q that at Q then 1−pq is to be transferred to position
 R and that the next instruction will be found in the 128 digits beginning at S.
 This gives a UPCM, though with rather less facilities than are available say
 on the ACE.
@@ -976,13 +855,8 @@ I feel that more should be done on these lines. I would like to investigate
 other types of unorganized machines, and also to try out organizing methods
 that would be more nearly analogous to our ‘methods of education’. I made
 
-20
-124]
-
-TURING
-
-a Start on the latter but found the work altogether too laborious at present.
-When some electronic machines are in actual operation J hope that they will
+a start on the latter but found the work altogether too laborious at present.
+When some electronic machines are in actual operation I hope that they will
 make this more feasible. It should be easy to make a model of any particular
 machine that one wishes to work on within such a UPCM instead of having
 to work with a paper machine as at present. If also one decided on quite
@@ -1027,20 +901,10 @@ this residue as it occurs in man, and to try and copy it in machines.
 Two possible methods of setting about this present themselves. On the one
 hand we have fully disciplined machines immediately available, or in a
 
-matter of months or years, in the form of various UPCMs. We might try to |
+matter of months or years, in the form of various UPCMs. We might try to
 
 graft some initiative onto these. This would probably take the form of
 programming the machine to do every kind of job that could be done, as a
-
-21
-
-[125]
-
-(ity
-
-[12]
-
-PROLOGUE
 
 matter of principle, whether it were economical to do it by machine or not,
 Bit by bit one would be able to allow the machine to make more and more
@@ -1075,7 +939,7 @@ order and to test each one to see whether it has the required property, and to
 go on until one is found which has it. Such a method will only be successful
 in the simplest cases, For instance in the case of problems of the kind
 mentioned above, where one is really searching for a program, the number
-required will normally be somewhere between 21000 and 21,000,000, For practi-
+required will normally be somewhere between 2^1000 and 2^1,000,000. For practi-
 cal work therefore some more expeditious method is necessary. In a number
 of cases the following method would be successful. Starting with a UPCM we
 first put a program into it which corresponds to building in a logical system
@@ -1090,11 +954,6 @@ variable n one searches through values of something else. In practice when
 solving problems of the above kind one will probably apply some very
 complex ‘transformation’ of the original problem, involving searching through
 
-22
-[126]
-
-TURING
-
 various variables, some more analogous to the original one, some more like
 a ‘search through all proofs’. Further research into intelligence of machinery
 will probably be very greatly concerned with ‘searches’ of this kind. We may
@@ -1104,7 +963,7 @@ properties’.
 
 It may be of interest to mention two other kinds of search in this connec-
 tion. There is the genetical or evolutionary search by which a combination of
-genes is looked for, the criterion’ being survival value. The remarkable
+genes is looked for, the criterion being survival value. The remarkable
 success of this search confirms to some extent the idea that intellectual
 activity consists mainly of various kinds of search.
 
@@ -1134,19 +993,14 @@ experiment A,B,C. A and C are to be rather poor chess players, B is the operator
 who works the paper machine. (In order that he should be able to work it
 fairly fast it is advisable that he be both mathematician and chess player.)
 Two rooms are used with some arrangement for communicating moves, and a
-game is played between C and either A or the paper machine. c may find it
+game is played between C and either A or the paper machine. C may find it
 quite difficult to tell which he is playing. (This is a rather idealized form of an
 experiment I have actually done.)
 
 REFERENCES
 Church, Alonzo (1936) An unsolvable problem of elementary number theory.
-Amer. J. of Math, 58, 345-63.
-Gédel, K. (1931) Uber formal unentscheidbare Satze der Principia Mathematica und
-verwandter Systeme. Monatshefte fur Math. und Phys, 38. 173-89.
+Amer. J. of Math. 58, 345-63.
+Gödel, K. (1931) Über formal unentscheidbare Sätze der Principia Mathematica und
+verwandter Systeme. Monatshefte für Math. und Phys. 38, 173-89.
 Turing, A.M. (1937) On computable numbers with an application to the Entscheidungs-
-problem. Proc, London Math. Soc. 42, 230-65,
-
-23
-[127]
-
-113]
+problem. Proc. London Math. Soc. 42, 230-65.

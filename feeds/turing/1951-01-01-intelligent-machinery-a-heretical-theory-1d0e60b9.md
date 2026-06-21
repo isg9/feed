@@ -8,8 +8,6 @@ guid: https://gwern.net/doc/ai/1951-turing.pdf
 
 # Intelligent Machinery, A Heretical Theory
 
-CHAPTER 12
-
                     Intelligent Machinery, A Heretical
                                       Theory (c.1951)
                                                                             Alan Turing
@@ -20,7 +18,7 @@ Jack Copeland
 The ’51 Society
 Turing gave the presentation ‘Intelligent Machinery, A Heretical Theory’ on a
 radio discussion programme called The ’51 Society. Named after the year in which
-the programme Wrst went to air, The ’51 Society was produced by the BBC Home
+the programme first went to air, The ’51 Society was produced by the BBC Home
 Service at their Manchester studio and ran for several years.1 A presentation by the
 week’s guest would be followed by a panel discussion. Regulars on the panel
 included Max Newman, Professor of Mathematics at Manchester, the philosopher
@@ -41,8 +39,6 @@ machine within a reasonably short space of time’ (p. 473). He emphasizes the
 
                    1 Peter Hilton in interview with Copeland (June 2001).
 
-466 | Jack Copeland
-
 point, also made in Chapter 11, that one might ‘start from a comparatively
 simple machine, and, by subjecting it to a suitable range of ‘‘experience’’ trans-
 form it into one which was more elaborate, and was able to deal with a far greater
@@ -54,7 +50,7 @@ example of an index of experiences is a list (ordered in some way) of situations
 which the machine has found itself, coupled with the action that was taken, and
 the outcome, good or bad. The situations are described in terms of features.
 Faced with a choice as to what to do next, the machine looks up features of its
-present situation in whatever indexes it has. If this procedure aVords more than
+present situation in whatever indexes it has. If this procedure affords more than
 one candidate action, the machine selects between them by means of some rule,
 possibly itself learned through experience. Turing very reasonably grounds his
 belief that comparatively crude selection-rules will lead to satisfactory behaviour
@@ -66,7 +62,7 @@ whether a situation or outcome is a ‘favourable’ one or not, Turing returns 
 possibility of incorporating two ‘keys’ in the machine, which can be manipulated
 by the educator, and which represent ‘pleasure’ and ‘pain’ (p. 474). This is an
 idea that Turing discusses more fully in Chapter 10, where he considers adding
-two input lines to a (modiWed) Turing machine, the pleasure (or reward) line
+two input lines to a (modified) Turing machine, the pleasure (or reward) line
 and the pain (or punishment) line. He calls the result a ‘P-type machine’
 (‘P’ standing for ‘pleasure–pain’).2
 
@@ -82,18 +78,16 @@ element is rather useful when . . . searching for a solution of some problem’
 
   2 A detailed description of Turing’s P-type machines is given in B. J. Copeland and D. Proudfoot, ‘On
 Alan Turing’s Anticipation of Connectionism’, Synthese, 108 (1996), 361–77 (reprinted in R. Chrisley (ed.),
-ArtiWcial Intelligence: Critical Concepts in Cognitive Science, ii: Symbolic AI (London: Routledge, 2000)).
+Artificial Intelligence: Critical Concepts in Cognitive Science, ii: Symbolic AI (London: Routledge, 2000)).
 
-                                      Intelligent Machinery, A Heretical Theory | 467
-
-Suppose for instance we wanted to Wnd a number between 50 and 200 which was equal to
+Suppose for instance we wanted to find a number between 50 and 200 which was equal to
 the square of the sum of its digits, we might start at 51 then try 52 and so on until we got
 a number that worked. Alternatively we might choose numbers at random until we got a
 good one.
 
   Turing continues (p. 463):
 The systematic method has the disadvantage that there may be an enormous block
-without any solutions in the region which has to be investigated Wrst. Now the learning
+without any solutions in the region which has to be investigated first. Now the learning
 process may be regarded as a search for a form of behaviour which will satisfy the teacher
 (or some other criterion). Since there is probably a very large number of satisfactory
 solutions the random method seems to be better than the systematic. It should be noticed
@@ -102,13 +96,13 @@ that it is used in the analogous process of evolution.
   Turing’s discussion of ‘pleasure–pain systems’ in Chapter 10 also mentions
 randomness (p. 425):
 I will use this term [‘pleasure–pain’ system] to mean an unorganised machine of the
-following general character: The conWgurations of the machine are described by two
+following general character: The configurations of the machine are described by two
 expressions, which we may call the character-expression and the situation-expression.
 The character and situation at any moment, together with the input signals, determine the
 character and situation at the next moment. The character may be subject to some
-random variation. Pleasure interference has a tendency to Wx the character i.e. towards
+random variation. Pleasure interference has a tendency to fix the character i.e. towards
 preventing it changing, whereas pain stimuli tend to disrupt the character, causing
-features which had become Wxed to change, or to become again subject to random
+features which had become fixed to change, or to become again subject to random
 variation.
 
 The Mathematical Objection
@@ -120,7 +114,7 @@ Recently the theorem of Gödel and related results . . . have shown that if one
 machines for such purposes as determining the truth or falsity of mathematical theorems
 and one is not willing to tolerate an occasional wrong result, then any given machine will
 in some cases be unable to give an answer at all. On the other hand the human intelligence
-seems to be able to Wnd methods of ever-increasing power for dealing with such problems
+seems to be able to find methods of ever-increasing power for dealing with such problems
 ‘transcending’ the methods available to machines.
 
 In Chapter 11 he terms this the ‘Mathematical Objection’ (p. 450).
@@ -128,8 +122,6 @@ In Chapter 11 he terms this the ‘Mathematical Objection’ (p. 450).
 Computable Numbers’. The import of the satisfactoriness problem (explained in
 ‘Computable Numbers: A Guide’) is that no Turing machine can correctly
 determine the truth or falsity of each statement of the form ‘such-and-such
-
-468 | Jack Copeland
 
 Turing machine is circle-free’. Whichever Turing machine one chooses to ask,
 there will be statements of this form for which the chosen machine either gives
@@ -145,23 +137,23 @@ that ‘minds [can] be explained as machines’—is false.4 More recently, the
 mathematical physicist Roger Penrose has endorsed a version of the Gödel
 argument.5
    Lucas was happy to assert, on the basis of the Mathematical Objection, that
-‘no scientiWc enquiry can ever exhaust the . . . human mind’.6 Not many who
+‘no scientific enquiry can ever exhaust the . . . human mind’.6 Not many who
 admire the explanatory power of science would be happy to endorse this
 conclusion. Penrose himself appears to hold that the mind can be explained in
-ultimately physical terms. However, it is diYcult to say what scientiWc concep-
+ultimately physical terms. However, it is difficult to say what scientific concep-
 tion of the mind could be available to someone who endorses the Mathematical
 Objection. This is because the objection, if sound, could be used equally well to
 support the conclusion, not only that the mind is not a Turing machine, but also
 that it is not any one of a very broad range of machines (which includes the
 oracle machines). Given the enormous diversity of types of machine in this
-range, it is an open question whether there is any scientiWc conception of the
+range, it is an open question whether there is any scientific conception of the
 mind that the Mathematical Objection (if sound) would not rule out.7
    Penrose acknowledges that the objection applies not only to the view that the
 mind is equivalent to a Turing machine but ‘much more generally’, saying: ‘No
 doubt there are readers who believe that the last vestige of credibility of my
 [version of the Gödel] argument has disappeared at this stage! I certainly should
 not blame any reader for feeling this way.’8
-   So far, however, Penrose has not made it clear what scientiWc conception of the
+   So far, however, Penrose has not made it clear what scientific conception of the
 mind can remain for one who endorses the argument, remarking only that, since
   3 E. L. Post, ‘Absolutely Unsolvable Problems and Relatively Undecidable Propositions: Account of an
 Anticipation’, in M. Davis (ed.), The Undecidable: Basic Papers on Undecidable Propositions, Unsolvable
@@ -175,8 +167,6 @@ Doubting of a Shadow’, Psyche, 2/23 (1996).
   6 Lucas, ‘Minds, Machines and Gödel’, 127.
   7 See B. J. Copeland, ‘Turing’s O-machines, Penrose, Searle, and the Brain’, Analysis, 58 (1998), 128–38.
   8 Penrose, ‘Beyond the Doubting of a Shadow’, section 3.10, and Shadows of the Mind, 381.
-
-                                      Intelligent Machinery, A Heretical Theory | 469
 
 the argument ‘can be applied in very general circumstances indeed’, the mind is
 ‘something very mysterious’.9
@@ -205,7 +195,7 @@ very interesting statements.’
    Turing makes a similar point in Chapter 9 (pp. 393–4):
 [I]f a mathematician is confronted with such a problem [e.g. determining the truth or
 falsity of statements of the form ‘p is provable in such-and-such system’—Ed.] he would
-search around and Wnd new methods of proof, so that he ought eventually to be able to
+search around and find new methods of proof, so that he ought eventually to be able to
 reach a decision about any given formula. . . . I would say that fair play must be given
 to the machine. Instead of it sometimes giving no answer we could arrange that it
 gives occasional wrong answers. But the human mathematician would likewise make
@@ -214,13 +204,11 @@ not counting and give him another chance, but the machine would probably be allo
 no mercy.
 
   The use of heuristic search carries with it the risk of the computer producing a
-proportion of incorrect answers (see ‘ArtiWcial Intelligence’). This fact would
+proportion of incorrect answers (see ‘Artificial Intelligence’). This fact would
 have been very familiar to Turing from his experience with the bombe. Probably
 Turing was thinking of heuristic search when he wrote this, the earliest surviving
 
                       9 ‘Beyond the Doubting of a Shadow’, section 13.2.
-
-470 | Jack Copeland
 
 statement of his views concerning machine intelligence, in ‘Proposed Electronic
 Calculator’: ‘There are indications however that it is possible to make the
@@ -234,8 +222,8 @@ bility of a machine’s learning new methods and techniques that ultimately defe
 the Mathematical Objection. In the simplest possible case, the machine’s tutor—
 a human mathematician—can just present the machine with a better method
 whenever the machine produces an incorrect answer to a problem. This new
-input in eVect alters the machine’s standard description, transforming it into a
-diVerent Turing machine (see ‘Computable Numbers: A Guide’). Alternatively a
+input in effect alters the machine’s standard description, transforming it into a
+different Turing machine (see ‘Computable Numbers: A Guide’). Alternatively a
 machine may itself be able to search around (albeit fallibly) for better methods.
 The search might involve the use of a random element. As in the preceding case,
 the standard description of the machine alters in consequence of the learning
@@ -244,12 +232,12 @@ Turing says in Chapter 9: ‘What we want is a machine that can learn from
 experience. The possibility of letting the machine alter its own instructions
 provides the mechanism for this.’) Thus the learning machine may traverse the
 space of what in one of his letters to Newman (Chapter 4, p. 215) Turing calls
-‘proof Wnding’ machines. In the same letter Turing says:
-One imagines diVerent machines allowing diVerent sets of proofs, and by choosing a
+‘proof finding’ machines. In the same letter Turing says:
+One imagines different machines allowing different sets of proofs, and by choosing a
 suitable machine one can approximate ‘truth’ by ‘provability’ better than with a less
 suitable machine, and can in a sense approximate it as well as you please.
 
-  The learning machine successively mutates from one proof-Wnding Turing
+  The learning machine successively mutates from one proof-finding Turing
 machine into another, becoming capable of wider sets of proofs as new, more
 powerful methods of proof are acquired.
 
@@ -257,14 +245,12 @@ The Future
 Turing ends ‘Intelligent Machinery, A Heretical Theory’ with a vision of the
 future, now hackneyed, in which intelligent computers ‘outstrip our feeble
 powers’ and ‘take control’. There is more of the same in Chapter 13. No doubt
-this is comic-strip stuV. Nevertheless, these images of Turing’s reveal his pro-
+this is comic-strip stuff. Nevertheless, these images of Turing’s reveal his pro-
 found grasp of the potential of the universal Turing machine at a time when the
 
    10 ‘Proposed Electronic Calculator’, National Physical Laboratory, 1945, 16 (National Physical Laboratory
 library; a digital facsimile of the original typescript is in The Turing Archive for the History of Computing
 <www.AlanTuring.net/proposed_electronic_calculator> (page reference is to the original typescript)).
-
-                                           Intelligent Machinery, A Heretical Theory | 471
 
 only computers in existence were minuscule, and none but the most straightfor-
 ward of tasks had been successfully programmed.11
@@ -295,7 +281,7 @@ interview with Christopher Evans in 1976, ‘The Pioneers of Computing: An Oral 
    12 The typescript is among the Turing Papers in the Modern Archive Centre, King’s College, Cambridge
 (catalogue reference B 4). Turing’s mother Sara included the text of ‘Intelligent Machinery, A Heretical
 Theory’ in her biography Alan M. Turing but unfortunately incorporated some errors (S. Turing, Alan M.
-Turing (Cambridge: HeVer, 1959), 128–34.) The present edition Wrst appeared in B. J. Copeland (ed.),
+Turing (Cambridge: Heffer, 1959), 128–34.) The present edition first appeared in B. J. Copeland (ed.),
 ‘A Lecture and Two Radio Broadcasts on Machine Intelligence by Alan Turing’, in K. Furukawa, D. Michie,
 and S. Muggleton (eds.), Machine Intelligence 15 (Oxford: Oxford University Press, 1999).
 
@@ -304,7 +290,7 @@ Intelligent Machinery, A Heretical Theory
 usually accepted without question. It will be the purpose of this paper to
 question it.
    Most machinery developed for commercial purposes is intended to carry out
-some very speciWc job, and to carry it out with certainty and considerable speed.
+some very specific job, and to carry it out with certainty and considerable speed.
 Very often it does the same series of operations over and over again without any
 variety. This fact about the actual machinery available is a powerful argument to
 many in favour of the slogan quoted above. To a mathematical logician this
@@ -314,8 +300,8 @@ will, for instance, test the validity of a formal proof in the system of Princip
 Mathematica, or even tell of a formula of that system whether it is provable or
 disprovable. In the case that the formula is neither provable nor disprovable such
 a machine certainly does not behave in a very satisfactory manner, for it
-continues to work indeWnitely without producing any result at all, but this
-cannot be regarded as very diVerent from the reaction of the mathematicians,
+continues to work indefinitely without producing any result at all, but this
+cannot be regarded as very different from the reaction of the mathematicians,
 who have for instance worked for hundreds of years on the question as to
 whether Fermat’s last theorem is true or not. For the case of machines of this
 kind a more subtle argument is necessary. By Gödel’s famous theorem, or some
@@ -326,7 +312,7 @@ over the mathematician. Whatever it does can be relied upon, assuming no
 mechanical ‘breakdown’, whereas the mathematician makes a certain proportion
 of mistakes. I believe that this danger of the mathematician making mistakes is
 an unavoidable corollary of his power of sometimes hitting upon an entirely new
-method. This seems to be conWrmed by the well known fact that the most reliable
+method. This seems to be confirmed by the well known fact that the most reliable
 people will not usually hit upon really new methods.
    My contention is that machines can be constructed which will simulate the
 behaviour of the human mind very closely. They will make mistakes at times, and
@@ -334,13 +320,11 @@ at times they may make new and very interesting statements, and on the whole
 the output of them will be worth attention to the same sort of extent as the
 output of a human mind. The content of this statement lies in the greater
 frequency expected for the true statements, and it cannot, I think, be given an
-exact statement. It would not, for instance, be suYcient to say simply that the
+exact statement. It would not, for instance, be sufficient to say simply that the
 machine will make any true statement sooner or later, for an example of such a
 machine would be one which makes all possible statements sooner or later. We
 
              Printed with the permission of the BBC and the Estate of Alan Turing.
-
-                                   Intelligent Machinery, A Heretical Theory | 473
 
 know how to construct these, and as they would (probably) produce true and
 false statements about equally frequently, their verdicts would be quite worthless.
@@ -348,7 +332,7 @@ It would be the actual reaction of the machine to circumstances that would prove
 my contention, if indeed it can be proved at all.
    Let us go rather more carefully into the nature of this ‘proof ’. It is clearly
 possible to produce a machine which would give a very good account of itself for
-any range of tests, if the machine were made suYciently elaborate. However, this
+any range of tests, if the machine were made sufficiently elaborate. However, this
 again would hardly be considered an adequate proof. Such a machine would give
 itself away by making the same sort of mistake over and over again, and being
 quite unable to correct itself, or to be corrected by argument from outside. If the
@@ -377,15 +361,13 @@ mechanic who has constructed the machine, however, is permitted to keep the
 machine in running order, and if he suspects that the machine has been operat-
 ing incorrectly may put it back to one of its previous positions and ask the
 schoolmaster to repeat his lessons from that point on, but he may not take any
-part in the teaching. Since this procedure would only serve to test the bona Wdes
+part in the teaching. Since this procedure would only serve to test the bona fides
 of the mechanic, I need hardly say that it would not be adopted in the experi-
 mental stages. As I see it, this education process would in practice be an essential
 to the production of a reasonably intelligent machine within a reasonably short
 space of time. The human analogy alone suggests this.
    I may now give some indication of the way in which such a machine might be
 expected to function. The machine would incorporate a memory. This does not
-
-474 | Alan Turing
 
 need very much explanation. It would simply be a list of all the statements that
 had been made to it or by it, and all the moves it had made and the cards it had
@@ -396,7 +378,7 @@ take. It might be an alphabetical index of the words that had been used giving t
 ‘times’ at which they had been used, so that they could be looked up in the
 memory. Another such index might contain patterns of men on parts of a GO
 board that had occurred. At comparatively late stages of education the memory
-might be extended to include important parts of the conWguration of the
+might be extended to include important parts of the configuration of the
 machine at each moment, or in other words it would begin to remember what
 its thoughts had been. This would give rise to fruitful new forms of indexing.
 New forms of index might be introduced on account of special features observed
@@ -406,21 +388,21 @@ situation are looked up in the indexes available, and the previous choice in the
 similar situations, and the outcome, good or bad, is discovered. The new choice
 is made accordingly. This raises a number of problems. If some of the indications
 are favourable and some are unfavourable what is one to do? The answer to this
-will probably diVer from machine to machine and will also vary with its degree of
-education. At Wrst probably some quite crude rule will suYce, e.g. to do
+will probably differ from machine to machine and will also vary with its degree of
+education. At first probably some quite crude rule will suffice, e.g. to do
 whichever has the greatest number of votes in its favour. At a very late stage of
 education the whole question of procedure in such cases will probably have been
 investigated by the machine itself, by means of some kind of index, and this may
 result in some highly sophisticated, and, one hopes, highly satisfactory, form of
 rule. It seems probable however that the comparatively crude forms of rule will
 themselves be reasonably satisfactory, so that progress can on the whole be made
-in spite of the crudeness of the choice [of] rules.1 This seems to be veriWed by the
+in spite of the crudeness of the choice [of] rules.1 This seems to be verified by the
 fact that engineering problems are sometimes solved by the crudest rule of
-thumb procedure which only deals with the most superWcial aspects of the
+thumb procedure which only deals with the most superficial aspects of the
 problem, e.g. whether a function increases or decreases with one of its variables.
 Another problem raised by this picture of the way behaviour is determined is the
 idea of ‘favourable outcome’. Without some such idea, corresponding to the
-‘pleasure principle’ of the psychologists, it is very diYcult to see how to proceed.
+‘pleasure principle’ of the psychologists, it is very difficult to see how to proceed.
 Certainly it would be most natural to introduce some such thing into the
 machine. I suggest that there should be two keys which can be manipulated by
 the schoolmaster, and which represent the ideas of pleasure and pain. At later
@@ -430,17 +412,15 @@ pleasure, and likewise certain others as undesirable. Certain expressions of
 
          1 Editor’s note. Words enclosed in square brackets do not appear in the typescript.
 
-                                            Intelligent Machinery, A Heretical Theory | 475
-
 anger on the part of the schoolmaster might, for instance, be recognised as so
 ominous that they could never be overlooked, so that the schoolmaster would
-Wnd that it became unnecessary to ‘apply the cane’ any more.
+find that it became unnecessary to ‘apply the cane’ any more.
    To make further suggestions along these lines would perhaps be unfruitful at
 this stage, as they are likely to consist of nothing more than an analysis of actual
 methods of education applied to human children. There is, however, one feature
 that I would like to suggest should be incorporated in the machines, and that is
 a ‘random element’. Each machine should be supplied with a tape bearing a
-random series of Wgures, e.g. 0 and 1 in equal quantities, and this series of Wgures
+random series of figures, e.g. 0 and 1 in equal quantities, and this series of figures
 should be used in the choices made by the machine. This would result in the
 behaviour of the machine not being by any means completely determined by the
 experiences to which it was subjected, and would have some valuable uses when
