@@ -76,7 +76,41 @@ far surpasses any benefit obtained by being told how to do it. The part
 about "shortest" was just an incentive to demonstrate skill and
 determine a winner.
 
-FIGURE 1
+**Figure 1.** A C program that prints its own source — a self-reproducing program (quine). The array `s` encodes the body of the program from the `'0'` line to the end; `main` prints the declaration of `s`, then the bytes of `s` as data, then `s` again as text. It shows a program can be given knowledge of itself.
+
+```c
+char  s[] = {
+    '\t',
+    '0',
+    '\n',
+    '}',
+    ';',
+    '\n',
+    '\n',
+    '/',
+    '*',
+    '\n',
+    /* ... 213 lines deleted ... */
+    0
+};
+
+/*
+ * The string s is a
+ * representation of the body
+ * of this program from '0'
+ * to the end.
+ */
+
+main()
+{
+    int i;
+
+    printf("char\ts[] = {\n");
+    for(i = 0; s[i]; i++)
+        printf("\t%d, \n", s[i]);
+    printf("%s", s);
+}
+```
 
 Figure 1 shows a self-reproducing program in the C programming
 language. (The purist will note that the program is not precisely a
@@ -84,7 +118,7 @@ self-reproducing program, but will produce a self-reproducing program.)
 This entry is much too large to win a prize, but it demonstrates the
 technique and has two important properties that I need to complete my
 story: (I) This program can be easily written by another program. (2)
-This pro- gram can contain an arbitrary amount of excess baggage that
+This program can contain an arbitrary amount of excess baggage that
 will be reproduced along with the main algorithm. In the example, even
 the comment is reproduced.
 
@@ -104,7 +138,20 @@ can be escaped to represent unprintable characters. For example,
 
 represents a string with the character "\n," representing the new line character.
 
-FIGURE 2
+**Figure 2.** Idealized code from the C compiler that interprets a character escape sequence: read a char; if it is not a backslash, return it; otherwise read the next char and map `\\`->backslash, `n`->newline. Note it returns `'\n'` — the compiler must *already* know what newline is.
+
+```c
+    ...
+    c = next();
+    if(c != '\\')
+        return(c);
+    c = next();
+    if(c == '\\')
+        return('\\');
+    if(c == 'n')
+        return('\n');
+    ...
+```
 
 Figure 2 is an idealization of the code in the C compiler that
 interprets the character escape sequence. This is an amazing piece of
@@ -112,7 +159,22 @@ code. It "knows" in a completely portable way what character code is
 compiled for a new line in any character set. The act of knowing then
 allows it to recompile itself, thus perpetuating the knowledge.
 
-FIGURE 3
+**Figure 3.** The same routine extended to add `"\v"` (vertical tab), returning the character constant `'\v'`. Recompiling fails: the running compiler binary does not yet know `\v`, so `'\v'` is not legal C — a bootstrap problem.
+
+```c
+    ...
+    c = next();
+    if(c != '\\')
+        return(c);
+    c = next();
+    if(c == '\\')
+        return('\\');
+    if(c == 'n')
+        return('\n');
+    if(c == 'v')
+        return('\v');
+    ...
+```
 
 Suppose we wish to alter the C compiler to include the sequence "\v" to
 represent the vertical tab character. The extension to Figure 2 is
@@ -126,7 +188,22 @@ Now the old compiler accepts the new source. We install the resulting
 binary as the new official C compiler and now we can write the portable
 version the way we had it in Figure 3.
 
-FIGURE 4
+**Figure 4.** The fix: temporarily return the literal numeric value `11` for `\v`. Once this binary is built and installed, the compiler knows `\v`, so the source can be restored to the self-referential `'\v'` of Figure 3 and it compiles. The knowledge now lives only in the binary, not the source.
+
+```c
+    ...
+    c = next();
+    if(c != '\\')
+        return(c);
+    c = next();
+    if(c == '\\')
+        return('\\');
+    if(c == 'n')
+        return('\n');
+    if(c == 'v')
+        return(11);
+    ...
+```
 
 This is a deep concept. It is as close to a "learning" program as I
 have seen. You simply tell it once, then you can use this
@@ -134,7 +211,15 @@ self-referencing definition.
 
 Stage III
 
-FIGURE 5
+**Figure 5.** Skeleton of the compiler's top-level control: `compile(s)` is handed a line of source to compile.
+
+```c
+compile(s)
+char *s;
+{
+    ...
+}
+```
 
 Again,
 in the C compiler, Figure 5 represents the high-level control of the C
@@ -144,7 +229,19 @@ will deliberately miscompile source whenever a particular pattern is
 matched. If this were not deliberate, it would be called a compiler
 "bug." Since it is deliberate, it should be called a "Trojan horse."
 
-FIGURE 6
+**Figure 6.** A Trojan horse. When the source being compiled matches a pattern (e.g. the UNIX `login` command), the compiler deliberately miscompiles it to insert a bug (e.g. a backdoor password). The `login` source itself stays clean.
+
+```c
+compile(s)
+char *s;
+{
+    if(match(s, "pattern")) {
+        compile("bug");
+        return;
+    }
+    ...
+}
+```
 
 The actual bug I planted in the compiler would match code in the UNIX
 "login" command. The replacement code would miscompile the login
@@ -157,7 +254,23 @@ Such
 blatant code would not go undetected for long. Even the most casual
 perusal of the source of the C compiler would raise suspicions.
 
-FIGURE 7
+**Figure 7.** Two Trojan horses. `pattern1` is the `login` backdoor (`bug1`). `pattern2` matches the C compiler itself and inserts `bug2` — a self-reproducing routine that re-installs *both* Trojans into every future compiler binary. After this compiler is installed, the source of both the compiler and `login` is clean; the attack survives only in the binary and propagates itself. Removing the bug from the source no longer removes the bug.
+
+```c
+compile(s)
+char *s;
+{
+    if(match(s, "pattern1")) {
+        compile("bug1");
+        return;
+    }
+    if(match(s, "pattern2")) {
+        compile("bug2");
+        return;
+    }
+    ...
+}
+```
 
 The final step is represented in Figure 7. This simply adds a second
 Trojan horse to the one that already exists. The second pattern is
@@ -213,7 +326,7 @@ Acknowledgment
 I
 first read of the possibility of such a Trojan horse in an Air Force
 critique (4) of the security of an early implementation of Multics. I
-can- not find a more specific reference to this document. I would
+cannot find a more specific reference to this document. I would
 appreciate it if anyone who can supply this reference would let me know.
 
 References
