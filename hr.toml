@@ -208,10 +208,15 @@ name = "colah"
 url  = "https://lilianweng.github.io/index.xml"
 name = "lilianweng"
 
-# Andrej Karpathy — OpenAI co-founder; ML.
+# Andrej Karpathy — OpenAI co-founder; ML. Classic technical archive.
 [[feeds]]
 url  = "https://karpathy.github.io/feed.xml"
 name = "karpathy"
+
+# Karpathy's current active blog ("Musings" on bearblog) — no overlap with the above.
+[[feeds]]
+url  = "https://karpathy.bearblog.dev/feed/?type=rss"
+name = "karpathy-musings"
 
 # Simon Willison — practical LLM tooling, Python, systems.
 [[feeds]]
