@@ -1,0 +1,11 @@
+---
+title: Security updates for Tuesday
+url: https://lwn.net/Articles/1080439/
+published: "2026-06-30T13:03:36Z"
+feed: lwn
+guid: https://lwn.net/Articles/1080439/
+---
+
+# Security updates for Tuesday
+
+Security updates have been issued by **AlmaLinux** (git-lfs, perl-Archive-Tar, perl-IO-Compress, python3.12-urllib3, and runc), **Debian** (sogo), **Fedora** (perl-DBI and perl-Socket), **Oracle** (firefox, freerdp, git-lfs, libsoup, libxml2, mod\_md, mysql, perl-Archive-Tar, perl-IO-Compress, python, python3.12-urllib3, rsync, thunderbird, tomcat, xorg-x11-server, and xorg-x11-server-Xwayland), **SUSE** (389-ds, 7zip, alsa, amazon-ecs-init, amazon-ssm-agent, ansible-core, apache2, atril, avahi, bind, bitcoin, capnproto, chromedriver, chromium, cosign, distribution, dnsdist, docker, dovecot24, dracut, firefox, firewalld, freeipmi, freerdp, giflib, gimp, gleam, glib-networking, glibc, glycin-loaders, golang-github-prometheus-alertmanager, google-cloud-sap-agent, google-guest-agent, graphite2, gsasl, hamlib, helm, himmelblau, ignition, imagemagick, istioctl, jackson-databind, jq, jupyter-jupyterlab-templates, keylime, krb5, ldns, libaom, libcaca, libgcrypt, libheif, libinput, libjxl, libnfs, libslirp-devel, libsolv, libzypp, zypper, libssh2\_org, libvncserver, libyang, lldpd, logback, loupe, mbedtls, mbedtls-2, mcphost, mozjs128, mutt, nano, nginx, ocaml, ofono, openCryptoki, opencryptoki, opensc, openssh, openssl-3, papers, perl-compress-raw-zlib, perl-config-inifiles, perl-cpanel-json-xs, perl-crypt-passwdmd5, perl-DBI, perl-dbi, perl-html-parser, perl-http-daemon, perl-libwww-perl, perl-protocol-http2, postfix, postgresql14, postgresql15, postgresql16, python-aiohttp, python-biopython, python-click, python-ecdsa, python-idna, python-markdown, python-joblib,, python-paramiko, python-pdm, python-pip, python-py7zr, python-pydata-sphinx-theme, python-pyjwt, python-python-multipart, python-starlette, python-tornado6, python311-jupyter-ydoc, rpcbind, sed, sg3\_utils, sqlite3, strongswan, tar, thunderbird, tomcat, tomcat10, tomcat11, trivy, unbound, util-linux, warewulf4, webkit2gtk3, xar, xwayland, yt-dlp, and zypper, libzypp, libsolv), and **Ubuntu** (libheif, nss, qemu, roundcube, and sqlite3).
